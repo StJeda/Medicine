@@ -1,0 +1,453 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CourseWorkWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CourseWorkWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\10264982.jpg",
+      "PackagePath": "staticwebassets\\image\\10264982.jpg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\10264982.png",
+      "PackagePath": "staticwebassets\\image\\10264982.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\33467.jpg",
+      "PackagePath": "staticwebassets\\image\\33467.jpg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\33467.png",
+      "PackagePath": "staticwebassets\\image\\33467.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\5960057.jpg",
+      "PackagePath": "staticwebassets\\image\\5960057.jpg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\5960057.png",
+      "PackagePath": "staticwebassets\\image\\5960057.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\5966926 копия.png",
+      "PackagePath": "staticwebassets\\image\\5966926 копия.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\5966926.jpg",
+      "PackagePath": "staticwebassets\\image\\5966926.jpg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\5966926.png",
+      "PackagePath": "staticwebassets\\image\\5966926.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\6051372.jpg",
+      "PackagePath": "staticwebassets\\image\\6051372.jpg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\6119868.jpg",
+      "PackagePath": "staticwebassets\\image\\6119868.jpg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\6119868.png",
+      "PackagePath": "staticwebassets\\image\\6119868.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\6350788.png",
+      "PackagePath": "staticwebassets\\image\\6350788.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\6392575.png",
+      "PackagePath": "staticwebassets\\image\\6392575.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\Apt.png",
+      "PackagePath": "staticwebassets\\image\\Apt.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\Delivery.png",
+      "PackagePath": "staticwebassets\\image\\Delivery.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\Taygeron.png",
+      "PackagePath": "staticwebassets\\image\\Taygeron.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\Tovar.png",
+      "PackagePath": "staticwebassets\\image\\Tovar.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\blok.png",
+      "PackagePath": "staticwebassets\\image\\blok.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\derictory.svg",
+      "PackagePath": "staticwebassets\\image\\derictory.svg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\health_metrics_FILL0_wght400_GRAD0_opsz24.png",
+      "PackagePath": "staticwebassets\\image\\health_metrics_FILL0_wght400_GRAD0_opsz24.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\hygiene.svg",
+      "PackagePath": "staticwebassets\\image\\hygiene.svg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\icon.ico",
+      "PackagePath": "staticwebassets\\image\\icon.ico"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\langwich.png",
+      "PackagePath": "staticwebassets\\image\\langwich.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\lines.png",
+      "PackagePath": "staticwebassets\\image\\lines.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\logo.png",
+      "PackagePath": "staticwebassets\\image\\logo.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\mag.png",
+      "PackagePath": "staticwebassets\\image\\mag.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\mag.svg",
+      "PackagePath": "staticwebassets\\image\\mag.svg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\makeup.svg",
+      "PackagePath": "staticwebassets\\image\\makeup.svg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\map.png",
+      "PackagePath": "staticwebassets\\image\\map.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\map.svg",
+      "PackagePath": "staticwebassets\\image\\map.svg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\map2.png",
+      "PackagePath": "staticwebassets\\image\\map2.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\moon.svg",
+      "PackagePath": "staticwebassets\\image\\moon.svg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\mpills.svg",
+      "PackagePath": "staticwebassets\\image\\mpills.svg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\oddol.jpg",
+      "PackagePath": "staticwebassets\\image\\oddol.jpg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\person.png",
+      "PackagePath": "staticwebassets\\image\\person.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\phone.png",
+      "PackagePath": "staticwebassets\\image\\phone.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\pill.svg",
+      "PackagePath": "staticwebassets\\image\\pill.svg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\search.png",
+      "PackagePath": "staticwebassets\\image\\search.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\tb.png",
+      "PackagePath": "staticwebassets\\image\\tb.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\tb2.png",
+      "PackagePath": "staticwebassets\\image\\tb2.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\toy.svg",
+      "PackagePath": "staticwebassets\\image\\toy.svg"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\image\\Без имени-2.png",
+      "PackagePath": "staticwebassets\\image\\Без имени-2.png"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\VMs\\CURSACH\\MedicineWeb\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CourseWorkWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CourseWorkWeb.props",
+      "PackagePath": "build\\CourseWorkWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CourseWorkWeb.props",
+      "PackagePath": "buildMultiTargeting\\CourseWorkWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CourseWorkWeb.props",
+      "PackagePath": "buildTransitive\\CourseWorkWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
