@@ -1,24 +1,23 @@
 using CourseWorkWeb.DAL.Context;
+using CourseWorkWeb.Extensions;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
 using Microsoft.Extensions.Hosting;
 using Serilog;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<MedicineDataContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
-    b => b.MigrationsAssembly("CourseWorkWeb")));
-Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Information()
-    .WriteTo.Console()
-    .WriteTo.File("logs/sitelog-.txt", rollingInterval: RollingInterval.Day)
-    .CreateLogger();
-builder.Host.UseSerilog();
+
+builder.Host.UseCustomSerilog();
+builder.Host.UseDatabase();
+builder.Host.UseMediatR();
+builder.Services.AddRepositories();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -26,7 +25,7 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseSerilogRequestLogging();
+
 app.UseRouting();
 
 app.UseAuthorization();
@@ -34,5 +33,4 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.Run();

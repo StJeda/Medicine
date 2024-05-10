@@ -23,6 +23,7 @@ namespace CourseWorkWeb.Models.Entity.Medicines
         public long Substance_Id { get; set; }
         public ICollection<Substance> Substances = new List<Substance>();
         public int Quantity { get; set; }
-
+        public string Type { get; set; } = string.Empty;
+        public double Discount { get; set; } = 0.00d;
     }
 }

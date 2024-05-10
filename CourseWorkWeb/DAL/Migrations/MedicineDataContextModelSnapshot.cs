@@ -194,6 +194,9 @@ namespace CourseWorkWeb.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<double>("Discount")
+                        .HasColumnType("float");
+
                     b.Property<long>("MedicinePhoto_Id")
                         .HasColumnType("bigint");
 
@@ -209,6 +212,10 @@ namespace CourseWorkWeb.Migrations
 
                     b.Property<long>("Substance_Id")
                         .HasColumnType("bigint");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

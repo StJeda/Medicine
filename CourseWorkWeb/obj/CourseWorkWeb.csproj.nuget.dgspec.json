@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {}
+    "D:\\Works\\CourseWorkOR1\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {}
   },
   "projects": {
-    "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {
+    "D:\\Works\\CourseWorkOR1\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+        "projectUniqueName": "D:\\Works\\CourseWorkOR1\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
         "projectName": "CourseWorkWeb",
-        "projectPath": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+        "projectPath": "D:\\Works\\CourseWorkOR1\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
         "packagesPath": "C:\\Users\\yyarm\\.nuget\\packages\\",
-        "outputPath": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\obj\\",
+        "outputPath": "D:\\Works\\CourseWorkOR1\\Medicine\\CourseWorkWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yyarm\\AppData\\Roaming\\NuGet\\NuGet.Config",
