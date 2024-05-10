@@ -1,0 +1,115 @@
+2024-05-10 06:32:27.730 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 06:32:27.838 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-10 06:32:27.840 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-10 06:32:27.859 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 06:32:27.861 +03:00 [INF] Hosting environment: Development
+2024-05-10 06:32:27.863 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-10 06:32:28.257 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-10 06:32:28.367 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-10 06:32:28.400 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-10 06:32:28.414 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-10 06:32:28.484 +03:00 [INF] Executed ViewResult - view Index executed in 72.3201ms.
+2024-05-10 06:32:28.494 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 88.5472ms
+2024-05-10 06:32:28.498 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-10 06:32:28.504 +03:00 [INF] HTTP GET / responded 200 in 151.2602 ms
+2024-05-10 06:32:28.512 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 06:32:28.514 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 259.3706ms
+2024-05-10 06:32:28.525 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.2362ms
+2024-05-10 06:32:28.530 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-10 06:32:28.573 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.6706ms
+2024-05-10 06:32:58.038 +03:00 [INF] Application is shutting down...
+2024-05-10 07:11:37.738 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 07:11:37.833 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-10 07:11:37.835 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-10 07:11:37.856 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 07:11:37.858 +03:00 [INF] Hosting environment: Development
+2024-05-10 07:11:37.859 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-10 07:11:38.075 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-10 07:11:38.136 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-10 07:11:38.154 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-10 07:11:38.163 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-10 07:11:38.201 +03:00 [INF] Executed ViewResult - view Index executed in 38.7384ms.
+2024-05-10 07:11:38.205 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/css/cite.css - null null
+2024-05-10 07:11:38.205 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/map.svg - null null
+2024-05-10 07:11:38.205 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/logo.png - null null
+2024-05-10 07:11:38.208 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 50.5969ms
+2024-05-10 07:11:38.214 +03:00 [INF] The file /css/cite.css was not modified
+2024-05-10 07:11:38.216 +03:00 [INF] The file /image/map.svg was not modified
+2024-05-10 07:11:38.219 +03:00 [INF] The file /image/logo.png was not modified
+2024-05-10 07:11:38.222 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-10 07:11:38.225 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/css/cite.css - 304 null text/css 19.501ms
+2024-05-10 07:11:38.226 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/map.svg - 304 null image/svg+xml 20.9805ms
+2024-05-10 07:11:38.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/langwich.png - null null
+2024-05-10 07:11:38.228 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/logo.png - 304 null image/png 23.2077ms
+2024-05-10 07:11:38.232 +03:00 [INF] HTTP GET / responded 200 in 101.4928 ms
+2024-05-10 07:11:38.242 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/6392575.png - null null
+2024-05-10 07:11:38.242 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/33467.png - null null
+2024-05-10 07:11:38.244 +03:00 [INF] The file /image/langwich.png was not modified
+2024-05-10 07:11:38.253 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 179.2628ms
+2024-05-10 07:11:38.255 +03:00 [INF] The file /image/6392575.png was not modified
+2024-05-10 07:11:38.259 +03:00 [INF] The file /image/33467.png was not modified
+2024-05-10 07:11:38.260 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/langwich.png - 304 null image/png 32.7151ms
+2024-05-10 07:11:38.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/6392575.png - 304 null image/png 25.2532ms
+2024-05-10 07:11:38.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/33467.png - 304 null image/png 27.0967ms
+2024-05-10 07:11:38.448 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/moon.svg - null null
+2024-05-10 07:11:38.448 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/search.png - null null
+2024-05-10 07:11:38.448 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/mag.png - null null
+2024-05-10 07:11:38.453 +03:00 [INF] The file /image/moon.svg was not modified
+2024-05-10 07:11:38.460 +03:00 [INF] The file /image/search.png was not modified
+2024-05-10 07:11:38.464 +03:00 [INF] The file /image/mag.png was not modified
+2024-05-10 07:11:38.466 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/moon.svg - 304 null image/svg+xml 18.2815ms
+2024-05-10 07:11:38.468 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/person.png - null null
+2024-05-10 07:11:38.468 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/search.png - 304 null image/png 20.3182ms
+2024-05-10 07:11:38.470 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/phone.png - null null
+2024-05-10 07:11:38.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/mag.png - 304 null image/png 22.0302ms
+2024-05-10 07:11:38.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/pill.svg - null null
+2024-05-10 07:11:38.480 +03:00 [INF] The file /image/person.png was not modified
+2024-05-10 07:11:38.490 +03:00 [INF] The file /image/phone.png was not modified
+2024-05-10 07:11:38.499 +03:00 [INF] The file /image/pill.svg was not modified
+2024-05-10 07:11:38.500 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/person.png - 304 null image/png 32.4332ms
+2024-05-10 07:11:38.502 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/mpills.svg - null null
+2024-05-10 07:11:38.502 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/phone.png - 304 null image/png 32.552ms
+2024-05-10 07:11:38.504 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/hygiene.svg - null null
+2024-05-10 07:11:38.505 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/pill.svg - 304 null image/svg+xml 33.149ms
+2024-05-10 07:11:38.507 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/makeup.svg - null null
+2024-05-10 07:11:38.515 +03:00 [INF] The file /image/mpills.svg was not modified
+2024-05-10 07:11:38.525 +03:00 [INF] The file /image/hygiene.svg was not modified
+2024-05-10 07:11:38.533 +03:00 [INF] The file /image/makeup.svg was not modified
+2024-05-10 07:11:38.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/mpills.svg - 304 null image/svg+xml 32.3842ms
+2024-05-10 07:11:38.536 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/toy.svg - null null
+2024-05-10 07:11:38.537 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/hygiene.svg - 304 null image/svg+xml 32.7404ms
+2024-05-10 07:11:38.538 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/blok.png - null null
+2024-05-10 07:11:38.539 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/makeup.svg - 304 null image/svg+xml 31.8174ms
+2024-05-10 07:11:38.541 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/lines.png - null null
+2024-05-10 07:11:38.547 +03:00 [INF] The file /image/toy.svg was not modified
+2024-05-10 07:11:38.556 +03:00 [INF] The file /image/blok.png was not modified
+2024-05-10 07:11:38.564 +03:00 [INF] The file /image/lines.png was not modified
+2024-05-10 07:11:38.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/toy.svg - 304 null image/svg+xml 29.1407ms
+2024-05-10 07:11:38.567 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/tb2.png - null null
+2024-05-10 07:11:38.568 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/blok.png - 304 null image/png 29.1264ms
+2024-05-10 07:11:38.570 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/lines.png - 304 null image/png 29.0341ms
+2024-05-10 07:11:38.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/Delivery.png - null null
+2024-05-10 07:11:38.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/Apt.png - null null
+2024-05-10 07:11:38.578 +03:00 [INF] The file /image/tb2.png was not modified
+2024-05-10 07:11:38.590 +03:00 [INF] The file /image/Delivery.png was not modified
+2024-05-10 07:11:38.594 +03:00 [INF] The file /image/Apt.png was not modified
+2024-05-10 07:11:38.596 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/tb2.png - 304 null image/png 28.7452ms
+2024-05-10 07:11:38.598 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/Tovar.png - null null
+2024-05-10 07:11:38.608 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/Delivery.png - 304 null image/png 28.0266ms
+2024-05-10 07:11:38.609 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/Apt.png - 304 null image/png 36.6191ms
+2024-05-10 07:11:38.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 07:11:38.611 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/6350788.png - null null
+2024-05-10 07:11:38.623 +03:00 [INF] The file /image/Tovar.png was not modified
+2024-05-10 07:11:38.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 33.147ms
+2024-05-10 07:11:38.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/6119868.png - null null
+2024-05-10 07:11:38.646 +03:00 [INF] The file /image/6350788.png was not modified
+2024-05-10 07:11:38.648 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/Tovar.png - 304 null image/png 50.0476ms
+2024-05-10 07:11:38.650 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/10264982.png - null null
+2024-05-10 07:11:38.659 +03:00 [INF] The file /image/6119868.png was not modified
+2024-05-10 07:11:38.661 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/6350788.png - 304 null image/png 49.8126ms
+2024-05-10 07:11:38.663 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-10 07:11:38.673 +03:00 [INF] The file /image/10264982.png was not modified
+2024-05-10 07:11:38.676 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/6119868.png - 304 null image/png 30.1374ms
+2024-05-10 07:11:38.689 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/10264982.png - 304 null image/png 39.2031ms
+2024-05-10 07:11:38.711 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.9923ms
+2024-05-10 07:12:36.705 +03:00 [INF] Application is shutting down...
