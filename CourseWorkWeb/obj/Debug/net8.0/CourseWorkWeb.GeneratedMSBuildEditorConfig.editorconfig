@@ -17,63 +17,63 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CourseWorkWeb
 build_property.RootNamespace = CourseWorkWeb
-build_property.ProjectDir = D:\Works\CourseworkOr1\Medicine\CourseWorkWeb\
+build_property.ProjectDir = c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+build_property.MSBuildProjectDirectory = c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Pages/Error.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Pages/_Layout.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Pages/_ViewImports.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Pages/_ViewStart.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Views/Catalog/Catolog.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Views/Catalog/Catolog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xDYXRvbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Views/Home/Index.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Views/Home/Privacy.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Views/Home/_Master.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Views/Home/_Master.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTWFzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Views/Shared/Error.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Views/_ViewImports.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Views/_ViewStart.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Works/CourseworkOr1/Medicine/CourseWorkWeb/Views/Shared/_Layout.cshtml]
+[c:/Users/Администратор/Documents/GitHub/Medicine/CourseWorkWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ltlwx8s90y
