@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Js757vGV2AMiVEHhCux9QhXyUWawYH/Vth5jdtvTE+I=",
+  "Hash": "49cuDxKlEne8ZpOO4/AsgDKDIaZMydkIqkcY736PJDI=",
   "Source": "CourseWorkWeb",
   "BasePath": "_content/CourseWorkWeb",
   "Mode": "Default",
@@ -414,6 +414,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\blok.png"
+    },
+    {
+      "Identity": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\close.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "image/close.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\close.png"
     },
     {
       "Identity": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Delivery.png",

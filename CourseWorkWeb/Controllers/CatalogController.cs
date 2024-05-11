@@ -4,7 +4,7 @@ namespace CourseWorkWeb.Controllers
 {
     public class CatalogController : Controller
     {
-        public IActionResult Catolog()
+        public IActionResult Index()
         {
             return View();
         }
