@@ -1,22 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\",
+  "WorkspaceRootPath": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\documents\\github\\medicine\\courseworkweb\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\documents\\github\\medicine\\courseworkweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\documents\\github\\medicine\\courseworkweb\\views\\catalog\\catolog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\views\\catalog\\catolog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\catalog\\catolog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\documents\\github\\medicine\\courseworkweb\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +46,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T08:21:53.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T08:17:16.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAAAPMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T08:17:06.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T08:17:06.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T08:14:51.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\Pages\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Pages\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\Pages\\_Layout.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Pages\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\_Layout.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-11T06:43:05.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Catolog.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml",
+              "RelativeDocumentMoniker": "Views\\Catalog\\Catolog.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml",
+              "RelativeToolTip": "Views\\Catalog\\Catolog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T06:09:23.955Z",
               "EditorCaption": ""
             },
             {
@@ -47,24 +145,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Catolog.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml",
-              "RelativeDocumentMoniker": "Views\\Catalog\\Catolog.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml",
-              "RelativeToolTip": "Views\\Catalog\\Catolog.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T06:09:23.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CatalogController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
               "RelativeDocumentMoniker": "Controllers\\CatalogController.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
               "RelativeToolTip": "Controllers\\CatalogController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,13 +158,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAIBAAAAAAAAAAAAABMBAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-24T11:21:19.06Z",
               "EditorCaption": ""
