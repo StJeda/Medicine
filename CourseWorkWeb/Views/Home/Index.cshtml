@@ -47,8 +47,8 @@
 <div class="Header2" >
     <div class="MidlHeader">
 
-        <form class="SearchField">
-         <button class="catalog-btn" href="~/Home/Catalog" asp-controller="Home" asp-action="Catalog" method="get"><img src="image/lines.png"><p>Cataloge</p></button>
+            <form class="SearchField" action="@Url.Action("Catolog", "Catalog")">
+                <button class="catalog-btn"><img src="image/lines.png"><p>Cataloge</p></button>
          <div class="InputBorder">
              <input type="text" placeholder="Searching...">
              <button><img src="image/search.png"></button>

@@ -1124,3 +1124,1053 @@
 2024-05-11 11:21:36.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 11.2981ms
 2024-05-11 11:21:36.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.7079ms
 2024-05-11 11:21:36.464 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:46:22.266 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:46:22.370 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:46:22.372 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:46:22.401 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:46:22.403 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:46:22.405 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:46:22.744 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-11 11:46:22.844 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:46:22.865 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:46:22.879 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:46:22.944 +03:00 [INF] Executed ViewResult - view Index executed in 64.5369ms.
+2024-05-11 11:46:22.955 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 82.1674ms
+2024-05-11 11:46:22.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:46:22.962 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:46:22.980 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 20.3307ms
+2024-05-11 11:46:22.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 240.0409ms
+2024-05-11 11:46:22.991 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:46:23.083 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 92.5065ms
+2024-05-11 11:46:27.681 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:46:27.689 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:46:27.693 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:46:27.698 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:46:27.704 +03:00 [INF] Executed ViewResult - view Catolog executed in 7.2583ms.
+2024-05-11 11:46:27.707 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 10.3594ms
+2024-05-11 11:46:27.711 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:46:27.714 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 33.5042ms
+2024-05-11 11:46:27.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:46:27.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:46:27.715 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:46:27.730 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 15.2026ms
+2024-05-11 11:46:27.732 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 17.4327ms
+2024-05-11 11:46:27.745 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.3903ms
+2024-05-11 11:46:27.748 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:46:29.250 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:46:29.255 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.9206ms
+2024-05-11 11:47:15.124 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:47:15.227 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:47:15.229 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:47:15.255 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:47:15.256 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:47:15.257 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:47:15.410 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-11 11:47:15.472 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:15.489 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:47:15.498 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:47:15.546 +03:00 [INF] Executed ViewResult - view Index executed in 48.7241ms.
+2024-05-11 11:47:15.553 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:47:15.554 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 61.0811ms
+2024-05-11 11:47:15.560 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:15.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 8.4617ms
+2024-05-11 11:47:15.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 156.8085ms
+2024-05-11 11:47:15.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:47:15.701 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.6582ms
+2024-05-11 11:47:15.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/icon.ico - null null
+2024-05-11 11:47:15.723 +03:00 [INF] The file /image/icon.ico was not modified
+2024-05-11 11:47:15.726 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/icon.ico - 304 null image/x-icon 9.7211ms
+2024-05-11 11:47:20.256 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:47:20.263 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:20.267 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:47:20.271 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:47:20.275 +03:00 [INF] Executed ViewResult - view Index executed in 4.6141ms.
+2024-05-11 11:47:20.278 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 7.4672ms
+2024-05-11 11:47:20.285 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:20.286 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:47:20.288 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 31.8957ms
+2024-05-11 11:47:20.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:47:20.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 8.6019ms
+2024-05-11 11:47:20.322 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3834ms
+2024-05-11 11:47:21.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:47:21.300 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:21.303 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:47:21.308 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:47:21.311 +03:00 [INF] Executed ViewResult - view Index executed in 2.7948ms.
+2024-05-11 11:47:21.314 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.4359ms
+2024-05-11 11:47:21.317 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:21.321 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:47:21.322 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 27.8039ms
+2024-05-11 11:47:21.327 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:47:21.328 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.4518ms
+2024-05-11 11:47:21.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.2193ms
+2024-05-11 11:47:22.581 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:47:22.587 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:22.589 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:47:22.596 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:47:22.599 +03:00 [INF] Executed ViewResult - view Index executed in 3.266ms.
+2024-05-11 11:47:22.602 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.9283ms
+2024-05-11 11:47:22.605 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:22.608 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 26.6613ms
+2024-05-11 11:47:22.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:47:22.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:47:22.620 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.2067ms
+2024-05-11 11:47:22.631 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.1053ms
+2024-05-11 11:47:25.421 +03:00 [INF] Application is shutting down...
+2024-05-11 11:47:29.445 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:47:29.546 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:47:29.548 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:47:29.569 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:47:29.571 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:47:29.572 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:47:29.804 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:47:29.866 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:29.884 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:47:29.893 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:47:29.936 +03:00 [INF] Executed ViewResult - view Index executed in 44.4009ms.
+2024-05-11 11:47:29.943 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:47:29.944 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 55.8468ms
+2024-05-11 11:47:29.950 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:29.951 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.8863ms
+2024-05-11 11:47:29.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 152.0552ms
+2024-05-11 11:47:30.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:47:30.084 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.5879ms
+2024-05-11 11:47:34.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:47:34.208 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:34.211 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:47:34.215 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:47:34.220 +03:00 [INF] Executed ViewResult - view Index executed in 5.7963ms.
+2024-05-11 11:47:34.223 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 8.4389ms
+2024-05-11 11:47:34.225 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:34.228 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 26.4761ms
+2024-05-11 11:47:34.231 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:47:34.237 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:47:34.242 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.4747ms
+2024-05-11 11:47:34.262 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.1803ms
+2024-05-11 11:47:35.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:47:35.137 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:35.139 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:47:35.147 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:47:35.149 +03:00 [INF] Executed ViewResult - view Index executed in 2.7448ms.
+2024-05-11 11:47:35.152 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.523ms
+2024-05-11 11:47:35.155 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:35.159 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:47:35.160 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 29.6929ms
+2024-05-11 11:47:35.165 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.7528ms
+2024-05-11 11:47:35.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:47:35.192 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.5536ms
+2024-05-11 11:47:35.834 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:47:35.840 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:35.842 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:47:35.848 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:47:35.851 +03:00 [INF] Executed ViewResult - view Index executed in 2.9756ms.
+2024-05-11 11:47:35.853 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.4514ms
+2024-05-11 11:47:35.859 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:47:35.860 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:47:35.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 26.8633ms
+2024-05-11 11:47:35.866 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:47:35.867 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.0375ms
+2024-05-11 11:47:35.885 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.2869ms
+2024-05-11 11:47:59.760 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:47:59.862 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:47:59.866 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:47:59.889 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:47:59.891 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:47:59.893 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:48:00.060 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:48:00.127 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:48:00.148 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:48:00.160 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:48:00.212 +03:00 [INF] Executed ViewResult - view Index executed in 51.9861ms.
+2024-05-11 11:48:00.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:48:00.223 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 69.461ms
+2024-05-11 11:48:00.241 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:48:00.241 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 17.571ms
+2024-05-11 11:48:00.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 190.5095ms
+2024-05-11 11:48:00.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:48:00.368 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.1161ms
+2024-05-11 11:48:03.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:48:03.497 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:48:03.501 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:48:03.505 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:48:03.508 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:48:03.509 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:48:03.515 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:48:03.518 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:48:03.526 +03:00 [INF] Executed ViewResult - view Index executed in 7.9388ms.
+2024-05-11 11:48:03.526 +03:00 [INF] Executed ViewResult - view Catolog executed in 12.069ms.
+2024-05-11 11:48:03.529 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 11.268ms
+2024-05-11 11:48:03.534 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 20.047ms
+2024-05-11 11:48:03.538 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:48:03.538 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:48:03.542 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:48:03.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:48:03.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.0733ms
+2024-05-11 11:48:03.552 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 54.5048ms
+2024-05-11 11:48:03.556 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 65.8321ms
+2024-05-11 11:48:03.583 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.4508ms
+2024-05-11 11:48:04.961 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:48:04.967 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:48:04.969 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:48:04.970 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:48:04.979 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:48:04.985 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:48:04.987 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:48:04.992 +03:00 [INF] Executed ViewResult - view Catolog executed in 6.6633ms.
+2024-05-11 11:48:04.996 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:48:04.999 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 13.7402ms
+2024-05-11 11:48:05.002 +03:00 [INF] Executed ViewResult - view Index executed in 5.427ms.
+2024-05-11 11:48:05.006 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:48:05.009 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 13.2794ms
+2024-05-11 11:48:05.012 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 51.6829ms
+2024-05-11 11:48:05.013 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:48:05.015 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:48:05.018 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:48:05.030 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 16.9814ms
+2024-05-11 11:48:05.033 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 63.9159ms
+2024-05-11 11:48:05.051 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.0999ms
+2024-05-11 11:48:26.161 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:48:26.168 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:48:26.171 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:48:26.176 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:48:26.179 +03:00 [INF] Executed ViewResult - view Catolog executed in 2.4541ms.
+2024-05-11 11:48:26.183 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 7.0073ms
+2024-05-11 11:48:26.187 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:48:26.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:48:26.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:48:26.188 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:48:26.190 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 28.5104ms
+2024-05-11 11:48:26.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 7.9072ms
+2024-05-11 11:48:26.201 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.5471ms
+2024-05-11 11:48:26.209 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.8432ms
+2024-05-11 11:48:26.222 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:48:27.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:48:27.703 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.7789ms
+2024-05-11 11:49:30.658 +03:00 [INF] Application is shutting down...
+2024-05-11 11:49:42.282 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:49:42.379 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:49:42.382 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:49:42.402 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:49:42.405 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:49:42.406 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:49:42.653 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-11 11:49:42.722 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:42.744 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:49:42.754 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:49:42.802 +03:00 [INF] Executed ViewResult - view Index executed in 48.9004ms.
+2024-05-11 11:49:42.809 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 61.1618ms
+2024-05-11 11:49:42.812 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:42.813 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:49:42.817 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 166.2375ms
+2024-05-11 11:49:42.821 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.9675ms
+2024-05-11 11:49:42.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:49:42.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.1828ms
+2024-05-11 11:49:45.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:49:45.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:49:45.248 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:45.255 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:45.256 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:49:45.258 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:49:45.264 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:49:45.268 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:49:45.276 +03:00 [INF] Executed ViewResult - view Index executed in 8.4339ms.
+2024-05-11 11:49:45.277 +03:00 [INF] Executed ViewResult - view Catolog executed in 14.3474ms.
+2024-05-11 11:49:45.279 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 11.7515ms
+2024-05-11 11:49:45.283 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 20.8351ms
+2024-05-11 11:49:45.286 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:45.287 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:49:45.290 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:45.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 45.3842ms
+2024-05-11 11:49:45.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:49:45.299 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.665ms
+2024-05-11 11:49:45.301 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 62.0911ms
+2024-05-11 11:49:45.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.1421ms
+2024-05-11 11:49:46.269 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:49:46.276 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:46.277 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:49:46.278 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:49:46.285 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:46.289 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:49:46.294 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:49:46.297 +03:00 [INF] Executed ViewResult - view Catolog executed in 7.8737ms.
+2024-05-11 11:49:46.301 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:49:46.304 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 14.5053ms
+2024-05-11 11:49:46.306 +03:00 [INF] Executed ViewResult - view Index executed in 5.2578ms.
+2024-05-11 11:49:46.310 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:46.313 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 12.1228ms
+2024-05-11 11:49:46.316 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 46.7483ms
+2024-05-11 11:49:46.317 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:49:46.319 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:46.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:49:46.333 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 15.8072ms
+2024-05-11 11:49:46.335 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 58.3352ms
+2024-05-11 11:49:46.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.3982ms
+2024-05-11 11:49:46.854 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:49:46.860 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:46.863 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:49:46.864 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:49:46.870 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:49:46.880 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:46.884 +03:00 [INF] Executed ViewResult - view Catolog executed in 13.7823ms.
+2024-05-11 11:49:46.886 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:49:46.889 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 19.4347ms
+2024-05-11 11:49:46.896 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:49:46.899 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:46.902 +03:00 [INF] Executed ViewResult - view Index executed in 6.3237ms.
+2024-05-11 11:49:46.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 50.4102ms
+2024-05-11 11:49:46.909 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 13.8578ms
+2024-05-11 11:49:46.914 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:49:46.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:49:46.921 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:46.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.9539ms
+2024-05-11 11:49:46.940 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.2339ms
+2024-05-11 11:49:46.942 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 77.7837ms
+2024-05-11 11:49:48.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:49:48.842 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:48.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:49:48.845 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:49:48.852 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:48.857 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:49:48.860 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:49:48.865 +03:00 [INF] Executed ViewResult - view Catolog executed in 7.8537ms.
+2024-05-11 11:49:48.868 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:49:48.871 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 13.8324ms
+2024-05-11 11:49:48.873 +03:00 [INF] Executed ViewResult - view Index executed in 5.0367ms.
+2024-05-11 11:49:48.876 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:48.881 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 12.5272ms
+2024-05-11 11:49:48.883 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 46.5526ms
+2024-05-11 11:49:48.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:49:48.886 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:48.889 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:49:48.900 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 16.4709ms
+2024-05-11 11:49:48.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 60.0146ms
+2024-05-11 11:49:48.918 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.0474ms
+2024-05-11 11:49:49.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:49:49.511 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:49.512 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:49:49.513 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:49:49.521 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:49.526 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:49:49.529 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:49:49.531 +03:00 [INF] Executed ViewResult - view Catolog executed in 4.8843ms.
+2024-05-11 11:49:49.536 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:49:49.538 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 12.1492ms
+2024-05-11 11:49:49.542 +03:00 [INF] Executed ViewResult - view Index executed in 5.816ms.
+2024-05-11 11:49:49.544 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:49.548 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 11.8699ms
+2024-05-11 11:49:49.552 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 46.6322ms
+2024-05-11 11:49:49.552 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:49:49.555 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:49.558 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:49:49.569 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 16.5579ms
+2024-05-11 11:49:49.573 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 60.1789ms
+2024-05-11 11:49:49.582 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.8544ms
+2024-05-11 11:49:50.110 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:49:50.115 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:50.118 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:49:50.118 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:49:50.124 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:50.129 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:49:50.131 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:49:50.136 +03:00 [INF] Executed ViewResult - view Catolog executed in 7.2311ms.
+2024-05-11 11:49:50.140 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:49:50.142 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 13.8797ms
+2024-05-11 11:49:50.145 +03:00 [INF] Executed ViewResult - view Index executed in 4.8793ms.
+2024-05-11 11:49:50.147 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:50.152 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 12.4171ms
+2024-05-11 11:49:50.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 45.0606ms
+2024-05-11 11:49:50.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:49:50.158 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:50.161 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:49:50.172 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 16.461ms
+2024-05-11 11:49:50.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 57.1122ms
+2024-05-11 11:49:50.194 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.0306ms
+2024-05-11 11:49:51.066 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:49:51.072 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:51.073 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:49:51.074 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:49:51.081 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:51.087 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:49:51.089 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:49:51.093 +03:00 [INF] Executed ViewResult - view Catolog executed in 6.2116ms.
+2024-05-11 11:49:51.097 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:49:51.099 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 12.4689ms
+2024-05-11 11:49:51.103 +03:00 [INF] Executed ViewResult - view Index executed in 5.866ms.
+2024-05-11 11:49:51.105 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:49:51.110 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 13.0869ms
+2024-05-11 11:49:51.113 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 46.978ms
+2024-05-11 11:49:51.113 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:49:51.115 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:49:51.120 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:49:51.128 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 15.2347ms
+2024-05-11 11:49:51.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 57.8579ms
+2024-05-11 11:49:51.147 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.6632ms
+2024-05-11 11:50:22.826 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:50:22.921 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:50:22.923 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:50:22.945 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:50:22.946 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:50:22.947 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:50:23.120 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:23.180 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:23.197 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:23.206 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:23.253 +03:00 [INF] Executed ViewResult - view Index executed in 47.5422ms.
+2024-05-11 11:50:23.259 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:23.260 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 58.029ms
+2024-05-11 11:50:23.268 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:23.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.6526ms
+2024-05-11 11:50:23.275 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 155.863ms
+2024-05-11 11:50:23.392 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:23.416 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.1292ms
+2024-05-11 11:50:30.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:30.854 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:30.856 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:30.861 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:30.865 +03:00 [INF] Executed ViewResult - view Index executed in 4.0102ms.
+2024-05-11 11:50:30.868 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 6.9681ms
+2024-05-11 11:50:30.871 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:30.874 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 27.5649ms
+2024-05-11 11:50:30.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:30.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:30.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.5881ms
+2024-05-11 11:50:30.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.4639ms
+2024-05-11 11:50:31.475 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:31.482 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:31.484 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:31.487 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:31.491 +03:00 [INF] Executed ViewResult - view Index executed in 3.7313ms.
+2024-05-11 11:50:31.494 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 6.9359ms
+2024-05-11 11:50:31.497 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:31.499 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 23.4625ms
+2024-05-11 11:50:31.502 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:31.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:31.511 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.809ms
+2024-05-11 11:50:31.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.7247ms
+2024-05-11 11:50:32.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:50:32.304 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:32.304 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:32.308 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:50:32.313 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:32.318 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:50:32.318 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:32.325 +03:00 [INF] Executed ViewResult - view Catolog executed in 8.478ms.
+2024-05-11 11:50:32.326 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:32.328 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 11.7631ms
+2024-05-11 11:50:32.331 +03:00 [INF] Executed ViewResult - view Index executed in 4.7724ms.
+2024-05-11 11:50:32.333 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:32.335 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 9.4008ms
+2024-05-11 11:50:32.338 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 41.8926ms
+2024-05-11 11:50:32.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:32.341 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:32.346 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:32.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.3088ms
+2024-05-11 11:50:32.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 50.2604ms
+2024-05-11 11:50:32.365 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.8374ms
+2024-05-11 11:50:33.057 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:50:33.065 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:33.067 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:33.068 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:50:33.075 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:33.079 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:50:33.081 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:33.084 +03:00 [INF] Executed ViewResult - view Catolog executed in 4.7497ms.
+2024-05-11 11:50:33.086 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:33.090 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 10.8216ms
+2024-05-11 11:50:33.092 +03:00 [INF] Executed ViewResult - view Index executed in 6.1321ms.
+2024-05-11 11:50:33.094 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:33.096 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 9.9974ms
+2024-05-11 11:50:33.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 40.7677ms
+2024-05-11 11:50:33.101 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:33.106 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:33.112 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 44.3225ms
+2024-05-11 11:50:33.113 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:33.116 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.1003ms
+2024-05-11 11:50:33.132 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.0306ms
+2024-05-11 11:50:33.491 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:50:33.496 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:33.498 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:50:33.498 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:33.504 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:50:33.509 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:33.512 +03:00 [INF] Executed ViewResult - view Catolog executed in 7.9731ms.
+2024-05-11 11:50:33.513 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:33.516 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 12.6088ms
+2024-05-11 11:50:33.520 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:33.522 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:33.524 +03:00 [INF] Executed ViewResult - view Index executed in 4.6395ms.
+2024-05-11 11:50:33.526 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 35.6269ms
+2024-05-11 11:50:33.529 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 9.1603ms
+2024-05-11 11:50:33.535 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:33.539 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:33.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:33.543 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 8.1598ms
+2024-05-11 11:50:33.545 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 46.9352ms
+2024-05-11 11:50:33.552 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.5681ms
+2024-05-11 11:50:33.690 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:50:33.695 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:33.697 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:50:33.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:33.702 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:50:33.708 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:33.709 +03:00 [INF] Executed ViewResult - view Catolog executed in 7.3859ms.
+2024-05-11 11:50:33.711 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:33.714 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 11.8548ms
+2024-05-11 11:50:33.718 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:33.721 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:33.724 +03:00 [INF] Executed ViewResult - view Index executed in 6.1171ms.
+2024-05-11 11:50:33.726 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 36.1119ms
+2024-05-11 11:50:33.729 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 11.1842ms
+2024-05-11 11:50:33.735 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:33.740 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:33.741 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:33.744 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.1821ms
+2024-05-11 11:50:33.746 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 48.4804ms
+2024-05-11 11:50:33.754 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.389ms
+2024-05-11 11:50:33.863 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:50:33.869 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:33.871 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:50:33.875 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:50:33.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:33.878 +03:00 [INF] Executed ViewResult - view Catolog executed in 2.635ms.
+2024-05-11 11:50:33.883 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:33.886 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 10.8178ms
+2024-05-11 11:50:33.888 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:33.890 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:33.895 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:33.897 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 34.1905ms
+2024-05-11 11:50:33.900 +03:00 [INF] Executed ViewResult - view Index executed in 5.0855ms.
+2024-05-11 11:50:33.909 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 14.4001ms
+2024-05-11 11:50:33.910 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:33.912 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:33.915 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:33.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.7883ms
+2024-05-11 11:50:33.919 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 42.562ms
+2024-05-11 11:50:33.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.0103ms
+2024-05-11 11:50:34.059 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:50:34.065 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:34.068 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:50:34.070 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:34.074 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:50:34.079 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:34.081 +03:00 [INF] Executed ViewResult - view Catolog executed in 6.9993ms.
+2024-05-11 11:50:34.083 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:34.087 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 12.9375ms
+2024-05-11 11:50:34.090 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:34.092 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:34.094 +03:00 [INF] Executed ViewResult - view Index executed in 4.0944ms.
+2024-05-11 11:50:34.096 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 36.9158ms
+2024-05-11 11:50:34.098 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 7.7301ms
+2024-05-11 11:50:34.106 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:34.107 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:34.112 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.1401ms
+2024-05-11 11:50:34.112 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:34.114 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 44.5979ms
+2024-05-11 11:50:34.129 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.7588ms
+2024-05-11 11:50:34.373 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:50:34.379 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:34.380 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:34.381 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:50:34.387 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:34.390 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:50:34.392 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:34.394 +03:00 [INF] Executed ViewResult - view Catolog executed in 4.3982ms.
+2024-05-11 11:50:34.398 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:34.401 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 11.0972ms
+2024-05-11 11:50:34.403 +03:00 [INF] Executed ViewResult - view Index executed in 5.0068ms.
+2024-05-11 11:50:34.405 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:34.407 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 9.0562ms
+2024-05-11 11:50:34.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 35.9085ms
+2024-05-11 11:50:34.412 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:34.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:34.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:34.421 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 40.2623ms
+2024-05-11 11:50:34.426 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 12.2978ms
+2024-05-11 11:50:34.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.9392ms
+2024-05-11 11:50:34.985 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:50:34.990 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:34.992 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:50:34.992 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:50:34.999 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:35.003 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:50:35.006 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:50:35.008 +03:00 [INF] Executed ViewResult - view Catolog executed in 4.7855ms.
+2024-05-11 11:50:35.012 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:50:35.014 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 10.3784ms
+2024-05-11 11:50:35.017 +03:00 [INF] Executed ViewResult - view Index executed in 4.9955ms.
+2024-05-11 11:50:35.019 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:50:35.022 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 10.3735ms
+2024-05-11 11:50:35.024 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 39.7622ms
+2024-05-11 11:50:35.027 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:50:35.028 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:50:35.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:50:35.036 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 44.354ms
+2024-05-11 11:50:35.041 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.2713ms
+2024-05-11 11:50:35.048 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.6619ms
+2024-05-11 11:51:11.291 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:51:21.352 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:51:21.355 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:51:21.392 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:51:21.404 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:51:21.418 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:51:33.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-11 11:51:33.196 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:51:33.215 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:51:33.225 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:51:33.273 +03:00 [INF] Executed ViewResult - view Index executed in 49.1179ms.
+2024-05-11 11:51:33.283 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 64.8775ms
+2024-05-11 11:51:33.286 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:51:33.287 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:51:33.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 165.2234ms
+2024-05-11 11:51:33.298 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.3053ms
+2024-05-11 11:51:33.334 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:51:33.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.8819ms
+2024-05-11 11:51:34.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Home/Catalog? - null null
+2024-05-11 11:51:34.699 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 11:51:34.704 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:51:34.709 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog.
+2024-05-11 11:51:34.711 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 2.5938ms
+2024-05-11 11:51:34.713 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 11:51:34.715 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Home/Catalog? - 302 0 null 23.5328ms
+2024-05-11 11:51:34.718 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog - null null
+2024-05-11 11:51:34.730 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog - 404 0 null 11.3733ms
+2024-05-11 11:51:34.738 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog, Response status code: 404
+2024-05-11 11:51:36.518 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:51:36.523 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.7705ms
+2024-05-11 11:51:39.312 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog - null null
+2024-05-11 11:51:39.317 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:51:39.321 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:51:39.329 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:51:39.334 +03:00 [INF] Executed ViewResult - view Catolog executed in 5.7138ms.
+2024-05-11 11:51:39.339 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 10.7849ms
+2024-05-11 11:51:39.343 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:51:39.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:51:39.344 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:51:39.344 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:51:39.346 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog - 200 null text/html; charset=utf-8 34.6526ms
+2024-05-11 11:51:39.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 7.5975ms
+2024-05-11 11:51:39.357 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.4805ms
+2024-05-11 11:51:39.371 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.0606ms
+2024-05-11 11:51:39.379 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:51:40.981 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:51:40.986 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.8821ms
+2024-05-11 11:52:31.095 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:52:31.199 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:52:31.201 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:52:31.227 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:52:31.228 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:52:31.230 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:52:31.372 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-11 11:52:31.440 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:52:31.459 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:52:31.468 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:52:31.518 +03:00 [INF] Executed ViewResult - view Index executed in 51.0148ms.
+2024-05-11 11:52:31.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:52:31.525 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 62.7513ms
+2024-05-11 11:52:31.532 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:52:31.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.675ms
+2024-05-11 11:52:31.536 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 165.1779ms
+2024-05-11 11:52:31.645 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:52:31.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.711ms
+2024-05-11 11:52:37.780 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Home/Catalog?search= - null null
+2024-05-11 11:52:37.788 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 11:52:37.793 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:52:37.798 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog.
+2024-05-11 11:52:37.800 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 2.735ms
+2024-05-11 11:52:37.802 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 11:52:37.804 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Home/Catalog?search= - 302 0 null 23.5655ms
+2024-05-11 11:52:37.807 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog - null null
+2024-05-11 11:52:37.818 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog - 404 0 null 11.3483ms
+2024-05-11 11:52:37.826 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog, Response status code: 404
+2024-05-11 11:52:39.616 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:52:39.621 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.9491ms
+2024-05-11 11:53:01.456 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:53:01.561 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:53:01.564 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:53:01.589 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:53:01.591 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:53:01.592 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:53:01.768 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-11 11:53:01.830 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:53:01.848 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:53:01.857 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:53:01.906 +03:00 [INF] Executed ViewResult - view Index executed in 48.7491ms.
+2024-05-11 11:53:01.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:53:01.912 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 60.8634ms
+2024-05-11 11:53:01.920 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 8.105ms
+2024-05-11 11:53:01.920 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:53:01.934 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 167.1098ms
+2024-05-11 11:53:02.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:53:02.075 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.4551ms
+2024-05-11 11:53:04.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog?search= - null null
+2024-05-11 11:53:04.893 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:53:04.898 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:53:04.903 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:53:04.910 +03:00 [INF] Executed ViewResult - view Catolog executed in 7.5662ms.
+2024-05-11 11:53:04.913 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 10.6306ms
+2024-05-11 11:53:04.916 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:53:04.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:53:04.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:53:04.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:53:04.918 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog?search= - 200 null text/html; charset=utf-8 33.4654ms
+2024-05-11 11:53:04.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 9.1229ms
+2024-05-11 11:53:04.930 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 12.8889ms
+2024-05-11 11:53:04.943 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.2432ms
+2024-05-11 11:53:04.953 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:53:06.084 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:53:06.091 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.6522ms
+2024-05-11 11:53:36.431 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:53:36.528 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:53:36.531 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:53:36.553 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:53:36.555 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:53:36.556 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:53:36.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-11 11:53:36.841 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:53:36.858 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:53:36.868 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:53:36.916 +03:00 [INF] Executed ViewResult - view Index executed in 47.6516ms.
+2024-05-11 11:53:36.921 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:53:36.922 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 59.0718ms
+2024-05-11 11:53:36.928 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:53:36.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.172ms
+2024-05-11 11:53:36.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 157.2403ms
+2024-05-11 11:53:37.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:53:37.074 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.1871ms
+2024-05-11 11:55:04.408 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:55:04.518 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:55:04.520 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:55:04.550 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:55:04.553 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:55:04.554 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:55:04.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-11 11:55:04.764 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:04.785 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:55:04.796 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:55:04.852 +03:00 [INF] Executed ViewResult - view Index executed in 56.1398ms.
+2024-05-11 11:55:04.860 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:55:04.860 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 70.0899ms
+2024-05-11 11:55:04.870 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:04.870 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.0923ms
+2024-05-11 11:55:04.877 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 178.2001ms
+2024-05-11 11:55:04.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:55:05.010 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.4419ms
+2024-05-11 11:55:08.493 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Home/Catalog? - null null
+2024-05-11 11:55:08.501 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 11:55:08.505 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:55:08.508 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog.
+2024-05-11 11:55:08.511 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 3.7235ms
+2024-05-11 11:55:08.514 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 11:55:08.516 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Home/Catalog? - 302 0 null 22.2305ms
+2024-05-11 11:55:08.519 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog - null null
+2024-05-11 11:55:08.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog - 404 0 null 11.9787ms
+2024-05-11 11:55:08.537 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog, Response status code: 404
+2024-05-11 11:55:09.927 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:55:09.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.9376ms
+2024-05-11 11:55:40.827 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:55:40.926 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:55:40.928 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:55:40.949 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:55:40.951 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:55:40.952 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:55:41.152 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-11 11:55:41.223 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:41.248 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:55:41.258 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:55:41.317 +03:00 [INF] Executed ViewResult - view Index executed in 58.4957ms.
+2024-05-11 11:55:41.325 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:55:41.325 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 72.7883ms
+2024-05-11 11:55:41.333 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:41.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.6631ms
+2024-05-11 11:55:41.335 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:55:41.340 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 189.4645ms
+2024-05-11 11:55:41.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.6615ms
+2024-05-11 11:55:42.491 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:55:42.500 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:42.502 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:55:42.505 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:55:42.510 +03:00 [INF] Executed ViewResult - view Index executed in 4.244ms.
+2024-05-11 11:55:42.514 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 9.2971ms
+2024-05-11 11:55:42.517 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:42.520 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 28.7272ms
+2024-05-11 11:55:42.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:55:42.527 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:55:42.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.2734ms
+2024-05-11 11:55:42.555 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.2136ms
+2024-05-11 11:55:43.178 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:55:43.184 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:43.187 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:55:43.194 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:55:43.197 +03:00 [INF] Executed ViewResult - view Index executed in 2.6563ms.
+2024-05-11 11:55:43.199 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.1081ms
+2024-05-11 11:55:43.203 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:43.205 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 27.1352ms
+2024-05-11 11:55:43.208 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:55:43.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:55:43.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.6291ms
+2024-05-11 11:55:43.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.7037ms
+2024-05-11 11:55:43.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:55:43.859 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:43.861 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:55:43.867 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:55:43.870 +03:00 [INF] Executed ViewResult - view Index executed in 2.4606ms.
+2024-05-11 11:55:43.872 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.2995ms
+2024-05-11 11:55:43.878 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:43.881 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 27.3098ms
+2024-05-11 11:55:43.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:55:43.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:55:43.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.954ms
+2024-05-11 11:55:43.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.9361ms
+2024-05-11 11:55:44.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:55:44.616 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:44.618 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:55:44.625 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:55:44.628 +03:00 [INF] Executed ViewResult - view Index executed in 2.512ms.
+2024-05-11 11:55:44.630 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 4.9232ms
+2024-05-11 11:55:44.633 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:44.637 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 26.2516ms
+2024-05-11 11:55:44.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:55:44.644 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:55:44.649 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.2929ms
+2024-05-11 11:55:44.660 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.8873ms
+2024-05-11 11:55:56.957 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:55:57.055 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:55:57.059 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:55:57.083 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:55:57.085 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:55:57.088 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:55:57.297 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:55:57.363 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:57.384 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:55:57.396 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:55:57.445 +03:00 [INF] Executed ViewResult - view Index executed in 50.1839ms.
+2024-05-11 11:55:57.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:55:57.455 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 64.235ms
+2024-05-11 11:55:57.467 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.3565ms
+2024-05-11 11:55:57.470 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:55:57.487 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 190.5377ms
+2024-05-11 11:55:57.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:55:57.600 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.6529ms
+2024-05-11 11:56:00.011 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:56:00.019 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:00.023 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:56:00.028 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:56:00.032 +03:00 [INF] Executed ViewResult - view Index executed in 4.3818ms.
+2024-05-11 11:56:00.035 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 7.7969ms
+2024-05-11 11:56:00.039 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:00.041 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 29.9719ms
+2024-05-11 11:56:00.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:00.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:00.056 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.907ms
+2024-05-11 11:56:00.075 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.4716ms
+2024-05-11 11:56:01.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:56:01.672 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:01.677 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:56:01.683 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:56:01.686 +03:00 [INF] Executed ViewResult - view Index executed in 2.6088ms.
+2024-05-11 11:56:01.688 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 4.9098ms
+2024-05-11 11:56:01.693 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:01.695 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 29.4785ms
+2024-05-11 11:56:01.697 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:01.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:01.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.7933ms
+2024-05-11 11:56:01.719 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.1898ms
+2024-05-11 11:56:02.548 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:56:02.554 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:02.557 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:56:02.565 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:56:02.567 +03:00 [INF] Executed ViewResult - view Index executed in 2.6158ms.
+2024-05-11 11:56:02.570 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.2343ms
+2024-05-11 11:56:02.574 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:02.578 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 30.0862ms
+2024-05-11 11:56:02.580 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:02.586 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:02.590 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.8736ms
+2024-05-11 11:56:02.600 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.0162ms
+2024-05-11 11:56:03.721 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:56:03.726 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:03.728 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:56:03.734 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:56:03.741 +03:00 [INF] Executed ViewResult - view Index executed in 6.7065ms.
+2024-05-11 11:56:03.743 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 9.0487ms
+2024-05-11 11:56:03.746 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:03.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 28.2212ms
+2024-05-11 11:56:03.751 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:03.757 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:03.763 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.4431ms
+2024-05-11 11:56:03.772 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.7188ms
+2024-05-11 11:56:04.360 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:56:04.366 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:04.368 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:56:04.376 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:56:04.379 +03:00 [INF] Executed ViewResult - view Index executed in 3.0305ms.
+2024-05-11 11:56:04.381 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.5386ms
+2024-05-11 11:56:04.387 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:04.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 29.4624ms
+2024-05-11 11:56:04.390 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:04.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:04.403 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.3432ms
+2024-05-11 11:56:04.410 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.0618ms
+2024-05-11 11:56:04.925 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:56:04.931 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:04.934 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:56:04.940 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:56:04.943 +03:00 [INF] Executed ViewResult - view Index executed in 2.6839ms.
+2024-05-11 11:56:04.945 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.0554ms
+2024-05-11 11:56:04.948 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:04.951 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 25.3558ms
+2024-05-11 11:56:04.954 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:04.958 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:04.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.8847ms
+2024-05-11 11:56:04.973 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.1866ms
+2024-05-11 11:56:05.448 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:56:05.453 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:05.455 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:56:05.461 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:56:05.464 +03:00 [INF] Executed ViewResult - view Index executed in 3.1127ms.
+2024-05-11 11:56:05.466 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.8153ms
+2024-05-11 11:56:05.472 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:05.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 26.9028ms
+2024-05-11 11:56:05.475 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:05.481 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:05.487 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.6487ms
+2024-05-11 11:56:05.494 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.454ms
+2024-05-11 11:56:22.943 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:56:23.041 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:56:23.043 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:56:23.063 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:56:23.066 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:56:23.068 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:56:23.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/? - null null
+2024-05-11 11:56:23.308 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:23.326 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 11:56:23.337 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 11:56:23.394 +03:00 [INF] Executed ViewResult - view Index executed in 57.7193ms.
+2024-05-11 11:56:23.403 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 72.2126ms
+2024-05-11 11:56:23.403 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:23.407 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 11:56:23.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.8154ms
+2024-05-11 11:56:23.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/? - 200 null text/html; charset=utf-8 173.9266ms
+2024-05-11 11:56:23.528 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:23.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.4284ms
+2024-05-11 11:56:39.361 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog? - null null
+2024-05-11 11:56:39.371 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:56:39.375 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:56:39.379 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:56:39.384 +03:00 [INF] Executed ViewResult - view Catolog executed in 5.9073ms.
+2024-05-11 11:56:39.389 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 10.3502ms
+2024-05-11 11:56:39.392 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:56:39.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:56:39.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:39.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:39.395 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog? - 200 null text/html; charset=utf-8 33.3099ms
+2024-05-11 11:56:39.402 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 8.3735ms
+2024-05-11 11:56:39.406 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.2509ms
+2024-05-11 11:56:39.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.9731ms
+2024-05-11 11:56:39.430 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:56:40.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:40.989 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.9611ms
+2024-05-11 11:56:52.528 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog? - null null
+2024-05-11 11:56:52.537 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:56:52.541 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:56:52.548 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:56:52.551 +03:00 [INF] Executed ViewResult - view Catolog executed in 2.6877ms.
+2024-05-11 11:56:52.553 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 5.6614ms
+2024-05-11 11:56:52.557 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:56:52.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog? - 200 null text/html; charset=utf-8 30.9927ms
+2024-05-11 11:56:52.559 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:56:52.559 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:52.560 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:52.574 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 14.5345ms
+2024-05-11 11:56:52.580 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 20.7083ms
+2024-05-11 11:56:52.589 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3574ms
+2024-05-11 11:56:52.595 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:56:54.387 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:54.393 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.3005ms
+2024-05-11 11:56:55.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog? - null null
+2024-05-11 11:56:55.321 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:56:55.324 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:56:55.331 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:56:55.336 +03:00 [INF] Executed ViewResult - view Catolog executed in 4.8708ms.
+2024-05-11 11:56:55.339 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 8.535ms
+2024-05-11 11:56:55.343 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:56:55.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:56:55.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:55.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:55.348 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog? - 200 null text/html; charset=utf-8 32.4423ms
+2024-05-11 11:56:55.353 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 8.3172ms
+2024-05-11 11:56:55.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.0366ms
+2024-05-11 11:56:55.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.1056ms
+2024-05-11 11:56:55.383 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:56:57.295 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:57.301 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.1176ms
+2024-05-11 11:56:58.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog? - null null
+2024-05-11 11:56:58.246 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:56:58.249 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:56:58.265 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:56:58.269 +03:00 [INF] Executed ViewResult - view Catolog executed in 4.2342ms.
+2024-05-11 11:56:58.274 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 10.0581ms
+2024-05-11 11:56:58.278 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:56:58.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:56:58.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:56:58.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:56:58.283 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog? - 200 null text/html; charset=utf-8 41.941ms
+2024-05-11 11:56:58.289 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 9.275ms
+2024-05-11 11:56:58.293 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.909ms
+2024-05-11 11:56:58.304 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.2726ms
+2024-05-11 11:56:58.319 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:57:10.056 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 11:57:10.164 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 11:57:10.166 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 11:57:10.187 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 11:57:10.189 +03:00 [INF] Hosting environment: Development
+2024-05-11 11:57:10.191 +03:00 [INF] Content root path: D:\Works\CourseworkOr1\Medicine\CourseWorkWeb
+2024-05-11 11:57:10.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog? - null null
+2024-05-11 11:57:10.414 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:57:10.433 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:57:10.444 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:57:10.484 +03:00 [INF] Executed ViewResult - view Catolog executed in 40.7499ms.
+2024-05-11 11:57:10.492 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 52.7777ms
+2024-05-11 11:57:10.493 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:57:10.493 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:57:10.493 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:57:10.495 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:57:10.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 14.181ms
+2024-05-11 11:57:10.509 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 16.6696ms
+2024-05-11 11:57:10.515 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog? - 200 null text/html; charset=utf-8 173.4031ms
+2024-05-11 11:57:10.527 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:57:10.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.0976ms
+2024-05-11 11:57:14.576 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:57:14.582 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.6542ms
+2024-05-11 11:57:15.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog? - null null
+2024-05-11 11:57:15.580 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:57:15.582 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:57:15.591 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:57:15.595 +03:00 [INF] Executed ViewResult - view Catolog executed in 4.8094ms.
+2024-05-11 11:57:15.599 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 9.1647ms
+2024-05-11 11:57:15.605 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:57:15.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:57:15.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:57:15.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:57:15.609 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog? - 200 null text/html; charset=utf-8 37.0459ms
+2024-05-11 11:57:15.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 7.9338ms
+2024-05-11 11:57:15.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 18.6901ms
+2024-05-11 11:57:15.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.9003ms
+2024-05-11 11:57:15.646 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404
+2024-05-11 11:57:16.848 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:57:16.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.4065ms
+2024-05-11 11:57:17.590 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/Catolog? - null null
+2024-05-11 11:57:17.597 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:57:17.600 +03:00 [INF] Route matched with {action = "Catolog", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catolog() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-11 11:57:17.606 +03:00 [INF] Executing ViewResult, running view Catolog.
+2024-05-11 11:57:17.610 +03:00 [INF] Executed ViewResult - view Catolog executed in 3.8652ms.
+2024-05-11 11:57:17.613 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb) in 6.4642ms
+2024-05-11 11:57:17.616 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Catolog (CourseWorkWeb)'
+2024-05-11 11:57:17.619 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 11:57:17.619 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - null null
+2024-05-11 11:57:17.619 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 11:57:17.620 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/Catolog? - 200 null text/html; charset=utf-8 29.2174ms
+2024-05-11 11:57:17.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.2826ms
+2024-05-11 11:57:17.631 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Catalog/css/cite.css - 404 0 null 12.2205ms
+2024-05-11 11:57:17.638 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 18.1123ms
+2024-05-11 11:57:17.662 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Catalog/css/cite.css, Response status code: 404

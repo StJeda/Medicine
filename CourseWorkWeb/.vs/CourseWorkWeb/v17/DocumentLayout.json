@@ -58,8 +58,7 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T08:21:53.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T08:21:53.836Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T08:17:16.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T08:17:16.437Z"
             },
             {
               "$type": "Document",
@@ -82,7 +80,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAN8AAAAAAAAAAAAAAPMAAAApAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-11T08:17:06.912Z",
               "EditorCaption": ""
@@ -97,8 +95,7 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T08:17:06.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T08:17:06.193Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T08:14:51.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T08:14:51.747Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "Pages\\_Layout.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T06:43:05.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T06:43:05.969Z"
             },
             {
               "$type": "Document",
@@ -136,12 +131,7 @@
               "RelativeToolTip": "Views\\Catalog\\Catolog.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T06:09:23.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "WhenOpened": "2024-05-11T06:09:23.955Z"
             },
             {
               "$type": "Document",
@@ -153,8 +143,7 @@
               "RelativeToolTip": "Controllers\\CatalogController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T06:07:22.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T06:07:22.698Z"
             },
             {
               "$type": "Document",
@@ -166,8 +155,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T11:21:19.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T11:21:19.06Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }
