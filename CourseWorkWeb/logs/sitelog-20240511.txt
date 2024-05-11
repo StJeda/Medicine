@@ -1,0 +1,892 @@
+2024-05-11 09:15:31.353 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 09:15:31.493 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 09:15:31.496 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 09:15:31.496 +03:00 [INF] Hosting environment: Development
+2024-05-11 09:15:31.496 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 09:15:31.725 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-11 09:15:31.737 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-11 09:15:31.761 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 09:15:31.803 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 09:15:31.814 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 09:15:31.886 +03:00 [INF] Executed ViewResult - view Index executed in 72.7016ms.
+2024-05-11 09:15:31.890 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 86.1844ms
+2024-05-11 09:15:31.890 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 09:15:31.893 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 170.5285ms
+2024-05-11 09:15:31.978 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-11 09:15:31.996 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-11 09:15:31.997 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 200 16143 text/css 18.501ms
+2024-05-11 09:15:32.101 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/logo.png - null null
+2024-05-11 09:15:32.105 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/map.svg - null null
+2024-05-11 09:15:32.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/langwich.png - null null
+2024-05-11 09:15:32.115 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/moon.svg - null null
+2024-05-11 09:15:32.144 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/lines.png - null null
+2024-05-11 09:15:32.156 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/search.png - null null
+2024-05-11 09:15:32.168 +03:00 [INF] Sending file. Request path: '/image/langwich.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\langwich.png'
+2024-05-11 09:15:32.168 +03:00 [INF] Sending file. Request path: '/image/lines.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\lines.png'
+2024-05-11 09:15:32.168 +03:00 [INF] Sending file. Request path: '/image/search.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\search.png'
+2024-05-11 09:15:32.168 +03:00 [INF] Sending file. Request path: '/image/map.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\map.svg'
+2024-05-11 09:15:32.169 +03:00 [INF] Sending file. Request path: '/image/moon.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\moon.svg'
+2024-05-11 09:15:32.169 +03:00 [INF] Sending file. Request path: '/image/logo.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\logo.png'
+2024-05-11 09:15:32.172 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/moon.svg - 200 293 image/svg+xml 56.2205ms
+2024-05-11 09:15:32.172 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/lines.png - 200 6685 image/png 28.2127ms
+2024-05-11 09:15:32.172 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/langwich.png - 200 2452 image/png 63.3777ms
+2024-05-11 09:15:32.172 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/map.svg - 200 417 image/svg+xml 66.8589ms
+2024-05-11 09:15:32.172 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mag.png - null null
+2024-05-11 09:15:32.172 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/phone.png - null null
+2024-05-11 09:15:32.172 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/search.png - 200 728 image/png 15.6813ms
+2024-05-11 09:15:32.172 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - null null
+2024-05-11 09:15:32.172 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/logo.png - 200 991 image/png 70.2335ms
+2024-05-11 09:15:32.172 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/pill.svg - null null
+2024-05-11 09:15:32.173 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/person.png - null null
+2024-05-11 09:15:32.175 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mpills.svg - null null
+2024-05-11 09:15:32.175 +03:00 [INF] Sending file. Request path: '/image/person.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\person.png'
+2024-05-11 09:15:32.175 +03:00 [INF] Sending file. Request path: '/image/hygiene.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\hygiene.svg'
+2024-05-11 09:15:32.175 +03:00 [INF] Sending file. Request path: '/image/phone.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\phone.png'
+2024-05-11 09:15:32.175 +03:00 [INF] Sending file. Request path: '/image/pill.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\pill.svg'
+2024-05-11 09:15:32.175 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/person.png - 200 1697 image/png 2.6998ms
+2024-05-11 09:15:32.176 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/phone.png - 200 12680 image/png 3.27ms
+2024-05-11 09:15:32.175 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - 200 323 image/svg+xml 3.2772ms
+2024-05-11 09:15:32.176 +03:00 [INF] Sending file. Request path: '/image/mag.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\mag.png'
+2024-05-11 09:15:32.176 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/pill.svg - 200 510 image/svg+xml 3.2655ms
+2024-05-11 09:15:32.176 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mag.png - 200 14643 image/png 3.8069ms
+2024-05-11 09:15:32.176 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/makeup.svg - null null
+2024-05-11 09:15:32.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/toy.svg - null null
+2024-05-11 09:15:32.179 +03:00 [INF] Sending file. Request path: '/image/mpills.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\mpills.svg'
+2024-05-11 09:15:32.179 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mpills.svg - 200 1019 image/svg+xml 4.4775ms
+2024-05-11 09:15:32.179 +03:00 [INF] Sending file. Request path: '/image/toy.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\toy.svg'
+2024-05-11 09:15:32.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-11 09:15:32.180 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/toy.svg - 200 1080 image/svg+xml 3.4566ms
+2024-05-11 09:15:32.181 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/blok.png - null null
+2024-05-11 09:15:32.181 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-11 09:15:32.182 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 200 1988 image/png 1.7162ms
+2024-05-11 09:15:32.182 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-11 09:15:32.196 +03:00 [INF] Sending file. Request path: '/image/blok.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\blok.png'
+2024-05-11 09:15:32.196 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/blok.png - 200 9447 image/png 18.0961ms
+2024-05-11 09:15:32.215 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-11 09:15:32.178 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6392575.png - null null
+2024-05-11 09:15:32.242 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-11 09:15:32.243 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 200 1107 image/png 31.3279ms
+2024-05-11 09:15:32.243 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/33467.png - null null
+2024-05-11 09:15:32.251 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6350788.png - null null
+2024-05-11 09:15:32.363 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-11 09:15:32.373 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-11 09:15:32.373 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-11 09:15:32.374 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 200 2198 image/png 11.0805ms
+2024-05-11 09:15:32.374 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 200 995 image/png 191.5607ms
+2024-05-11 09:15:32.374 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6119868.png - null null
+2024-05-11 09:15:32.377 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/10264982.png - null null
+2024-05-11 09:15:32.382 +03:00 [INF] Sending file. Request path: '/image/makeup.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\makeup.svg'
+2024-05-11 09:15:32.382 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/makeup.svg - 200 304 image/svg+xml 206.1584ms
+2024-05-11 09:15:32.417 +03:00 [INF] Sending file. Request path: '/image/33467.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\33467.png'
+2024-05-11 09:15:32.417 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/33467.png - 200 271198 image/png 174.679ms
+2024-05-11 09:15:32.421 +03:00 [INF] Sending file. Request path: '/image/6119868.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\6119868.png'
+2024-05-11 09:15:32.422 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6119868.png - 200 387853 image/png 47.9311ms
+2024-05-11 09:15:32.437 +03:00 [INF] Sending file. Request path: '/image/10264982.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\10264982.png'
+2024-05-11 09:15:32.438 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/10264982.png - 200 725431 image/png 61.1687ms
+2024-05-11 09:15:32.448 +03:00 [INF] Sending file. Request path: '/image/6350788.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\6350788.png'
+2024-05-11 09:15:32.449 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6350788.png - 200 1333205 image/png 196.7606ms
+2024-05-11 09:15:32.456 +03:00 [INF] Sending file. Request path: '/image/6392575.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\6392575.png'
+2024-05-11 09:15:32.457 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6392575.png - 200 2236388 image/png 278.6091ms
+2024-05-11 09:15:32.480 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
+2024-05-11 09:15:32.484 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-11 09:15:32.484 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 200 1617 image/x-icon 4.1502ms
+2024-05-11 09:15:46.059 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Catog - null null
+2024-05-11 09:15:46.062 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Catog - 404 0 null 3.2066ms
+2024-05-11 09:15:46.063 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Catog, Response status code: 404
+2024-05-11 09:15:46.156 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/favicon.ico - null null
+2024-05-11 09:15:46.157 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\favicon.ico'
+2024-05-11 09:15:46.158 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/favicon.ico - 200 5430 image/x-icon 1.6764ms
+2024-05-11 09:22:37.816 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 09:22:38.087 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-11 09:22:38.088 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 09:22:38.091 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 09:22:38.091 +03:00 [INF] Hosting environment: Development
+2024-05-11 09:22:38.092 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 09:22:39.629 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-11 09:22:39.787 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 09:22:39.832 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 09:22:39.845 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 09:22:39.933 +03:00 [INF] Executed ViewResult - view Index executed in 87.7787ms.
+2024-05-11 09:22:39.938 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 103.5761ms
+2024-05-11 09:22:39.940 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 09:22:39.946 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 322.2052ms
+2024-05-11 09:22:39.986 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/css/cite.css - null null
+2024-05-11 09:22:40.010 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-11 09:22:40.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/css/cite.css - 200 16143 text/css 27.4098ms
+2024-05-11 09:22:40.098 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-11 09:22:40.100 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/map.svg - null null
+2024-05-11 09:22:40.099 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/logo.png - null null
+2024-05-11 09:22:40.101 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/langwich.png - null null
+2024-05-11 09:22:40.111 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/search.png - null null
+2024-05-11 09:22:40.119 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/mag.png - null null
+2024-05-11 09:22:40.111 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/lines.png - null null
+2024-05-11 09:22:40.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/person.png - null null
+2024-05-11 09:22:40.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/pill.svg - null null
+2024-05-11 09:22:40.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/phone.png - null null
+2024-05-11 09:22:40.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/hygiene.svg - null null
+2024-05-11 09:22:40.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/makeup.svg - null null
+2024-05-11 09:22:40.140 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/toy.svg - null null
+2024-05-11 09:22:40.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/blok.png - null null
+2024-05-11 09:22:40.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/mpills.svg - null null
+2024-05-11 09:22:41.677 +03:00 [INF] Sending file. Request path: '/image/logo.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\logo.png'
+2024-05-11 09:22:41.677 +03:00 [INF] Sending file. Request path: '/image/search.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\search.png'
+2024-05-11 09:22:41.677 +03:00 [INF] Sending file. Request path: '/image/map.svg'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\map.svg'
+2024-05-11 09:22:41.677 +03:00 [INF] Sending file. Request path: '/image/langwich.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\langwich.png'
+2024-05-11 09:22:41.677 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/moon.svg - null null
+2024-05-11 09:22:41.689 +03:00 [INF] Sending file. Request path: '/image/pill.svg'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\pill.svg'
+2024-05-11 09:22:41.691 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/search.png - 200 728 image/png 1580.3774ms
+2024-05-11 09:22:41.702 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/pill.svg - 200 510 image/svg+xml 1577.4622ms
+2024-05-11 09:22:41.705 +03:00 [INF] Sending file. Request path: '/image/makeup.svg'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\makeup.svg'
+2024-05-11 09:22:41.708 +03:00 [INF] Sending file. Request path: '/image/toy.svg'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\toy.svg'
+2024-05-11 09:22:41.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/makeup.svg - 200 304 image/svg+xml 1574.2161ms
+2024-05-11 09:22:41.693 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/map.svg - 200 417 image/svg+xml 1593.1021ms
+2024-05-11 09:22:41.690 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/logo.png - 200 991 image/png 1591.0887ms
+2024-05-11 09:22:41.696 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/langwich.png - 200 2452 image/png 1595.2489ms
+2024-05-11 09:22:41.702 +03:00 [INF] Sending file. Request path: '/image/hygiene.svg'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\hygiene.svg'
+2024-05-11 09:22:41.689 +03:00 [INF] Sending file. Request path: '/image/person.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\person.png'
+2024-05-11 09:22:41.711 +03:00 [INF] Sending file. Request path: '/image/mpills.svg'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\mpills.svg'
+2024-05-11 09:22:41.712 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/toy.svg - 200 1080 image/svg+xml 1571.5055ms
+2024-05-11 09:22:41.714 +03:00 [INF] Sending file. Request path: '/image/moon.svg'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\moon.svg'
+2024-05-11 09:22:41.719 +03:00 [INF] Sending file. Request path: '/image/mag.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\mag.png'
+2024-05-11 09:22:41.720 +03:00 [INF] Sending file. Request path: '/image/lines.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\lines.png'
+2024-05-11 09:22:41.737 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/moon.svg - 200 293 image/svg+xml 61.6079ms
+2024-05-11 09:22:41.752 +03:00 [INF] Sending file. Request path: '/image/blok.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\blok.png'
+2024-05-11 09:22:41.741 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/mag.png - 200 14643 image/png 1621.7929ms
+2024-05-11 09:22:41.755 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/blok.png - 200 9447 image/png 1606.9014ms
+2024-05-11 09:22:41.746 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/lines.png - 200 6685 image/png 1635.1616ms
+2024-05-11 09:22:41.725 +03:00 [INF] Sending file. Request path: '/image/phone.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\phone.png'
+2024-05-11 09:22:41.727 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/hygiene.svg - 200 323 image/svg+xml 1597.9316ms
+2024-05-11 09:22:41.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/person.png - 200 1697 image/png 1607.568ms
+2024-05-11 09:22:41.731 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/mpills.svg - 200 1019 image/svg+xml 1603.7668ms
+2024-05-11 09:22:41.760 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/tb2.png - null null
+2024-05-11 09:22:41.760 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/Delivery.png - null null
+2024-05-11 09:22:41.762 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/Apt.png - null null
+2024-05-11 09:22:41.779 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-11 09:22:41.781 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-11 09:22:41.765 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/Tovar.png - null null
+2024-05-11 09:22:41.766 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/phone.png - 200 12680 image/png 1642.0768ms
+2024-05-11 09:22:41.785 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/tb2.png - 200 1107 image/png 24.8193ms
+2024-05-11 09:22:41.784 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-11 09:22:41.786 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/Delivery.png - 200 1988 image/png 26.2041ms
+2024-05-11 09:22:41.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-11 09:22:41.773 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/33467.png - null null
+2024-05-11 09:22:41.792 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/6350788.png - null null
+2024-05-11 09:22:41.793 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/Apt.png - 200 995 image/png 31.5295ms
+2024-05-11 09:22:41.795 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/6119868.png - null null
+2024-05-11 09:22:41.805 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 34.6397ms
+2024-05-11 09:22:41.789 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-11 09:22:41.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/6392575.png - null null
+2024-05-11 09:22:41.818 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/Tovar.png - 200 2198 image/png 53.5784ms
+2024-05-11 09:22:41.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1734.0828ms
+2024-05-11 09:22:41.827 +03:00 [INF] Sending file. Request path: '/image/33467.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\33467.png'
+2024-05-11 09:22:41.776 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/10264982.png - null null
+2024-05-11 09:22:41.849 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/33467.png - 200 271198 image/png 75.8969ms
+2024-05-11 09:22:41.855 +03:00 [INF] Sending file. Request path: '/image/6119868.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\6119868.png'
+2024-05-11 09:22:41.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/6119868.png - 200 387853 image/png 63.9702ms
+2024-05-11 09:22:41.916 +03:00 [INF] Sending file. Request path: '/image/10264982.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\10264982.png'
+2024-05-11 09:22:41.918 +03:00 [INF] Sending file. Request path: '/image/6350788.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\6350788.png'
+2024-05-11 09:22:41.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/10264982.png - 200 725431 image/png 146.2333ms
+2024-05-11 09:22:41.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/6350788.png - 200 1333205 image/png 132.0101ms
+2024-05-11 09:22:41.958 +03:00 [INF] Sending file. Request path: '/image/6392575.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\6392575.png'
+2024-05-11 09:22:41.960 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/6392575.png - 200 2236388 image/png 169.5875ms
+2024-05-11 09:22:41.969 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/icon.ico - null null
+2024-05-11 09:22:41.976 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-11 09:22:41.980 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/icon.ico - 200 1617 image/x-icon 11.8891ms
+2024-05-11 10:08:43.495 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 10:08:43.635 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 10:08:43.639 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 10:08:43.639 +03:00 [INF] Hosting environment: Development
+2024-05-11 10:08:43.639 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 10:08:43.891 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-11 10:08:43.901 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-11 10:08:43.923 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:08:43.961 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:08:43.972 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:08:44.026 +03:00 [INF] Executed ViewResult - view Index executed in 55.5443ms.
+2024-05-11 10:08:44.030 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 68.4961ms
+2024-05-11 10:08:44.030 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:08:44.034 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 145.2152ms
+2024-05-11 10:08:44.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-11 10:08:44.118 +03:00 [INF] The file /css/cite.css was not modified
+2024-05-11 10:08:44.119 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 304 null text/css 10.8233ms
+2024-05-11 10:08:44.217 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/logo.png - null null
+2024-05-11 10:08:44.220 +03:00 [INF] The file /image/logo.png was not modified
+2024-05-11 10:08:44.220 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/map.svg - null null
+2024-05-11 10:08:44.225 +03:00 [INF] The file /image/map.svg was not modified
+2024-05-11 10:08:44.225 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/moon.svg - null null
+2024-05-11 10:08:44.226 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/logo.png - 304 null image/png 6.9687ms
+2024-05-11 10:08:44.226 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/map.svg - 304 null image/svg+xml 5.4886ms
+2024-05-11 10:08:44.226 +03:00 [INF] The file /image/moon.svg was not modified
+2024-05-11 10:08:44.227 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/lines.png - null null
+2024-05-11 10:08:44.227 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/moon.svg - 304 null image/svg+xml 1.8478ms
+2024-05-11 10:08:44.227 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/search.png - null null
+2024-05-11 10:08:44.227 +03:00 [INF] The file /image/lines.png was not modified
+2024-05-11 10:08:44.227 +03:00 [INF] The file /image/search.png was not modified
+2024-05-11 10:08:44.228 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/search.png - 304 null image/png 0.6338ms
+2024-05-11 10:08:44.228 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/lines.png - 304 null image/png 0.7961ms
+2024-05-11 10:08:44.228 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-11 10:08:44.228 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-11 10:08:44.228 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-11 10:08:44.229 +03:00 [INF] The file /image/Apt.png was not modified
+2024-05-11 10:08:44.229 +03:00 [INF] The file /image/tb2.png was not modified
+2024-05-11 10:08:44.229 +03:00 [INF] The file /image/Delivery.png was not modified
+2024-05-11 10:08:44.229 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 304 null image/png 0.4888ms
+2024-05-11 10:08:44.230 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 304 null image/png 1.5572ms
+2024-05-11 10:08:44.230 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mag.png - null null
+2024-05-11 10:08:44.231 +03:00 [INF] The file /image/mag.png was not modified
+2024-05-11 10:08:44.231 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mag.png - 304 null image/png 0.5736ms
+2024-05-11 10:08:44.232 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-11 10:08:44.232 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 304 null image/png 2.4203ms
+2024-05-11 10:08:44.229 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/langwich.png - null null
+2024-05-11 10:08:44.232 +03:00 [INF] The file /image/Tovar.png was not modified
+2024-05-11 10:08:44.235 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/phone.png - null null
+2024-05-11 10:08:44.235 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/person.png - null null
+2024-05-11 10:08:44.235 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 304 null image/png 3.5618ms
+2024-05-11 10:08:44.235 +03:00 [INF] The file /image/langwich.png was not modified
+2024-05-11 10:08:44.235 +03:00 [INF] The file /image/person.png was not modified
+2024-05-11 10:08:44.235 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/langwich.png - 304 null image/png 6.4204ms
+2024-05-11 10:08:44.235 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mpills.svg - null null
+2024-05-11 10:08:44.235 +03:00 [INF] The file /image/phone.png was not modified
+2024-05-11 10:08:44.236 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/person.png - 304 null image/png 0.5219ms
+2024-05-11 10:08:44.236 +03:00 [INF] The file /image/mpills.svg was not modified
+2024-05-11 10:08:44.236 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/phone.png - 304 null image/png 0.6815ms
+2024-05-11 10:08:44.236 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mpills.svg - 304 null image/svg+xml 0.4688ms
+2024-05-11 10:08:44.237 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - null null
+2024-05-11 10:08:44.237 +03:00 [INF] The file /image/hygiene.svg was not modified
+2024-05-11 10:08:44.238 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/makeup.svg - null null
+2024-05-11 10:08:44.238 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - 304 null image/svg+xml 1.406ms
+2024-05-11 10:08:44.237 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/toy.svg - null null
+2024-05-11 10:08:44.239 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/blok.png - null null
+2024-05-11 10:08:44.239 +03:00 [INF] The file /image/makeup.svg was not modified
+2024-05-11 10:08:44.239 +03:00 [INF] The file /image/blok.png was not modified
+2024-05-11 10:08:44.239 +03:00 [INF] The file /image/toy.svg was not modified
+2024-05-11 10:08:44.239 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/blok.png - 304 null image/png 0.7599ms
+2024-05-11 10:08:44.239 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/makeup.svg - 304 null image/svg+xml 2.0323ms
+2024-05-11 10:08:44.239 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/toy.svg - 304 null image/svg+xml 2.0716ms
+2024-05-11 10:08:44.240 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6350788.png - null null
+2024-05-11 10:08:44.242 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/33467.png - null null
+2024-05-11 10:08:44.244 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6119868.png - null null
+2024-05-11 10:08:44.244 +03:00 [INF] The file /image/6350788.png was not modified
+2024-05-11 10:08:44.244 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/10264982.png - null null
+2024-05-11 10:08:44.244 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/pill.svg - null null
+2024-05-11 10:08:44.244 +03:00 [INF] The file /image/6119868.png was not modified
+2024-05-11 10:08:44.245 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6350788.png - 304 null image/png 4.1752ms
+2024-05-11 10:08:44.246 +03:00 [INF] The file /image/pill.svg was not modified
+2024-05-11 10:08:44.246 +03:00 [INF] The file /image/10264982.png was not modified
+2024-05-11 10:08:44.244 +03:00 [INF] The file /image/33467.png was not modified
+2024-05-11 10:08:44.246 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6119868.png - 304 null image/png 3.7392ms
+2024-05-11 10:08:44.246 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/10264982.png - 304 null image/png 3.9816ms
+2024-05-11 10:08:44.246 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/pill.svg - 304 null image/svg+xml 1.4816ms
+2024-05-11 10:08:44.246 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/33467.png - 304 null image/png 4.1952ms
+2024-05-11 10:08:44.251 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6392575.png - null null
+2024-05-11 10:08:44.255 +03:00 [INF] The file /image/6392575.png was not modified
+2024-05-11 10:08:44.256 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6392575.png - 304 null image/png 5.3052ms
+2024-05-11 10:43:36.574 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-11 10:43:36.590 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:43:36.591 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:43:36.594 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:43:36.597 +03:00 [INF] Executed ViewResult - view Index executed in 5.6094ms.
+2024-05-11 10:43:36.597 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 6.1962ms
+2024-05-11 10:43:36.597 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:43:36.597 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 23.1256ms
+2024-05-11 10:43:36.688 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-11 10:43:36.689 +03:00 [INF] The file /css/cite.css was not modified
+2024-05-11 10:43:36.689 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 304 null text/css 1.0593ms
+2024-05-11 10:43:36.778 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/logo.png - null null
+2024-05-11 10:43:36.779 +03:00 [INF] The file /image/logo.png was not modified
+2024-05-11 10:43:36.779 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/logo.png - 304 null image/png 0.6573ms
+2024-05-11 10:43:36.780 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/map.svg - null null
+2024-05-11 10:43:36.780 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/langwich.png - null null
+2024-05-11 10:43:36.781 +03:00 [INF] The file /image/map.svg was not modified
+2024-05-11 10:43:36.781 +03:00 [INF] The file /image/langwich.png was not modified
+2024-05-11 10:43:36.781 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/map.svg - 304 null image/svg+xml 0.9349ms
+2024-05-11 10:43:36.781 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/langwich.png - 304 null image/png 0.5265ms
+2024-05-11 10:43:36.785 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/lines.png - null null
+2024-05-11 10:43:36.784 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/moon.svg - null null
+2024-05-11 10:43:36.792 +03:00 [INF] The file /image/moon.svg was not modified
+2024-05-11 10:43:36.792 +03:00 [INF] The file /image/lines.png was not modified
+2024-05-11 10:43:36.792 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/lines.png - 304 null image/png 7.7576ms
+2024-05-11 10:43:36.792 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/moon.svg - 304 null image/svg+xml 8.3712ms
+2024-05-11 10:43:36.792 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/search.png - null null
+2024-05-11 10:43:36.795 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mag.png - null null
+2024-05-11 10:43:36.795 +03:00 [INF] The file /image/search.png was not modified
+2024-05-11 10:43:36.795 +03:00 [INF] The file /image/mag.png was not modified
+2024-05-11 10:43:36.796 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mag.png - 304 null image/png 0.7938ms
+2024-05-11 10:43:36.796 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/search.png - 304 null image/png 7.3419ms
+2024-05-11 10:43:36.802 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - null null
+2024-05-11 10:43:36.802 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/pill.svg - null null
+2024-05-11 10:43:36.802 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mpills.svg - null null
+2024-05-11 10:43:36.808 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/person.png - null null
+2024-05-11 10:43:36.810 +03:00 [INF] The file /image/hygiene.svg was not modified
+2024-05-11 10:43:36.810 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/phone.png - null null
+2024-05-11 10:43:36.810 +03:00 [INF] The file /image/mpills.svg was not modified
+2024-05-11 10:43:36.810 +03:00 [INF] The file /image/person.png was not modified
+2024-05-11 10:43:36.810 +03:00 [INF] The file /image/pill.svg was not modified
+2024-05-11 10:43:36.813 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mpills.svg - 304 null image/svg+xml 8.3953ms
+2024-05-11 10:43:36.813 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - 304 null image/svg+xml 8.3485ms
+2024-05-11 10:43:36.813 +03:00 [INF] The file /image/phone.png was not modified
+2024-05-11 10:43:36.813 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/pill.svg - 304 null image/svg+xml 11.5768ms
+2024-05-11 10:43:36.814 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/makeup.svg - null null
+2024-05-11 10:43:36.815 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/phone.png - 304 null image/png 3.7493ms
+2024-05-11 10:43:36.815 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-11 10:43:36.815 +03:00 [INF] The file /image/makeup.svg was not modified
+2024-05-11 10:43:36.815 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/toy.svg - null null
+2024-05-11 10:43:36.815 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/makeup.svg - 304 null image/svg+xml 1.4777ms
+2024-05-11 10:43:36.814 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/person.png - 304 null image/png 8.3945ms
+2024-05-11 10:43:36.817 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-11 10:43:36.817 +03:00 [INF] The file /image/toy.svg was not modified
+2024-05-11 10:43:36.817 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-11 10:43:36.817 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/blok.png - null null
+2024-05-11 10:43:36.817 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/toy.svg - 304 null image/svg+xml 2.3742ms
+2024-05-11 10:43:36.818 +03:00 [INF] The file /image/blok.png was not modified
+2024-05-11 10:43:36.818 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/blok.png - 304 null image/png 0.8683ms
+2024-05-11 10:43:36.818 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/33467.png - null null
+2024-05-11 10:43:36.819 +03:00 [INF] The file /image/33467.png was not modified
+2024-05-11 10:43:36.819 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/33467.png - 304 null image/png 0.6ms
+2024-05-11 10:43:36.819 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6350788.png - null null
+2024-05-11 10:43:36.820 +03:00 [INF] The file /image/6350788.png was not modified
+2024-05-11 10:43:36.820 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6350788.png - 304 null image/png 0.551ms
+2024-05-11 10:43:36.822 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6392575.png - null null
+2024-05-11 10:43:36.822 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/10264982.png - null null
+2024-05-11 10:43:36.822 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6119868.png - null null
+2024-05-11 10:43:36.827 +03:00 [INF] The file /image/10264982.png was not modified
+2024-05-11 10:43:36.827 +03:00 [INF] The file /image/6119868.png was not modified
+2024-05-11 10:43:36.828 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/10264982.png - 304 null image/png 6.0321ms
+2024-05-11 10:43:36.828 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6119868.png - 304 null image/png 6.0973ms
+2024-05-11 10:43:36.828 +03:00 [INF] The file /image/6392575.png was not modified
+2024-05-11 10:43:36.828 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6392575.png - 304 null image/png 7.6354ms
+2024-05-11 10:43:36.830 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-11 10:43:36.832 +03:00 [INF] The file /image/tb2.png was not modified
+2024-05-11 10:43:36.833 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 304 null image/png 3.4883ms
+2024-05-11 10:43:36.837 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-11 10:43:36.837 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-11 10:43:36.837 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-11 10:43:36.838 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 200 995 image/png 20.6952ms
+2024-05-11 10:43:36.838 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 200 1988 image/png 22.9638ms
+2024-05-11 10:43:36.838 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 200 2198 image/png 20.467ms
+2024-05-11 10:43:36.954 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
+2024-05-11 10:43:36.957 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-11 10:43:36.958 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 499 1617 image/x-icon 3.1785ms
+2024-05-11 10:43:37.780 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-11 10:43:37.781 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:43:37.781 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:43:37.781 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:43:37.782 +03:00 [INF] Executed ViewResult - view Index executed in 0.902ms.
+2024-05-11 10:43:37.782 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 1.245ms
+2024-05-11 10:43:37.782 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:43:37.783 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 2.3719ms
+2024-05-11 10:43:38.365 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-11 10:43:38.365 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:43:38.365 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:43:38.366 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:43:38.367 +03:00 [INF] Executed ViewResult - view Index executed in 0.8871ms.
+2024-05-11 10:43:38.367 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 1.2078ms
+2024-05-11 10:43:38.367 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:43:38.367 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 2.1721ms
+2024-05-11 10:44:06.714 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-11 10:44:06.714 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:06.714 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:44:06.714 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:44:06.715 +03:00 [INF] Executed ViewResult - view Index executed in 0.5667ms.
+2024-05-11 10:44:06.715 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 0.8344ms
+2024-05-11 10:44:06.715 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:06.715 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 2.0264ms
+2024-05-11 10:44:07.323 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-11 10:44:07.323 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:07.324 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:44:07.324 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:44:07.324 +03:00 [INF] Executed ViewResult - view Index executed in 0.711ms.
+2024-05-11 10:44:07.325 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 1.0014ms
+2024-05-11 10:44:07.325 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:07.325 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 2.0382ms
+2024-05-11 10:44:24.682 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-11 10:44:24.682 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:24.682 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:44:24.682 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:44:24.683 +03:00 [INF] Executed ViewResult - view Index executed in 0.5121ms.
+2024-05-11 10:44:24.683 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 0.6835ms
+2024-05-11 10:44:24.683 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:24.683 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 1.3204ms
+2024-05-11 10:44:25.331 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-11 10:44:25.332 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:25.332 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:44:25.332 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:44:25.333 +03:00 [INF] Executed ViewResult - view Index executed in 0.5587ms.
+2024-05-11 10:44:25.333 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 0.7764ms
+2024-05-11 10:44:25.333 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:25.333 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 1.6657ms
+2024-05-11 10:44:25.906 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-11 10:44:25.907 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:25.907 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:44:25.907 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:44:25.908 +03:00 [INF] Executed ViewResult - view Index executed in 0.8064ms.
+2024-05-11 10:44:25.908 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 1.0262ms
+2024-05-11 10:44:25.908 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:25.908 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 1.7673ms
+2024-05-11 10:44:26.218 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-11 10:44:26.218 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:26.218 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:44:26.219 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:44:26.219 +03:00 [INF] Executed ViewResult - view Index executed in 0.724ms.
+2024-05-11 10:44:26.219 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 0.9273ms
+2024-05-11 10:44:26.220 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:26.220 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 1.5964ms
+2024-05-11 10:44:45.729 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 10:44:45.862 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 10:44:45.865 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 10:44:45.865 +03:00 [INF] Hosting environment: Development
+2024-05-11 10:44:45.865 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 10:44:46.077 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-11 10:44:46.087 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-11 10:44:46.110 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:46.142 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:44:46.154 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:44:46.248 +03:00 [INF] Executed ViewResult - view Index executed in 95.1344ms.
+2024-05-11 10:44:46.252 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 108.5681ms
+2024-05-11 10:44:46.252 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:44:46.255 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 180.7433ms
+2024-05-11 10:44:47.466 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - null null
+2024-05-11 10:44:47.469 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - 404 0 null 3.433ms
+2024-05-11 10:44:47.477 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Home/Catalog.cshtml, Response status code: 404
+2024-05-11 10:45:06.305 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml - null null
+2024-05-11 10:45:06.308 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml - 404 0 null 3.3141ms
+2024-05-11 10:45:06.309 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Home/Catalog.cshtml, Response status code: 404
+2024-05-11 10:45:53.815 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml - null null
+2024-05-11 10:45:53.816 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml - 404 0 null 0.4423ms
+2024-05-11 10:45:53.816 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Home/Catalog.cshtml, Response status code: 404
+2024-05-11 10:47:15.886 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 10:47:16.034 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 10:47:16.037 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 10:47:16.038 +03:00 [INF] Hosting environment: Development
+2024-05-11 10:47:16.038 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 10:47:16.260 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-11 10:47:16.274 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-11 10:47:16.301 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:47:16.335 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:47:16.350 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:47:16.452 +03:00 [INF] Executed ViewResult - view Index executed in 105.8722ms.
+2024-05-11 10:47:16.456 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 120.5361ms
+2024-05-11 10:47:16.457 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:47:16.460 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 201.6064ms
+2024-05-11 10:47:16.675 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-11 10:47:16.676 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-11 10:47:16.687 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-11 10:47:16.687 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-11 10:47:16.719 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-11 10:47:16.719 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 499 2198 image/png 32.0163ms
+2024-05-11 10:47:16.745 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-11 10:47:16.745 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-11 10:47:16.745 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-11 10:47:16.747 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 200 1988 image/png 71.6917ms
+2024-05-11 10:47:16.747 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 499 995 image/png 60.5326ms
+2024-05-11 10:47:16.748 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 499 1107 image/png 73.1759ms
+2024-05-11 10:47:18.213 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - null null
+2024-05-11 10:47:18.216 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - 404 0 null 3.508ms
+2024-05-11 10:47:18.217 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Home/Catalog.cshtml, Response status code: 404
+2024-05-11 10:47:18.309 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/favicon.ico - null null
+2024-05-11 10:47:18.310 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\favicon.ico'
+2024-05-11 10:47:18.310 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/favicon.ico - 499 5430 image/x-icon 1.7813ms
+2024-05-11 10:47:43.965 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 10:47:44.118 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 10:47:44.121 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 10:47:44.122 +03:00 [INF] Hosting environment: Development
+2024-05-11 10:47:44.122 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 10:47:44.328 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-11 10:47:44.341 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-11 10:47:44.364 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:47:44.448 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:47:44.458 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:47:44.533 +03:00 [INF] Executed ViewResult - view Index executed in 74.3315ms.
+2024-05-11 10:47:44.539 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 90.9692ms
+2024-05-11 10:47:44.540 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:47:44.543 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 218.0829ms
+2024-05-11 10:47:44.571 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-11 10:47:44.583 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-11 10:47:44.583 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 499 16143 text/css 12.4634ms
+2024-05-11 10:47:44.691 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/blok.png - null null
+2024-05-11 10:47:44.695 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-11 10:47:44.698 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-11 10:47:44.704 +03:00 [INF] Sending file. Request path: '/image/blok.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\blok.png'
+2024-05-11 10:47:44.706 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/blok.png - 499 9447 image/png 14.7746ms
+2024-05-11 10:47:44.707 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-11 10:47:44.779 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-11 10:47:44.779 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-11 10:47:44.779 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-11 10:47:44.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 499 1107 image/png 86.4556ms
+2024-05-11 10:47:44.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 200 995 image/png 74.526ms
+2024-05-11 10:47:44.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 499 1988 image/png 83.8689ms
+2024-05-11 10:47:46.798 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - null null
+2024-05-11 10:47:46.802 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - 404 0 null 4.2894ms
+2024-05-11 10:47:46.804 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Home/Catalog.cshtml, Response status code: 404
+2024-05-11 10:47:46.909 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/favicon.ico - null null
+2024-05-11 10:47:46.910 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\favicon.ico'
+2024-05-11 10:47:46.911 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/favicon.ico - 499 5430 image/x-icon 1.6235ms
+2024-05-11 10:47:59.656 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - null null
+2024-05-11 10:47:59.659 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - 404 0 null 2.2696ms
+2024-05-11 10:47:59.659 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Home/Catalog.cshtml, Response status code: 404
+2024-05-11 10:48:00.617 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
+2024-05-11 10:48:00.619 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-11 10:48:00.619 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 499 1617 image/x-icon 2.1564ms
+2024-05-11 10:48:55.402 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - null null
+2024-05-11 10:48:55.403 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - 404 0 null 0.7778ms
+2024-05-11 10:48:55.403 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Home/Catalog.cshtml, Response status code: 404
+2024-05-11 10:48:57.383 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - null null
+2024-05-11 10:48:57.383 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - 404 0 null 0.4181ms
+2024-05-11 10:48:57.383 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Home/Catalog.cshtml, Response status code: 404
+2024-05-11 10:51:13.885 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 10:51:14.021 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 10:51:14.023 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 10:51:14.024 +03:00 [INF] Hosting environment: Development
+2024-05-11 10:51:14.024 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 10:51:14.250 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-11 10:51:14.261 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-11 10:51:14.283 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:51:14.319 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:51:14.329 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:51:14.420 +03:00 [INF] Executed ViewResult - view Index executed in 92.5016ms.
+2024-05-11 10:51:14.424 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 104.5378ms
+2024-05-11 10:51:14.424 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:51:14.427 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 178.9341ms
+2024-05-11 10:51:14.558 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-11 10:51:14.572 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-11 10:51:14.572 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 499 1107 image/png 13.5242ms
+2024-05-11 10:51:38.228 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - null null
+2024-05-11 10:51:38.239 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog.cshtml? - 404 0 null 7.7945ms
+2024-05-11 10:51:38.242 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Home/Catalog.cshtml, Response status code: 404
+2024-05-11 10:52:57.223 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 10:52:57.352 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 10:52:57.355 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 10:52:57.355 +03:00 [INF] Hosting environment: Development
+2024-05-11 10:52:57.355 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 10:52:57.565 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-11 10:52:57.576 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-11 10:52:57.600 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:52:57.629 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:52:57.640 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:52:57.713 +03:00 [INF] Executed ViewResult - view Index executed in 73.889ms.
+2024-05-11 10:52:57.717 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 86.7633ms
+2024-05-11 10:52:57.717 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:52:57.720 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 156.7013ms
+2024-05-11 10:53:00.535 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog? - null null
+2024-05-11 10:53:00.539 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.540 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.542 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.542 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 1.4593ms
+2024-05-11 10:53:00.542 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.543 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog? - 302 0 null 7.2198ms
+2024-05-11 10:53:00.555 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.558 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.558 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.558 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.559 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.4412ms
+2024-05-11 10:53:00.559 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.559 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 3.9526ms
+2024-05-11 10:53:00.567 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.567 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.567 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.568 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.568 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.2266ms
+2024-05-11 10:53:00.568 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.568 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.2951ms
+2024-05-11 10:53:00.574 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.574 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.575 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.575 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.575 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1972ms
+2024-05-11 10:53:00.575 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.575 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.069ms
+2024-05-11 10:53:00.582 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.582 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.582 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.582 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.582 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1876ms
+2024-05-11 10:53:00.583 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.583 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.1486ms
+2024-05-11 10:53:00.587 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.587 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.588 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.588 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.588 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1989ms
+2024-05-11 10:53:00.588 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.588 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.1793ms
+2024-05-11 10:53:00.593 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.593 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.593 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.593 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.593 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1882ms
+2024-05-11 10:53:00.593 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.594 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.1632ms
+2024-05-11 10:53:00.599 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.600 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.600 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.600 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.600 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1846ms
+2024-05-11 10:53:00.600 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.601 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.1081ms
+2024-05-11 10:53:00.605 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.605 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.605 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.606 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.606 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.2881ms
+2024-05-11 10:53:00.606 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.607 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.4598ms
+2024-05-11 10:53:00.612 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.613 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.613 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.613 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.613 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.2918ms
+2024-05-11 10:53:00.613 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.614 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.4912ms
+2024-05-11 10:53:00.618 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.619 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.619 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.619 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.619 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1843ms
+2024-05-11 10:53:00.619 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.619 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.0091ms
+2024-05-11 10:53:00.623 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.624 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.624 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.624 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.624 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1799ms
+2024-05-11 10:53:00.624 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.624 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.0532ms
+2024-05-11 10:53:00.630 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.630 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.630 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.630 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.631 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1798ms
+2024-05-11 10:53:00.631 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.631 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.0232ms
+2024-05-11 10:53:00.636 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.636 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.636 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.636 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.636 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.2499ms
+2024-05-11 10:53:00.637 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.637 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.2119ms
+2024-05-11 10:53:00.642 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.643 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.643 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.643 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.643 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.3094ms
+2024-05-11 10:53:00.643 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.644 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.4469ms
+2024-05-11 10:53:00.648 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.649 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.649 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.649 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.649 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.2039ms
+2024-05-11 10:53:00.650 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.650 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.3419ms
+2024-05-11 10:53:00.655 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.655 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.655 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.656 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.656 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.2242ms
+2024-05-11 10:53:00.656 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.656 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.4753ms
+2024-05-11 10:53:00.662 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.662 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.663 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.663 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.663 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.2671ms
+2024-05-11 10:53:00.663 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.664 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.3702ms
+2024-05-11 10:53:00.669 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.669 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.670 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.670 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.670 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1875ms
+2024-05-11 10:53:00.670 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.670 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.0868ms
+2024-05-11 10:53:00.674 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.675 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.675 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.675 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.675 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1972ms
+2024-05-11 10:53:00.675 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.675 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.0788ms
+2024-05-11 10:53:00.681 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog - null null
+2024-05-11 10:53:00.681 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.682 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:00.682 +03:00 [INF] Executing RedirectResult, redirecting to /Home/Catalog.
+2024-05-11 10:53:00.682 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 0.1792ms
+2024-05-11 10:53:00.682 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:00.682 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog - 302 0 null 1.0421ms
+2024-05-11 10:53:43.519 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 10:53:43.655 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 10:53:43.658 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 10:53:43.659 +03:00 [INF] Hosting environment: Development
+2024-05-11 10:53:43.659 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 10:53:43.902 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-11 10:53:43.912 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-11 10:53:43.935 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:53:43.966 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:43.975 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:53:44.046 +03:00 [INF] Executed ViewResult - view Index executed in 71.2217ms.
+2024-05-11 10:53:44.052 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 85.6145ms
+2024-05-11 10:53:44.052 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:53:44.056 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 156.2059ms
+2024-05-11 10:53:44.212 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-11 10:53:44.213 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-11 10:53:44.236 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-11 10:53:44.236 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-11 10:53:44.237 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 499 2198 image/png 23.6147ms
+2024-05-11 10:53:44.237 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 499 1988 image/png 24.5296ms
+2024-05-11 10:53:45.539 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog? - null null
+2024-05-11 10:53:45.542 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:45.544 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:53:45.547 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog.
+2024-05-11 10:53:45.547 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 2.7555ms
+2024-05-11 10:53:45.548 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:53:45.548 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog? - 302 0 null 8.5877ms
+2024-05-11 10:53:45.557 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Catalog - null null
+2024-05-11 10:53:45.559 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Catalog - 404 0 null 2.3049ms
+2024-05-11 10:53:45.560 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Catalog, Response status code: 404
+2024-05-11 10:54:51.044 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-11 10:54:51.044 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:54:51.045 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:54:51.046 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:54:51.050 +03:00 [INF] Executed ViewResult - view Index executed in 4.8769ms.
+2024-05-11 10:54:51.050 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 5.3864ms
+2024-05-11 10:54:51.050 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:54:51.051 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 6.601ms
+2024-05-11 10:54:51.194 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-11 10:54:51.198 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-11 10:54:51.200 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 200 16143 text/css 4.4868ms
+2024-05-11 10:54:51.305 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/logo.png - null null
+2024-05-11 10:54:51.307 +03:00 [INF] Sending file. Request path: '/image/logo.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\logo.png'
+2024-05-11 10:54:51.307 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/logo.png - 200 991 image/png 1.7547ms
+2024-05-11 10:54:51.308 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/map.svg - null null
+2024-05-11 10:54:51.310 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/lines.png - null null
+2024-05-11 10:54:51.310 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/langwich.png - null null
+2024-05-11 10:54:51.312 +03:00 [INF] The file /image/map.svg was not modified
+2024-05-11 10:54:51.312 +03:00 [INF] The file /image/langwich.png was not modified
+2024-05-11 10:54:51.312 +03:00 [INF] The file /image/lines.png was not modified
+2024-05-11 10:54:51.313 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/map.svg - 304 null image/svg+xml 4.4925ms
+2024-05-11 10:54:51.313 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/lines.png - 304 null image/png 2.917ms
+2024-05-11 10:54:51.312 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/langwich.png - 304 null image/png 2.5488ms
+2024-05-11 10:54:51.320 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/pill.svg - null null
+2024-05-11 10:54:51.320 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/person.png - null null
+2024-05-11 10:54:51.320 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/search.png - null null
+2024-05-11 10:54:51.323 +03:00 [INF] The file /image/person.png was not modified
+2024-05-11 10:54:51.323 +03:00 [INF] The file /image/search.png was not modified
+2024-05-11 10:54:51.323 +03:00 [INF] The file /image/pill.svg was not modified
+2024-05-11 10:54:51.324 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/search.png - 304 null image/png 3.4882ms
+2024-05-11 10:54:51.324 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/person.png - 304 null image/png 5.5827ms
+2024-05-11 10:54:51.324 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/pill.svg - 304 null image/svg+xml 3.7072ms
+2024-05-11 10:54:51.324 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/moon.svg - null null
+2024-05-11 10:54:51.324 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mag.png - null null
+2024-05-11 10:54:51.324 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/phone.png - null null
+2024-05-11 10:54:51.324 +03:00 [INF] The file /image/moon.svg was not modified
+2024-05-11 10:54:51.324 +03:00 [INF] The file /image/phone.png was not modified
+2024-05-11 10:54:51.324 +03:00 [INF] The file /image/mag.png was not modified
+2024-05-11 10:54:51.325 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/moon.svg - 304 null image/svg+xml 0.5642ms
+2024-05-11 10:54:51.325 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/phone.png - 304 null image/png 0.4473ms
+2024-05-11 10:54:51.325 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mag.png - 304 null image/png 0.7302ms
+2024-05-11 10:54:51.328 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mpills.svg - null null
+2024-05-11 10:54:51.328 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/blok.png - null null
+2024-05-11 10:54:51.331 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - null null
+2024-05-11 10:54:51.328 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/toy.svg - null null
+2024-05-11 10:54:51.332 +03:00 [INF] The file /image/blok.png was not modified
+2024-05-11 10:54:51.332 +03:00 [INF] The file /image/mpills.svg was not modified
+2024-05-11 10:54:51.332 +03:00 [INF] The file /image/hygiene.svg was not modified
+2024-05-11 10:54:51.332 +03:00 [INF] The file /image/toy.svg was not modified
+2024-05-11 10:54:51.333 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mpills.svg - 304 null image/svg+xml 4.4444ms
+2024-05-11 10:54:51.333 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/toy.svg - 304 null image/svg+xml 4.5982ms
+2024-05-11 10:54:51.333 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - 304 null image/svg+xml 1.1816ms
+2024-05-11 10:54:51.333 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6392575.png - null null
+2024-05-11 10:54:51.332 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/makeup.svg - null null
+2024-05-11 10:54:51.333 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/blok.png - 304 null image/png 5.1287ms
+2024-05-11 10:54:51.335 +03:00 [INF] The file /image/6392575.png was not modified
+2024-05-11 10:54:51.338 +03:00 [INF] The file /image/makeup.svg was not modified
+2024-05-11 10:54:51.338 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6392575.png - 304 null image/png 2.8955ms
+2024-05-11 10:54:51.338 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/makeup.svg - 304 null image/svg+xml 10.3244ms
+2024-05-11 10:54:51.339 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-11 10:54:51.340 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/33467.png - null null
+2024-05-11 10:54:51.342 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/10264982.png - null null
+2024-05-11 10:54:51.342 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-11 10:54:51.342 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6119868.png - null null
+2024-05-11 10:54:51.342 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6350788.png - null null
+2024-05-11 10:54:51.343 +03:00 [INF] The file /image/10264982.png was not modified
+2024-05-11 10:54:51.343 +03:00 [INF] The file /image/6119868.png was not modified
+2024-05-11 10:54:51.343 +03:00 [INF] The file /image/33467.png was not modified
+2024-05-11 10:54:51.343 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/10264982.png - 304 null image/png 1.3175ms
+2024-05-11 10:54:51.343 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6119868.png - 304 null image/png 1.3468ms
+2024-05-11 10:54:51.343 +03:00 [INF] The file /image/6350788.png was not modified
+2024-05-11 10:54:51.345 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6350788.png - 304 null image/png 6.0071ms
+2024-05-11 10:54:51.344 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/33467.png - 304 null image/png 4.5043ms
+2024-05-11 10:54:51.351 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-11 10:54:51.352 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-11 10:54:51.352 +03:00 [INF] The file /image/Apt.png was not modified
+2024-05-11 10:54:51.352 +03:00 [INF] The file /image/Tovar.png was not modified
+2024-05-11 10:54:51.353 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 304 null image/png 2.1339ms
+2024-05-11 10:54:51.353 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 304 null image/png 0.479ms
+2024-05-11 10:54:51.358 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-11 10:54:51.358 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-11 10:54:51.360 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 200 1107 image/png 17.5694ms
+2024-05-11 10:54:51.360 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 200 1988 image/png 20.7115ms
+2024-05-11 10:54:51.456 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
+2024-05-11 10:54:51.458 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-11 10:54:51.458 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 499 1617 image/x-icon 1.9951ms
+2024-05-11 10:58:52.227 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 10:58:52.360 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 10:58:52.362 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 10:58:52.362 +03:00 [INF] Hosting environment: Development
+2024-05-11 10:58:52.362 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 10:58:52.647 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-11 10:58:52.659 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-11 10:58:52.686 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:58:52.717 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:58:52.728 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:58:52.821 +03:00 [INF] Executed ViewResult - view Index executed in 95.5137ms.
+2024-05-11 10:58:52.828 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 109.8188ms
+2024-05-11 10:58:52.828 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:58:52.832 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 185.8861ms
+2024-05-11 10:58:55.500 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog? - null null
+2024-05-11 10:58:55.503 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:58:55.505 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:58:55.506 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog.
+2024-05-11 10:58:55.507 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 1.973ms
+2024-05-11 10:58:55.507 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:58:55.508 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog? - 302 0 null 7.7611ms
+2024-05-11 10:58:55.516 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Catalog - null null
+2024-05-11 10:58:55.522 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Catalog - 404 0 null 5.5116ms
+2024-05-11 10:58:55.523 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Catalog, Response status code: 404
+2024-05-11 10:58:55.602 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/favicon.ico - null null
+2024-05-11 10:58:55.615 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\favicon.ico'
+2024-05-11 10:58:55.615 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/favicon.ico - 499 5430 image/x-icon 13.5732ms
+2024-05-11 10:59:30.606 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-11 10:59:30.737 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-11 10:59:30.739 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-11 10:59:30.740 +03:00 [INF] Hosting environment: Development
+2024-05-11 10:59:30.740 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-11 10:59:30.965 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-11 10:59:30.977 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-11 10:59:30.999 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:59:31.033 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:59:31.044 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-11 10:59:31.119 +03:00 [INF] Executed ViewResult - view Index executed in 77.1953ms.
+2024-05-11 10:59:31.124 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 90.2082ms
+2024-05-11 10:59:31.124 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-11 10:59:31.128 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 165.3777ms
+2024-05-11 10:59:31.257 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/map.svg - null null
+2024-05-11 10:59:31.257 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-11 10:59:31.264 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-11 10:59:31.283 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-11 10:59:31.283 +03:00 [INF] Sending file. Request path: '/image/map.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\map.svg'
+2024-05-11 10:59:31.283 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-11 10:59:31.284 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/map.svg - 499 417 image/svg+xml 27.3556ms
+2024-05-11 10:59:31.284 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 499 2198 image/png 22.4003ms
+2024-05-11 10:59:31.285 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 499 995 image/png 28.0559ms
+2024-05-11 10:59:34.100 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Home/Catalog? - null null
+2024-05-11 10:59:34.102 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:59:34.105 +03:00 [INF] Route matched with {action = "Catalog", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Catalog() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-11 10:59:34.106 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog.
+2024-05-11 10:59:34.106 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb) in 1.4035ms
+2024-05-11 10:59:34.106 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Catalog (CourseWorkWeb)'
+2024-05-11 10:59:34.107 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Home/Catalog? - 302 0 null 6.2412ms
+2024-05-11 10:59:34.122 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Catalog - null null
+2024-05-11 10:59:34.124 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Catalog - 404 0 null 2.5027ms
+2024-05-11 10:59:34.125 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Catalog, Response status code: 404
