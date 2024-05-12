@@ -2089,3 +2089,157 @@
 2024-05-12 15:51:03.850 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 17.6886ms
 2024-05-12 15:51:03.850 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
 2024-05-12 15:51:03.850 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 25.6765ms
+2024-05-12 15:54:07.620 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-12 15:54:07.643 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 15:54:07.643 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-12 15:54:07.643 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 15:54:07.645 +03:00 [INF] Executed ViewResult - view Index executed in 1.6345ms.
+2024-05-12 15:54:07.645 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 1.9136ms
+2024-05-12 15:54:07.645 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 15:54:07.645 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 27.2876ms
+2024-05-12 16:03:27.965 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-12 16:03:28.108 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-12 16:03:28.115 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-12 16:03:28.115 +03:00 [INF] Hosting environment: Development
+2024-05-12 16:03:28.115 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-12 16:03:28.317 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-12 16:03:28.327 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-12 16:03:28.349 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 16:03:28.380 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-12 16:03:28.390 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 16:03:28.462 +03:00 [INF] Executed ViewResult - view Index executed in 73.5063ms.
+2024-05-12 16:03:28.469 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 88.6329ms
+2024-05-12 16:03:28.469 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 16:03:28.473 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 157.4738ms
+2024-05-12 16:03:28.560 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-12 16:03:28.566 +03:00 [INF] The file /css/cite.css was not modified
+2024-05-12 16:03:28.568 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 304 null text/css 7.219ms
+2024-05-12 16:03:30.148 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-12 16:03:30.153 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 16:03:30.155 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-12 16:03:30.157 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 16:03:30.171 +03:00 [INF] Executed ViewResult - view Index executed in 15.6162ms.
+2024-05-12 16:03:30.172 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 16.2992ms
+2024-05-12 16:03:30.172 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 16:03:30.172 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 24.14ms
+2024-05-12 16:03:30.255 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/close.png - null null
+2024-05-12 16:03:30.256 +03:00 [INF] The file /image/close.png was not modified
+2024-05-12 16:03:30.257 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/close.png - 304 null image/png 1.319ms
+2024-05-12 16:03:32.303 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-12 16:03:32.304 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 16:03:32.304 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-12 16:03:32.305 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 16:03:32.307 +03:00 [INF] Executed ViewResult - view Index executed in 2.0153ms.
+2024-05-12 16:03:32.307 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 2.3818ms
+2024-05-12 16:03:32.307 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 16:03:32.307 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 4.0959ms
+2024-05-12 16:03:35.490 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-12 16:03:35.491 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 16:03:35.491 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-12 16:03:35.492 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 16:03:35.493 +03:00 [INF] Executed ViewResult - view Index executed in 1.1307ms.
+2024-05-12 16:03:35.493 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 1.3995ms
+2024-05-12 16:03:35.493 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 16:03:35.493 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 2.769ms
+2024-05-12 16:03:36.276 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-12 16:03:36.277 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 16:03:36.277 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-12 16:03:36.277 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 16:03:36.278 +03:00 [INF] Executed ViewResult - view Index executed in 0.7229ms.
+2024-05-12 16:03:36.278 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 0.9022ms
+2024-05-12 16:03:36.278 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 16:03:36.278 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 1.9032ms
+2024-05-12 16:03:36.520 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
+2024-05-12 16:03:36.528 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-12 16:03:36.528 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 499 1617 image/x-icon 7.9425ms
+2024-05-12 16:04:13.203 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-12 16:04:13.361 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-12 16:04:13.366 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-12 16:04:13.367 +03:00 [INF] Hosting environment: Development
+2024-05-12 16:04:13.367 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-12 16:04:13.644 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-12 16:04:13.656 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-12 16:04:13.681 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 16:04:13.719 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-12 16:04:13.730 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 16:04:13.823 +03:00 [INF] Executed ViewResult - view Index executed in 94.2194ms.
+2024-05-12 16:04:13.828 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 108.1636ms
+2024-05-12 16:04:13.829 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 16:04:13.833 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 190.5013ms
+2024-05-12 16:51:20.994 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-12 16:51:21.003 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 16:51:21.005 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-12 16:51:21.007 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 16:51:21.021 +03:00 [INF] Executed ViewResult - view Index executed in 15.2525ms.
+2024-05-12 16:51:21.021 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 15.9319ms
+2024-05-12 16:51:21.021 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 16:51:21.022 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 27.7328ms
+2024-05-12 16:51:21.092 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-12 16:51:21.110 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-12 16:51:21.110 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 200 22477 text/css 18.2691ms
+2024-05-12 16:51:21.154 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/close.png - null null
+2024-05-12 16:51:21.161 +03:00 [INF] Sending file. Request path: '/image/close.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\close.png'
+2024-05-12 16:51:21.161 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/close.png - 499 10571 image/png 7.3745ms
+2024-05-12 16:51:25.120 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-12 16:51:25.122 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 16:51:25.122 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-12 16:51:25.123 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 16:51:25.124 +03:00 [INF] Executed ViewResult - view Index executed in 1.0224ms.
+2024-05-12 16:51:25.124 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 1.2276ms
+2024-05-12 16:51:25.124 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 16:51:25.124 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3.5809ms
+2024-05-12 16:51:25.207 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/close.png - null null
+2024-05-12 16:51:25.208 +03:00 [INF] Sending file. Request path: '/image/close.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\close.png'
+2024-05-12 16:51:25.208 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/close.png - 499 10571 image/png 1.6612ms
+2024-05-12 16:51:28.676 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-12 16:51:28.677 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 16:51:28.677 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-12 16:51:28.677 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 16:51:28.678 +03:00 [INF] Executed ViewResult - view Index executed in 0.6888ms.
+2024-05-12 16:51:28.678 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 0.8805ms
+2024-05-12 16:51:28.678 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 16:51:28.678 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 1.9448ms
+2024-05-12 16:51:28.716 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-12 16:51:28.723 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-12 16:51:28.725 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 499 22477 text/css 9.2966ms
+2024-05-12 17:09:19.675 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-12 17:09:19.820 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-12 17:09:19.822 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-12 17:09:19.823 +03:00 [INF] Hosting environment: Development
+2024-05-12 17:09:19.823 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-12 17:09:20.048 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-12 17:09:20.059 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-12 17:09:20.083 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 17:09:20.118 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-12 17:09:20.128 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 17:09:20.231 +03:00 [INF] Executed ViewResult - view Index executed in 101.8744ms.
+2024-05-12 17:09:20.238 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 118.6698ms
+2024-05-12 17:09:20.238 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-12 17:09:20.241 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 195.2051ms
+2024-05-12 17:09:20.340 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-12 17:09:20.346 +03:00 [INF] The file /css/cite.css was not modified
+2024-05-12 17:09:20.347 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 304 null text/css 6.484ms
+2024-05-12 17:09:22.106 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-12 17:09:22.111 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 17:09:22.113 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-12 17:09:22.114 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 17:09:22.146 +03:00 [INF] Executed ViewResult - view Index executed in 32.395ms.
+2024-05-12 17:09:22.146 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 33.0457ms
+2024-05-12 17:09:22.146 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 17:09:22.146 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 39.8335ms
+2024-05-12 17:14:40.687 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-12 17:14:40.692 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 17:14:40.693 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-12 17:14:40.693 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 17:14:40.694 +03:00 [INF] Executed ViewResult - view Index executed in 1.3741ms.
+2024-05-12 17:14:40.694 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 1.6411ms
+2024-05-12 17:14:40.695 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 17:14:40.695 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 8.0311ms
+2024-05-12 17:14:47.739 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-12 17:14:47.739 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 17:14:47.739 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-12 17:14:47.740 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-12 17:14:47.741 +03:00 [INF] Executed ViewResult - view Index executed in 1.3002ms.
+2024-05-12 17:14:47.741 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 1.592ms
+2024-05-12 17:14:47.741 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-12 17:14:47.743 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 4.5189ms
