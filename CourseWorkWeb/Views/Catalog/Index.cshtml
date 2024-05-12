@@ -63,32 +63,127 @@
             <img src="image/close.png" alt="Back">
         </button>
     </div>
-    <div class="Container"></div>
-        
-  <!-- <footer>
-    <div class="footer-content">
-        <div class="footer-section about">
-            <h3>About Us</h3>
-            <p>We care about your health and well-being. Your health is our priority.</p>
-        </div>
-        <div class="footer-section contact">
-            <h3>Contacts</h3>
-            <p>Tell: 0961488148</p>
-            <p>Email: TabletkiAptUA@gmail.com</p>
-        </div>
-        <div class="footer-section links">
-            <h3>Links</h3>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </div>
     </div>
-    <div class="footer-bottom">
-        &copy; 2024 TabletsAptUA. All rights reserved.
+
+
+<div class="СContainer">
+
+<div class="Category">
+
+        <button class="CatalogCategoryTitle">
+           <p>Medicine</p>
+           <img src="image/pill.svg">
+           <img src="image/lines.png">
+        </button>
+
+        <div class="CatalogMedicineList">
+           
+            @foreach (var medicine in Model.Take(8).Where(m => m.GetType() == typeof(Medicine)))
+{
+     <button class="CatalogCard">  
+        <img src="@medicine.Photo.Url" alt="foto">
+        <div class="CatalogMedicineWords">
+            <p class="wp">@medicine.Name</p>
+            <p>@medicine.Description</p>
+            <p>@medicine.Cost грн</p> 
+        </div>
+    </button>
+}
     </div>
-</footer>-->
+</div>
+<div class="Category">
+
+        <button class="CatalogCategoryTitle">
+           <p>Vitamins</p>
+           <img src="image/mpills.svg">
+           <img src="image/lines.png">
+        </button>
+
+        <div class="CatalogMedicineList">
+           
+             @foreach (var vitamins in Model.Take(8).Where(m => m.GetType() == typeof(Vitamins)))
+{
+     <button class="CatalogCard">  
+        <img src="@medicine.Photo.Url" alt="foto">
+        <div class="CatalogMedicineWords">
+            <p class="wp">@medicine.Name</p>
+            <p>@medicine.Description</p>
+            <p>@medicine.Cost грн</p> 
+        </div>
+    </button>
+}
+    </div>
+</div>
+<div class="Category">
+
+        <button class="CatalogCategoryTitle">
+           <p>Hygiene</p>
+            <img src="image/hygiene.svg">
+            <img src="image/lines.png">
+        </button>
+
+        <div class="CatalogMedicineList">
+           
+              @foreach (var hygiene in Model.Take(8).Where(m => m.GetType() == typeof(Hygiene)))
+{
+     <button class="CatalogCard">  
+        <img src="@medicine.Photo.Url" alt="foto">
+        <div class="CatalogMedicineWords">
+            <p class="wp">@medicine.Name</p>
+            <p>@medicine.Description</p>
+            <p>@medicine.Cost грн</p> 
+        </div>
+    </button>
+}
+    </div>
+</div>
+<div class="Category">
+
+        <button class="CatalogCategoryTitle">
+           <p>Makeup</p>
+           <img src="image/makeup.svg">
+           <img src="image/lines.png">
+        </button>
+
+        <div class="CatalogMedicineList">
+           
+              @foreach (var makeup in Model.Take(8).Where(m => m.GetType() == typeof(Makeup)))
+{
+     <button class="CatalogCard">  
+        <img src="@medicine.Photo.Url" alt="foto">
+        <div class="CatalogMedicineWords">
+            <p class="wp">@medicine.Name</p>
+            <p>@medicine.Description</p>
+            <p>@medicine.Cost грн</p> 
+        </div>
+    </button>
+}
+    </div>
+</div>
+<div class="Category">
+
+        <button class="CatalogCategoryTitle">
+           <p>For Children's</p>
+           <img src="image/toy.svg">
+           <img src="image/lines.png">
+        </button>
+
+        <div class="CatalogMedicineList">
+           
+        @foreach (var for_Children in Model.Take(8).Where(m => m.GetType() == typeof(For_Children)))
+{
+     <button class="CatalogCard">  
+        <img src="@medicine.Photo.Url" alt="foto">
+        <div class="CatalogMedicineWords">
+            <p class="wp">@medicine.Name</p>
+            <p>@medicine.Description</p>
+            <p>@medicine.Cost грн</p> 
+        </div>
+    </button>
+}
+    </div>
+</div>
+</div>
+
 </body>
 </html>

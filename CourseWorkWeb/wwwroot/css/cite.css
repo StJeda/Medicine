@@ -430,7 +430,7 @@
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     background: rgb(35,154,35);
-background: radial-gradient(circle, rgba(35,154,35,1) 16%, rgba(35,147,35,1) 37%, rgba(34,142,34,1) 48%, rgba(34,139,34,1) 63%, rgba(38,140,34,1) 68%, rgba(41,140,34,1) 90%, rgba(65,145,35,1) 100%);
+    background: radial-gradient(circle, rgba(35,154,35,1) 16%, rgba(35,147,35,1) 37%, rgba(34,142,34,1) 48%, rgba(34,139,34,1) 63%, rgba(38,140,34,1) 68%, rgba(41,140,34,1) 90%, rgba(65,145,35,1) 100%);
     cursor: pointer;
 }
 .Content .PropozitionButtons button img{
@@ -623,6 +623,7 @@ background: radial-gradient(circle, rgba(35,154,35,1) 16%, rgba(35,147,35,1) 37%
 footer{
     color: #cccccc;
     flex-basis: 30%; 
+    bottom: 0;
     background: linear-gradient(0deg, rgba(23,68,17,1) 32%, rgba(27,80,20,1) 63%, rgba(29,87,22,1) 97%);
     
 }
@@ -846,13 +847,14 @@ footer .footer-bottom {
     list-style: none;
     position: relative; /* Добавлено для позиционирования подменю */ 
     padding: 0%;
-     transition: background-color 0.3s ease;
+    margin: 0;
+    transition: background-color 0.3s ease;
 }
 .CND button:last-child{
     background: radial-gradient(circle, rgba(53,173,37,1) 30%, rgba(54,184,36,1) 100%, rgba(53,177,37,1) 100%);
     margin-top: 0;
     border-radius: 20px;
-     margin-top: 1vh;
+    margin-top: 1vh;
 }
 .CND button:last-child:hover {
    
@@ -861,6 +863,7 @@ footer .footer-bottom {
 .CND button p{
     font-size: 2vh; 
     margin: 0px;
+    padding:0px
 }
 
 .CND button img{height: 4vh; width:2vw; }
@@ -869,6 +872,83 @@ footer .footer-bottom {
 
 }
 
-.Container{ 
+.СContainer{ 
     flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+  
+}
+.Category{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    height: auto;
+    width: auto; 
+    margin-left: 1.5vw; 
+    margin-right: 1.5vw;
+}
+
+.Category .CatalogCategoryTitle{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    background: radial-gradient(circle, rgba(35,154,35,1) 16%, rgba(35,147,35,1) 37%, rgba(34,142,34,1) 48%, rgba(34,139,34,1) 63%, rgba(38,140,34,1) 68%, rgba(41,140,34,1) 90%, rgba(65,145,35,1) 100%);
+
+}
+.Category .CatalogCategoryTitle p{
+  font-size: 4vh;
+  margin: 0;
+  margin-left: 1.5vw;
+  color: white;
+}
+.Category .CatalogMedicineList {
+    flex-basis: 80%;
+    display: flex;
+    padding: 1vh;
+    flex-direction: row;
+}
+.Category .CatalogMedicineList .CatalogCard {
+    flex-basis: 10%;
+    border: 2px solid #449223;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.325);
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Category .CatalogMedicineList .CatalogCard:hover {
+    background: rgba(0, 0, 0, 0); /* Убираем подсветку при наведении */
+}
+
+.CatalogCard  img {
+    flex-basis: 60%;
+    width: 5vw;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.CatalogCard  .CatalogMedicineWords{
+    flex-basis: 40%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+}
+
+.CatalogCard .CatalogMedicineWords .wp{
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin: 0;}
+
+.CatalogCard  .CatalogMedicineWords p{
+    margin: 0;
+    font-size: 2vh;
 }
