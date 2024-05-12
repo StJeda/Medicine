@@ -1,4 +1,10 @@
-﻿@{
+﻿@using CourseWorkWeb.DAL.Context
+@using CourseWorkWeb.DAL.Repositories
+@using CourseWorkWeb.Models.Entity.Medicines
+@using Microsoft.AspNetCore.Mvc.Routing
+@model IEnumerable<Medicine>
+
+@{
     ViewData["Title"] = "Catalog";
 }
 <!DOCTYPE html>
@@ -73,21 +79,30 @@
         <button class="CatalogCategoryTitle">
            <p>Medicine</p>
            <img src="image/pill.svg">
-           <img src="image/lines.png">
+       
         </button>
 
         <div class="CatalogMedicineList">
-           
-            @foreach (var medicine in Model.Take(8).Where(m => m.GetType() == typeof(Medicine)))
-{
-     <button class="CatalogCard">  
-        <img src="@medicine.Photo.Url" alt="foto">
-        <div class="CatalogMedicineWords">
-            <p class="wp">@medicine.Name</p>
-            <p>@medicine.Description</p>
-            <p>@medicine.Cost грн</p> 
-        </div>
-    </button>
+
+                @if (Model != null)
+                {
+                    @foreach (var item in Model.ToList())
+                    {
+
+                        <button class="CatalogCard">
+                            <img src=@item.Photo alt="foto">
+                            <div class="CatalogMedicineWords">
+                                <p class="wp">@item.Name</p>
+                                <p>@item.Description</p>
+                                <p>@item.Cost грн</p>
+                            </div>
+                        </button>
+                    }
+                }
+                else
+                {
+                    <p>No data available</p>
+                }
 }
     </div>
 </div>
@@ -96,21 +111,30 @@
         <button class="CatalogCategoryTitle">
            <p>Vitamins</p>
            <img src="image/mpills.svg">
-           <img src="image/lines.png">
+       
         </button>
 
         <div class="CatalogMedicineList">
-           
-             @foreach (var vitamins in Model.Take(8).Where(m => m.GetType() == typeof(Vitamins)))
-{
-     <button class="CatalogCard">  
-        <img src="@medicine.Photo.Url" alt="foto">
-        <div class="CatalogMedicineWords">
-            <p class="wp">@medicine.Name</p>
-            <p>@medicine.Description</p>
-            <p>@medicine.Cost грн</p> 
-        </div>
-    </button>
+
+                @if (Model != null)
+                {
+                    @foreach (var item in Model.ToList())
+                    {
+
+                        <button class="CatalogCard">
+                            <img src=@item.Photo alt="foto">
+                            <div class="CatalogMedicineWords">
+                                <p class="wp">@item.Name</p>
+                                <p>@item.Description</p>
+                                <p>@item.Cost грн</p>
+                            </div>
+                        </button>
+                    }
+                }
+                else
+                {
+                    <p>No data available</p>
+                }
 }
     </div>
 </div>
@@ -123,18 +147,27 @@
         </button>
 
         <div class="CatalogMedicineList">
-           
-              @foreach (var hygiene in Model.Take(8).Where(m => m.GetType() == typeof(Hygiene)))
-{
-     <button class="CatalogCard">  
-        <img src="@medicine.Photo.Url" alt="foto">
-        <div class="CatalogMedicineWords">
-            <p class="wp">@medicine.Name</p>
-            <p>@medicine.Description</p>
-            <p>@medicine.Cost грн</p> 
-        </div>
-    </button>
-}
+
+                @if (Model != null)
+                {
+                    @foreach (var item in Model.ToList())
+                    {
+
+                        <button class="CatalogCard">
+                            <img src=@item.Photo alt="foto">
+                            <div class="CatalogMedicineWords">
+                                <p class="wp">@item.Name</p>
+                                <p>@item.Description</p>
+                                <p>@item.Cost грн</p>
+                            </div>
+                        </button>
+                    }
+                }
+                else
+                {
+                    <p>No data available</p>
+                }
+    }
     </div>
 </div>
 <div class="Category">
@@ -142,22 +175,30 @@
         <button class="CatalogCategoryTitle">
            <p>Makeup</p>
            <img src="image/makeup.svg">
-           <img src="image/lines.png">
+
         </button>
 
         <div class="CatalogMedicineList">
-           
-              @foreach (var makeup in Model.Take(8).Where(m => m.GetType() == typeof(Makeup)))
-{
-     <button class="CatalogCard">  
-        <img src="@medicine.Photo.Url" alt="foto">
-        <div class="CatalogMedicineWords">
-            <p class="wp">@medicine.Name</p>
-            <p>@medicine.Description</p>
-            <p>@medicine.Cost грн</p> 
-        </div>
-    </button>
-}
+
+                @if (Model != null)
+                {
+                    @foreach (var item in Model.ToList())
+                    {
+
+                        <button class="CatalogCard">
+                            <img src=@item.Photo alt="foto">
+                            <div class="CatalogMedicineWords">
+                                <p class="wp">@item.Name</p>
+                                <p>@item.Description</p>
+                                <p>@item.Cost грн</p>
+                            </div>
+                        </button>
+                    }
+                }
+                else
+                {
+                    <p>No data available</p>
+                }
     </div>
 </div>
 <div class="Category">
@@ -169,21 +210,25 @@
         </button>
 
         <div class="CatalogMedicineList">
-           
-        @foreach (var for_Children in Model.Take(8).Where(m => m.GetType() == typeof(For_Children)))
-{
-     <button class="CatalogCard">  
-        <img src="@medicine.Photo.Url" alt="foto">
-        <div class="CatalogMedicineWords">
-            <p class="wp">@medicine.Name</p>
-            <p>@medicine.Description</p>
-            <p>@medicine.Cost грн</p> 
-        </div>
-    </button>
-}
-    </div>
-</div>
-</div>
+           @if (Model != null)
+            {
+        @foreach (var item in Model.ToList()) {
 
+        <button class="CatalogCard">  
+         <img src=@item.Photo alt="foto">
+            <div class="CatalogMedicineWords">
+                <p class="wp">@item.Name</p>
+                <p>@item.Description</p>
+                <p>@item.Cost грн</p> 
+            </div>
+        </button>
+                    }
+        }
+        else {
+            <p>No data available</p>
+        }
+            </div>
+</div>
+</div>
 </body>
 </html>

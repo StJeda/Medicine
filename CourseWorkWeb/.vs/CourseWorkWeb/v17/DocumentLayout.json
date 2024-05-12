@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\views\\catalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\catalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\dal\\migrations\\20240510193435_initialcreate4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\migrations\\20240510193435_initialcreate4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\dal\\migrations\\20240510040726_initialcreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\migrations\\20240510040726_initialcreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\dal\\migrations\\20240510013216_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\migrations\\20240510013216_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\dal\\migrations\\20240510013049_initialcreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\migrations\\20240510013049_initialcreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\views\\home\\_master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\home\\_master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,14 +59,6 @@
       "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\views\\catalog\\catolog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\catalog\\catolog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,12 +67,8 @@
       "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\courseworkor1\\medicine\\courseworkweb\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Catalog\\Catolog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,14 +83,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T08:21:53.836Z"
+              "WhenOpened": "2024-05-12T15:55:11.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240510193435_InitialCreate4.cs",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510193435_InitialCreate4.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20240510193435_InitialCreate4.cs",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510193435_InitialCreate4.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20240510193435_InitialCreate4.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:08:44.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Catalog\\Index.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Index.cshtml",
+              "RelativeToolTip": "Views\\Catalog\\Index.cshtml",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAAMgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T14:32:56.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatalogController.cs",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CatalogController.cs",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
+              "RelativeToolTip": "Controllers\\CatalogController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:07:22.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Layout.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\_Layout.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T06:43:05.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
@@ -70,24 +159,90 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T08:17:16.437Z"
+              "WhenOpened": "2024-05-11T08:17:16.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "20240510040726_InitialCreate3.cs",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510040726_InitialCreate3.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20240510040726_InitialCreate3.cs",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510040726_InitialCreate3.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20240510040726_InitialCreate3.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:08:49.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-12T14:42:32.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240510013216_InitialCreate2.cs",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510013216_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20240510013216_InitialCreate2.cs",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510013216_InitialCreate2.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20240510013216_InitialCreate2.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:08:51.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240510013049_InitialCreate1.cs",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510013049_InitialCreate1.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20240510013049_InitialCreate1.cs",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510013049_InitialCreate1.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20240510013049_InitialCreate1.cs",
+              "ViewState": "AQIAAK0BAAAAAAAAAAAmwMUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:08:54.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Master.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Home\\_Master.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\_Master.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Home\\_Master.cshtml",
+              "RelativeToolTip": "Views\\Home\\_Master.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T14:37:47.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-11T08:17:06.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -99,7 +254,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T08:21:53.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -111,19 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Pages\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\_Layout.cshtml",
-              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Pages\\_Layout.cshtml",
-              "RelativeToolTip": "Pages\\_Layout.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T06:43:05.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "Catolog.cshtml",
               "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml",
               "RelativeDocumentMoniker": "Views\\Catalog\\Catolog.cshtml",
@@ -135,19 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CatalogController.cs",
-              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CatalogController.cs",
-              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
-              "RelativeToolTip": "Controllers\\CatalogController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T06:07:22.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -156,10 +299,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-24T11:21:19.06Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

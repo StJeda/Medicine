@@ -1,22 +1,17 @@
 ﻿using CourseWorkWeb.Core.CQRS.Medicines.Queries;
+using CourseWorkWeb.Models.Entity.Medicines;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CourseWorkWeb.Controllers
 {
-    public class MadicineController(ISender sender):Controller
+    public class CatalogController(ISender sender):Controller
     {
         private readonly ISender _sender = sender;
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var medicines = await _sender.Send(new GetMedicinesQuery());
+            return View(medicines);
         }
-        public async Task<ActionResult> GetAllMedicines()
-        {
-            var medicine = await _sender.Send(new GetMedicinesQuery());
-            return View(medicine);
-            
-        }
-        
     }
 }
