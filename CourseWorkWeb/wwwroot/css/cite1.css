@@ -916,6 +916,7 @@ footer .footer-bottom {
     border: none;
     width: 90%;
 }
+.Category .CatalogCategoryTitle img{width: 5vh;}
 
 .Category .CatalogCategoryTitle p{
   font-size: 4vh;

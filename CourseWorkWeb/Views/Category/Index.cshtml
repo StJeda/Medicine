@@ -1,0 +1,66 @@
+@using CourseWorkWeb.DAL.Context
+@using CourseWorkWeb.DAL.Repositories
+@using CourseWorkWeb.Models.Entity.Medicines
+@using Microsoft.AspNetCore.Mvc.Routing
+@model IEnumerable<Medicine>
+ @{
+    ViewData["Title"] = "Category";
+}
+
+<link rel="stylesheet" type="text/css" href="~/css/cite1.css" />
+ <div class="CHeader">
+        <div class="CNT">
+            <div class="Clogo">
+                <img class="CimgLogo"  src="~/image/logo.png">
+                <div class="CAptecaName">
+                <p>Tabletki</p>
+                <p>APT.UA</p>
+            </div>
+            </div>
+            <form class="CSearchField">
+                <button class="CCatalog">
+                    <img src="~/image/lines.png">
+                    <p>Catologe</p>
+                    
+                </button>
+                <div class="CInputBorder">
+                    <input type="text" placeholder="Searching...">
+                    <button class="CSerch" ><img src="~/image/search.png"></button>
+                </div>
+            </form>
+            <div class="CHelpField">
+            <button class="CHelpFieldButton"> <img src="~/image/mag.png"></button>
+            <button class="CHelpFieldButton"> <img src="~/image/person.png"></button>
+            <button class="CHelpFieldButton"> <img src="~/image/phone.png"></button>
+        </div>
+        </div>
+        <div class="CND">
+        <button>
+            <p>Medicine</p>
+            <img src="image/pill.svg" alt="Medicine">
+        </button>
+        <button>
+            <p>Vitamins</p>
+            <img src="image/mpills.svg" alt="Vitamins">
+        </button>
+        <button>
+            <p>Hygiene</p>
+            <img src="image/hygiene.svg" alt="Hygiene">
+        </button>
+        <button>
+            <p>Makeup</p>
+            <img src="image/makeup.svg" alt="Makeup">
+        </button>
+        <button>
+            <p>For Children's</p>
+            <img src="image/toy.svg" alt="For Children's">
+        </button>
+         <button>
+            <p>Back</p>
+            <img src="image/close.png" alt="Back">
+        </button>
+    </div>
+    </div>
+    <div class=СContainer>
+        <p>@ViewBag.Word</p>
+    </div>

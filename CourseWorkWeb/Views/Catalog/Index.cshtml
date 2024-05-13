@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"]</title>
     <link rel="shortcut icon" type="image/ico" href="~/image/icon.ico" />
-    <link rel="stylesheet" type="text/css" href="~/css/cite.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/cite1.css" />
 </head>
 <body class="Cmain">
     <div class="CHeader">
@@ -73,48 +73,15 @@
 
 
 <div class="СContainer">
-
-<div class="Category">
-
-        <button class="CatalogCategoryTitle">
-           <p>Medicine</p>
-           <img src="image/pill.svg">
-       
-        </button>
-
-        <div class="CatalogMedicineList">
-
-                @if (Model != null)
-                {
-                    @foreach (var item in Model.ToList())
-                    {
-
-                        <button class="CatalogCard">
-                            <img src=@item.Photo alt="foto">
-                            <div class="CatalogMedicineWords">
-                                <p class="wp">@item.Name</p>
-                                <p>@item.Description</p>
-                                <p>@item.Cost грн</p>
-                            </div>
-                        </button>
-                    }
-                }
-                else
-                {
-                    <p>No data available</p>
-                }
-}
-    </div>
-</div>
-<div class="Category">
-
-        <button class="CatalogCategoryTitle">
-           <p>Vitamins</p>
-           <img src="image/mpills.svg">
-       
-        </button>
-
-        <div class="CatalogMedicineList">
+  <div class=Category>
+    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Medicine" method="POST"  >
+              <input type="hidden" name="word" value="Medicine">
+              <button class="ButtonTitles" type="submit">
+              <p>Medicine</p>
+              <img src="image/pill.svg">
+            </button>
+   </form>
+       <div class="CatalogMedicineList">
 
                 @if (Model != null)
                 {
@@ -135,50 +102,17 @@
                 {
                     <p>No data available</p>
                 }
-}
-    </div>
-</div>
-<div class="Category">
-
-        <button class="CatalogCategoryTitle">
-           <p>Hygiene</p>
-            <img src="image/hygiene.svg">
-            <img src="image/lines.png">
-        </button>
-
-        <div class="CatalogMedicineList">
-
-                @if (Model != null)
-                {
-                    @foreach (var item in Model.ToList())
-                    {
-
-                        <button class="CatalogCard">
-                            <img src=@item.Photo alt="foto">
-                            <div class="CatalogMedicineWords">
-                                <p class="wp">@item.Name</p>
-                                <p>@item.Description</p>
-                                <p>@item.Cost грн</p>
-                            </div>
-                        </button>
-                    }
-                }
-                else
-                {
-                    <p>No data available</p>
-                }
-    }
-    </div>
-</div>
-<div class="Category">
-
-        <button class="CatalogCategoryTitle">
-           <p>Makeup</p>
-           <img src="image/makeup.svg">
-
-        </button>
-
-        <div class="CatalogMedicineList">
+    </div>     
+</div>  
+  <div class=Category>
+    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Medicine" method="POST"  >
+              <input type="hidden" name="word" value="Medicine">
+              <button class="ButtonTitles" type="submit">
+              <p>Vitamins</p>
+              <img src="image/mpills.svg">
+            </button>
+   </form>
+       <div class="CatalogMedicineList">
 
                 @if (Model != null)
                 {
@@ -199,36 +133,103 @@
                 {
                     <p>No data available</p>
                 }
-    </div>
-</div>
-<div class="Category">
+    </div>     
+</div> 
+  <div class=Category>
+    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Medicine" method="POST"  >
+              <input type="hidden" name="word" value="Medicine">
+              <button class="ButtonTitles" type="submit">
+              <p>Hygiene</p>
+              <img src="image/hygiene.svg">
+            </button>
+   </form>
+       <div class="CatalogMedicineList">
 
-        <button class="CatalogCategoryTitle">
-           <p>For Children's</p>
-           <img src="image/toy.svg">
-           <img src="image/lines.png">
-        </button>
+                @if (Model != null)
+                {
+                    @foreach (var item in Model.ToList())
+                    {
 
-        <div class="CatalogMedicineList">
-           @if (Model != null)
-            {
-        @foreach (var item in Model.ToList()) {
-
-        <button class="CatalogCard">  
-         <img src=@item.Photo alt="foto">
-            <div class="CatalogMedicineWords">
-                <p class="wp">@item.Name</p>
-                <p>@item.Description</p>
-                <p>@item.Cost грн</p> 
-            </div>
-        </button>
+                        <button class="CatalogCard">
+                            <img src=@item.Photo alt="foto">
+                            <div class="CatalogMedicineWords">
+                                <p class="wp">@item.Name</p>
+                                <p>@item.Description</p>
+                                <p>@item.Cost грн</p>
+                            </div>
+                        </button>
                     }
-        }
-        else {
-            <p>No data available</p>
-        }
-            </div>
+                }
+                else
+                {
+                    <p>No data available</p>
+                }
+    </div>     
+</div> 
+  <div class=Category>
+    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Medicine" method="POST"  >
+              <input type="hidden" name="word" value="Medicine">
+              <button class="ButtonTitles" type="submit">
+              <p>Makeup</p>
+              <img src="image/makeup.svg">
+            </button>
+   </form>
+       <div class="CatalogMedicineList">
+
+                @if (Model != null)
+                {
+                    @foreach (var item in Model.ToList())
+                    {
+
+                        <button class="CatalogCard">
+                            <img src=@item.Photo alt="foto">
+                            <div class="CatalogMedicineWords">
+                                <p class="wp">@item.Name</p>
+                                <p>@item.Description</p>
+                                <p>@item.Cost грн</p>
+                            </div>
+                        </button>
+                    }
+                }
+                else
+                {
+                    <p>No data available</p>
+                }
+    </div>     
+</div> 
+  <div class=Category>
+    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Medicine" method="POST"  >
+              <input type="hidden" name="word" value="Medicine">
+              <button class="ButtonTitles" type="submit">
+              <p>For Children's</p>
+              <img src="toy.svg">
+            </button>
+   </form>
+       <div class="CatalogMedicineList">
+
+                @if (Model != null)
+                {
+                    @foreach (var item in Model.ToList())
+                    {
+
+                        <button class="CatalogCard">
+                            <img src=@item.Photo alt="foto">
+                            <div class="CatalogMedicineWords">
+                                <p class="wp">@item.Name</p>
+                                <p>@item.Description</p>
+                                <p>@item.Cost грн</p>
+                            </div>
+                        </button>
+                    }
+                }
+                else
+                {
+                    <p>No data available</p>
+                }
+    </div>     
+</div> 
+
 </div>
-</div>
+
 </body>
 </html>
