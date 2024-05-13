@@ -1526,3 +1526,824 @@ FROM [Medicines] AS [m]
 2024-05-13 19:38:06.804 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 1.8769ms
 2024-05-13 19:38:06.804 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
 2024-05-13 19:38:06.805 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 3.0393ms
+2024-05-13 19:49:22.348 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 19:49:22.485 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 19:49:22.489 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 19:49:22.490 +03:00 [INF] Hosting environment: Development
+2024-05-13 19:49:22.490 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 19:49:22.591 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 19:49:22.613 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 19:49:22.651 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:49:22.676 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 19:49:22.677 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:49:22.689 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 19:49:22.689 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 19:49:22.728 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:49:22.827 +03:00 [INF] Executed ViewResult - view Index executed in 126.8635ms.
+2024-05-13 19:49:22.832 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 142.0557ms
+2024-05-13 19:49:22.832 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:49:22.842 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 165.4654ms
+2024-05-13 19:49:24.443 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 19:49:24.445 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:49:24.445 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 19:49:25.694 +03:00 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:49:25.820 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:49:25.849 +03:00 [INF] Executed ViewResult - view Index executed in 30.5039ms.
+2024-05-13 19:49:25.850 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 3160.5694ms
+2024-05-13 19:49:25.851 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:49:25.863 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3275.1924ms
+2024-05-13 19:49:25.889 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:49:25.889 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:49:25.891 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 19:49:25.892 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 3.3436ms
+2024-05-13 19:49:25.892 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 3.6677ms
+2024-05-13 19:49:25.894 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:49:25.894 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:49:25.913 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-13 19:49:25.913 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 200 22884 text/css 21.8652ms
+2024-05-13 19:49:25.990 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:49:25.991 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:49:25.991 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.6725ms
+2024-05-13 19:49:25.991 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:49:25.992 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.9831ms
+2024-05-13 19:49:25.992 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:49:26.339 +03:00 [INF] Executed DbCommand (157ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:49:26.340 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:49:26.342 +03:00 [INF] Executed ViewResult - view Index executed in 2.4874ms.
+2024-05-13 19:49:26.343 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 1897.3182ms
+2024-05-13 19:49:26.343 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:49:26.343 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 1900.7691ms
+2024-05-13 19:49:26.390 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:49:26.390 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:49:26.391 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.7944ms
+2024-05-13 19:49:26.391 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.8094ms
+2024-05-13 19:49:26.391 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:49:26.392 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:49:26.443 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:49:26.444 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 1.0168ms
+2024-05-13 19:49:26.444 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:49:26.445 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:49:26.445 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.4839ms
+2024-05-13 19:49:26.445 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:49:28.649 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medi - application/x-www-form-urlencoded 196
+2024-05-13 19:49:28.650 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:49:28.668 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 19:49:28.947 +03:00 [INF] Executed DbCommand (187ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:49:28.985 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:49:29.016 +03:00 [INF] Executed ViewResult - view Index executed in 31.4584ms.
+2024-05-13 19:49:29.016 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 347.5066ms
+2024-05-13 19:49:29.016 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:49:29.016 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medi - 200 null text/html; charset=utf-8 367.3689ms
+2024-05-13 19:50:20.944 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 19:50:21.094 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 19:50:21.098 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 19:50:21.098 +03:00 [INF] Hosting environment: Development
+2024-05-13 19:50:21.098 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 19:50:21.359 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 19:50:21.374 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 19:50:21.402 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:50:21.440 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 19:50:21.452 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:50:21.539 +03:00 [INF] Executed ViewResult - view Index executed in 88.1274ms.
+2024-05-13 19:50:21.546 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 104.8658ms
+2024-05-13 19:50:21.546 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:50:21.550 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 193.3722ms
+2024-05-13 19:50:22.800 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 19:50:22.805 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:50:22.814 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 19:50:25.702 +03:00 [INF] Executed DbCommand (210ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:50:25.814 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:50:25.842 +03:00 [INF] Executed ViewResult - view Index executed in 29.6827ms.
+2024-05-13 19:50:25.844 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 3029.7938ms
+2024-05-13 19:50:25.845 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:50:25.858 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3057.586ms
+2024-05-13 19:50:25.895 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:50:25.898 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:50:25.902 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 7.1093ms
+2024-05-13 19:50:25.902 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 4.3123ms
+2024-05-13 19:50:25.904 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:50:25.905 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:50:25.961 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:50:25.962 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.6393ms
+2024-05-13 19:50:25.962 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:50:27.578 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medi - application/x-www-form-urlencoded 196
+2024-05-13 19:50:27.578 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:50:27.589 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 19:50:27.664 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:50:27.692 +03:00 [INF] Executed ViewResult - view Index executed in 28.4341ms.
+2024-05-13 19:50:27.692 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 103.2348ms
+2024-05-13 19:50:27.692 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:50:27.693 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medi - 200 null text/html; charset=utf-8 114.92ms
+2024-05-13 19:52:04.693 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 19:52:04.822 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 19:52:04.825 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 19:52:04.825 +03:00 [INF] Hosting environment: Development
+2024-05-13 19:52:04.826 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 19:52:05.197 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 19:52:05.210 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 19:52:05.236 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:52:05.268 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 19:52:05.282 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:52:05.389 +03:00 [INF] Executed ViewResult - view Index executed in 108.5897ms.
+2024-05-13 19:52:05.396 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 126.7652ms
+2024-05-13 19:52:05.396 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:52:05.399 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 203.5972ms
+2024-05-13 19:52:06.505 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 19:52:06.510 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:52:06.517 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 19:52:09.436 +03:00 [INF] Executed DbCommand (226ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:52:09.544 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:52:09.570 +03:00 [INF] Executed ViewResult - view Index executed in 26.8411ms.
+2024-05-13 19:52:09.571 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 3054.2241ms
+2024-05-13 19:52:09.572 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:52:09.584 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3079.2682ms
+2024-05-13 19:52:09.620 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:52:09.623 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:52:09.629 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 8.4475ms
+2024-05-13 19:52:09.629 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 5.8143ms
+2024-05-13 19:52:09.630 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:52:09.630 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:52:09.682 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:52:09.683 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.7159ms
+2024-05-13 19:52:09.683 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:52:09.685 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:52:09.686 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.7713ms
+2024-05-13 19:52:09.686 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:52:10.865 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - application/x-www-form-urlencoded 196
+2024-05-13 19:52:10.865 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:52:10.876 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 19:52:11.095 +03:00 [INF] Executed DbCommand (172ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:52:11.135 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:52:11.164 +03:00 [INF] Executed ViewResult - view Index executed in 30.0211ms.
+2024-05-13 19:52:11.165 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 288.376ms
+2024-05-13 19:52:11.165 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:52:11.165 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - 200 null text/html; charset=utf-8 300.2899ms
+2024-05-13 19:52:13.632 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 19:52:13.633 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:52:13.633 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 19:52:13.634 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:52:13.636 +03:00 [INF] Executed ViewResult - view Index executed in 1.9929ms.
+2024-05-13 19:52:13.636 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 2.9329ms
+2024-05-13 19:52:13.636 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:52:13.637 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 4.6027ms
+2024-05-13 19:52:15.521 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 19:52:15.521 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:52:15.521 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 19:52:15.776 +03:00 [INF] Executed DbCommand (191ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:52:15.777 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:52:15.779 +03:00 [INF] Executed ViewResult - view Index executed in 2.2571ms.
+2024-05-13 19:52:15.779 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 257.9116ms
+2024-05-13 19:52:15.779 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:52:15.780 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 259.1504ms
+2024-05-13 19:52:15.820 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:52:15.820 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:52:15.821 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.4336ms
+2024-05-13 19:52:15.821 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:52:15.821 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.3814ms
+2024-05-13 19:52:15.822 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:52:15.898 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:52:15.898 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:52:15.899 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.472ms
+2024-05-13 19:52:15.899 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.5024ms
+2024-05-13 19:52:15.899 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:52:15.899 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:52:16.833 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medi - application/x-www-form-urlencoded 196
+2024-05-13 19:52:16.834 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:52:16.834 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 19:52:17.030 +03:00 [INF] Executed DbCommand (193ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:52:17.030 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:52:17.032 +03:00 [INF] Executed ViewResult - view Index executed in 1.9743ms.
+2024-05-13 19:52:17.033 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 198.6432ms
+2024-05-13 19:52:17.033 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:52:17.033 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medi - 200 null text/html; charset=utf-8 199.6292ms
+2024-05-13 19:54:15.317 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 19:54:15.449 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 19:54:15.451 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 19:54:15.452 +03:00 [INF] Hosting environment: Development
+2024-05-13 19:54:15.452 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 19:54:15.643 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 19:54:15.655 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 19:54:15.678 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:54:15.711 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 19:54:15.721 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:54:15.817 +03:00 [INF] Executed ViewResult - view Index executed in 96.3888ms.
+2024-05-13 19:54:15.821 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 109.569ms
+2024-05-13 19:54:15.821 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:54:15.824 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 182.3795ms
+2024-05-13 19:54:16.740 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 19:54:16.744 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:54:16.751 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 19:54:19.421 +03:00 [INF] Executed DbCommand (277ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:54:19.518 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:54:19.548 +03:00 [INF] Executed ViewResult - view Index executed in 30.7645ms.
+2024-05-13 19:54:19.549 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 2797.5021ms
+2024-05-13 19:54:19.550 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:54:19.559 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 2819.4413ms
+2024-05-13 19:54:19.605 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 19:54:19.614 +03:00 [INF] The file /css/cite1.css was not modified
+2024-05-13 19:54:19.616 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 304 null text/css 10.5452ms
+2024-05-13 19:54:19.617 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:54:19.620 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:54:19.626 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 9.1466ms
+2024-05-13 19:54:19.626 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 6.0147ms
+2024-05-13 19:54:19.627 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:54:19.627 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:54:22.000 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medi - application/x-www-form-urlencoded 196
+2024-05-13 19:54:22.000 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:54:22.010 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 19:54:22.218 +03:00 [INF] Executed DbCommand (152ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:54:22.270 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:54:22.296 +03:00 [INF] Executed ViewResult - view Index executed in 26.0475ms.
+2024-05-13 19:54:22.296 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 286.2411ms
+2024-05-13 19:54:22.296 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:54:22.296 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medi - 200 null text/html; charset=utf-8 296.4652ms
+2024-05-13 19:54:54.841 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 19:54:54.842 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:54:54.842 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 19:54:54.845 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:54:54.869 +03:00 [INF] Executed ViewResult - view Index executed in 24.1409ms.
+2024-05-13 19:54:54.869 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 26.0348ms
+2024-05-13 19:54:54.869 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 19:54:54.870 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 28.1083ms
+2024-05-13 19:54:57.008 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 19:54:57.009 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:54:57.009 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 19:54:57.262 +03:00 [INF] Executed DbCommand (188ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:54:57.263 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:54:57.266 +03:00 [INF] Executed ViewResult - view Index executed in 3.3901ms.
+2024-05-13 19:54:57.267 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 257.5079ms
+2024-05-13 19:54:57.267 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 19:54:57.267 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 259.3311ms
+2024-05-13 19:54:57.327 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:54:57.327 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:54:57.327 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.5234ms
+2024-05-13 19:54:57.327 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.5792ms
+2024-05-13 19:54:57.328 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:54:57.328 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:54:57.391 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 19:54:57.392 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 19:54:57.392 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.4553ms
+2024-05-13 19:54:57.392 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.478ms
+2024-05-13 19:54:57.392 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 19:54:57.392 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 19:55:01.935 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medi - application/x-www-form-urlencoded 196
+2024-05-13 19:55:01.936 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:55:01.936 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 19:55:02.122 +03:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 19:55:02.122 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 19:55:02.123 +03:00 [INF] Executed ViewResult - view Index executed in 0.7368ms.
+2024-05-13 19:55:02.123 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 186.6232ms
+2024-05-13 19:55:02.123 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 19:55:02.123 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medi - 200 null text/html; charset=utf-8 187.9808ms
+2024-05-13 20:09:04.188 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 20:09:04.333 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 20:09:04.336 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 20:09:04.337 +03:00 [INF] Hosting environment: Development
+2024-05-13 20:09:04.337 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 20:09:04.550 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 20:09:04.560 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 20:09:04.584 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:09:04.614 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 20:09:04.624 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:09:04.700 +03:00 [INF] Executed ViewResult - view Index executed in 76.4407ms.
+2024-05-13 20:09:04.705 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 90.4661ms
+2024-05-13 20:09:04.705 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:09:04.708 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 160.188ms
+2024-05-13 20:09:05.862 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 20:09:05.867 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:09:05.884 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 20:09:08.779 +03:00 [INF] Executed DbCommand (286ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:09:08.880 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:09:08.904 +03:00 [INF] Executed ViewResult - view Index executed in 25.9595ms.
+2024-05-13 20:09:08.906 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 3021.2391ms
+2024-05-13 20:09:08.906 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:09:08.917 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3054.8628ms
+2024-05-13 20:09:08.944 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 20:09:08.955 +03:00 [INF] The file /css/cite1.css was not modified
+2024-05-13 20:09:08.956 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 304 null text/css 12.429ms
+2024-05-13 20:09:08.957 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:09:08.960 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 20:09:08.968 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 7.2538ms
+2024-05-13 20:09:08.968 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 10.4077ms
+2024-05-13 20:09:08.969 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:09:08.969 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 20:09:09.033 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 20:09:09.033 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:09:09.033 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.4966ms
+2024-05-13 20:09:09.033 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.5654ms
+2024-05-13 20:09:09.034 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 20:09:09.034 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:09:15.294 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - application/x-www-form-urlencoded 196
+2024-05-13 20:09:15.294 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 20:09:15.307 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 20:09:15.506 +03:00 [INF] Executed DbCommand (157ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:09:15.510 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:09:15.536 +03:00 [INF] Executed ViewResult - view Index executed in 26.9821ms.
+2024-05-13 20:09:15.536 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 228.2232ms
+2024-05-13 20:09:15.536 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 20:09:15.536 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - 200 null text/html; charset=utf-8 242.5783ms
+2024-05-13 20:09:15.571 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:09:15.571 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.6375ms
+2024-05-13 20:09:15.572 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:09:15.621 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:09:15.621 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.5988ms
+2024-05-13 20:09:15.622 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:11:33.860 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 20:11:33.990 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 20:11:33.993 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 20:11:33.993 +03:00 [INF] Hosting environment: Development
+2024-05-13 20:11:33.993 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 20:11:34.229 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 20:11:34.241 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 20:11:34.263 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:11:34.295 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 20:11:34.306 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:11:34.388 +03:00 [INF] Executed ViewResult - view Index executed in 83.3188ms.
+2024-05-13 20:11:34.393 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 97.1937ms
+2024-05-13 20:11:34.393 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:11:34.397 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 170.7497ms
+2024-05-13 20:11:35.535 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 20:11:35.541 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:11:35.556 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 20:11:38.605 +03:00 [INF] Executed DbCommand (239ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:11:38.714 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:11:38.739 +03:00 [INF] Executed ViewResult - view Index executed in 25.6832ms.
+2024-05-13 20:11:38.740 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 3184.1053ms
+2024-05-13 20:11:38.741 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:11:38.752 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3216.9356ms
+2024-05-13 20:11:38.779 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 20:11:38.783 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:11:38.790 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 7.1562ms
+2024-05-13 20:11:38.790 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 11.1902ms
+2024-05-13 20:11:38.791 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:11:38.791 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 20:11:51.916 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - application/x-www-form-urlencoded 196
+2024-05-13 20:11:51.916 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 20:11:51.926 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 20:11:52.116 +03:00 [INF] Executed DbCommand (152ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:11:52.118 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:11:52.127 +03:00 [INF] Executed ViewResult - view Index executed in 9.7246ms.
+2024-05-13 20:11:52.128 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 201.311ms
+2024-05-13 20:11:52.128 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 20:11:52.129 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - 200 null text/html; charset=utf-8 213.0899ms
+2024-05-13 20:14:47.813 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 20:14:47.952 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 20:14:47.955 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 20:14:47.956 +03:00 [INF] Hosting environment: Development
+2024-05-13 20:14:47.956 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 20:14:48.198 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 20:14:48.210 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 20:14:48.233 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:14:48.263 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 20:14:48.273 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:14:48.345 +03:00 [INF] Executed ViewResult - view Index executed in 73.5012ms.
+2024-05-13 20:14:48.350 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 85.4549ms
+2024-05-13 20:14:48.350 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:14:48.353 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 156.7187ms
+2024-05-13 20:14:49.303 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 20:14:49.307 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:14:49.316 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 20:14:52.116 +03:00 [INF] Executed DbCommand (285ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:14:52.212 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:14:52.236 +03:00 [INF] Executed ViewResult - view Index executed in 24.7044ms.
+2024-05-13 20:14:52.237 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 2920.3421ms
+2024-05-13 20:14:52.237 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:14:52.248 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 2945.079ms
+2024-05-13 20:14:52.278 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 20:14:52.284 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:14:52.284 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 20:14:52.287 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 9.7387ms
+2024-05-13 20:14:52.287 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 5.7671ms
+2024-05-13 20:14:52.289 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 20:14:52.289 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:14:52.307 +03:00 [INF] The file /css/cite1.css was not modified
+2024-05-13 20:14:52.309 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 304 null text/css 25.286ms
+2024-05-13 20:14:52.334 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 20:14:52.334 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:14:52.335 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.5287ms
+2024-05-13 20:14:52.335 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.7256ms
+2024-05-13 20:14:52.335 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:14:52.335 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 20:14:54.251 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - application/x-www-form-urlencoded 196
+2024-05-13 20:14:54.252 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 20:14:54.262 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 20:14:54.490 +03:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:14:54.495 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:14:54.514 +03:00 [INF] Executed ViewResult - view Index executed in 20.1782ms.
+2024-05-13 20:14:54.514 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 252.0451ms
+2024-05-13 20:14:54.515 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 20:14:54.515 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - 200 null text/html; charset=utf-8 263.8893ms
+2024-05-13 20:48:03.284 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 20:48:03.462 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 20:48:03.471 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 20:48:03.472 +03:00 [INF] Hosting environment: Development
+2024-05-13 20:48:03.472 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 20:48:03.735 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 20:48:03.745 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 20:48:03.769 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:48:03.804 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 20:48:03.815 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:48:03.891 +03:00 [INF] Executed ViewResult - view Index executed in 77.7858ms.
+2024-05-13 20:48:03.895 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 89.9495ms
+2024-05-13 20:48:03.895 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:48:03.898 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 165.1383ms
+2024-05-13 20:48:04.109 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-13 20:48:04.128 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-13 20:48:04.128 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 200 22834 text/css 19.1666ms
+2024-05-13 20:48:04.132 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/map.svg - null null
+2024-05-13 20:48:04.132 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/logo.png - null null
+2024-05-13 20:48:04.132 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/langwich.png - null null
+2024-05-13 20:48:04.134 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/moon.svg - null null
+2024-05-13 20:48:04.138 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/lines.png - null null
+2024-05-13 20:48:04.150 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/search.png - null null
+2024-05-13 20:48:04.164 +03:00 [INF] Sending file. Request path: '/image/langwich.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\langwich.png'
+2024-05-13 20:48:04.164 +03:00 [INF] Sending file. Request path: '/image/search.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\search.png'
+2024-05-13 20:48:04.164 +03:00 [INF] Sending file. Request path: '/image/logo.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\logo.png'
+2024-05-13 20:48:04.165 +03:00 [INF] Sending file. Request path: '/image/moon.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\moon.svg'
+2024-05-13 20:48:04.165 +03:00 [INF] Sending file. Request path: '/image/lines.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\lines.png'
+2024-05-13 20:48:04.166 +03:00 [INF] Sending file. Request path: '/image/map.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\map.svg'
+2024-05-13 20:48:04.169 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/lines.png - 200 6685 image/png 30.3432ms
+2024-05-13 20:48:04.169 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/langwich.png - 200 2452 image/png 36.9986ms
+2024-05-13 20:48:04.169 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/logo.png - 200 991 image/png 36.8472ms
+2024-05-13 20:48:04.169 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/map.svg - 200 417 image/svg+xml 36.9513ms
+2024-05-13 20:48:04.169 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/search.png - 200 728 image/png 19.788ms
+2024-05-13 20:48:04.169 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/moon.svg - 200 293 image/svg+xml 34.8356ms
+2024-05-13 20:48:04.169 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/phone.png - null null
+2024-05-13 20:48:04.169 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - null null
+2024-05-13 20:48:04.169 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mag.png - null null
+2024-05-13 20:48:04.169 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mpills.svg - null null
+2024-05-13 20:48:04.169 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/person.png - null null
+2024-05-13 20:48:04.172 +03:00 [INF] Sending file. Request path: '/image/phone.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\phone.png'
+2024-05-13 20:48:04.173 +03:00 [INF] Sending file. Request path: '/image/person.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\person.png'
+2024-05-13 20:48:04.173 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/phone.png - 200 12680 image/png 3.4201ms
+2024-05-13 20:48:04.173 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/person.png - 200 1697 image/png 3.3416ms
+2024-05-13 20:48:04.173 +03:00 [INF] Sending file. Request path: '/image/mag.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\mag.png'
+2024-05-13 20:48:04.173 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mag.png - 200 14643 image/png 3.9515ms
+2024-05-13 20:48:04.173 +03:00 [INF] Sending file. Request path: '/image/mpills.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\mpills.svg'
+2024-05-13 20:48:04.174 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mpills.svg - 200 1019 image/svg+xml 4.3975ms
+2024-05-13 20:48:04.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/makeup.svg - null null
+2024-05-13 20:48:04.173 +03:00 [INF] Sending file. Request path: '/image/hygiene.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\hygiene.svg'
+2024-05-13 20:48:04.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/toy.svg - null null
+2024-05-13 20:48:04.172 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/pill.svg - null null
+2024-05-13 20:48:04.174 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - 200 323 image/svg+xml 4.7886ms
+2024-05-13 20:48:04.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/blok.png - null null
+2024-05-13 20:48:04.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6392575.png - null null
+2024-05-13 20:48:04.177 +03:00 [INF] Sending file. Request path: '/image/blok.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\blok.png'
+2024-05-13 20:48:04.177 +03:00 [INF] Sending file. Request path: '/image/toy.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\toy.svg'
+2024-05-13 20:48:04.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/33467.png - null null
+2024-05-13 20:48:04.177 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/toy.svg - 200 1080 image/svg+xml 3.0033ms
+2024-05-13 20:48:04.177 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/blok.png - 200 9447 image/png 2.5019ms
+2024-05-13 20:48:04.177 +03:00 [INF] Sending file. Request path: '/image/makeup.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\makeup.svg'
+2024-05-13 20:48:04.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6350788.png - null null
+2024-05-13 20:48:04.178 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/10264982.png - null null
+2024-05-13 20:48:04.180 +03:00 [INF] Sending file. Request path: '/image/pill.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\pill.svg'
+2024-05-13 20:48:04.180 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/makeup.svg - 200 304 image/svg+xml 3.8891ms
+2024-05-13 20:48:04.180 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/pill.svg - 200 510 image/svg+xml 10.2323ms
+2024-05-13 20:48:04.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6119868.png - null null
+2024-05-13 20:48:04.181 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-13 20:48:04.185 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-13 20:48:04.187 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 200 1107 image/png 5.0871ms
+2024-05-13 20:48:04.187 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-13 20:48:04.189 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-13 20:48:04.189 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 200 1988 image/png 2.2924ms
+2024-05-13 20:48:04.194 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-13 20:48:04.195 +03:00 [INF] Sending file. Request path: '/image/33467.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\33467.png'
+2024-05-13 20:48:04.195 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/33467.png - 200 271198 image/png 17.9224ms
+2024-05-13 20:48:04.198 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-13 20:48:04.199 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 200 995 image/png 3.7994ms
+2024-05-13 20:48:04.200 +03:00 [INF] Sending file. Request path: '/image/6119868.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\6119868.png'
+2024-05-13 20:48:04.201 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6119868.png - 200 387853 image/png 20.0913ms
+2024-05-13 20:48:04.201 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-13 20:48:04.203 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-13 20:48:04.204 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 200 2198 image/png 2.5788ms
+2024-05-13 20:48:04.207 +03:00 [INF] Sending file. Request path: '/image/10264982.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\10264982.png'
+2024-05-13 20:48:04.208 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/10264982.png - 200 725431 image/png 29.2233ms
+2024-05-13 20:48:04.209 +03:00 [INF] Sending file. Request path: '/image/6350788.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\6350788.png'
+2024-05-13 20:48:04.210 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6350788.png - 200 1333205 image/png 32.4509ms
+2024-05-13 20:48:04.221 +03:00 [INF] Sending file. Request path: '/image/6392575.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\6392575.png'
+2024-05-13 20:48:04.222 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6392575.png - 200 2236388 image/png 45.7855ms
+2024-05-13 20:48:04.878 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
+2024-05-13 20:48:04.879 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-13 20:48:04.880 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 200 1617 image/x-icon 2.2873ms
+2024-05-13 20:53:01.096 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 20:53:01.099 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:53:01.105 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 20:53:04.062 +03:00 [INF] Executed DbCommand (232ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:53:04.195 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:53:04.222 +03:00 [INF] Executed ViewResult - view Index executed in 29.2104ms.
+2024-05-13 20:53:04.223 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 3117.6475ms
+2024-05-13 20:53:04.223 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:53:04.235 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3139.2451ms
+2024-05-13 20:53:04.324 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 20:53:04.328 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-13 20:53:04.333 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 200 23721 text/css 8.7912ms
+2024-05-13 20:53:04.334 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 20:53:04.334 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/close.png - null null
+2024-05-13 20:53:04.334 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:53:04.336 +03:00 [INF] Sending file. Request path: '/image/close.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\close.png'
+2024-05-13 20:53:04.341 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/close.png - 200 10571 image/png 7.2431ms
+2024-05-13 20:53:04.343 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 9.1656ms
+2024-05-13 20:53:04.343 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 8.9295ms
+2024-05-13 20:53:04.344 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 20:53:04.344 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:54:10.813 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 20:54:10.953 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 20:54:10.955 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 20:54:10.956 +03:00 [INF] Hosting environment: Development
+2024-05-13 20:54:10.956 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 20:54:11.342 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 20:54:11.353 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 20:54:11.376 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:54:11.409 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 20:54:11.421 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:54:11.498 +03:00 [INF] Executed ViewResult - view Index executed in 77.9472ms.
+2024-05-13 20:54:11.503 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 92.5493ms
+2024-05-13 20:54:11.503 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:54:11.506 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 165.6454ms
+2024-05-13 20:54:12.505 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 20:54:12.509 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:54:12.525 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 20:54:15.373 +03:00 [INF] Executed DbCommand (242ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:54:15.477 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:54:15.502 +03:00 [INF] Executed ViewResult - view Index executed in 26.2578ms.
+2024-05-13 20:54:15.503 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 2977.7137ms
+2024-05-13 20:54:15.504 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:54:15.516 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3011.0094ms
+2024-05-13 20:54:15.556 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 20:54:15.575 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 20:54:15.578 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-13 20:54:15.579 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 200 23719 text/css 22.9958ms
+2024-05-13 20:54:15.579 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:54:15.580 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 4.4999ms
+2024-05-13 20:54:15.581 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 20:54:15.581 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 1.746ms
+2024-05-13 20:54:15.582 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:54:15.622 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 20:54:15.622 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:54:15.623 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.551ms
+2024-05-13 20:54:15.623 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.6593ms
+2024-05-13 20:54:15.623 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 20:54:15.623 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:55:12.270 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - application/x-www-form-urlencoded 196
+2024-05-13 20:55:12.270 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 20:55:12.280 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 20:55:12.511 +03:00 [INF] Executed DbCommand (181ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:55:12.553 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:55:12.582 +03:00 [INF] Executed ViewResult - view Index executed in 29.6239ms.
+2024-05-13 20:55:12.582 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 301.607ms
+2024-05-13 20:55:12.582 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 20:55:12.583 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - 200 null text/html; charset=utf-8 313.2815ms
+2024-05-13 20:55:12.653 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 20:55:12.669 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/gg - null null
+2024-05-13 20:55:12.670 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/gg - 404 0 null 0.8816ms
+2024-05-13 20:55:12.670 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/gg, Response status code: 404
+2024-05-13 20:55:12.671 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-13 20:55:12.671 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 200 23761 text/css 17.7945ms
+2024-05-13 20:55:12.706 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/gg - null null
+2024-05-13 20:55:12.706 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/gg - 404 0 null 0.5246ms
+2024-05-13 20:55:12.707 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/gg, Response status code: 404
+2024-05-13 20:57:50.696 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 20:57:50.836 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 20:57:50.839 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 20:57:50.840 +03:00 [INF] Hosting environment: Development
+2024-05-13 20:57:50.840 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 20:57:51.081 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 20:57:51.093 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 20:57:51.118 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:57:51.151 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 20:57:51.161 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:57:51.236 +03:00 [INF] Executed ViewResult - view Index executed in 76.149ms.
+2024-05-13 20:57:51.241 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 90.2854ms
+2024-05-13 20:57:51.242 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 20:57:51.245 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 165.9201ms
+2024-05-13 20:57:51.375 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-13 20:57:51.381 +03:00 [INF] The file /css/cite.css was not modified
+2024-05-13 20:57:51.382 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 304 null text/css 7.6274ms
+2024-05-13 20:58:21.198 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 20:58:21.203 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:58:21.235 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 20:58:23.947 +03:00 [INF] Executed DbCommand (220ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:58:24.051 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:58:24.077 +03:00 [INF] Executed ViewResult - view Index executed in 27.1096ms.
+2024-05-13 20:58:24.079 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 2843.1191ms
+2024-05-13 20:58:24.079 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 20:58:24.092 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 2893.9899ms
+2024-05-13 20:58:24.124 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 20:58:24.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 20:58:24.158 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-13 20:58:24.158 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 200 23798 text/css 33.7071ms
+2024-05-13 20:58:24.159 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:58:24.161 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 1.9135ms
+2024-05-13 20:58:24.161 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 14.2236ms
+2024-05-13 20:58:24.162 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:58:24.162 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 20:58:24.211 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 20:58:24.211 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 20:58:24.211 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.4764ms
+2024-05-13 20:58:24.211 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 20:58:24.212 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.7975ms
+2024-05-13 20:58:24.212 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 20:58:25.647 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - application/x-www-form-urlencoded 196
+2024-05-13 20:58:25.648 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 20:58:25.665 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 20:58:25.901 +03:00 [INF] Executed DbCommand (185ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 20:58:25.942 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 20:58:25.970 +03:00 [INF] Executed ViewResult - view Index executed in 28.1945ms.
+2024-05-13 20:58:25.970 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 305.1448ms
+2024-05-13 20:58:25.970 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 20:58:25.970 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - 200 null text/html; charset=utf-8 323.437ms
+2024-05-13 21:01:45.948 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 21:01:46.092 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 21:01:46.094 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 21:01:46.095 +03:00 [INF] Hosting environment: Development
+2024-05-13 21:01:46.095 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 21:01:46.319 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 21:01:46.329 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 21:01:46.354 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 21:01:46.387 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 21:01:46.398 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 21:01:46.472 +03:00 [INF] Executed ViewResult - view Index executed in 76.0116ms.
+2024-05-13 21:01:46.478 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 90.2114ms
+2024-05-13 21:01:46.478 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 21:01:46.482 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 165.2055ms
+2024-05-13 21:01:57.324 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 21:01:57.328 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 21:01:57.337 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 21:02:00.008 +03:00 [INF] Executed DbCommand (189ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 21:02:00.115 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 21:02:00.143 +03:00 [INF] Executed ViewResult - view Index executed in 28.9807ms.
+2024-05-13 21:02:00.145 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 2807.3944ms
+2024-05-13 21:02:00.146 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 21:02:00.160 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 2835.8875ms
+2024-05-13 21:02:00.224 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 21:02:00.227 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 21:02:00.227 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 21:02:00.255 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 30.8896ms
+2024-05-13 21:02:00.255 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 28.2872ms
+2024-05-13 21:02:00.256 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 21:02:00.256 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 21:02:00.273 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-13 21:02:00.273 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 200 23888 text/css 46.5249ms
+2024-05-13 21:02:01.557 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - application/x-www-form-urlencoded 196
+2024-05-13 21:02:01.557 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 21:02:01.569 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 21:02:01.785 +03:00 [INF] Executed DbCommand (168ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 21:02:01.824 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 21:02:01.854 +03:00 [INF] Executed ViewResult - view Index executed in 31.0276ms.
+2024-05-13 21:02:01.854 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 285.648ms
+2024-05-13 21:02:01.855 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 21:02:01.855 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - 200 null text/html; charset=utf-8 297.9759ms
+2024-05-13 21:02:34.514 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Category?word=Medicine - null null
+2024-05-13 21:02:34.515 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 21:02:34.515 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 21:02:34.781 +03:00 [INF] Executed DbCommand (158ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 21:02:34.782 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 21:02:34.784 +03:00 [INF] Executed ViewResult - view Index executed in 1.8366ms.
+2024-05-13 21:02:34.784 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 268.4055ms
+2024-05-13 21:02:34.784 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 21:02:34.785 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Category?word=Medicine - 200 null text/html; charset=utf-8 270.4337ms
+2024-05-13 21:02:34.817 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/lines.png - null null
+2024-05-13 21:02:34.818 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/logo.png - null null
+2024-05-13 21:02:34.825 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 21:02:34.850 +03:00 [INF] Sending file. Request path: '/image/lines.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\lines.png'
+2024-05-13 21:02:34.850 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-13 21:02:34.850 +03:00 [INF] Sending file. Request path: '/image/logo.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\logo.png'
+2024-05-13 21:02:34.850 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/logo.png - 200 991 image/png 33.0292ms
+2024-05-13 21:02:34.850 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/lines.png - 200 6685 image/png 32.9637ms
+2024-05-13 21:02:34.851 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 200 23888 text/css 26.7224ms
+2024-05-13 21:02:34.851 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/search.png - null null
+2024-05-13 21:02:34.852 +03:00 [INF] Sending file. Request path: '/image/search.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\search.png'
+2024-05-13 21:02:34.853 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/search.png - 200 728 image/png 1.7522ms
+2024-05-13 21:02:34.855 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mag.png - null null
+2024-05-13 21:02:34.856 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/person.png - null null
+2024-05-13 21:02:34.858 +03:00 [INF] Sending file. Request path: '/image/mag.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\mag.png'
+2024-05-13 21:02:34.858 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/phone.png - null null
+2024-05-13 21:02:34.858 +03:00 [INF] Sending file. Request path: '/image/person.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\person.png'
+2024-05-13 21:02:34.859 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/pill.svg - null null
+2024-05-13 21:02:34.859 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/person.png - 200 1697 image/png 3.818ms
+2024-05-13 21:02:34.861 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mag.png - 200 14643 image/png 3.4366ms
+2024-05-13 21:02:34.863 +03:00 [INF] Sending file. Request path: '/image/phone.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\phone.png'
+2024-05-13 21:02:34.866 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/phone.png - 200 12680 image/png 8.192ms
+2024-05-13 21:02:34.866 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - null null
+2024-05-13 21:02:34.863 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mpills.svg - null null
+2024-05-13 21:02:34.866 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/makeup.svg - null null
+2024-05-13 21:02:34.871 +03:00 [INF] Sending file. Request path: '/image/pill.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\pill.svg'
+2024-05-13 21:02:34.873 +03:00 [INF] Sending file. Request path: '/image/hygiene.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\hygiene.svg'
+2024-05-13 21:02:34.873 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/pill.svg - 200 510 image/svg+xml 14.2944ms
+2024-05-13 21:02:34.873 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - 200 323 image/svg+xml 6.8882ms
+2024-05-13 21:02:34.873 +03:00 [INF] Sending file. Request path: '/image/makeup.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\makeup.svg'
+2024-05-13 21:02:34.874 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/makeup.svg - 200 304 image/svg+xml 10.1826ms
+2024-05-13 21:02:34.877 +03:00 [INF] Sending file. Request path: '/image/mpills.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\mpills.svg'
+2024-05-13 21:02:34.877 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mpills.svg - 200 1019 image/svg+xml 14.5632ms
+2024-05-13 21:02:34.880 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/close.png - null null
+2024-05-13 21:02:34.883 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/toy.svg - null null
+2024-05-13 21:02:34.885 +03:00 [INF] Sending file. Request path: '/image/close.png'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\close.png'
+2024-05-13 21:02:34.885 +03:00 [INF] Sending file. Request path: '/image/toy.svg'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\toy.svg'
+2024-05-13 21:02:34.886 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/close.png - 200 10571 image/png 5.1868ms
+2024-05-13 21:02:34.886 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/toy.svg - 200 1080 image/svg+xml 2.4526ms
+2024-05-13 21:02:35.084 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
+2024-05-13 21:02:35.086 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-13 21:02:35.086 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 200 1617 image/x-icon 2.0968ms
+2024-05-13 21:03:41.910 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 21:03:42.111 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-13 21:03:42.140 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 21:03:42.140 +03:00 [INF] Hosting environment: Development
+2024-05-13 21:03:42.140 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-13 21:03:42.937 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-13 21:03:42.947 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 21:03:42.973 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 21:03:43.010 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-13 21:03:43.022 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 21:03:43.102 +03:00 [INF] Executed ViewResult - view Index executed in 82.8331ms.
+2024-05-13 21:03:43.106 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 95.7338ms
+2024-05-13 21:03:43.107 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-13 21:03:43.110 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 176.8352ms
+2024-05-13 21:03:44.151 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-13 21:03:44.157 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 21:03:44.163 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-13 21:03:47.032 +03:00 [INF] Executed DbCommand (231ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 21:03:47.147 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 21:03:47.175 +03:00 [INF] Executed ViewResult - view Index executed in 28.6972ms.
+2024-05-13 21:03:47.176 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 3012.8284ms
+2024-05-13 21:03:47.177 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-13 21:03:47.192 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3041.2337ms
+2024-05-13 21:03:47.299 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-13 21:03:47.308 +03:00 [INF] The file /css/cite1.css was not modified
+2024-05-13 21:03:47.309 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 304 null text/css 10.1973ms
+2024-05-13 21:03:47.310 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 21:03:47.313 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 21:03:47.321 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 8.3389ms
+2024-05-13 21:03:47.321 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 11.0036ms
+2024-05-13 21:03:47.322 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 21:03:47.322 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 21:03:47.374 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-13 21:03:47.374 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-13 21:03:47.374 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 0.6388ms
+2024-05-13 21:03:47.374 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 0.5609ms
+2024-05-13 21:03:47.375 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-13 21:03:47.375 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-13 21:03:48.525 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - application/x-www-form-urlencoded 196
+2024-05-13 21:03:48.525 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 21:03:48.535 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-13 21:03:48.765 +03:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-13 21:03:48.806 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-13 21:03:48.838 +03:00 [INF] Executed ViewResult - view Index executed in 32.5413ms.
+2024-05-13 21:03:48.838 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 302.7692ms
+2024-05-13 21:03:48.838 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-13 21:03:48.839 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category?word=Medicine - 200 null text/html; charset=utf-8 314.2209ms

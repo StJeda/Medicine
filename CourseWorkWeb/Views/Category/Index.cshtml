@@ -61,6 +61,22 @@
         </button>
     </div>
     </div>
-    <div class=СContainer>
-        <p>@ViewBag.Word</p>
-    </div>
+<div class=СContainer>
+    <div class="Category">
+        <div class="CatalogCategoryTitle"><h1>@ViewBag.Category</h1></div>
+        
+        <div class="CatalogMedicineList">
+              @foreach (var medicine in Model)
+        {
+           <form class="CatalogCard">
+            <button  >
+               <img src=@medicine.Photo alt="фото"> 
+               <p class=name>@medicine.Name</p>
+               <p class=cena>@medicine.Cost</p>
+            </button>
+           </form>
+        }
+        </div>
+    </div> 
+
+</div>
