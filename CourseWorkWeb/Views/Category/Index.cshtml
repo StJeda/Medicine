@@ -3,10 +3,11 @@
 @using CourseWorkWeb.Models.Entity.Medicines
 @using Microsoft.AspNetCore.Mvc.Routing
 @model IEnumerable<Medicine>
+    
  @{
     ViewData["Title"] = "Category";
 }
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="~/css/cite1.css" />
  <div class="CHeader">
         <div class="CNT">
@@ -55,7 +56,7 @@
             <p>For Children's</p>
             <img src="image/toy.svg" alt="For Children's">
         </button>
-         <button>
+         <button onclick="toHome()">
             <p>Back</p>
             <img src="image/close.png" alt="Back">
         </button>
@@ -80,3 +81,18 @@
     </div> 
 
 </div>
+<script>
+    function toHome() {
+       $.ajax({
+        type: "POST",
+        url: "/Category/Index",
+        success: function (response) {
+            console.log("Метод контроллера успешно вызван");
+            window.location.href = "/"; 
+        },
+        error: function (xhr, status, error) {
+            console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+</script>
