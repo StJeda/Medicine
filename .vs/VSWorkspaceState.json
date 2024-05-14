@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\CourseWorkWeb",
+    "\\CourseWorkWeb\\Controllers",
     "\\CourseWorkWeb\\Pages",
     "\\CourseWorkWeb\\Views",
     "\\CourseWorkWeb\\Views\\Home"
   ],
-  "SelectedNode": "\\CourseWorkWeb\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\CourseWorkWeb\\Controllers\\CategoryController.cs",
   "PreviewInSolutionExplorer": false
 }
