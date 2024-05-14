@@ -1,0 +1,118 @@
+.TovarContainer{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding-left: 3vw;
+    padding-right: 15vw;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+}
+.TovarFotoContainerName{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    margin-right: 0.5vw;
+    align-items: end;
+    justify-content: center;
+    position: sticky;
+    top :17vh;
+}
+.TovarFotoContainerName1{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-right: 0.5vw;
+    align-items: center;
+    border: 2px solid #449223; 
+    padding-top: 4px;
+ 
+}
+
+.TovarFotoContainerName1 img{
+    flex-basis: 80%; 
+    margin-bottom: 2vh;
+    width: 15vw;
+    height: 9vh;
+    object-fit: fill;
+}
+.TovarFotoContainerName1 .Tovarname{
+    flex-basis: 30%;
+    margin-top: 1vh;
+ }
+
+.TovarFotoContainerName1 .Tovarname p{margin: 0; font-size: 3vh;}
+.TovarContainer button{
+    margin-top: 3vh;
+    width: 5vw;
+    height: 6vh; 
+    background-color: #68D300;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 4vh;
+    width: 20%;
+    align-self: flex-start;
+    }
+
+.TovarWords{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%; 
+    align-items: center;
+    margin-left: 0.5vw;
+    padding: 3px;
+}
+.TovarWords p{ 
+    align-self: flex-start;
+    margin: 0;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    font-size: 4vh;
+}
+.TovarBorder{
+    flex-basis: 5%;
+    width: 100%;
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(35,154,35,1) 16%, rgba(35,147,35,1) 37%, rgba(34,142,34,1) 48%, rgba(34,139,34,1) 63%, rgba(38,140,34,1) 68%, rgba(41,140,34,1) 90%, rgba(65,145,35,1) 100%);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.TovarBorder p{font-size: 5vh; margin: 0; margin-left: 2vw;
+}
+.MainInfo{
+    margin-top: 3vh;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.TMain{
+    border-bottom:0.1px solid rgb(103, 103, 103); 
+    margin-bottom: 4vh;
+}
+.TovarMainPropery{
+    margin-top: 6vh;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+    padding: 0;
+}
+.TovarSecondPropery{
+    margin-top: 6vh;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+    padding: 0;
+}
+.TTB{
+    margin-top: 2vh;
+    margin-left: 0;
+    margin-right: 0vw;
+    background: radial-gradient(circle, rgba(35,154,35,1) 16%, rgba(35,147,35,1) 37%, rgba(34,142,34,1) 48%, rgba(34,139,34,1) 63%, rgba(38,140,34,1) 68%, rgba(41,140,34,1) 90%, rgba(65,145,35,1) 100%);
+    font-size: 4vh;
+    padding-left: 2vw;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}

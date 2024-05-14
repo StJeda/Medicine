@@ -15,10 +15,10 @@
         </div>
         <nav class="TMenu">
             <button class="fbutton">
-            <img src="image/map.svg">
+            <img src="~/image/map.svg">
             <p>Map</p>
             </button>
-            <button>
+            <button onclick="toProduct(1)">
                 <p>Brandy</p>
             </button>
             <button>
@@ -36,11 +36,11 @@
         </nav> 
         <div class="SetingContent">
         <button class="Langwich">
-            <img src="image/langwich.png">
+            <img src="~/image/langwich.png">
             <p>UA</p>
         </button>
         <button class="Profile">
-            <img src="image/moon.svg">
+            <img src="~/image/moon.svg">
         </button>
         </div>  
     </div>
@@ -56,14 +56,14 @@
          </div>
         </form>
         <div class="HelpField">
-            <button> <img src="image/mag.png"></button>
-            <button> <img src="image/person.png"></button>
-            <button> <img src="image/phone.png"></button>
+            <button> <img src="~/image/mag.png"></button>
+            <button> <img src="~/image/person.png"></button>
+            <button> <img src="~/image/phone.png"></button>
         </div>
     </div>
     <div class="DownHeader">
             <ul class="DMenu">
-               <li class="DMenuButtons" onclick="toCategory('Medicine')"><p>Medicine<img src="image/pill.svg"></p>
+               <li class="DMenuButtons" onclick="toCategory('Medicine')"><p>Medicine<img src="~/image/pill.svg"></p>
                   <ul class="DMenu_SubMenu">
                     <li><a href="#">Pain Relief</a></li>
                     <li><a href="#">Allergy & Sinus</a></li>
@@ -73,7 +73,7 @@
                     <li><a href="#">Over-the-Counter (OTC) Medications</a></li>
                   </ul>
                </li>
-               <li class="DMenuButtons" onclick="toCategory('Vitamins')"><p>Vitamins<img src="image/mpills.svg"></p>
+               <li class="DMenuButtons" onclick="toCategory('Vitamins')"><p>Vitamins<img src="~/image/mpills.svg"></p>
                    <ul class="DMenu_SubMenu">
                     <li><a href="#">Multivitamins</a></li>
                     <li><a href="#">Vitamin C</a></li>
@@ -83,7 +83,7 @@
                     <li><a href="#">Herbal Supplements</a></li>
                    </ul>
                </li>
-               <li class="DMenuButtons" onclick="toCategory('Hygiene')"><p>Hygiene<img src="image/hygiene.svg"></p>
+               <li class="DMenuButtons" onclick="toCategory('Hygiene')"><p>Hygiene<img src="~/image/hygiene.svg"></p>
                   <ul class="DMenu_SubMenu">
                     <li><a href="#">Пункт</a></li>
                     <li><a href="#">Пункт</a></li>
@@ -91,7 +91,7 @@
                     <li><a href="#">Пункт</a></li>
                   </ul>
                </li>
-               <li class="DMenuButtons" onclick="toCategory('Makeup')"><p>Makeup<img src="image/makeup.svg"></p>
+               <li class="DMenuButtons" onclick="toCategory('Makeup')"><p>Makeup<img src="~/image/makeup.svg"></p>
                   <ul class="DMenu_SubMenu">
                     <li><a href="#">Face</a></li>
                     <li><a href="#">Eyes</a></li>
@@ -99,7 +99,7 @@
                     <li><a href="#">Cheeks</a></li>
                   </ul>
                </li>
-               <li class="DMenuButtons" onclick="toCategory('Children')"><p>For Children's<img src="image/toy.svg"></p>
+               <li class="DMenuButtons" onclick="toCategory('Children')"><p>For Children's<img src="~/image/toy.svg"></p>
                  <ul class="DMenu_SubMenu">
                     <li><a href="#">Pain & Fever Relief</a></li>
                     <li><a href="#">Cough & Cold</a></li>
@@ -110,7 +110,7 @@
                     <li><a href="#">Teething Relief</a></li>
                  </ul>
                </li>
-               <li class="DMenuButtons" onclick="toCategory('Medicine')"><p>Directory<img src="image/blok.png"></p>
+               <li class="DMenuButtons" onclick="toCategory('Medicine')"><p>Directory<img src="~/image/blok.png"></p>
                 <ul class="DMenu_SubMenu">
                     <li><a href="#">Пункт</a></li>
                     <li><a href="#">Пункт</a></li>
@@ -248,6 +248,20 @@
         },
         error: function (xhr, status, error) {
             console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+function toProduct(id) {
+    $.ajax({
+        type: "POST",
+        url: "/Product/Index",
+        data: { id: id}, 
+        success: function (response) {
+            console.log("Метод контроллера успішно викликано");
+            window.location.href = "/Product/Index?id=" + id; // Redirect to the category page with the word parameter
+        },
+        error: function (xhr, status, error) {
+            console.error("Сталася помилка при виклику методу контролера:", error);
         }
     });
 }

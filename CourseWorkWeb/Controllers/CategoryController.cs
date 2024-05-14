@@ -15,9 +15,8 @@ namespace CourseWorkWeb.Controllers
         public async Task<IActionResult> Index(string word)
         { 
          var medicines = await _sender.Send(new GetMedicinesQuery());
-           var filteredMedicines=medicines.MedicineFilter("word");
-           var filteredMedicines1=await _sender.Send(GetEntityQuery<Medicine>(2));
-
+           var filteredMedicines=medicines.MedicineFilter(word);
+        
            
             ViewBag.Category=word;
             return View(filteredMedicines);
