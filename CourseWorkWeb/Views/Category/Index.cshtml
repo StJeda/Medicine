@@ -35,36 +35,36 @@
             <button class="CHelpFieldButton"> <img src="~/image/phone.png"></button>
         </div>
         </div>
-        <div class="CND">
-        <button>
+<div class="CND">
+        <button onclick="toCategory('Medicine')">
             <p>Medicine</p>
-            <img src="image/pill.svg" alt="Medicine">
+            <img src="~/image/pill.svg" alt="Medicine">
         </button>
-        <button>
+        <button  onclick="toCategory('Vitamins')">
             <p>Vitamins</p>
-            <img src="image/mpills.svg" alt="Vitamins">
+            <img src="~/image/mpills.svg" alt="Vitamins">
         </button>
-        <button>
+        <button onclick="toCategory('Hygiene')">
             <p>Hygiene</p>
-            <img src="image/hygiene.svg" alt="Hygiene">
+            <img src="~/image/hygiene.svg" alt="Hygiene">
         </button>
-        <button>
+        <button onclick="toCategory('Makeup')">
             <p>Makeup</p>
-            <img src="image/makeup.svg" alt="Makeup">
+            <img src="~/image/makeup.svg" alt="Makeup">
         </button>
-        <button>
+        <button onclick="toCategory('Children')">
             <p>For Children's</p>
-            <img src="image/toy.svg" alt="For Children's">
+            <img src="~/image/toy.svg" alt="For Children's">
         </button>
          <button onclick="toHome()">
             <p>Back</p>
-            <img src="image/close.png" alt="Back">
+            <img src="~/image/close.png" alt="Back">
         </button>
     </div>
     </div>
 <div class=СContainer>
     <div class="Category">
-        <div class="CatalogCategoryTitle"><h1>@ViewBag.Category</h1></div>
+        <div class="CatalogCategoryTitle"><p>@ViewBag.Category</p></div>
         
         <div class="CatalogMedicineList">
               @foreach (var medicine in Model)
@@ -89,6 +89,20 @@
         success: function (response) {
             console.log("Метод контроллера успешно вызван");
             window.location.href = "/"; 
+        },
+        error: function (xhr, status, error) {
+            console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+function toCategory(word) {
+    $.ajax({
+        type: "POST",
+        url: "/Category/Index",
+        data: { word: word }, // Pass the 'word' parameter to the controller
+        success: function (response) {
+            console.log("Метод контроллера успешно вызван");
+            window.location.href = "/Category/Index?word=" + word; // Redirect to the category page with the word parameter
         },
         error: function (xhr, status, error) {
             console.error("Произошла ошибка при вызове метода контроллера:", error);

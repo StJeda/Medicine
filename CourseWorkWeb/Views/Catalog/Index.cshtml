@@ -15,6 +15,7 @@
     <title>@ViewData["Title"]</title>
     <link rel="shortcut icon" type="image/ico" href="~/image/icon.ico" />
     <link rel="stylesheet" type="text/css" href="~/css/cite1.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body class="Cmain">
     <div class="CHeader">
@@ -44,27 +45,27 @@
         </div>
         </div>
         <div class="CND">
-        <button>
+        <button onclick="toCategory('Medicine')">
             <p>Medicine</p>
             <img src="image/pill.svg" alt="Medicine">
         </button>
-        <button>
+        <button  onclick="toCategory('Vitamins')">
             <p>Vitamins</p>
             <img src="image/mpills.svg" alt="Vitamins">
         </button>
-        <button>
+        <button onclick="toCategory('Hygiene')">
             <p>Hygiene</p>
             <img src="image/hygiene.svg" alt="Hygiene">
         </button>
-        <button>
+        <button onclick="toCategory('Makeup')">
             <p>Makeup</p>
             <img src="image/makeup.svg" alt="Makeup">
         </button>
-        <button>
+        <button onclick="toCategory('Children')">
             <p>For Children's</p>
             <img src="image/toy.svg" alt="For Children's">
         </button>
-         <button>
+         <button onclick="toHome()">
             <p>Back</p>
             <img src="image/close.png" alt="Back">
         </button>
@@ -105,8 +106,8 @@
     </div>     
 </div>  
   <div class=Category>
-    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Medi" method="POST"  >
-              <input type="hidden" name="word" value="Medicine">
+    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Vitamins" method="POST"  >
+              <input type="hidden" name="word" value="Vitamins">
               <button class="ButtonTitles" type="submit">
               <p>Vitamins</p>
               <img src="image/mpills.svg">
@@ -136,8 +137,8 @@
     </div>     
 </div> 
   <div class=Category>
-    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Medicine" method="POST"  >
-              <input type="hidden" name="word" value="Medicine">
+    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Hygiene" method="POST"  >
+              <input type="hidden" name="word" value="Hygiene">
               <button class="ButtonTitles" type="submit">
               <p>Hygiene</p>
               <img src="image/hygiene.svg">
@@ -167,8 +168,8 @@
     </div>     
 </div> 
   <div class=Category>
-    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Medicine" method="POST"  >
-              <input type="hidden" name="word" value="Medicine">
+    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Makeup" method="POST"  >
+              <input type="hidden" name="word" value="Makeup">
               <button class="ButtonTitles" type="submit">
               <p>Makeup</p>
               <img src="image/makeup.svg">
@@ -198,8 +199,8 @@
     </div>     
 </div> 
   <div class=Category>
-    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="Medicine" method="POST"  >
-              <input type="hidden" name="word" value="Medicine">
+    <form class="CatalogCategoryTitle" asp-controller="Category"  asp-action="Index" asp-route-word="For Children's" method="POST"  >
+              <input type="hidden" name="word" value="For Children's">
               <button class="ButtonTitles" type="submit">
               <p>For Children's</p>
               <img src="toy.svg">
@@ -230,6 +231,35 @@
 </div> 
 
 </div>
-
+<script>
+    function toHome() {
+       $.ajax({
+        type: "POST",
+        url: "/Catalog/Index",
+        success: function (response) {
+            console.log("Метод контроллера успешно вызван");
+            window.location.href = "/"; 
+        },
+        error: function (xhr, status, error) {
+            console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+function toCategory(word) {
+    $.ajax({
+        type: "POST",
+        url: "/Category/Index",
+        data: { word: word }, // Pass the 'word' parameter to the controller
+        success: function (response) {
+            console.log("Метод контроллера успешно вызван");
+            window.location.href = "/Category/Index?word=" + word; // Redirect to the category page with the word parameter
+        },
+        error: function (xhr, status, error) {
+            console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+</script>
 </body>
+
 </html>
