@@ -89,7 +89,7 @@
                     @foreach (var item in Model.ToList())
                     {
 
-                        <button class="CatalogCard">
+                        <button class="CatalogCard" onclick="toProduct(1)">
                             <img src=@item.Photo alt="foto">
                             <div class="CatalogMedicineWords">
                                 <p class="wp">@item.Name</p>
@@ -120,7 +120,7 @@
                     @foreach (var item in Model.ToList())
                     {
 
-                        <button class="CatalogCard">
+                        <button class="CatalogCard" onclick="toProduct(@item.Id)">
                             <img src=@item.Photo alt="foto">
                             <div class="CatalogMedicineWords">
                                 <p class="wp">@item.Name</p>
@@ -151,7 +151,7 @@
                     @foreach (var item in Model.ToList())
                     {
 
-                        <button class="CatalogCard">
+                        <button class="CatalogCard"  onclick="toProduct(@item.Id)">
                             <img src=@item.Photo alt="foto">
                             <div class="CatalogMedicineWords">
                                 <p class="wp">@item.Name</p>
@@ -182,7 +182,7 @@
                     @foreach (var item in Model.ToList())
                     {
 
-                        <button class="CatalogCard">
+                        <button class="CatalogCard"  onclick="toProduct(@item.Id)">
                             <img src=@item.Photo alt="foto">
                             <div class="CatalogMedicineWords">
                                 <p class="wp">@item.Name</p>
@@ -213,7 +213,7 @@
                     @foreach (var item in Model.ToList())
                     {
 
-                        <button class="CatalogCard">
+                        <button class="CatalogCard"  onclick="toProduct(@item.Id)">
                             <img src=@item.Photo alt="foto">
                             <div class="CatalogMedicineWords">
                                 <p class="wp">@item.Name</p>
@@ -256,6 +256,20 @@ function toCategory(word) {
         },
         error: function (xhr, status, error) {
             console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+function toProduct(id) {
+    $.ajax({
+        type: "POST",
+        url: "/Product/Index",
+        data: { id: id}, 
+        success: function (response) {
+            console.log("Метод контроллера успішно викликано");
+            window.location.href = "/Product/Index?id=" + id; // Redirect to the category page with the word parameter
+        },
+        error: function (xhr, status, error) {
+            console.error("Сталася помилка при виклику методу контролера:", error);
         }
     });
 }

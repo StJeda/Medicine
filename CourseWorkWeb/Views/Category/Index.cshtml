@@ -69,7 +69,7 @@
         <div class="CatalogMedicineList">
               @foreach (var medicine in Model)
         {
-           <form class="CatalogCard">
+           <form class="CatalogCard" onclick="toProduct(@medicine.Id)">
             <button  >
                <img src=@medicine.Photo alt="фото"> 
                <p class=name>@medicine.Name</p>
@@ -106,6 +106,20 @@ function toCategory(word) {
         },
         error: function (xhr, status, error) {
             console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+function toProduct(id) {
+    $.ajax({
+        type: "POST",
+        url: "/Product/Index",
+        data: { id: id}, 
+        success: function (response) {
+            console.log("Метод контроллера успішно викликано");
+            window.location.href = "/Product/Index?id=" + id; // Redirect to the category page with the word parameter
+        },
+        error: function (xhr, status, error) {
+            console.error("Сталася помилка при виклику методу контролера:", error);
         }
     });
 }
