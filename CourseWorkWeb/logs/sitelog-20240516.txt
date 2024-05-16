@@ -1,0 +1,353 @@
+2024-05-16 12:24:48.075 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 12:24:48.203 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-16 12:24:48.204 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-16 12:24:48.228 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-16 12:24:48.230 +03:00 [INF] Hosting environment: Development
+2024-05-16 12:24:48.231 +03:00 [INF] Content root path: D:\Works\dasd\Medicine\CourseWorkWeb
+2024-05-16 12:24:48.749 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-16 12:24:48.849 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:24:48.871 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-16 12:24:48.881 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:24:48.945 +03:00 [INF] Executed ViewResult - view Index executed in 65.5468ms.
+2024-05-16 12:24:48.950 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 75.7591ms
+2024-05-16 12:24:48.951 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/css/cite.css - null null
+2024-05-16 12:24:48.951 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/map.svg - null null
+2024-05-16 12:24:48.951 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/logo.png - null null
+2024-05-16 12:24:48.953 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:24:48.966 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 221.1679ms
+2024-05-16 12:24:48.970 +03:00 [INF] Sending file. Request path: '/image/logo.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\logo.png'
+2024-05-16 12:24:48.970 +03:00 [INF] Sending file. Request path: '/image/map.svg'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\map.svg'
+2024-05-16 12:24:48.971 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-16 12:24:48.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/logo.png - 200 991 image/png 23.3377ms
+2024-05-16 12:24:48.976 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/map.svg - 200 417 image/svg+xml 25.1344ms
+2024-05-16 12:24:48.977 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/langwich.png - null null
+2024-05-16 12:24:48.977 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/moon.svg - null null
+2024-05-16 12:24:48.978 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/css/cite.css - 200 22834 text/css 27.2855ms
+2024-05-16 12:24:48.994 +03:00 [INF] Sending file. Request path: '/image/langwich.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\langwich.png'
+2024-05-16 12:24:48.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/langwich.png - 200 2452 image/png 19.3437ms
+2024-05-16 12:24:48.996 +03:00 [INF] Sending file. Request path: '/image/moon.svg'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\moon.svg'
+2024-05-16 12:24:48.997 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/lines.png - null null
+2024-05-16 12:24:49.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/moon.svg - 200 293 image/svg+xml 24.8982ms
+2024-05-16 12:24:49.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:24:49.011 +03:00 [INF] Sending file. Request path: '/image/lines.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\lines.png'
+2024-05-16 12:24:49.015 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.1104ms
+2024-05-16 12:24:49.015 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/lines.png - 200 6685 image/png 17.9902ms
+2024-05-16 12:24:49.312 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/search.png - null null
+2024-05-16 12:24:49.330 +03:00 [INF] Sending file. Request path: '/image/search.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\search.png'
+2024-05-16 12:24:49.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/search.png - 200 728 image/png 22.0295ms
+2024-05-16 12:24:49.336 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/mag.png - null null
+2024-05-16 12:24:49.356 +03:00 [INF] Sending file. Request path: '/image/mag.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\mag.png'
+2024-05-16 12:24:49.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/mag.png - 200 14643 image/png 24.3488ms
+2024-05-16 12:24:49.363 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/person.png - null null
+2024-05-16 12:24:49.377 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/phone.png - null null
+2024-05-16 12:24:49.390 +03:00 [INF] Sending file. Request path: '/image/person.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\person.png'
+2024-05-16 12:24:49.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/mpills.svg - null null
+2024-05-16 12:24:49.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/pill.svg - null null
+2024-05-16 12:24:49.395 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/hygiene.svg - null null
+2024-05-16 12:24:49.395 +03:00 [INF] Sending file. Request path: '/image/phone.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\phone.png'
+2024-05-16 12:24:49.395 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/person.png - 200 1697 image/png 32.4778ms
+2024-05-16 12:24:49.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/makeup.svg - null null
+2024-05-16 12:24:49.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/toy.svg - null null
+2024-05-16 12:24:49.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/6392575.png - null null
+2024-05-16 12:24:49.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/blok.png - null null
+2024-05-16 12:24:49.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/33467.png - null null
+2024-05-16 12:24:49.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/6350788.png - null null
+2024-05-16 12:24:49.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/6119868.png - null null
+2024-05-16 12:24:49.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/10264982.png - null null
+2024-05-16 12:24:49.412 +03:00 [INF] Sending file. Request path: '/image/mpills.svg'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\mpills.svg'
+2024-05-16 12:24:49.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/phone.png - 200 12680 image/png 40.6884ms
+2024-05-16 12:24:49.417 +03:00 [INF] Sending file. Request path: '/image/pill.svg'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\pill.svg'
+2024-05-16 12:24:49.420 +03:00 [INF] Sending file. Request path: '/image/hygiene.svg'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\hygiene.svg'
+2024-05-16 12:24:49.436 +03:00 [INF] Sending file. Request path: '/image/makeup.svg'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\makeup.svg'
+2024-05-16 12:24:49.438 +03:00 [INF] Sending file. Request path: '/image/toy.svg'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\toy.svg'
+2024-05-16 12:24:49.445 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/tb2.png - null null
+2024-05-16 12:24:49.450 +03:00 [INF] Sending file. Request path: '/image/blok.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\blok.png'
+2024-05-16 12:24:49.455 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/Delivery.png - null null
+2024-05-16 12:24:49.456 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/Apt.png - null null
+2024-05-16 12:24:49.462 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/Tovar.png - null null
+2024-05-16 12:24:49.463 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/mpills.svg - 200 1019 image/svg+xml 69.1233ms
+2024-05-16 12:24:49.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-16 12:24:49.478 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/pill.svg - 200 510 image/svg+xml 83.5699ms
+2024-05-16 12:24:49.484 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/hygiene.svg - 200 323 image/svg+xml 89.3141ms
+2024-05-16 12:24:49.491 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/makeup.svg - 200 304 image/svg+xml 94.1381ms
+2024-05-16 12:24:49.501 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/toy.svg - 200 1080 image/svg+xml 103.551ms
+2024-05-16 12:24:49.501 +03:00 [INF] Sending file. Request path: '/image/33467.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\33467.png'
+2024-05-16 12:24:49.510 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/blok.png - 200 9447 image/png 113.3219ms
+2024-05-16 12:24:49.515 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-16 12:24:49.523 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-16 12:24:49.525 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-16 12:24:49.531 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-16 12:24:49.536 +03:00 [INF] Sending file. Request path: '/image/6119868.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\6119868.png'
+2024-05-16 12:24:49.572 +03:00 [INF] Sending file. Request path: '/image/10264982.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\10264982.png'
+2024-05-16 12:24:49.585 +03:00 [INF] Sending file. Request path: '/image/6350788.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\6350788.png'
+2024-05-16 12:24:49.606 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 136.6988ms
+2024-05-16 12:24:49.617 +03:00 [INF] Sending file. Request path: '/image/6392575.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\6392575.png'
+2024-05-16 12:24:49.619 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/33467.png - 200 271198 image/png 221.9273ms
+2024-05-16 12:24:49.634 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/tb2.png - 200 1107 image/png 189.1334ms
+2024-05-16 12:24:49.640 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/Delivery.png - 200 1988 image/png 184.4193ms
+2024-05-16 12:24:49.644 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/Apt.png - 200 995 image/png 187.5368ms
+2024-05-16 12:24:49.647 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/Tovar.png - 200 2198 image/png 184.7775ms
+2024-05-16 12:24:49.650 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/6119868.png - 200 387853 image/png 251.9089ms
+2024-05-16 12:24:49.655 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/10264982.png - 200 725431 image/png 256.4722ms
+2024-05-16 12:24:49.659 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/6350788.png - 200 1333205 image/png 261.4189ms
+2024-05-16 12:24:49.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/6392575.png - 200 2236388 image/png 273.4063ms
+2024-05-16 12:24:55.495 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Catalog - application/x-www-form-urlencoded 182
+2024-05-16 12:24:55.512 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-16 12:24:55.524 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-16 12:24:58.217 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Category/Index - application/x-www-form-urlencoded; charset=UTF-8 13
+2024-05-16 12:24:58.230 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:24:58.248 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:24:59.683 +03:00 [INF] Executed DbCommand (227ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:24:59.768 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Category/Index - application/x-www-form-urlencoded; charset=UTF-8 13
+2024-05-16 12:24:59.779 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:24:59.784 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:24:59.828 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:24:59.858 +03:00 [INF] Executed ViewResult - view Index executed in 30.9853ms.
+2024-05-16 12:24:59.864 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 4331.8367ms
+2024-05-16 12:24:59.870 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-16 12:24:59.872 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/css/cite1.css - null null
+2024-05-16 12:24:59.875 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/image/close.png - null null
+2024-05-16 12:24:59.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:24:59.892 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Catalog - 200 null text/html; charset=utf-8 4396.9099ms
+2024-05-16 12:24:59.903 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-16 12:24:59.910 +03:00 [INF] Sending file. Request path: '/image/close.png'. Physical path: 'D:\Works\dasd\Medicine\CourseWorkWeb\wwwroot\image\close.png'
+2024-05-16 12:24:59.911 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 33.409ms
+2024-05-16 12:24:59.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/css/cite1.css - 200 23888 text/css 53.5076ms
+2024-05-16 12:24:59.929 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/MedicinePhoto - null null
+2024-05-16 12:24:59.932 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/image/close.png - 200 10571 image/png 56.0954ms
+2024-05-16 12:24:59.937 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/toy.svg - null null
+2024-05-16 12:24:59.937 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-16 12:24:59.959 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/MedicinePhoto - 404 0 null 30.7339ms
+2024-05-16 12:24:59.975 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/toy.svg - 404 0 null 38.3402ms
+2024-05-16 12:24:59.990 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.5268ms
+2024-05-16 12:24:59.995 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/MedicinePhoto, Response status code: 404
+2024-05-16 12:25:00.008 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/toy.svg, Response status code: 404
+2024-05-16 12:25:00.086 +03:00 [INF] Executed DbCommand (185ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:00.122 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:00.160 +03:00 [INF] Executed ViewResult - view Index executed in 37.7767ms.
+2024-05-16 12:25:00.165 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 372.6934ms
+2024-05-16 12:25:00.170 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:00.174 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Category/Index - 200 null text/html; charset=utf-8 405.9165ms
+2024-05-16 12:25:00.446 +03:00 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:00.459 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:00.466 +03:00 [INF] Executed ViewResult - view Index executed in 6.9348ms.
+2024-05-16 12:25:00.471 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 2213.4915ms
+2024-05-16 12:25:00.476 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:00.481 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Category/Index - 200 null text/html; charset=utf-8 2264.0574ms
+2024-05-16 12:25:02.267 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Catalog/Index - null 0
+2024-05-16 12:25:02.277 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-16 12:25:02.282 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-16 12:25:02.483 +03:00 [INF] Executed DbCommand (187ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:02.495 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:02.503 +03:00 [INF] Executed ViewResult - view Index executed in 9.6233ms.
+2024-05-16 12:25:02.508 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 214.232ms
+2024-05-16 12:25:02.513 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-16 12:25:02.517 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Catalog/Index - 200 null text/html; charset=utf-8 250.0264ms
+2024-05-16 12:25:02.536 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-16 12:25:02.549 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:25:02.555 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-16 12:25:02.564 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:02.571 +03:00 [INF] Executed ViewResult - view Index executed in 7.8106ms.
+2024-05-16 12:25:02.577 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 13.9005ms
+2024-05-16 12:25:02.585 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:25:02.590 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 53.7504ms
+2024-05-16 12:25:02.598 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:25:02.617 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 19.1043ms
+2024-05-16 12:25:02.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-16 12:25:02.660 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.986ms
+2024-05-16 12:25:05.421 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Category/Index - application/x-www-form-urlencoded; charset=UTF-8 11
+2024-05-16 12:25:05.431 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:05.435 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:25:05.690 +03:00 [INF] Executed DbCommand (244ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:05.701 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:05.706 +03:00 [INF] Executed ViewResult - view Index executed in 5.3193ms.
+2024-05-16 12:25:05.712 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 267.4184ms
+2024-05-16 12:25:05.718 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:05.729 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Category/Index - 200 null text/html; charset=utf-8 307.4673ms
+2024-05-16 12:25:05.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Category/Index?word=Makeup - null null
+2024-05-16 12:25:05.768 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:05.772 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:25:06.001 +03:00 [INF] Executed DbCommand (209ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:06.011 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:06.016 +03:00 [INF] Executed ViewResult - view Index executed in 5.104ms.
+2024-05-16 12:25:06.022 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 235.7264ms
+2024-05-16 12:25:06.030 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:06.039 +03:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-05-16 12:25:06.044 +03:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-05-16 12:25:06.048 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Category/Index?word=Makeup - 200 null text/html; charset=utf-8 298.5016ms
+2024-05-16 12:25:06.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Category/image/icon.ico - null null
+2024-05-16 12:25:06.139 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Category/image/icon.ico - 404 0 null 9.6536ms
+2024-05-16 12:25:06.150 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/Category/image/icon.ico, Response status code: 404
+2024-05-16 12:25:07.672 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Category/Index - null 0
+2024-05-16 12:25:07.680 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:07.683 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:25:07.869 +03:00 [INF] Executed DbCommand (180ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:07.883 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:07.904 +03:00 [INF] Executed ViewResult - view Index executed in 21.7178ms.
+2024-05-16 12:25:07.911 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 223.3906ms
+2024-05-16 12:25:07.919 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:07.925 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Category/Index - 200 null text/html; charset=utf-8 252.6226ms
+2024-05-16 12:25:07.957 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-16 12:25:07.973 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:25:07.982 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-16 12:25:07.995 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:08.002 +03:00 [INF] Executed ViewResult - view Index executed in 6.4296ms.
+2024-05-16 12:25:08.007 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 11.6357ms
+2024-05-16 12:25:08.014 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:25:08.022 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 65.0321ms
+2024-05-16 12:25:08.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:25:08.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 14.9899ms
+2024-05-16 12:25:08.045 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-16 12:25:08.069 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.7573ms
+2024-05-16 12:25:10.128 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Category/Index - application/x-www-form-urlencoded; charset=UTF-8 13
+2024-05-16 12:25:10.139 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:10.144 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:25:10.361 +03:00 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:10.371 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:10.377 +03:00 [INF] Executed ViewResult - view Index executed in 5.4206ms.
+2024-05-16 12:25:10.382 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 228.8192ms
+2024-05-16 12:25:10.386 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:10.391 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Category/Index - 200 null text/html; charset=utf-8 263.5321ms
+2024-05-16 12:25:10.408 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Category/Index?word=Vitamins - null null
+2024-05-16 12:25:10.423 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:10.427 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:25:10.625 +03:00 [INF] Executed DbCommand (187ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:10.636 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:10.641 +03:00 [INF] Executed ViewResult - view Index executed in 4.8553ms.
+2024-05-16 12:25:10.647 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 211.7332ms
+2024-05-16 12:25:10.654 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:10.660 +03:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-05-16 12:25:10.663 +03:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-05-16 12:25:10.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Category/Index?word=Vitamins - 200 null text/html; charset=utf-8 260.0073ms
+2024-05-16 12:25:12.045 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Category/Index - null 0
+2024-05-16 12:25:12.063 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:12.072 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:25:12.277 +03:00 [INF] Executed DbCommand (197ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:12.285 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:12.289 +03:00 [INF] Executed ViewResult - view Index executed in 3.9072ms.
+2024-05-16 12:25:12.293 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 214.7434ms
+2024-05-16 12:25:12.297 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:12.301 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Category/Index - 200 null text/html; charset=utf-8 256.4206ms
+2024-05-16 12:25:12.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-16 12:25:12.330 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:25:12.335 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-16 12:25:12.342 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:12.347 +03:00 [INF] Executed ViewResult - view Index executed in 4.9962ms.
+2024-05-16 12:25:12.352 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 10.4545ms
+2024-05-16 12:25:12.358 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:25:12.365 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:25:12.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 48.3798ms
+2024-05-16 12:25:12.379 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.3349ms
+2024-05-16 12:25:12.381 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-16 12:25:12.410 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.4327ms
+2024-05-16 12:25:15.048 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Category/Index - application/x-www-form-urlencoded; charset=UTF-8 13
+2024-05-16 12:25:15.060 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:15.064 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:25:15.283 +03:00 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:15.294 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:15.298 +03:00 [INF] Executed ViewResult - view Index executed in 4.1374ms.
+2024-05-16 12:25:15.303 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 228.2244ms
+2024-05-16 12:25:15.308 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:15.312 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Category/Index - 200 null text/html; charset=utf-8 263.6802ms
+2024-05-16 12:25:15.329 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/Category/Index?word=Medicine - null null
+2024-05-16 12:25:15.340 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:15.344 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:25:15.569 +03:00 [INF] Executed DbCommand (216ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:15.580 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:15.584 +03:00 [INF] Executed ViewResult - view Index executed in 4.2677ms.
+2024-05-16 12:25:15.590 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 238.2175ms
+2024-05-16 12:25:15.598 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:15.603 +03:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-05-16 12:25:15.606 +03:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-05-16 12:25:15.612 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/Category/Index?word=Medicine - 200 null text/html; charset=utf-8 283.3729ms
+2024-05-16 12:25:17.127 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Category/Index - null 0
+2024-05-16 12:25:17.137 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:17.141 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:25:17.362 +03:00 [INF] Executed DbCommand (213ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:17.374 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:17.380 +03:00 [INF] Executed ViewResult - view Index executed in 5.4799ms.
+2024-05-16 12:25:17.393 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 245.0291ms
+2024-05-16 12:25:17.399 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:17.407 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Category/Index - 200 null text/html; charset=utf-8 279.8464ms
+2024-05-16 12:25:17.435 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-16 12:25:17.445 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:25:17.449 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-16 12:25:17.459 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:17.464 +03:00 [INF] Executed ViewResult - view Index executed in 5.0369ms.
+2024-05-16 12:25:17.471 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 12.1732ms
+2024-05-16 12:25:17.484 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:25:17.490 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:25:17.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 20.5528ms
+2024-05-16 12:25:17.510 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 74.9694ms
+2024-05-16 12:25:17.525 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-16 12:25:17.572 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.4129ms
+2024-05-16 12:25:18.893 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Catalog - application/x-www-form-urlencoded 182
+2024-05-16 12:25:18.905 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-16 12:25:18.911 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-16 12:25:19.170 +03:00 [INF] Executed DbCommand (247ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:19.179 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:19.194 +03:00 [INF] Executed ViewResult - view Index executed in 15.2338ms.
+2024-05-16 12:25:19.199 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 277.4262ms
+2024-05-16 12:25:19.204 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-16 12:25:19.209 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Catalog - 200 null text/html; charset=utf-8 316.0799ms
+2024-05-16 12:25:19.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/MedicinePhoto - null null
+2024-05-16 12:25:19.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:25:19.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/toy.svg - null null
+2024-05-16 12:25:19.230 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/MedicinePhoto - 404 0 null 18.0341ms
+2024-05-16 12:25:19.230 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-16 12:25:19.238 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 25.14ms
+2024-05-16 12:25:19.247 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/toy.svg - 404 0 null 34.0405ms
+2024-05-16 12:25:19.257 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/MedicinePhoto, Response status code: 404
+2024-05-16 12:25:19.273 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.9734ms
+2024-05-16 12:25:19.293 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7072/toy.svg, Response status code: 404
+2024-05-16 12:25:22.372 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7072/Category?word=For%20Children%27s - application/x-www-form-urlencoded 204
+2024-05-16 12:25:22.384 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:22.389 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-16 12:25:22.641 +03:00 [INF] Executed DbCommand (240ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-16 12:25:22.651 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:22.656 +03:00 [INF] Executed ViewResult - view Index executed in 5.3438ms.
+2024-05-16 12:25:22.661 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 262.7814ms
+2024-05-16 12:25:22.669 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-16 12:25:22.674 +03:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-05-16 12:25:22.678 +03:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-05-16 12:25:22.686 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7072/Category?word=For%20Children%27s - 200 null text/html; charset=utf-8 313.4763ms
+2024-05-16 12:25:26.286 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-16 12:25:26.300 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:25:26.304 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-16 12:25:26.312 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-16 12:25:26.316 +03:00 [INF] Executed ViewResult - view Index executed in 4.2597ms.
+2024-05-16 12:25:26.354 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 42.1078ms
+2024-05-16 12:25:26.362 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-16 12:25:26.365 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 12:25:26.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 81.3511ms
+2024-05-16 12:25:26.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.4386ms
