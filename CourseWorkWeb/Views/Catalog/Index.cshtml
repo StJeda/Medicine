@@ -89,7 +89,7 @@
                     @foreach (var item in Model.ToList())
                     {
 
-                        <button class="CatalogCard" onclick="toProduct(1)">
+                        <button class="CatalogCard" onclick="toProduct(@item.Id)">
                             <img src=@item.Photo alt="foto">
                             <div class="CatalogMedicineWords">
                                 <p class="wp">@item.Name</p>

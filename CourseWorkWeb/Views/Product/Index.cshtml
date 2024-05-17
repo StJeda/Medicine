@@ -2,7 +2,7 @@
 @using CourseWorkWeb.DAL.Repositories
 @using CourseWorkWeb.Models.Entity.Medicines
 @using Microsoft.AspNetCore.Mvc.Routing
-@model IEnumerable<Medicine>
+@model Medicine
 
 
 @{
@@ -74,23 +74,22 @@
     </div>
     </div>
 
-    @foreach (var medicine in Model)
-    {
+    
         <div class="TovarContainer">
             <div class="TovarFotoContainerName">
                 <div class="TovarFotoContainerName1">
-                    <img class="TovarFoto0" src="@medicine.Photo" alt="фото">
+                    <img class="TovarFoto0" src="@Model.Photo" alt="фото">
                     <div class="Tovarname">
-                        <img class="TovarFoto1" src="@medicine.Photo">
-                        <img class="TovarFoto1" src="@medicine.Photo">
-                        <img class="TovarFoto1" src="@medicine.Photo">
+                        <img class="TovarFoto1" src="@Model.Photo">
+                        <img class="TovarFoto1" src="@Model.Photo">
+                        <img class="TovarFoto1" src="@Model.Photo">
                     </div>
                 </div>
             </div>
             <div class="TovarWords">
                 <div class="TovarBorder"><p>Info about product</p></div>
-                <p>@medicine.Name</p>
-                <p>@medicine.Cost</p>
+                <p>@Model.Name</p>
+                <p>@Model.Cost</p>
                 <div class="buttondiv">
                     <button class="buttonmag">Buy</button>
                     <button class="buttonmag">To cart</button>
@@ -98,9 +97,9 @@
                 <div class="MainInfo">
                     <div class="TTB">fdddsas</div>
                     <ul class="TovarMainPropery">
-                        <div class="TMain">Name : @medicine.Name</div>
-                        <div class="TMain">Country: @medicine.Country</div>
-                        <div class="TMain">Type: @medicine.Type</div>
+                        <div class="TMain">Name : @Model.Name</div>
+                        <div class="TMain">Country: @Model.Country</div>
+                        <div class="TMain">Type: @Model.Type</div>
                         <div class="TMain"></div>
                         <div class="TMain"></div>
                     </ul>

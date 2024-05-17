@@ -12896,11 +12896,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Works\\dasd\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+      "projectUniqueName": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
       "projectName": "CourseWorkWeb",
-      "projectPath": "D:\\Works\\dasd\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+      "projectPath": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
       "packagesPath": "C:\\Users\\yyarm\\.nuget\\packages\\",
-      "outputPath": "D:\\Works\\dasd\\Medicine\\CourseWorkWeb\\obj\\",
+      "outputPath": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yyarm\\AppData\\Roaming\\NuGet\\NuGet.Config",

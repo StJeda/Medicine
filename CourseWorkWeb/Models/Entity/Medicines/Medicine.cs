@@ -14,6 +14,7 @@ namespace CourseWorkWeb.Models.Entity.Medicines
         public string Name { get; set; } = null!;
         [Required]
         public string Description { get; set; } = null!;
+        public string? Articules { get; set; }
         public long MedicinePhoto_Id { get; set; }
         public MedicinePhoto Photo = new MedicinePhoto();
         public MedicineStatus Status = MedicineStatus.Available;

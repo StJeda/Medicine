@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CourseWorkWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+566a9c0962ec85236135b72ac02e8c90a56fbbfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b77bce60232b9ba8027116c9553139725c69d1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CourseWorkWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CourseWorkWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

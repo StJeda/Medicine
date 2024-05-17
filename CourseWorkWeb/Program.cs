@@ -23,7 +23,7 @@ builder.Host.UseMediatR();
 builder.Services.AddRepositories();
 builder.Services.AddScoped<IAggregateRepository<Medicine>, AggregateRepository<Medicine>>();
 builder.Services.AddTransient(typeof(IRequestHandler<GetEntitiesQuery<Medicine>, IEnumerable<Medicine>>), typeof(EntitiesQueryHandler<Medicine>));
-
+builder.Services.AddTransient(typeof(IRequestHandler<GetEntityQuery<Medicine>, Medicine>), typeof(EntityQueryHandler<Medicine>));
 
 var app = builder.Build();
 
