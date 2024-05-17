@@ -12891,19 +12891,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yyarm\\.nuget\\packages\\": {}
+    "C:\\Users\\Администратор\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
       "projectName": "CourseWorkWeb",
-      "projectPath": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
-      "packagesPath": "C:\\Users\\yyarm\\.nuget\\packages\\",
-      "outputPath": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\obj\\",
+      "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+      "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yyarm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12911,6 +12911,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -13016,7 +13017,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
