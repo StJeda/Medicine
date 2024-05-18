@@ -1,11 +1,5 @@
-@using CourseWorkWeb.DAL.Context
-@using CourseWorkWeb.DAL.Repositories
-@using CourseWorkWeb.Models.Entity.Medicines
-@using Microsoft.AspNetCore.Mvc.Routing
-@model IEnumerable<Medicine>
-
 @{
-    ViewData["Title"] = "Crud";
+    ViewData["Title"] = "Creator";
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +9,7 @@
     <title>@ViewData["Title"]</title>
     <link rel="shortcut icon" type="image/ico" href="~/image/icon.ico" />
     <link rel="stylesheet" type="text/css" href="~/css/cite1.css" />
-    <link rel="stylesheet" type="text/css" href="~/css/crud.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/create.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body class="Cmain">
@@ -73,53 +67,78 @@
     </div>
     </div>
     
-       <div class="HConteiner" >
-        <div class="HHeder" method="post">
-            <form class="HelperHeder">
-               <div class="BorderSearching">
-                <button class="SearchButton" type="submit">
-                    <img src="~/image/searchwhite.png">
-                </button>
-            </div> 
-            <input  class="SerchingInput" type="text" placeholder="Searching..."> 
-            </form>
-            <button class="ADDButton"><img src="~/image/add.png"></button>
+       <form class="CrConteiner">
+        <div class="Hheder">   
+            <p class="Word">Page Constructor</p>
+            <div class=divhButton> 
+            <button class="Hbutton"><img src="~/image/ArrowUp.png"></button>
+            <button class="Hbutton"><img src="~/image/closered.png"></button>
+            </div>
         </div>
-        <!--Начало таблици-->
-        <table class="Table">
-    <thead>
-        <tr class="TableTr"> 
-            <th class="TableTh">ID</th>
-            <th class="TableTh">Name</th>
-            <th class="TableTh">Quantity</th>
-            <th class="TableTh">Price</th>
-            <th class="TableTh">OP</th>
-        </tr>
-    </thead>
-      <!--Елементи таблици-->
-    <tbody class="TableTd">
-       @if (Model != null)
-                {
-                    @foreach (var item in Model.ToList())
-                    {
-                     <tr class="TableTrB">
-                         <td class="TableTh"><p>@item.Id</p></td>
-                         <td class="TableTh"><p>@item.Name</p></td>
-                         <td class="TableTh"><p>@item.Quantity</p></td>
-                         <td class="TableTh"><p>@item.Cost</p></td>
-                         <td class="TableThG">
-                            <button class="TableThBut"><img src="~/image/update.png"   value="@item.Id"></button>
-                            <button class="TableThBut"><img src="~/image/closered.png" value="@item.Id"></button>
-                         </td>
-                    </tr>
-                    }
-            }
-    </tbody>
-</table>
-       </div> 
-   
+        <div class="fotoPart">
+            <div class="Foto">
+                <div class="fotocard">
+                    <img src="https://www.add.ua/media/catalog/product/cache/0cb86aa621afec2b43f6f8736c54c157/1/-/1-vimaks4grinvud_jpg.webp">
+                </div>
+                <div class="OperationField">
+                <input  class="FileInput" type="file" id="fileInput" accept="image/*">
+                <button class="Upload" onclick="document.getElementById('fileInput').click();">Upload  photo</button> 
+                </div>
+            </div>
+           <div class="Foto">
+                <div class="fotocard">
+                    <img src="">
+                </div>
+                <div class="OperationField">
+                <input  class="FileInput" type="file" id="fileInput" accept="image/*">
+                <button class="Upload" onclick="document.getElementById('fileInput').click();">Upload  photo</button> 
+                </div>
+            </div>
+            <div class="Foto">
+                <div class="fotocard">
+                    <img src="">
+                </div>
+                <div class="OperationField">
+                <input  class="FileInput" type="file" id="fileInput" accept="image/*">
+                <button class="Upload" onclick="document.getElementById('fileInput').click();">Upload  photo</button> 
+                </div>
+            </div>
+        </div>
+        <div class="TexnicalPart">
+            <div class="BorderCategory"><p>Main Property</p></div>
+            <div class="Cwords">
+                <div class="Catg"><p>ID :</p><input type="text"></div>
+                <div class="Catg"><p>Name :</p><input type="text"></div> 
+                <div class="Catg"><p>Type :</p><input type="text"></div>
+                <div class="Catg"><p>Status :</p><select class="iput"><option value="True">Available</option><option value="False">Not available</option></select></div>
+                <div class="Catg"><p>Cost :</p><input type="number"></div>  
+                <div class="Catg"><p>Discount :</p><input type="number"></div> 
+                <div class="Catg"><p>Quantity :</p><input type="number"></div>   
+            </div>
+            <div class="BorderCategory"><p>Description</p></div>
+            <div class="Cwords">
+                <div class="Catg"><p>Age :</p><input type="number"></div>
+                <div class="Catg"><p>Input method :</p><input type="text"></div> 
+                <div class="Catg"><p>Pregnant :</p><select class="iput"><option value="True">Yes</option><option value="False">No</option></select></div>
+                <div class="Catg"><p>Manufacturer :</p><input type="text"></div>  
+                <div class="Catg"><p>Country :</p><input type="text"></div> 
+                <div class="Catg"><p>Prescription required :</p><select class="iput"><option value="True">Yes</option><option value="False">No</option></select></div>
+                <div class="Catg"><p>Compound :</p><input type="text"></div> 
+                <div class="Catg"><p>Instructions :</p><input type="text"></div> 
+                <div class="Catg"><p>Contraindications :</p><input type="text"></div> 
+                <div class="Catg"><p>Side effects :</p><input type="text"></div> 
+            </div>
+        </div>
+        
+        
 
-   
+
+       
+
+        </div>
+        </form>
+
+        </div>
     <script>
     function toHome() {
        $.ajax({

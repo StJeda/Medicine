@@ -972,3 +972,120 @@ footer .footer-bottom {
     margin: 0;
     font-size: 2vh;
 }
+.modal {
+    display: none; /* Спочатку приховане */
+    position: fixed; /* Залишатися на місці */
+    z-index: 1; /* Займати верхній шар */
+    right: 0; /* Відступ від правого краю */
+    top: 0;
+    width: 100%; /* Ширина 30% */
+    height: 100%; /* Повна висота */
+    overflow: auto; /* Включити прокрутку, якщо потрібно */
+    background-color: rgba(0,0,0,0.8); /* Чорний з прозорістю */
+  }
+  
+  /* Вміст/блок модального вікна */
+  .modal-content {
+    background-color: #fefefe;
+    border-top-left-radius: 20px;
+    height: 100%;
+    width: 30%;
+    float: right;
+  }
+  
+  
+  /* Кнопка закриття */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 7vh;
+    font-weight: bold;
+    margin-right:2vw ;
+  }
+  
+  .close:hover,
+  .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+body.modal-open {
+    overflow: hidden;
+  }
+.TovarSection{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.BorderName{
+background: radial-gradient(circle, rgba(35,154,35,1) 16%, rgba(35,147,35,1) 37%, rgba(34,142,34,1) 48%, rgba(34,139,34,1) 63%, rgba(38,140,34,1) 68%, rgba(41,140,34,1) 90%, rgba(65,145,35,1) 100%); 
+flex-basis: 5%;
+border-top-left-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.BorderContent{
+flex-basis: 95%;
+display: flex;
+flex-direction: column;
+margin-left: 1vw;
+margin-right: 1vw;
+}
+.mw{
+    color: white;
+    margin: 0;
+    margin-left: 3vw;
+    font-size: 3vh;
+}
+.CardModal{
+    flex-basis: 10%;
+    border: 2px solid #449223;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 5px;
+}
+.CardModal:first-child{margin-top: 2vh;}
+.FotoModal{
+    flex-basis: 30%;  
+}
+.FotoModal img{
+    height: 100%;
+    width: 100%;
+}
+.WordsModal{
+    flex-basis: 70%; 
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+}
+.MWords{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 70%;
+
+}
+.MButtons{
+    flex-basis: 30%;
+    width: 100%;
+}
+.MButtons button{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    background:  #54b42b;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+}

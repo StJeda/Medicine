@@ -7,11 +7,13 @@ using CourseWorkWeb.Core.CQRSadd.IEntity;
 
 namespace CourseWorkWeb.Controllers
 {
-    public class ManegController : Controller
+    public class ManegController(ISender sender) : Controller
     {
-        public IActionResult Index()
+       private readonly ISender _sender = sender;
+       public async Task<IActionResult> Index()
         {
-            return View();
+          var medicines = await _sender.Send(new GetEntitiesQuery<Medicine>());
+            return View(medicines);
         }
     }
 }
