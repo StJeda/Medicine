@@ -56,8 +56,8 @@
          </div>
         </form>
         <div class="HelpField">
-            <button> <img src="~/image/mag.png"></button>
-            <button> <img src="~/image/person.png"></button>
+            <button onclick="openModal()"> <img src="~/image/mag.png"></button>
+            <button onclick="openModal1()"> <img src="~/image/person.png"></button>
             <button> <img src="~/image/phone.png"></button>
         </div>
     </div>
@@ -224,7 +224,6 @@
 <div id="myModal" class="modal">
   <!-- Вміст модального вікна -->
   <div class="modal-content">
-   
    <div class="TovarSection">
     <div class="BorderName">
         <p class="mw">Basket</p>
@@ -250,37 +249,95 @@
   </div>
 </div>
 
+<div id="my_Exit" class="modal1">
+<form class="Content_Exit">
+    <div class="ExWordsSector">
+        <p>Welcome</p><button class="close">X</button> 
+    </div>
+    <div class="ExInputSector">
+       <input type="text" placeholder="Login">
+       <input type="password" placeholder="password">
+    </div>
+    <div class="ExButtonSector">
+        <button type="submit">Sign in</button>
+        <button type="submit">Register</button>
+    </div>
+</form>
+</div>
 <script>
-var modal = document.getElementById("myModal");
+var modal1 = document.getElementById("my_Exit");
 
-// Отримати кнопку, яка відкриває модальне вікно
-var btn = document.querySelector(".HelpField button:nth-child(1)");
+// Отримуємо кнопку відкриття модального вікна
+var openBtn = document.querySelector('.ExButtonSector button[type="submit"]');
+var closeBtn = document.querySelector('.close');
 
-// Отримати тіло сторінки
-var body = document.querySelector("body");
+// Відкриваємо модальне вікно та блокуємо прокручування сторінки
+function openModal1() {
+  modal1.style.display = "block";
+  document.body.style.overflow = "hidden"; // Блокуємо прокручування сторінки
+}
 
-// Отримати елемент <span>, який закриває модальне вікно
-var span = document.getElementsByClassName("close")[0];
+// Закриваємо модальне вікно та відновлюємо прокручування сторінки
+function closeModal1() {
+  modal1.style.display = "none";
+  document.body.style.overflow = "auto"; // Відновлюємо прокручування сторінки
+}
 
-// Коли користувач натискає на кнопку, відкрийте модальне вікно
-btn.onclick = function() {
+// Закриваємо модальне вікно при натисканні поза його областю
+window.addEventListener("click", function(event) {
+  // Перевіряємо, чи клік відбувся поза модальним вікном кабінету
+  if (event.target == modal1) {
+    closeModal1(); // Закриваємо модальне вікно кабінету
+  }
+});
+
+// Додаємо обробники подій до кнопок, якщо вони існують
+if (openBtn) {
+  openBtn.addEventListener("click", openModal1);
+}
+if (closeBtn) {
+  closeBtn.addEventListener("click", closeModal1);
+}
+</script>
+
+<script>
+ var modal = document.getElementById("myModal");
+
+// Отримуємо кнопку відкриття модального вікна
+var openBtn = document.getElementById("openBtn");
+
+// Отримуємо кнопку закриття модального вікна
+var closeBtn = document.getElementsByClassName("close")[0];
+
+// Відкриваємо модальне вікно та блокуємо прокручування сторінки
+function openModal() {
   modal.style.display = "block";
-  body.classList.add("modal-open"); // Додати клас для блокування прокрутки
+  document.body.style.overflow = "hidden"; // Блокуємо прокручування сторінки
 }
 
-// Коли користувач натискає на <span> (x), закрийте модальне вікно
-span.onclick = function() {
+// Закриваємо модальне вікно та відновлюємо прокручування сторінки
+function closeModal() {
   modal.style.display = "none";
-  body.classList.remove("modal-open"); // Видалити клас для розблокування прокрутки
+  document.body.style.overflow = "auto"; // Відновлюємо прокручування сторінки
 }
 
-// Коли користувач натискає будь-де за межами модального вікна, закрийте його
+// Закриваємо модальне вікно при натисканні поза його областю
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
-    body.classList.remove("modal-open"); // Видалити клас для розблокування прокрутки
+    closeModal();
   }
 }
+
+// Додаємо обробники подій до кнопок, якщо вони існують
+if (openBtn) {
+  openBtn.addEventListener("click", openModal);
+}
+if (closeBtn) {
+  closeBtn.addEventListener("click", closeModal);
+}
+</script>
+
+<script>
     var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
       navigation: {
