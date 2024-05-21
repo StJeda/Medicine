@@ -218,3 +218,60 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 2024-05-21 16:27:07.399 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
 2024-05-21 16:27:07.400 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\icon.ico'
 2024-05-21 16:27:07.400 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 200 1617 image/x-icon 1.7414ms
+2024-05-21 17:42:22.982 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:42:23.158 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-21 17:42:23.160 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:42:23.161 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:42:23.161 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-21 17:42:23.378 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-21 17:42:23.392 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-21 17:42:23.437 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-21 17:42:23.470 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-21 17:42:23.481 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-21 17:42:23.593 +03:00 [INF] Executed ViewResult - view Index executed in 112.9522ms.
+2024-05-21 17:42:23.597 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 126.7743ms
+2024-05-21 17:42:23.598 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-21 17:42:23.601 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 226.073ms
+2024-05-21 17:43:30.415 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration/Index - null null
+2024-05-21 17:43:30.418 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration/Index - 404 0 null 2.9496ms
+2024-05-21 17:43:30.427 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Registration/Index, Response status code: 404
+2024-05-21 17:43:30.498 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/favicon.ico - null null
+2024-05-21 17:43:30.518 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\favicon.ico'
+2024-05-21 17:43:30.519 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/favicon.ico - 200 5430 image/x-icon 20.5493ms
+2024-05-21 17:43:32.380 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration/Index - null null
+2024-05-21 17:43:32.382 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration/Index - 404 0 null 2.1955ms
+2024-05-21 17:43:32.382 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Registration/Index, Response status code: 404
+2024-05-21 17:44:04.343 +03:00 [INF] User profile is available. Using 'C:\Users\Администратор\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:44:04.480 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-21 17:44:04.482 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:44:04.483 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:44:04.483 +03:00 [INF] Content root path: C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb
+2024-05-21 17:44:04.694 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-21 17:44:04.704 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-21 17:44:04.744 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-21 17:44:04.777 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-21 17:44:04.786 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-21 17:44:04.894 +03:00 [INF] Executed ViewResult - view Index executed in 108.4495ms.
+2024-05-21 17:44:04.899 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 121.5419ms
+2024-05-21 17:44:04.900 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-21 17:44:04.903 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 211.4229ms
+2024-05-21 17:44:05.080 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-21 17:44:05.092 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-21 17:44:05.093 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 499 28175 text/css 12.5804ms
+2024-05-21 17:44:08.335 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration/Index - null null
+2024-05-21 17:44:08.340 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-21 17:44:08.349 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-21 17:44:08.351 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-21 17:44:08.374 +03:00 [INF] Executed ViewResult - view Index executed in 23.4756ms.
+2024-05-21 17:44:08.374 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 25.5157ms
+2024-05-21 17:44:08.375 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-21 17:44:08.375 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration/Index - 200 null text/html; charset=utf-8 39.7613ms
+2024-05-21 17:44:08.418 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/product.css - null null
+2024-05-21 17:44:08.424 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-21 17:44:08.424 +03:00 [INF] Sending file. Request path: '/css/product.css'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\product.css'
+2024-05-21 17:44:08.424 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/product.css - 200 3468 text/css 6.1937ms
+2024-05-21 17:44:08.445 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-21 17:44:08.447 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 200 23888 text/css 23.6098ms
+2024-05-21 17:44:08.448 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/close.png - null null
+2024-05-21 17:44:08.453 +03:00 [INF] Sending file. Request path: '/image/close.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\close.png'
+2024-05-21 17:44:08.453 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/close.png - 200 10571 image/png 5.4081ms
