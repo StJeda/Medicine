@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {}
+    "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {
+    "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+        "projectUniqueName": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
         "projectName": "CourseWorkWeb",
-        "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+        "projectPath": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
         "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\obj\\",
+        "outputPath": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",

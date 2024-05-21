@@ -67,40 +67,41 @@
     </div>
     </div>
     
-<form class="CrConteiner">
+<form class="CrConteiner" method="POST">
         <div class="Hheder">   
             <p class="Word">Page Constructor</p>
             <div class=divhButton> 
-            <button class="Hbutton"><img src="~/image/ArrowUp.png"></button>
-            <button class="Hbutton"><img src="~/image/closered.png"></button>
+            <button class="Hbutton" type="submit"><img src="~/image/ArrowUp.png"></button>
+            <button class="Hbutton" id="reloadBtn" ><img src="~/image/closered.png"></button>
             </div>
         </div>
         <div class="fotoPart">
             <div class="Foto">
-                <div class="fotocard">
-                    <img src="https://www.add.ua/media/catalog/product/cache/0cb86aa621afec2b43f6f8736c54c157/1/-/1-vimaks4grinvud_jpg.webp">
+                <div class="fotocard" id="fotocard">
+                    
                 </div>
-                <div class="OperationField">
-                <input  class="FileInput" type="file" id="fileInput" accept="image/*">
-                <button class="Upload" onclick="document.getElementById('fileInput').click();">Upload  photo</button> 
+                <div class="OperationField" id="form" enctype="multipart/form-data">
+                <input  class="FileInput" type="file" id="fileInput1" accept="image/*" onchange="previewImage()">
+                <button class="Upload" type="button" onclick="document.getElementById('fileInput1').click();">Upload  photo</button> 
                 </div>
+                
             </div>
            <div class="Foto">
-                <div class="fotocard">
-                    <img src="">
+                <div class="fotocard" id="fotocard2">
+                    
                 </div>
                 <div class="OperationField">
-                <input  class="FileInput" type="file" id="fileInput" accept="image/*">
-                <button class="Upload" onclick="document.getElementById('fileInput').click();">Upload  photo</button> 
+                <input  class="FileInput" type="file" id="fileInput2" accept="image/*" onchange="previewImage2()">
+                <button class="Upload" type="button" onclick="document.getElementById('fileInput2').click();">Upload  photo</button> 
                 </div>
             </div>
             <div class="Foto">
-                <div class="fotocard">
-                    <img src="">
+                <div class="fotocard" id="fotocard3">
+                    
                 </div>
                 <div class="OperationField">
-                <input  class="FileInput" type="file" id="fileInput" accept="image/*">
-                <button class="Upload" onclick="document.getElementById('fileInput').click();">Upload  photo</button> 
+                <input  class="FileInput" type="file" id="fileInput3" accept="image/*" onchange="previewImage3()">
+                <button class="Upload"  type="button" onclick="document.getElementById('fileInput3').click();">Upload  photo</button> 
                 </div>
             </div>
         </div>
@@ -131,8 +132,115 @@
         </div>
         </div>
 </form>
+<script>
+     const reloadBtn = document.getElementById('reloadBtn');
+     reloadBtn.addEventListener('click', function() {
+        window.location.reload();
+    });
+</script>
+<script>
+    async function previewImage() {
+        try {
+            const imagePath = await getFileInputPath('fileInput1');
+            await createImage(imagePath);
+        } catch (error) {
+            console.error("Ошибка:", error.message);
+        }
+    }
 
-        </div>
+
+    async function previewImage2() {
+    try {
+        const imagePath = await getFileInputPath('fileInput2');
+        await createImage2(imagePath);
+    } catch (error) {
+        console.error("Error:", error.message);
+    }
+}
+
+
+
+async function previewImage3() {
+    try {
+        const imagePath = await getFileInputPath('fileInput3');
+        await createImage3(imagePath);
+    } catch (error) {
+        console.error("Error:", error.message);
+    }
+}
+
+    async function createImage(imagePath) {
+        try {
+            const div = document.getElementById('fotocard');
+            if (!div) throw new Error('Element with id "fotocard" not found');
+
+            
+            while (div.firstChild) {
+                div.removeChild(div.firstChild);
+            }
+
+            const img = document.createElement('img');
+            img.src = imagePath; 
+
+            div.appendChild(img);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+    async function createImage2(imagePath) {
+        try {
+            const div = document.getElementById('fotocard2');
+            if (!div) throw new Error('Element with id "fotocard" not found');
+
+            
+            while (div.firstChild) {
+                div.removeChild(div.firstChild);
+            }
+
+            const img = document.createElement('img');
+            img.src = imagePath; 
+
+            div.appendChild(img);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+     async function createImage3(imagePath) {
+        try {
+            const div = document.getElementById('fotocard3');
+            if (!div) throw new Error('Element with id "fotocard" not found');
+
+            
+            while (div.firstChild) {
+                div.removeChild(div.firstChild);
+            }
+
+            const img = document.createElement('img');
+            img.src = imagePath; 
+
+            div.appendChild(img);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+
+    async function getFileInputPath(fileInputId) {
+        return new Promise((resolve, reject) => {
+            const fileInput = document.getElementById(fileInputId);
+
+            if (!fileInput || !fileInput.files || fileInput.files.length === 0) {
+                reject(new Error("No file selected"));
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const path = URL.createObjectURL(file);
+            resolve(path);
+        });
+    }
+</script>
+
+
     <script>
     function toHome() {
        $.ajax({
