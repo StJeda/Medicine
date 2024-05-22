@@ -1008,7 +1008,7 @@ footer .footer-bottom {
   
   /* Кнопка закриття */
   .close {
-    color: #aaa;
+    color: #ffffff;
     float: right;
     font-size: 7vh;
     font-weight: bold;
@@ -1041,6 +1041,21 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.BorderName div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.BorderName button{
+    height: 4vh; 
+    width: 6vw; 
+    margin-right: 1vw; 
+    border-radius: 20px; 
+    border: none;
+    background:  #68D300;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .BorderContent{
 flex-basis: 95%;

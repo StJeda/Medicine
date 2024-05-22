@@ -31,7 +31,7 @@
                 </button>
                 <div class="CInputBorder">
                     <input type="text" placeholder="Searching...">
-                    <button class="CSerch" ><img src="~/image/search.png"></button>
+                    <button class="CSerch" type="submit" ><img src="~/image/search.png"></button>
                 </div>
             </form>
             <div class="CHelpField">
@@ -67,35 +67,35 @@
         </button>
     </div>
     </div>
-<div class="CabinetContainer">
+<form class="CabinetContainer" method="POST">
     <div class="LeftSection">
         <div class="CFConteiner">
             <div class="FConteiner">
                 <img src="https://root.tblcdn.com/img/goods/af45c99d-56c8-41d0-a9de-165885bad426/1/img_0.jpg?v=AAAAAAnhZ4I">
             </div>
-             <div class="BConteiner">
-                <button onclick="toggleInputs(event)">Edit</button>
-                <button>Product editor</button>
-                <button>Order List</button>
-             </div>
+        <div class="BContainer">
+             <button class="ButtonEdit" onclick="toggleInputs(event)" id="ButtonEdit_Acount">Edit</button>
+             <button class="ButtonApply"          id="ButtonApply_Acount" type="submit">Apply</button>
+             <button class="ButtonProductEditor"  id="ButtonProductEditor_HAcount">Product editor</button>
+             <button class="ButtonOrderList"      id="OrderList_HAcount"  >Order List</button>
+          </div>
+
+
         </div>
     </div>
     <div class="RightSection">
         <div class="BorderName"><p>You Profile</p></div>
         <div class="CabinetsWords">
-           <div><p>Name :</p><input type="text" class="no-input" readonly></div>
-           <div><p>Name :</p><input type="text" class="no-input"></div>
-           <div><p>Name :</p><input type="text" class="no-input"></div>
-           <div><p>Name :</p><input type="text" class="no-input"></div>
-           <div><p>Name :</p><input type="text" class="no-input"></div>
-           <div><p>Name :</p><input type="text" class="no-input"></div>
-           <div><p>Name :</p><input type="text" class="no-input"></div>
-           
+           <div><p>FirstName :</p><input type="text" class="no-input" name="FirstName" id="FirstName_Account"></div>
+            <div><p>LastName :</p><input type="text" class="no-input" name="LastName" id="LastName_Account"></div>
+           <div><p>Phone :</p><input type="text" class="no-input"     name="Phone" id="Phone_Account"></div>
+           <div><p>Email :</p><input type="text" class="no-input"     name="Email" id="Email_Account"></div>
+           <div><p>Password :</p><input type="text" class="no-input"  name="Password" id="Password_Account"></div>
         </div>
          <div class="BorderName"><p>History Order</p></div>
     <div class="TableOrder">
 <table>
-    <thead>
+    <thead><!--Ебаш форейчем и не парся тут имена не нужни-->
         <tr class="HederTable">
             <th>id</th>
             <th>Дата</th>
@@ -110,24 +110,12 @@
             <td>5000</td>
             <td>Виконано</td>
         </tr>
-        <tr class="itemTable">
-            <td>1</td>
-            <td>20.05.2024</td>
-            <td>5000</td>
-            <td>Виконано</td>
-        </tr>
-        <tr class="itemTable">
-            <td>1</td>
-            <td>20.05.2024</td>
-            <td>5000</td>
-            <td>Виконано</td>
-        </tr>
     </tbody>
 </table>
     </div>
         
     </div>
-</div>
+</form>
 
 
 </div>

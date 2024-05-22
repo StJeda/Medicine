@@ -58,6 +58,9 @@
      color: white;
      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+.ButtonApply{display: none;}
+.ButtonProductEditor{display: none;}
+.ButtonOrderList{display: none;}
 .BorderName{
     width: 100%;
     background: radial-gradient(circle, rgba(35,154,35,1) 16%, rgba(35,147,35,1) 37%, rgba(34,142,34,1) 48%, rgba(34,139,34,1) 63%, rgba(38,140,34,1) 68%, rgba(41,140,34,1) 90%, rgba(65,145,35,1) 100%);
