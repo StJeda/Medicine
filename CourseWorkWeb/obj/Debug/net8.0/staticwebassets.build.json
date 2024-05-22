@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "2uYbSopL7tZ/HqAh/bWaSnGFNbVTDaM2J6BsUhZT8f8=",
+=======
+  "Hash": "UjFHEwG4w/W35b0RKJgBkyFqLXNmU1fTRXeP0XO+2fs=",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
   "Source": "CourseWorkWeb",
   "BasePath": "_content/CourseWorkWeb",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "CourseWorkWeb\\wwwroot",
       "Source": "CourseWorkWeb",
+<<<<<<< HEAD
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CourseWorkWeb.styles.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CourseWorkWeb.styles.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "CourseWorkWeb.styles.css",
       "AssetKind": "All",
@@ -33,6 +48,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CourseWorkWeb.styles.css"
     },
     {
@@ -40,6 +56,15 @@
       "SourceId": "CourseWorkWeb",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CourseWorkWeb.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CourseWorkWeb.bundle.scp.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "CourseWorkWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -52,6 +77,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CourseWorkWeb.bundle.scp.css"
     },
     {
@@ -59,6 +85,15 @@
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CourseWorkWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cabinet.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "css/cabinet.css",
       "AssetKind": "All",
@@ -74,10 +109,17 @@
       "OriginalItemSpec": "wwwroot\\css\\cabinet.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cite.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cite.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "css/cite.css",
       "AssetKind": "All",
@@ -93,10 +135,17 @@
       "OriginalItemSpec": "wwwroot\\css\\cite.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cite1.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cite1.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "css/cite1.css",
       "AssetKind": "All",
@@ -112,10 +161,17 @@
       "OriginalItemSpec": "wwwroot\\css\\cite1.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\css\\create.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\create.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "css/create.css",
       "AssetKind": "All",
@@ -131,10 +187,17 @@
       "OriginalItemSpec": "wwwroot\\css\\create.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\css\\crud.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\crud.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "css/crud.css",
       "AssetKind": "All",
@@ -150,10 +213,17 @@
       "OriginalItemSpec": "wwwroot\\css\\crud.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\css\\product.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\product.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "css/product.css",
       "AssetKind": "All",
@@ -169,10 +239,17 @@
       "OriginalItemSpec": "wwwroot\\css\\product.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\css\\Registration.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\Registration.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "css/Registration.css",
       "AssetKind": "All",
@@ -188,10 +265,17 @@
       "OriginalItemSpec": "wwwroot\\css\\Registration.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\favicon.ico",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\favicon.ico",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -207,10 +291,17 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\10264982.jpg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\10264982.jpg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/10264982.jpg",
       "AssetKind": "All",
@@ -226,10 +317,17 @@
       "OriginalItemSpec": "wwwroot\\image\\10264982.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\10264982.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\10264982.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/10264982.png",
       "AssetKind": "All",
@@ -245,10 +343,17 @@
       "OriginalItemSpec": "wwwroot\\image\\10264982.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\33467.jpg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\33467.jpg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/33467.jpg",
       "AssetKind": "All",
@@ -264,10 +369,17 @@
       "OriginalItemSpec": "wwwroot\\image\\33467.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\33467.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\33467.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/33467.png",
       "AssetKind": "All",
@@ -283,10 +395,17 @@
       "OriginalItemSpec": "wwwroot\\image\\33467.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5960057.jpg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5960057.jpg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/5960057.jpg",
       "AssetKind": "All",
@@ -302,10 +421,17 @@
       "OriginalItemSpec": "wwwroot\\image\\5960057.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5960057.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5960057.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/5960057.png",
       "AssetKind": "All",
@@ -321,10 +447,17 @@
       "OriginalItemSpec": "wwwroot\\image\\5960057.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926 копия.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926 копия.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/5966926 копия.png",
       "AssetKind": "All",
@@ -340,10 +473,17 @@
       "OriginalItemSpec": "wwwroot\\image\\5966926 копия.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926.jpg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926.jpg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/5966926.jpg",
       "AssetKind": "All",
@@ -359,10 +499,17 @@
       "OriginalItemSpec": "wwwroot\\image\\5966926.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/5966926.png",
       "AssetKind": "All",
@@ -378,10 +525,17 @@
       "OriginalItemSpec": "wwwroot\\image\\5966926.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6051372.jpg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6051372.jpg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/6051372.jpg",
       "AssetKind": "All",
@@ -397,10 +551,17 @@
       "OriginalItemSpec": "wwwroot\\image\\6051372.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6119868.jpg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6119868.jpg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/6119868.jpg",
       "AssetKind": "All",
@@ -416,10 +577,17 @@
       "OriginalItemSpec": "wwwroot\\image\\6119868.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6119868.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6119868.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/6119868.png",
       "AssetKind": "All",
@@ -435,10 +603,17 @@
       "OriginalItemSpec": "wwwroot\\image\\6119868.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6350788.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6350788.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/6350788.png",
       "AssetKind": "All",
@@ -454,10 +629,17 @@
       "OriginalItemSpec": "wwwroot\\image\\6350788.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6392575.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6392575.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/6392575.png",
       "AssetKind": "All",
@@ -473,10 +655,36 @@
       "OriginalItemSpec": "wwwroot\\image\\6392575.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\add.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Без имени-2.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "image/Без имени-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Без имени-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\add.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/add.png",
       "AssetKind": "All",
@@ -492,10 +700,17 @@
       "OriginalItemSpec": "wwwroot\\image\\add.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Apt.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Apt.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/Apt.png",
       "AssetKind": "All",
@@ -511,10 +726,17 @@
       "OriginalItemSpec": "wwwroot\\image\\Apt.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\ArrowUp.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\ArrowUp.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/ArrowUp.png",
       "AssetKind": "All",
@@ -530,10 +752,17 @@
       "OriginalItemSpec": "wwwroot\\image\\ArrowUp.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\blok.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\blok.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/blok.png",
       "AssetKind": "All",
@@ -549,10 +778,17 @@
       "OriginalItemSpec": "wwwroot\\image\\blok.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\close.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\close.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/close.png",
       "AssetKind": "All",
@@ -568,10 +804,17 @@
       "OriginalItemSpec": "wwwroot\\image\\close.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\closered.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\closered.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/closered.png",
       "AssetKind": "All",
@@ -587,10 +830,17 @@
       "OriginalItemSpec": "wwwroot\\image\\closered.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Delivery.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Delivery.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/Delivery.png",
       "AssetKind": "All",
@@ -606,10 +856,17 @@
       "OriginalItemSpec": "wwwroot\\image\\Delivery.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\derictory.svg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\derictory.svg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/derictory.svg",
       "AssetKind": "All",
@@ -625,10 +882,17 @@
       "OriginalItemSpec": "wwwroot\\image\\derictory.svg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\health_metrics_FILL0_wght400_GRAD0_opsz24.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\health_metrics_FILL0_wght400_GRAD0_opsz24.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/health_metrics_FILL0_wght400_GRAD0_opsz24.png",
       "AssetKind": "All",
@@ -644,10 +908,17 @@
       "OriginalItemSpec": "wwwroot\\image\\health_metrics_FILL0_wght400_GRAD0_opsz24.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\hygiene.svg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\hygiene.svg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/hygiene.svg",
       "AssetKind": "All",
@@ -663,10 +934,17 @@
       "OriginalItemSpec": "wwwroot\\image\\hygiene.svg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\icon.ico",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\icon.ico",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/icon.ico",
       "AssetKind": "All",
@@ -682,10 +960,17 @@
       "OriginalItemSpec": "wwwroot\\image\\icon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\langwich.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\langwich.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/langwich.png",
       "AssetKind": "All",
@@ -701,10 +986,17 @@
       "OriginalItemSpec": "wwwroot\\image\\langwich.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\lines.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\lines.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/lines.png",
       "AssetKind": "All",
@@ -720,10 +1012,17 @@
       "OriginalItemSpec": "wwwroot\\image\\lines.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\logo.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\logo.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/logo.png",
       "AssetKind": "All",
@@ -739,10 +1038,17 @@
       "OriginalItemSpec": "wwwroot\\image\\logo.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mag.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mag.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/mag.png",
       "AssetKind": "All",
@@ -758,10 +1064,17 @@
       "OriginalItemSpec": "wwwroot\\image\\mag.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mag.svg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mag.svg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/mag.svg",
       "AssetKind": "All",
@@ -777,10 +1090,17 @@
       "OriginalItemSpec": "wwwroot\\image\\mag.svg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\makeup.svg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\makeup.svg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/makeup.svg",
       "AssetKind": "All",
@@ -796,10 +1116,17 @@
       "OriginalItemSpec": "wwwroot\\image\\makeup.svg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/map.png",
       "AssetKind": "All",
@@ -815,10 +1142,17 @@
       "OriginalItemSpec": "wwwroot\\image\\map.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map.svg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map.svg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/map.svg",
       "AssetKind": "All",
@@ -834,10 +1168,17 @@
       "OriginalItemSpec": "wwwroot\\image\\map.svg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map2.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map2.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/map2.png",
       "AssetKind": "All",
@@ -853,10 +1194,17 @@
       "OriginalItemSpec": "wwwroot\\image\\map2.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\moon.svg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\moon.svg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/moon.svg",
       "AssetKind": "All",
@@ -872,10 +1220,17 @@
       "OriginalItemSpec": "wwwroot\\image\\moon.svg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mpills.svg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mpills.svg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/mpills.svg",
       "AssetKind": "All",
@@ -891,10 +1246,17 @@
       "OriginalItemSpec": "wwwroot\\image\\mpills.svg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\oddol.jpg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\oddol.jpg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/oddol.jpg",
       "AssetKind": "All",
@@ -910,10 +1272,17 @@
       "OriginalItemSpec": "wwwroot\\image\\oddol.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\person.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\person.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/person.png",
       "AssetKind": "All",
@@ -929,10 +1298,17 @@
       "OriginalItemSpec": "wwwroot\\image\\person.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\phone.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\phone.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/phone.png",
       "AssetKind": "All",
@@ -948,10 +1324,17 @@
       "OriginalItemSpec": "wwwroot\\image\\phone.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\pill.svg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\pill.svg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/pill.svg",
       "AssetKind": "All",
@@ -967,10 +1350,17 @@
       "OriginalItemSpec": "wwwroot\\image\\pill.svg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\search.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\search.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/search.png",
       "AssetKind": "All",
@@ -986,10 +1376,17 @@
       "OriginalItemSpec": "wwwroot\\image\\search.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\searchwhite.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\searchwhite.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/searchwhite.png",
       "AssetKind": "All",
@@ -1005,10 +1402,17 @@
       "OriginalItemSpec": "wwwroot\\image\\searchwhite.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Taygeron.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Taygeron.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/Taygeron.png",
       "AssetKind": "All",
@@ -1024,10 +1428,17 @@
       "OriginalItemSpec": "wwwroot\\image\\Taygeron.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\tb.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\tb.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/tb.png",
       "AssetKind": "All",
@@ -1043,10 +1454,17 @@
       "OriginalItemSpec": "wwwroot\\image\\tb.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\tb2.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\tb2.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/tb2.png",
       "AssetKind": "All",
@@ -1062,10 +1480,17 @@
       "OriginalItemSpec": "wwwroot\\image\\tb2.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Tovar.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Tovar.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/Tovar.png",
       "AssetKind": "All",
@@ -1081,10 +1506,17 @@
       "OriginalItemSpec": "wwwroot\\image\\Tovar.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\toy.svg",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\toy.svg",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/toy.svg",
       "AssetKind": "All",
@@ -1100,10 +1532,17 @@
       "OriginalItemSpec": "wwwroot\\image\\toy.svg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\update.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\update.png",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "image/update.png",
       "AssetKind": "All",
@@ -1119,6 +1558,7 @@
       "OriginalItemSpec": "wwwroot\\image\\update.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Без имени-2.png",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
@@ -1142,6 +1582,12 @@
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\js\\site.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1157,10 +1603,568 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\js\\test.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "js/test.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\test.js"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1176,10 +2180,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1195,10 +2206,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1214,10 +2232,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1233,10 +2258,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1252,10 +2284,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1271,10 +2310,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1290,10 +2336,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1309,6 +2362,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
@@ -1845,6 +2899,12 @@
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1860,10 +2920,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1879,10 +2946,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1898,10 +2972,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1917,10 +2998,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1936,10 +3024,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1955,10 +3050,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1974,10 +3076,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1993,10 +3102,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2012,10 +3128,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2031,10 +3154,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2050,10 +3180,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2069,10 +3206,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2088,10 +3232,169 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+      "BasePath": "_content/CourseWorkWeb",
+      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2107,10 +3410,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2126,10 +3436,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2145,10 +3462,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "CourseWorkWeb",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "CourseWorkWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       "BasePath": "_content/CourseWorkWeb",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

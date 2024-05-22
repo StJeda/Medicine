@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\CourseWorkWeb",
-    "\\CourseWorkWeb\\Controllers",
-    "\\CourseWorkWeb\\Pages",
-    "\\CourseWorkWeb\\Views",
-    "\\CourseWorkWeb\\Views\\Home"
+    ""
   ],
-  "SelectedNode": "\\CourseWorkWeb\\Views\\_ViewImports.cshtml",
+  "SelectedNode": "\\CourseWorkWeb.sln",
   "PreviewInSolutionExplorer": false
 }
