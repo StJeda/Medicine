@@ -1,0 +1,288 @@
+@{
+    ViewData["Title"] = "Creator";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="shortcut icon" type="image/ico" href="~/image/icon.ico" />
+    <link rel="stylesheet" type="text/css" href="~/css/cite1.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/create.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="Cmain">
+    <div class="CHeader">
+        <div class="CNT">
+            <div class="Clogo">
+                <img class="CimgLogo"  src="~/image/logo.png">
+                <div class="CAptecaName">
+                <p>Tabletki</p>
+                <p>APT.UA</p>
+            </div>
+            </div>
+            <form class="CSearchField">
+                <button class="CCatalog">
+                    <img src="~/image/lines.png">
+                    <p>Catologe</p>
+                    
+                </button>
+                <div class="CInputBorder">
+                    <input type="text" placeholder="Searching...">
+                    <button class="CSerch" ><img src="~/image/search.png"></button>
+                </div>
+            </form>
+            <div class="CHelpField">
+            <button class="CHelpFieldButton"> <img src="~/image/mag.png"></button>
+            <button class="CHelpFieldButton"> <img src="~/image/person.png"></button>
+            <button class="CHelpFieldButton"> <img src="~/image/phone.png"></button>
+        </div>
+        </div>
+        <div class="CND">
+        <button onclick="toCategory('Medicine')">
+            <p>Medicine</p>
+            <img src="~/image/pill.svg" alt="Medicine">
+        </button>
+        <button  onclick="toCategory('Vitamins')">
+            <p>Vitamins</p>
+            <img src="~/image/mpills.svg" alt="Vitamins">
+        </button>
+        <button onclick="toCategory('Hygiene')">
+            <p>Hygiene</p>
+            <img src="~/image/hygiene.svg" alt="Hygiene">
+        </button>
+        <button onclick="toCategory('Makeup')">
+            <p>Makeup</p>
+            <img src="~/image/makeup.svg" alt="Makeup">
+        </button>
+        <button onclick="toCategory('Children')">
+            <p>For Children's</p>
+            <img src="~/image/toy.svg" alt="For Children's">
+        </button>
+         <button onclick="toHome()">
+            <p>Back</p>
+            <img src="~/image/close.png" alt="Back">
+        </button>
+    </div>
+    </div>
+    
+<form asp-controller="Medicine" asp-action="AddMedicine" class="CrConteiner" method="POST">
+        <div class="Hheder">   
+            <p class="Word">Page Constructor</p>
+            <div class=divhButton> 
+            <button class="Hbutton"  type="submit"><img src="~/image/ArrowUp.png"></button>
+            <button class="Hbutton" id="reloadBtn" ><img src="~/image/closered.png"></button>
+            </div>
+        </div>
+        <div class="fotoPart">
+            <div class="Foto">
+                <div class="fotocard" id="fotocard">
+                    
+                </div>
+                <div class="OperationField" id="form" enctype="multipart/form-data">
+                <input  class="FileInput" type="file" id="fileInput1" accept="image/*" onchange="previewImage()">
+                <button class="Upload" type="button" onclick="document.getElementById('fileInput1').click();">Upload  photo</button> 
+                </div>
+                
+            </div>
+           <div class="Foto">
+                <div class="fotocard" id="fotocard2">
+                    
+                </div>
+                <div class="OperationField">
+                <input  class="FileInput" type="file" id="fileInput2" accept="image/*" onchange="previewImage2()">
+                <button class="Upload" type="button" onclick="document.getElementById('fileInput2').click();">Upload  photo</button> 
+                </div>
+            </div>
+            <div class="Foto">
+                <div class="fotocard" id="fotocard3">
+                    
+                </div>
+                <div class="OperationField">
+                <input  class="FileInput" type="file" id="fileInput3" accept="image/*" onchange="previewImage3()">
+                <button class="Upload"  type="button" onclick="document.getElementById('fileInput3').click();">Upload  photo</button> 
+                </div>
+            </div>
+        </div>
+        <div class="TexnicalPart">
+            <div class="BorderCategory"><p>Main Property</p></div>
+            <div class="Cwords">
+                <div class="Catg"><p>ID :</p><input type="text" name='Id'></div>
+                <div class="Catg"><p>Name :</p><input type="text" name='Name'></div> 
+                <div class="Catg"><p>Type :</p><input type="text" name='Type'></div>
+                <div class="Catg"><p>Status :</p><select class="iput" name='Status'><option value="True">Available</option><option value="False">Not available</option></select></div>
+                <div class="Catg"><p>Cost :</p><input type="number" name='Cost'></div>  
+                <div class="Catg"><p>Discount :</p><input type="number" name='Discount'></div> 
+                <div class="Catg"><p>Quantity :</p><input type="number" name='Quantity'></div>   
+            </div>
+            <div class="BorderCategory"><p>Description</p></div>
+            <div class="Cwords">
+                <div class="Catg"><p>Age :</p><input type="number" name='Age'></div>
+                <div class="Catg"><p>Input method :</p><input type="text"  name='InputMethod'></div> 
+                <div class="Catg"><p>Pregnant :</p><select class="iput" name='Pregnant'><option value="True">Yes</option><option value="False">No</option></select></div>
+                <div class="Catg"><p>Manufacturer :</p><input type="text" name='Manufacturer'></div>  
+                <div class="Catg"><p>Country :</p><input type="text" name='Country'></div> 
+                <div class="Catg"><p>Prescription required :</p><select class="iput" name='PrescriptionRequired'></select>><option value="True">Yes</option><option value="False">No</option></select></div>
+                <div class="Catg"><p>Compound :</p><input type="text" name='Compound'></div> 
+                <div class="Catg"><p>Instructions :</p><input type="text" name='Instructions'></div> 
+                <div class="Catg"><p>Contraindications :</p><input type="text" name='Contraindications'></div> 
+                <div class="Catg"><p>Side effects :</p><input type="text" name='SideEffects'></div> 
+            </div>
+        </div>
+        </div>
+</form>
+<script>
+     const reloadBtn = document.getElementById('reloadBtn');
+     reloadBtn.addEventListener('click', function() {
+        window.location.reload();
+    });
+</script>
+<script>
+    async function previewImage() {
+        try {
+            const imagePath = await getFileInputPath('fileInput1');
+            await createImage(imagePath);
+        } catch (error) {
+            console.error("Ошибка:", error.message);
+        }
+    }
+
+
+    async function previewImage2() {
+    try {
+        const imagePath = await getFileInputPath('fileInput2');
+        await createImage2(imagePath);
+    } catch (error) {
+        console.error("Error:", error.message);
+    }
+}
+
+
+
+async function previewImage3() {
+    try {
+        const imagePath = await getFileInputPath('fileInput3');
+        await createImage3(imagePath);
+    } catch (error) {
+        console.error("Error:", error.message);
+    }
+}
+
+    async function createImage(imagePath) {
+        try {
+            const div = document.getElementById('fotocard');
+            if (!div) throw new Error('Element with id "fotocard" not found');
+
+            
+            while (div.firstChild) {
+                div.removeChild(div.firstChild);
+            }
+
+            const img = document.createElement('img');
+            img.src = imagePath; 
+
+            div.appendChild(img);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+    async function createImage2(imagePath) {
+        try {
+            const div = document.getElementById('fotocard2');
+            if (!div) throw new Error('Element with id "fotocard" not found');
+
+            
+            while (div.firstChild) {
+                div.removeChild(div.firstChild);
+            }
+
+            const img = document.createElement('img');
+            img.src = imagePath; 
+
+            div.appendChild(img);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+     async function createImage3(imagePath) {
+        try {
+            const div = document.getElementById('fotocard3');
+            if (!div) throw new Error('Element with id "fotocard" not found');
+
+            
+            while (div.firstChild) {
+                div.removeChild(div.firstChild);
+            }
+
+            const img = document.createElement('img');
+            img.src = imagePath; 
+
+            div.appendChild(img);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+
+    async function getFileInputPath(fileInputId) {
+        return new Promise((resolve, reject) => {
+            const fileInput = document.getElementById(fileInputId);
+
+            if (!fileInput || !fileInput.files || fileInput.files.length === 0) {
+                reject(new Error("No file selected"));
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const path = URL.createObjectURL(file);
+            resolve(path);
+        });
+    }
+</script>
+
+
+    <script>
+    function toHome() {
+       $.ajax({
+        type: "POST",
+        url: "/Catalog/Index",
+        success: function (response) {
+            console.log("Метод контроллера успешно вызван");
+            window.location.href = "/"; 
+        },
+        error: function (xhr, status, error) {
+            console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+function toCategory(word) {
+    $.ajax({
+        type: "POST",
+        url: "/Category/Index",
+        data: { word: word }, // Pass the 'word' parameter to the controller
+        success: function (response) {
+            console.log("Метод контроллера успешно вызван");
+            window.location.href = "/Category/Index?word=" + word; // Redirect to the category page with the word parameter
+        },
+        error: function (xhr, status, error) {
+            console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+ var header = document.querySelector('.HHeder');
+
+    // Добавляем обработчик события прокрутки
+    window.addEventListener('scroll', function() {
+        // Если страница прокручена больше, чем на 100px, добавляем класс для изменения обводки
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled-border');
+            header.classList.remove('standard-border');
+        } else {
+            // В противном случае удаляем класс
+            header.classList.remove('scrolled-border');
+            header.classList.add('standard-border');
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+@using CourseWorkWeb.DAL.Context
+@using CourseWorkWeb.DAL.Repositories
+@using CourseWorkWeb.Models.Entity.Medicines
+@using Microsoft.AspNetCore.Mvc.Routing
+@model Medicine
+
+
+@{
+    ViewData["Title"] = "Product";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="shortcut icon" type="image/ico" href="~/image/icon.ico" />
+    <link rel="stylesheet" type="text/css" href="~/css/cite1.css" />
+     <link rel="stylesheet" type="text/css" href="~/css/product.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="Cmain">
+    <div class="CHeader">
+        <div class="CNT">
+            <div class="Clogo">
+                <img class="CimgLogo"  src="~/image/logo.png">
+                <div class="CAptecaName">
+                <p>Tabletki</p>
+                <p>APT.UA</p>
+            </div>
+            </div>
+            <form class="CSearchField">
+                <button class="CCatalog">
+                    <img src="~/image/lines.png">
+                    <p>Catologe</p>
+                    
+                </button>
+                <div class="CInputBorder">
+                    <input type="text" placeholder="Searching...">
+                    <button class="CSerch" ><img src="~/image/search.png"></button>
+                </div>
+            </form>
+            <div class="CHelpField">
+            <button class="CHelpFieldButton"> <img src="~/image/mag.png"></button>
+            <button class="CHelpFieldButton"> <img src="~/image/person.png"></button>
+            <button class="CHelpFieldButton"> <img src="~/image/phone.png"></button>
+        </div>
+        </div>
+        <div class="CND">
+        <button onclick="toCategory('Medicine')">
+            <p>Medicine</p>
+            <img src="~/image/pill.svg" alt="Medicine">
+        </button>
+        <button  onclick="toCategory('Vitamins')">
+            <p>Vitamins</p>
+            <img src="~/image/mpills.svg" alt="Vitamins">
+        </button>
+        <button onclick="toCategory('Hygiene')">
+            <p>Hygiene</p>
+            <img src="~/image/hygiene.svg" alt="Hygiene">
+        </button>
+        <button onclick="toCategory('Makeup')">
+            <p>Makeup</p>
+            <img src="~/image/makeup.svg" alt="Makeup">
+        </button>
+        <button onclick="toCategory('Children')">
+            <p>For Children's</p>
+            <img src="~/image/toy.svg" alt="For Children's">
+        </button>
+         <button onclick="toHome()">
+            <p>Back</p>
+            <img src="~/image/close.png" alt="Back">
+        </button>
+    </div>
+    </div>
+
+    
+        <div class="TovarContainer">
+            <div class="TovarFotoContainerName">
+                <div class="TovarFotoContainerName1">
+                    <img class="TovarFoto0" src="@Model.Photo" alt="фото">
+                    <div class="Tovarname">
+                        <img class="TovarFoto1" src="@Model.Photo">
+                        <img class="TovarFoto1" src="@Model.Photo">
+                        <img class="TovarFoto1" src="@Model.Photo">
+                    </div>
+                </div>
+            </div>
+            <div class="TovarWords">
+                <div class="TovarBorder"><p>Info about product</p></div>
+                <p>@Model.Name</p>
+                <p>@Model.Cost</p>
+                <div class="buttondiv">
+                    <button class="buttonmag">Buy</button>
+                    <button class="buttonmag">To cart</button>
+                </div>
+                <div class="MainInfo">
+                    <div class="TTB">fdddsas</div>
+                    <ul class="TovarMainPropery">
+                        <div class="TMain">Name : @Model.Name</div>
+                        <div class="TMain">Country: @Model.Country</div>
+                        <div class="TMain">Type: @Model.Type</div>
+                        <div class="TMain"></div>
+                        <div class="TMain"></div>
+                    </ul>
+                    <div class="TTB">fdddsas</div>
+                    <ul class="TovarSecondPropery">
+                        <div class="TMain"></div>
+                        <div class="TMain"></div>
+                        <div class="TMain"></div>
+                        <div class="TMain"></div>
+                        <div class="TMain"></div>
+                    </ul>
+                    <div class="TTB">fdddsas</div>
+                    <ul class="TovarSecondPropery">
+                        <div class="TMain"></div>
+                        <div class="TMain"></div>
+                        <div class="TMain"></div>
+                        <div class="TMain"></div>
+                        <div class="TMain"></div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    }
+
+
+
+
+
+
+
+
+<script>
+    function toHome() {
+       $.ajax({
+        type: "POST",
+        url: "/Catalog/Index",
+        success: function (response) {
+            console.log("Метод контроллера успешно вызван");
+            window.location.href = "/"; 
+        },
+        error: function (xhr, status, error) {
+            console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+function toCategory(word) {
+    $.ajax({
+        type: "POST",
+        url: "/Category/Index",
+        data: { word: word }, // Pass the 'word' parameter to the controller
+        success: function (response) {
+            console.log("Метод контроллера успешно вызван");
+            window.location.href = "/Category/Index?word=" + word; // Redirect to the category page with the word parameter
+        },
+        error: function (xhr, status, error) {
+            console.error("Произошла ошибка при вызове метода контроллера:", error);
+        }
+    });
+}
+</script>
+</body>
+
+</html>
