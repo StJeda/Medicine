@@ -12980,11 +12980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\срук\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
       "projectName": "CourseWorkWeb",
-      "projectPath": "C:\\Users\\Администратор\\Desktop\\срук\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+      "projectPath": "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
       "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Администратор\\Desktop\\срук\\Medicine\\CourseWorkWeb\\obj\\",
+      "outputPath": "C:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",

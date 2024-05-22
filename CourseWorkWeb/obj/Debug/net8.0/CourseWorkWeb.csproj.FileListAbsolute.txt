@@ -3370,3 +3370,5 @@ C:\Users\Администратор\Desktop\срук\Medicine\CourseWorkWeb\obj\
 C:\Users\Администратор\Desktop\срук\Medicine\CourseWorkWeb\obj\Debug\net8.0\CourseWorkWeb.pdb
 C:\Users\Администратор\Desktop\срук\Medicine\CourseWorkWeb\obj\Debug\net8.0\CourseWorkWeb.genruntimeconfig.cache
 C:\Users\Администратор\Desktop\срук\Medicine\CourseWorkWeb\obj\Debug\net8.0\ref\CourseWorkWeb.dll
+c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\bin\Debug\net8.0\BCrypt.Net-Next.dll
+c:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\bin\Debug\net8.0\FluentValidation.dll
