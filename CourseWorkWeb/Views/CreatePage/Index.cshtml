@@ -81,8 +81,9 @@
                     
                 </div>
                 <div class="OperationField" id="form" enctype="multipart/form-data">
-                <input  class="FileInput" type="file" id="fileInput1" name="FotoPath1" accept="image/*" onchange="previewImage()">
+                <input  class="FileInput" type="file" id="fileInput1"   name="FotoPath1" accept="image/*" onchange="previewImage()">
                 <button class="Upload" type="button" onclick="document.getElementById('fileInput1').click();">Upload  photo</button> 
+                <input type="hidden" id="base64FotoPath1" name="base64FotoPath1">
                 </div>
                 
             </div>
@@ -93,6 +94,7 @@
                 <div class="OperationField">
                 <input  class="FileInput" type="file" id="fileInput2" name="FotoPath2" accept="image/*" onchange="previewImage2()">
                 <button class="Upload" type="button" onclick="document.getElementById('fileInput2').click();">Upload  photo</button> 
+                <input type="hidden" id="base64FotoPath2" name="base64FotoPath2">
                 </div>
             </div>
             <div class="Foto">
@@ -102,6 +104,7 @@
                 <div class="OperationField">
                 <input  class="FileInput" type="file" id="fileInput3" name="FotoPath3" accept="image/*" onchange="previewImage3()">
                 <button class="Upload"  type="button" onclick="document.getElementById('fileInput3').click();">Upload  photo</button> 
+                <input type="hidden" id="base64FotoPath2" name="base64FotoPath2">
                 </div>
             </div>
         </div>
@@ -139,20 +142,28 @@
     });
 </script>
 <script>
-    async function previewImage() {
-        try {
-            const imagePath = await getFileInputPath('fileInput1');
-            await createImage(imagePath);
-        } catch (error) {
-            console.error("Ошибка:", error.message);
-        }
+  async function previewImage() {
+    try {
+        const imagePath = await getFileInputPath('fileInput1');
+        await createImage(imagePath);
+        const file = document.getElementById('fileInput1').files[0];
+        getBase64(file, function(base64) {
+            document.getElementById('base64FotoPath1').value = base64;
+        });
+    } catch (error) {
+        console.error("Error:", error.message);
     }
+}
 
 
-    async function previewImage2() {
+async function previewImage2() {
     try {
         const imagePath = await getFileInputPath('fileInput2');
-        await createImage2(imagePath);
+        await createImage(imagePath);
+        const file = document.getElementById('fileInput2').files[0];
+        getBase64(file, function(base64) {
+            document.getElementById('base64FotoPath2').value = base64;
+        });
     } catch (error) {
         console.error("Error:", error.message);
     }
@@ -163,7 +174,11 @@
 async function previewImage3() {
     try {
         const imagePath = await getFileInputPath('fileInput3');
-        await createImage3(imagePath);
+        await createImage(imagePath);
+        const file = document.getElementById('fileInput3').files[0];
+        getBase64(file, function(base64) {
+            document.getElementById('base64FotoPath3').value = base64;
+        });
     } catch (error) {
         console.error("Error:", error.message);
     }
@@ -238,6 +253,16 @@ async function previewImage3() {
             resolve(path);
         });
     }
+    function getBase64(file, callback) {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = function () {
+     callback(reader.result);
+            };
+    reader.onerror = function (error) {
+    console.error('Error: ', error);
+            };
+        }
 </script>
 
 
