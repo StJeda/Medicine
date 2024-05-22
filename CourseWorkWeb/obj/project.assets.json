@@ -12975,19 +12975,48 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\yyarm\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\yterd\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Merge\\SecondTry\\Medicine2\\CourseWorkWeb\\CourseWorkWeb.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+>>>>>>> a939a5a02773009e643eb8f36f4b99c6cff4679d
       "projectName": "CourseWorkWeb",
       "projectPath": "D:\\Merge\\SecondTry\\Medicine2\\CourseWorkWeb\\CourseWorkWeb.csproj",
       "packagesPath": "C:\\Users\\yyarm\\.nuget\\packages\\",
+<<<<<<< HEAD
       "outputPath": "D:\\Merge\\SecondTry\\Medicine2\\CourseWorkWeb\\obj\\",
+=======
+      "outputPath": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+      "projectName": "CourseWorkWeb",
+      "projectPath": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+      "packagesPath": "C:\\Users\\yterd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\obj\\",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
+>>>>>>> a939a5a02773009e643eb8f36f4b99c6cff4679d
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\yyarm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\yterd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13108,7 +13137,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 4fb2ae23f96a60eaf71ce548f25e1ca886e4c5e5
       }
     }
   }
