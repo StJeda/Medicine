@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {}
+    "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {
+    "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+        "projectUniqueName": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
         "projectName": "CourseWorkWeb",
-        "projectPath": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
-        "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\obj\\",
+        "projectPath": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+        "packagesPath": "C:\\Users\\yterd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yterd\\OneDrive\\Документы\\GitHub\\Medicine\\CourseWorkWeb\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yterd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,7 +131,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
