@@ -15,7 +15,7 @@ namespace CourseWorkWeb.DAL.Repositories
             {
                 var undoEntity = await _aggregateSet.FindAsync(Id);
                 _aggregateSet.Remove(undoEntity);
-                Save();
+                await _context.SaveChangesAsync();
                 return true;
             }
             catch(DbUpdateException)
@@ -55,7 +55,7 @@ protected virtual void Dispose(bool disposing)
             try
             {
                 await _aggregateSet.AddAsync(entity);
-                Save();
+                await _context.SaveChangesAsync();
                 return true;
             }
             catch(DbUpdateException)
@@ -64,10 +64,7 @@ protected virtual void Dispose(bool disposing)
             }
         }
 
-        public async void Save()
-        {
-            await _context.SaveChangesAsync();
-        }
+  
 
         public async Task<bool> UpdateAsync(TEntity entity)
         {
@@ -75,6 +72,7 @@ protected virtual void Dispose(bool disposing)
             {
                 _context.Entry(entity).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
+
                 return true;
             }
             catch (DbUpdateException)

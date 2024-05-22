@@ -10,7 +10,7 @@ namespace CourseWorkWeb.DAL.Interfaces
         Task<bool> UpdateAsync(TEntity entity);
         Task<bool> DeleteAsync(long Id);
         void Dispose();
-        void Save();
+
 
     }
 }

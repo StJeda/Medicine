@@ -8,7 +8,7 @@ using CourseWorkWeb.Core.CQRS.Auth.Queries.Queries;
 
 namespace CourseWorkWeb.Controllers
 {
-    public class RegistrationController(ISender sender) : Controller
+    public class UserController(ISender sender) : Controller
     {
        private readonly ISender _sender = sender;
         public async Task<IActionResult> Register(string username, string email, string password)

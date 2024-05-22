@@ -12,5 +12,6 @@ namespace CourseWorkWeb.Controllers
           //return View(medicine);
           return View();
         }
+
     }
 }

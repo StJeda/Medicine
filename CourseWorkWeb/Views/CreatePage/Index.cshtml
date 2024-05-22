@@ -67,78 +67,180 @@
     </div>
     </div>
     
-       <form class="CrConteiner">
+<form asp-controller="Medicine" asp-action="AddMedicine" class="CrConteiner" method="POST">
         <div class="Hheder">   
             <p class="Word">Page Constructor</p>
             <div class=divhButton> 
-            <button class="Hbutton"><img src="~/image/ArrowUp.png"></button>
-            <button class="Hbutton"><img src="~/image/closered.png"></button>
+            <button class="Hbutton"  type="submit"><img src="~/image/ArrowUp.png"></button>
+            <button class="Hbutton" id="reloadBtn" ><img src="~/image/closered.png"></button>
             </div>
         </div>
         <div class="fotoPart">
             <div class="Foto">
-                <div class="fotocard">
-                    <img src="https://www.add.ua/media/catalog/product/cache/0cb86aa621afec2b43f6f8736c54c157/1/-/1-vimaks4grinvud_jpg.webp">
+                <div class="fotocard" id="fotocard">
+                    
                 </div>
-                <div class="OperationField">
-                <input  class="FileInput" type="file" id="fileInput" accept="image/*">
-                <button class="Upload" onclick="document.getElementById('fileInput').click();">Upload  photo</button> 
+                <div class="OperationField" id="form" enctype="multipart/form-data">
+                <input  class="FileInput" type="file" id="fileInput1" accept="image/*" onchange="previewImage()">
+                <button class="Upload" type="button" onclick="document.getElementById('fileInput1').click();">Upload  photo</button> 
                 </div>
+                
             </div>
            <div class="Foto">
-                <div class="fotocard">
-                    <img src="">
+                <div class="fotocard" id="fotocard2">
+                    
                 </div>
                 <div class="OperationField">
-                <input  class="FileInput" type="file" id="fileInput" accept="image/*">
-                <button class="Upload" onclick="document.getElementById('fileInput').click();">Upload  photo</button> 
+                <input  class="FileInput" type="file" id="fileInput2" accept="image/*" onchange="previewImage2()">
+                <button class="Upload" type="button" onclick="document.getElementById('fileInput2').click();">Upload  photo</button> 
                 </div>
             </div>
             <div class="Foto">
-                <div class="fotocard">
-                    <img src="">
+                <div class="fotocard" id="fotocard3">
+                    
                 </div>
                 <div class="OperationField">
-                <input  class="FileInput" type="file" id="fileInput" accept="image/*">
-                <button class="Upload" onclick="document.getElementById('fileInput').click();">Upload  photo</button> 
+                <input  class="FileInput" type="file" id="fileInput3" accept="image/*" onchange="previewImage3()">
+                <button class="Upload"  type="button" onclick="document.getElementById('fileInput3').click();">Upload  photo</button> 
                 </div>
             </div>
         </div>
         <div class="TexnicalPart">
             <div class="BorderCategory"><p>Main Property</p></div>
             <div class="Cwords">
-                <div class="Catg"><p>ID :</p><input type="text"></div>
-                <div class="Catg"><p>Name :</p><input type="text"></div> 
-                <div class="Catg"><p>Type :</p><input type="text"></div>
-                <div class="Catg"><p>Status :</p><select class="iput"><option value="True">Available</option><option value="False">Not available</option></select></div>
-                <div class="Catg"><p>Cost :</p><input type="number"></div>  
-                <div class="Catg"><p>Discount :</p><input type="number"></div> 
-                <div class="Catg"><p>Quantity :</p><input type="number"></div>   
+                <div class="Catg"><p>ID :</p><input type="text" name='Id'></div>
+                <div class="Catg"><p>Name :</p><input type="text" name='Name'></div> 
+                <div class="Catg"><p>Type :</p><input type="text" name='Type'></div>
+                <div class="Catg"><p>Status :</p><select class="iput" name='Status'><option value="True">Available</option><option value="False">Not available</option></select></div>
+                <div class="Catg"><p>Cost :</p><input type="number" name='Cost'></div>  
+                <div class="Catg"><p>Discount :</p><input type="number" name='Discount'></div> 
+                <div class="Catg"><p>Quantity :</p><input type="number" name='Quantity'></div>   
             </div>
             <div class="BorderCategory"><p>Description</p></div>
             <div class="Cwords">
-                <div class="Catg"><p>Age :</p><input type="number"></div>
-                <div class="Catg"><p>Input method :</p><input type="text"></div> 
-                <div class="Catg"><p>Pregnant :</p><select class="iput"><option value="True">Yes</option><option value="False">No</option></select></div>
-                <div class="Catg"><p>Manufacturer :</p><input type="text"></div>  
-                <div class="Catg"><p>Country :</p><input type="text"></div> 
-                <div class="Catg"><p>Prescription required :</p><select class="iput"><option value="True">Yes</option><option value="False">No</option></select></div>
-                <div class="Catg"><p>Compound :</p><input type="text"></div> 
-                <div class="Catg"><p>Instructions :</p><input type="text"></div> 
-                <div class="Catg"><p>Contraindications :</p><input type="text"></div> 
-                <div class="Catg"><p>Side effects :</p><input type="text"></div> 
+                <div class="Catg"><p>Age :</p><input type="number" name='Age'></div>
+                <div class="Catg"><p>Input method :</p><input type="text"  name='InputMethod'></div> 
+                <div class="Catg"><p>Pregnant :</p><select class="iput" name='Pregnant'><option value="True">Yes</option><option value="False">No</option></select></div>
+                <div class="Catg"><p>Manufacturer :</p><input type="text" name='Manufacturer'></div>  
+                <div class="Catg"><p>Country :</p><input type="text" name='Country'></div> 
+                <div class="Catg"><p>Prescription required :</p><select class="iput" name='PrescriptionRequired'></select>><option value="True">Yes</option><option value="False">No</option></select></div>
+                <div class="Catg"><p>Compound :</p><input type="text" name='Compound'></div> 
+                <div class="Catg"><p>Instructions :</p><input type="text" name='Instructions'></div> 
+                <div class="Catg"><p>Contraindications :</p><input type="text" name='Contraindications'></div> 
+                <div class="Catg"><p>Side effects :</p><input type="text" name='SideEffects'></div> 
             </div>
         </div>
-        
-        
-
-
-       
-
         </div>
-        </form>
+</form>
+<script>
+     const reloadBtn = document.getElementById('reloadBtn');
+     reloadBtn.addEventListener('click', function() {
+        window.location.reload();
+    });
+</script>
+<script>
+    async function previewImage() {
+        try {
+            const imagePath = await getFileInputPath('fileInput1');
+            await createImage(imagePath);
+        } catch (error) {
+            console.error("Ошибка:", error.message);
+        }
+    }
 
-        </div>
+
+    async function previewImage2() {
+    try {
+        const imagePath = await getFileInputPath('fileInput2');
+        await createImage2(imagePath);
+    } catch (error) {
+        console.error("Error:", error.message);
+    }
+}
+
+
+
+async function previewImage3() {
+    try {
+        const imagePath = await getFileInputPath('fileInput3');
+        await createImage3(imagePath);
+    } catch (error) {
+        console.error("Error:", error.message);
+    }
+}
+
+    async function createImage(imagePath) {
+        try {
+            const div = document.getElementById('fotocard');
+            if (!div) throw new Error('Element with id "fotocard" not found');
+
+            
+            while (div.firstChild) {
+                div.removeChild(div.firstChild);
+            }
+
+            const img = document.createElement('img');
+            img.src = imagePath; 
+
+            div.appendChild(img);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+    async function createImage2(imagePath) {
+        try {
+            const div = document.getElementById('fotocard2');
+            if (!div) throw new Error('Element with id "fotocard" not found');
+
+            
+            while (div.firstChild) {
+                div.removeChild(div.firstChild);
+            }
+
+            const img = document.createElement('img');
+            img.src = imagePath; 
+
+            div.appendChild(img);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+     async function createImage3(imagePath) {
+        try {
+            const div = document.getElementById('fotocard3');
+            if (!div) throw new Error('Element with id "fotocard" not found');
+
+            
+            while (div.firstChild) {
+                div.removeChild(div.firstChild);
+            }
+
+            const img = document.createElement('img');
+            img.src = imagePath; 
+
+            div.appendChild(img);
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    }
+
+    async function getFileInputPath(fileInputId) {
+        return new Promise((resolve, reject) => {
+            const fileInput = document.getElementById(fileInputId);
+
+            if (!fileInput || !fileInput.files || fileInput.files.length === 0) {
+                reject(new Error("No file selected"));
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const path = URL.createObjectURL(file);
+            resolve(path);
+        });
+    }
+</script>
+
+
     <script>
     function toHome() {
        $.ajax({

@@ -1019,3 +1019,916 @@ Handler assertion should evaluate to true.
 2024-05-22 15:51:39.165 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
 2024-05-22 15:51:39.167 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 38.3746ms
 2024-05-22 16:00:58.049 +03:00 [INF] Application is shutting down...
+2024-05-22 17:36:34.795 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 17:36:34.905 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 17:36:34.930 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 17:36:34.933 +03:00 [INF] Hosting environment: Development
+2024-05-22 17:36:34.936 +03:00 [INF] Content root path: D:\Medicine2\CourseWorkWeb
+2024-05-22 17:36:35.570 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 17:36:36.142 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 17:36:36.841 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 17:36:36.864 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 17:36:36.876 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 17:36:36.939 +03:00 [INF] Executed ViewResult - view Index executed in 64.2923ms.
+2024-05-22 17:36:36.948 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 78.4274ms
+2024-05-22 17:36:36.953 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 17:36:36.953 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 17:36:36.967 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.0608ms
+2024-05-22 17:36:36.972 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 1403.8938ms
+2024-05-22 17:36:37.001 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 17:36:37.127 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.3846ms
+2024-05-22 17:36:47.401 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/CreatePage - null null
+2024-05-22 17:36:47.448 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 17:36:47.461 +03:00 [INF] Route matched with {action = "Index", controller = "CreatePage"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CreatePageController (CourseWorkWeb).
+2024-05-22 17:36:47.469 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 17:36:47.491 +03:00 [INF] Executed ViewResult - view Index executed in 22.3774ms.
+2024-05-22 17:36:47.494 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb) in 27.4482ms
+2024-05-22 17:36:47.499 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 17:36:47.502 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 17:36:47.504 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/CreatePage - 200 null text/html; charset=utf-8 102.8023ms
+2024-05-22 17:36:47.512 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.2773ms
+2024-05-22 17:36:47.536 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 17:36:47.555 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.6944ms
+2024-05-22 18:10:56.869 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:10:57.001 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:10:57.031 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:10:57.035 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:10:57.040 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:10:58.892 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:10:59.053 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:10:59.910 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:10:59.935 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:10:59.949 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:11:00.014 +03:00 [INF] Executed ViewResult - view Index executed in 64.7018ms.
+2024-05-22 18:11:00.029 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 87.5217ms
+2024-05-22 18:11:00.032 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:11:00.036 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:11:00.051 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 18.6478ms
+2024-05-22 18:11:00.059 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 1169.1844ms
+2024-05-22 18:11:00.093 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:11:00.164 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.2389ms
+2024-05-22 18:12:10.019 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/CreatePage? - null null
+2024-05-22 18:12:10.030 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:12:10.039 +03:00 [INF] Route matched with {action = "Index", controller = "CreatePage"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CreatePageController (CourseWorkWeb).
+2024-05-22 18:12:10.045 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:12:10.073 +03:00 [INF] Executed ViewResult - view Index executed in 28.9824ms.
+2024-05-22 18:12:10.077 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb) in 34.0379ms
+2024-05-22 18:12:10.081 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:12:10.088 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/CreatePage? - 200 null text/html; charset=utf-8 68.2809ms
+2024-05-22 18:12:10.104 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:12:10.105 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:12:10.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.7717ms
+2024-05-22 18:12:10.124 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 18.7756ms
+2024-05-22 18:12:19.725 +03:00 [INF] Application is shutting down...
+2024-05-22 18:15:44.899 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:15:45.014 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:15:45.041 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:15:45.043 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:15:45.045 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:15:45.427 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:15:45.596 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:15:45.690 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:15:45.750 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:15:45.763 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:15:45.874 +03:00 [INF] Executed ViewResult - view Index executed in 111.676ms.
+2024-05-22 18:15:45.897 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 141.3026ms
+2024-05-22 18:15:45.908 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:15:45.917 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 491.8202ms
+2024-05-22 18:15:45.932 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:15:45.961 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:15:45.964 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 31.2028ms
+2024-05-22 18:15:47.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1157.1078ms
+2024-05-22 18:15:54.065 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/CreatePage - null null
+2024-05-22 18:15:54.076 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:15:54.084 +03:00 [INF] Route matched with {action = "Index", controller = "CreatePage"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CreatePageController (CourseWorkWeb).
+2024-05-22 18:15:54.092 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:15:54.112 +03:00 [INF] Executed ViewResult - view Index executed in 20.958ms.
+2024-05-22 18:15:54.116 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb) in 26.1059ms
+2024-05-22 18:15:54.121 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:15:54.124 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:15:54.125 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/CreatePage - 200 null text/html; charset=utf-8 60.0851ms
+2024-05-22 18:15:54.131 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.9417ms
+2024-05-22 18:15:54.144 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:15:54.157 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.4317ms
+2024-05-22 18:16:32.906 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog/Index - null 0
+2024-05-22 18:16:32.915 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:16:32.919 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:16:32.922 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog/Index - 401 0 null 16.0042ms
+2024-05-22 18:16:41.037 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registrations - null null
+2024-05-22 18:16:41.044 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registrations - 404 0 null 6.2499ms
+2024-05-22 18:16:41.049 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Registrations, Response status code: 404
+2024-05-22 18:16:43.775 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration - null null
+2024-05-22 18:16:43.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration - 404 0 null 7.001ms
+2024-05-22 18:16:43.790 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Registration, Response status code: 404
+2024-05-22 18:16:46.393 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration - null null
+2024-05-22 18:16:46.401 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration - 404 0 null 7.3607ms
+2024-05-22 18:16:46.407 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Registration, Response status code: 404
+2024-05-22 18:17:53.274 +03:00 [INF] Application is shutting down...
+2024-05-22 18:18:51.401 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:18:51.533 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:18:51.572 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:18:51.576 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:18:51.581 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:18:51.770 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:18:51.857 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:18:52.569 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:18:52.590 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:18:52.601 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:18:52.658 +03:00 [INF] Executed ViewResult - view Index executed in 57.4371ms.
+2024-05-22 18:18:52.666 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 69.998ms
+2024-05-22 18:18:52.671 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:18:52.672 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:18:52.683 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.6867ms
+2024-05-22 18:18:52.691 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 922.4698ms
+2024-05-22 18:18:52.715 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:18:52.760 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.6271ms
+2024-05-22 18:19:00.503 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration - null null
+2024-05-22 18:19:00.512 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:19:00.519 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:19:00.525 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:19:00.539 +03:00 [INF] Executed ViewResult - view Index executed in 14.0849ms.
+2024-05-22 18:19:00.541 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 17.586ms
+2024-05-22 18:19:00.545 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:19:00.548 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:19:00.549 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration - 200 null text/html; charset=utf-8 46.2765ms
+2024-05-22 18:19:00.555 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.3664ms
+2024-05-22 18:19:00.573 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:19:00.588 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.2206ms
+2024-05-22 18:19:10.615 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration - null null
+2024-05-22 18:19:10.628 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:19:10.631 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:19:10.640 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:19:10.644 +03:00 [INF] Executed ViewResult - view Index executed in 4.1474ms.
+2024-05-22 18:19:10.647 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 6.9509ms
+2024-05-22 18:19:10.650 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:19:10.657 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration - 200 null text/html; charset=utf-8 41.6066ms
+2024-05-22 18:19:10.738 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:19:10.743 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.8267ms
+2024-05-22 18:19:10.754 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:19:10.771 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.2796ms
+2024-05-22 18:19:18.019 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration?FirtsName=&LastName=&Password=&Phone=&Email= - null null
+2024-05-22 18:19:18.027 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:19:18.029 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:19:18.038 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:19:18.042 +03:00 [INF] Executed ViewResult - view Index executed in 3.4465ms.
+2024-05-22 18:19:18.045 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 6.6792ms
+2024-05-22 18:19:18.050 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:19:18.053 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration?FirtsName=&LastName=&Password=&Phone=&Email= - 200 null text/html; charset=utf-8 34.2549ms
+2024-05-22 18:19:18.078 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:19:18.079 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:19:18.087 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.4088ms
+2024-05-22 18:19:18.091 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 12.2315ms
+2024-05-22 18:19:18.919 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration?FirtsName=&LastName=&Password=&Phone=&Email= - null null
+2024-05-22 18:19:18.927 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:19:18.929 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:19:18.938 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:19:18.940 +03:00 [INF] Executed ViewResult - view Index executed in 2.656ms.
+2024-05-22 18:19:18.945 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 7.7485ms
+2024-05-22 18:19:18.950 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:19:18.952 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration?FirtsName=&LastName=&Password=&Phone=&Email= - 200 null text/html; charset=utf-8 32.6918ms
+2024-05-22 18:19:18.968 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:19:18.969 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:19:18.975 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.4334ms
+2024-05-22 18:19:18.980 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.9337ms
+2024-05-22 18:19:19.719 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration?FirtsName=&LastName=&Password=&Phone=&Email= - null null
+2024-05-22 18:19:19.727 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:19:19.732 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:19:19.739 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:19:19.741 +03:00 [INF] Executed ViewResult - view Index executed in 2.6311ms.
+2024-05-22 18:19:19.748 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 9.4903ms
+2024-05-22 18:19:19.752 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:19:19.756 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration?FirtsName=&LastName=&Password=&Phone=&Email= - 200 null text/html; charset=utf-8 37.0359ms
+2024-05-22 18:19:19.773 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:19:19.773 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:19:19.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.2073ms
+2024-05-22 18:19:19.787 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.4636ms
+2024-05-22 18:26:39.587 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:26:39.818 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:26:39.860 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:26:39.864 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:26:39.867 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:26:40.411 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:26:40.813 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:26:41.145 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:26:41.176 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:26:41.209 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:26:41.335 +03:00 [INF] Executed ViewResult - view Index executed in 131.9601ms.
+2024-05-22 18:26:41.350 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 155.7195ms
+2024-05-22 18:26:41.357 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:26:41.359 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:26:41.372 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 14.1751ms
+2024-05-22 18:26:41.384 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 975.8033ms
+2024-05-22 18:26:41.413 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:26:42.613 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1200.7007ms
+2024-05-22 18:26:46.932 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/? - null null
+2024-05-22 18:26:46.945 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:26:46.950 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:26:46.958 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:26:46.964 +03:00 [INF] Executed ViewResult - view Index executed in 6.1926ms.
+2024-05-22 18:26:46.974 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 16.3849ms
+2024-05-22 18:26:46.977 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:26:46.983 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:26:46.991 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:26:46.994 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 17.299ms
+2024-05-22 18:26:46.999 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/? - 200 null text/html; charset=utf-8 67.5282ms
+2024-05-22 18:26:47.042 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.1348ms
+2024-05-22 18:26:54.316 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registrations - null null
+2024-05-22 18:26:54.330 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registrations - 404 0 null 13.5904ms
+2024-05-22 18:26:54.341 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Registrations, Response status code: 404
+2024-05-22 18:26:56.667 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration - null null
+2024-05-22 18:26:56.679 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:26:56.689 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:26:56.697 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:26:56.715 +03:00 [INF] Executed ViewResult - view Index executed in 18.4792ms.
+2024-05-22 18:26:56.719 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 23.668ms
+2024-05-22 18:26:56.723 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:26:56.729 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration - 200 null text/html; charset=utf-8 61.2247ms
+2024-05-22 18:26:56.748 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:26:56.754 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.0791ms
+2024-05-22 18:26:56.800 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:26:56.827 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.2071ms
+2024-05-22 18:27:08.686 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration? - null null
+2024-05-22 18:27:08.693 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:27:08.696 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:27:08.707 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:27:08.711 +03:00 [INF] Executed ViewResult - view Index executed in 4.6685ms.
+2024-05-22 18:27:08.715 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 8.1117ms
+2024-05-22 18:27:08.719 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:27:08.721 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:27:08.722 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:27:08.723 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration? - 200 null text/html; charset=utf-8 36.7413ms
+2024-05-22 18:27:08.728 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.0274ms
+2024-05-22 18:27:08.739 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.4536ms
+2024-05-22 18:27:09.534 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration? - null null
+2024-05-22 18:27:09.541 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:27:09.544 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:27:09.551 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:27:09.555 +03:00 [INF] Executed ViewResult - view Index executed in 3.3899ms.
+2024-05-22 18:27:09.561 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 9.3933ms
+2024-05-22 18:27:09.564 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:27:09.564 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:27:09.565 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:27:09.576 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.7609ms
+2024-05-22 18:27:09.581 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 17.254ms
+2024-05-22 18:27:09.584 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration? - 200 null text/html; charset=utf-8 49.911ms
+2024-05-22 18:27:12.717 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration? - null null
+2024-05-22 18:27:12.724 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:27:12.727 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:27:12.733 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:27:12.738 +03:00 [INF] Executed ViewResult - view Index executed in 4.3162ms.
+2024-05-22 18:27:12.743 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 10.1581ms
+2024-05-22 18:27:12.746 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:27:12.746 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:27:12.748 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:27:12.755 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.9077ms
+2024-05-22 18:27:12.761 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 14.4667ms
+2024-05-22 18:27:12.764 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration? - 200 null text/html; charset=utf-8 46.6698ms
+2024-05-22 18:27:23.749 +03:00 [INF] Application is shutting down...
+2024-05-22 18:27:56.379 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:27:56.484 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:27:56.507 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:27:56.508 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:27:56.510 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:27:56.664 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration? - null null
+2024-05-22 18:27:56.727 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:27:56.765 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:27:56.787 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:27:56.796 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:27:56.846 +03:00 [INF] Executed ViewResult - view Index executed in 49.5674ms.
+2024-05-22 18:27:56.853 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:27:56.853 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:27:56.853 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 61.9105ms
+2024-05-22 18:27:56.863 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.6967ms
+2024-05-22 18:27:56.867 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:27:56.878 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.9773ms
+2024-05-22 18:27:56.878 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration? - 200 null text/html; charset=utf-8 215.5869ms
+2024-05-22 18:27:56.900 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
+2024-05-22 18:27:56.916 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-22 18:27:56.920 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 200 1617 image/x-icon 20.0463ms
+2024-05-22 18:28:08.196 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:28:08.210 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:28:08.214 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:28:08.222 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:28:08.252 +03:00 [INF] Executed ViewResult - view Index executed in 30.9625ms.
+2024-05-22 18:28:08.255 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 34.6611ms
+2024-05-22 18:28:08.259 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:28:08.262 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 65.7226ms
+2024-05-22 18:28:08.291 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-22 18:28:08.306 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:28:08.306 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:28:08.308 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-22 18:28:08.309 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/logo.png - null null
+2024-05-22 18:28:08.309 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/langwich.png - null null
+2024-05-22 18:28:08.309 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/map.svg - null null
+2024-05-22 18:28:08.320 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.5326ms
+2024-05-22 18:28:08.323 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.8366ms
+2024-05-22 18:28:08.326 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 200 28175 text/css 35.1832ms
+2024-05-22 18:28:08.334 +03:00 [INF] Sending file. Request path: '/image/logo.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\logo.png'
+2024-05-22 18:28:08.342 +03:00 [INF] Sending file. Request path: '/image/langwich.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\langwich.png'
+2024-05-22 18:28:08.348 +03:00 [INF] Sending file. Request path: '/image/map.svg'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\map.svg'
+2024-05-22 18:28:08.373 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/moon.svg - null null
+2024-05-22 18:28:08.376 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/logo.png - 200 991 image/png 67.65ms
+2024-05-22 18:28:08.379 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/langwich.png - 200 2452 image/png 70.4669ms
+2024-05-22 18:28:08.382 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/map.svg - 200 417 image/svg+xml 73.3165ms
+2024-05-22 18:28:08.391 +03:00 [INF] Sending file. Request path: '/image/moon.svg'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\moon.svg'
+2024-05-22 18:28:08.416 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/moon.svg - 200 293 image/svg+xml 42.5464ms
+2024-05-22 18:28:08.612 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mpills.svg - null null
+2024-05-22 18:28:08.612 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/toy.svg - null null
+2024-05-22 18:28:08.612 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/person.png - null null
+2024-05-22 18:28:08.612 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mag.png - null null
+2024-05-22 18:28:08.612 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/blok.png - null null
+2024-05-22 18:28:08.625 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6119868.png - null null
+2024-05-22 18:28:08.626 +03:00 [INF] Sending file. Request path: '/image/mpills.svg'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\mpills.svg'
+2024-05-22 18:28:08.626 +03:00 [INF] Sending file. Request path: '/image/toy.svg'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\toy.svg'
+2024-05-22 18:28:08.631 +03:00 [INF] Sending file. Request path: '/image/person.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\person.png'
+2024-05-22 18:28:08.644 +03:00 [INF] Sending file. Request path: '/image/mag.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\mag.png'
+2024-05-22 18:28:08.648 +03:00 [INF] Sending file. Request path: '/image/blok.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\blok.png'
+2024-05-22 18:28:08.652 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mpills.svg - 200 1019 image/svg+xml 39.5422ms
+2024-05-22 18:28:08.657 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/toy.svg - 200 1080 image/svg+xml 44.4692ms
+2024-05-22 18:28:08.658 +03:00 [INF] Sending file. Request path: '/image/6119868.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\6119868.png'
+2024-05-22 18:28:08.660 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/person.png - 200 1697 image/png 47.5024ms
+2024-05-22 18:28:08.664 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mag.png - 200 14643 image/png 51.6824ms
+2024-05-22 18:28:08.667 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/blok.png - 200 9447 image/png 55.167ms
+2024-05-22 18:28:08.687 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6119868.png - 200 387853 image/png 62.5198ms
+2024-05-22 18:28:08.695 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - null null
+2024-05-22 18:28:08.702 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/makeup.svg - null null
+2024-05-22 18:28:08.705 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6392575.png - null null
+2024-05-22 18:28:08.711 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/33467.png - null null
+2024-05-22 18:28:08.730 +03:00 [INF] Sending file. Request path: '/image/hygiene.svg'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\hygiene.svg'
+2024-05-22 18:28:08.730 +03:00 [INF] Sending file. Request path: '/image/makeup.svg'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\makeup.svg'
+2024-05-22 18:28:08.742 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - 200 323 image/svg+xml 47.0743ms
+2024-05-22 18:28:08.750 +03:00 [INF] Sending file. Request path: '/image/6392575.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\6392575.png'
+2024-05-22 18:28:08.750 +03:00 [INF] Sending file. Request path: '/image/33467.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\33467.png'
+2024-05-22 18:28:08.751 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/makeup.svg - 200 304 image/svg+xml 48.405ms
+2024-05-22 18:28:08.758 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/search.png - null null
+2024-05-22 18:28:08.760 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6392575.png - 200 2236388 image/png 55.8171ms
+2024-05-22 18:28:08.764 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/33467.png - 200 271198 image/png 52.9875ms
+2024-05-22 18:28:08.769 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/phone.png - null null
+2024-05-22 18:28:08.780 +03:00 [INF] Sending file. Request path: '/image/search.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\search.png'
+2024-05-22 18:28:08.782 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/pill.svg - null null
+2024-05-22 18:28:08.790 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-22 18:28:08.799 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/search.png - 200 728 image/png 41.4817ms
+2024-05-22 18:28:08.800 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/lines.png - null null
+2024-05-22 18:28:08.805 +03:00 [INF] Sending file. Request path: '/image/phone.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\phone.png'
+2024-05-22 18:28:08.806 +03:00 [INF] Sending file. Request path: '/image/pill.svg'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\pill.svg'
+2024-05-22 18:28:08.811 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-22 18:28:08.817 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-22 18:28:08.823 +03:00 [INF] Sending file. Request path: '/image/lines.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\lines.png'
+2024-05-22 18:28:08.825 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/phone.png - 200 12680 image/png 56.1181ms
+2024-05-22 18:28:08.828 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/pill.svg - 200 510 image/svg+xml 46.711ms
+2024-05-22 18:28:08.831 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 200 1988 image/png 41.1456ms
+2024-05-22 18:28:08.841 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-22 18:28:08.844 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/lines.png - 200 6685 image/png 43.1359ms
+2024-05-22 18:28:08.850 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-22 18:28:08.855 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-22 18:28:08.861 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6350788.png - null null
+2024-05-22 18:28:08.864 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 200 995 image/png 46.7014ms
+2024-05-22 18:28:08.871 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/10264982.png - null null
+2024-05-22 18:28:08.877 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-22 18:28:08.881 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-22 18:28:08.893 +03:00 [INF] Sending file. Request path: '/image/6350788.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\6350788.png'
+2024-05-22 18:28:08.901 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 200 2198 image/png 50.9925ms
+2024-05-22 18:28:08.907 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 200 1107 image/png 51.746ms
+2024-05-22 18:28:08.907 +03:00 [INF] Sending file. Request path: '/image/10264982.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\10264982.png'
+2024-05-22 18:28:08.911 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6350788.png - 200 1333205 image/png 49.5924ms
+2024-05-22 18:28:08.927 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/10264982.png - 200 725431 image/png 56.5013ms
+2024-05-22 18:28:09.075 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
+2024-05-22 18:28:09.081 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-22 18:28:09.086 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 200 1617 image/x-icon 10.4712ms
+2024-05-22 18:28:18.418 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Registration - null null
+2024-05-22 18:28:18.429 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:28:18.432 +03:00 [INF] Route matched with {action = "Index", controller = "Registration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.RegistrationController (CourseWorkWeb).
+2024-05-22 18:28:18.437 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:28:18.441 +03:00 [INF] Executed ViewResult - view Index executed in 3.8012ms.
+2024-05-22 18:28:18.444 +03:00 [INF] Executed action CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb) in 6.8538ms
+2024-05-22 18:28:18.447 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.RegistrationController.Index (CourseWorkWeb)'
+2024-05-22 18:28:18.449 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Registration - 200 null text/html; charset=utf-8 30.8115ms
+2024-05-22 18:28:18.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-22 18:28:18.483 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/Registration.css - null null
+2024-05-22 18:28:18.484 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:28:18.484 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:28:18.496 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-22 18:28:18.501 +03:00 [INF] Sending file. Request path: '/css/Registration.css'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\css\Registration.css'
+2024-05-22 18:28:18.503 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.0203ms
+2024-05-22 18:28:18.508 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 24.0044ms
+2024-05-22 18:28:18.512 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 200 23888 text/css 29.8229ms
+2024-05-22 18:28:18.515 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/Registration.css - 200 1574 text/css 32.8312ms
+2024-05-22 18:28:18.537 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/close.png - null null
+2024-05-22 18:28:18.556 +03:00 [INF] Sending file. Request path: '/image/close.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\close.png'
+2024-05-22 18:28:18.560 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/close.png - 200 10571 image/png 23.2907ms
+2024-05-22 18:28:57.768 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog/Index - null 0
+2024-05-22 18:28:57.777 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:28:57.782 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:28:57.787 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog/Index - 401 0 null 18.4823ms
+2024-05-22 18:28:58.604 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog/Index - null 0
+2024-05-22 18:28:58.609 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:28:58.612 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:28:58.614 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog/Index - 401 0 null 10.6039ms
+2024-05-22 18:28:59.716 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog/Index - null 0
+2024-05-22 18:28:59.721 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:28:59.723 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:28:59.726 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog/Index - 401 0 null 9.284ms
+2024-05-22 18:29:00.473 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Category/Index - application/x-www-form-urlencoded; charset=UTF-8 13
+2024-05-22 18:29:00.479 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-22 18:29:00.488 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-22 18:29:00.865 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog/Index - null 0
+2024-05-22 18:29:00.869 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:29:00.873 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:29:00.876 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog/Index - 401 0 null 11.344ms
+2024-05-22 18:29:02.830 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 18:29:02.877 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:29:02.898 +03:00 [INF] Executed ViewResult - view Index executed in 21.7891ms.
+2024-05-22 18:29:02.902 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 2408.7643ms
+2024-05-22 18:29:02.906 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-22 18:29:02.913 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Category/Index - 200 null text/html; charset=utf-8 2439.8205ms
+2024-05-22 18:29:02.936 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Category/Index?word=Children - null null
+2024-05-22 18:29:02.944 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-22 18:29:02.946 +03:00 [INF] Route matched with {action = "Index", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String) on controller CourseWorkWeb.Controllers.CategoryController (CourseWorkWeb).
+2024-05-22 18:29:03.091 +03:00 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 18:29:03.100 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:29:03.104 +03:00 [INF] Executed ViewResult - view Index executed in 4.5797ms.
+2024-05-22 18:29:03.107 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb) in 153.5827ms
+2024-05-22 18:29:03.112 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CategoryController.Index (CourseWorkWeb)'
+2024-05-22 18:29:03.115 +03:00 [WRN] Unable to configure Browser Link script injection on the response. 
+2024-05-22 18:29:03.119 +03:00 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2024-05-22 18:29:03.123 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Category/Index?word=Children - 200 null text/html; charset=utf-8 186.6031ms
+2024-05-22 18:29:03.192 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Category/image/icon.ico - null null
+2024-05-22 18:29:03.199 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Category/image/icon.ico - 404 0 null 7.0414ms
+2024-05-22 18:29:03.209 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/Category/image/icon.ico, Response status code: 404
+2024-05-22 18:29:04.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:29:04.181 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:29:04.183 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:29:04.191 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:29:04.196 +03:00 [INF] Executed ViewResult - view Index executed in 5.1378ms.
+2024-05-22 18:29:04.199 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 8.6099ms
+2024-05-22 18:29:04.205 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:29:04.208 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 34.0725ms
+2024-05-22 18:29:04.263 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:29:04.263 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:29:04.274 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.8381ms
+2024-05-22 18:29:04.278 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 14.8902ms
+2024-05-22 18:29:05.841 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 18:29:05.848 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:29:05.853 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:29:05.858 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 16.6796ms
+2024-05-22 18:29:05.890 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/favicon.ico - null null
+2024-05-22 18:29:05.897 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\favicon.ico'
+2024-05-22 18:29:05.901 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/favicon.ico - 200 5430 image/x-icon 11.7177ms
+2024-05-22 18:29:20.649 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:29:20.656 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:29:20.659 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:29:20.666 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:29:20.670 +03:00 [INF] Executed ViewResult - view Index executed in 3.568ms.
+2024-05-22 18:29:20.673 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 6.4997ms
+2024-05-22 18:29:20.678 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:29:20.680 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 31.5193ms
+2024-05-22 18:29:20.712 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:29:20.716 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 4.2671ms
+2024-05-22 18:29:21.847 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 18:29:21.854 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:29:21.856 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:29:21.859 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 11.858ms
+2024-05-22 18:29:45.580 +03:00 [INF] Application is shutting down...
+2024-05-22 18:29:55.762 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:29:55.866 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:29:55.887 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:29:55.890 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:29:55.892 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:29:55.986 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:29:56.059 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:29:56.096 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:29:56.114 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:29:56.123 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:29:56.179 +03:00 [INF] Executed ViewResult - view Index executed in 57.2306ms.
+2024-05-22 18:29:56.186 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 68.046ms
+2024-05-22 18:29:56.188 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:29:56.192 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 206.3526ms
+2024-05-22 18:29:56.198 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:29:56.204 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.4027ms
+2024-05-22 18:29:56.226 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:29:56.249 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.2366ms
+2024-05-22 18:29:57.468 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 18:29:57.478 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 18:29:57.487 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-22 18:29:59.265 +03:00 [INF] Executed DbCommand (149ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 18:29:59.289 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:29:59.307 +03:00 [INF] Executed ViewResult - view Index executed in 18.5556ms.
+2024-05-22 18:29:59.311 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 1820.681ms
+2024-05-22 18:29:59.315 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 18:29:59.315 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:29:59.323 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 1855.2539ms
+2024-05-22 18:29:59.323 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.6906ms
+2024-05-22 18:29:59.331 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-22 18:29:59.339 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:29:59.351 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 20.2168ms
+2024-05-22 18:29:59.361 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-22 18:29:59.361 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.8705ms
+2024-05-22 18:30:12.834 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:30:12.935 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:30:12.958 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:30:12.960 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:30:12.962 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:30:13.074 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 18:30:13.138 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:30:13.178 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:30:13.181 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:30:13.186 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 113.679ms
+2024-05-22 18:30:17.957 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 18:30:17.972 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:30:17.974 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:30:17.977 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 19.7879ms
+2024-05-22 18:30:22.867 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 18:30:22.876 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:30:22.879 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:30:22.882 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 15.3321ms
+2024-05-22 18:30:27.416 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:30:27.425 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:30:27.444 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:30:27.454 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:30:27.504 +03:00 [INF] Executed ViewResult - view Index executed in 50.6342ms.
+2024-05-22 18:30:27.508 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 58.9907ms
+2024-05-22 18:30:27.512 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:30:27.517 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 100.5412ms
+2024-05-22 18:30:27.525 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:30:27.532 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.1348ms
+2024-05-22 18:30:28.837 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 18:30:28.844 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 18:30:28.848 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 18:30:28.852 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 15.2305ms
+2024-05-22 18:30:30.314 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:30:30.321 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:30:30.323 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:30:30.332 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:30:30.340 +03:00 [INF] Executed ViewResult - view Index executed in 8.2939ms.
+2024-05-22 18:30:30.343 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 12.0255ms
+2024-05-22 18:30:30.351 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:30:30.356 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 42.3358ms
+2024-05-22 18:30:30.364 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:30:30.370 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.9807ms
+2024-05-22 18:34:27.590 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:34:27.821 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:34:27.854 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:34:27.856 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:34:27.858 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:34:28.786 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:34:28.939 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:34:29.264 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:34:29.332 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:34:29.364 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:34:29.592 +03:00 [INF] Executed ViewResult - view Index executed in 236.8141ms.
+2024-05-22 18:34:29.602 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 256.1672ms
+2024-05-22 18:34:29.616 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:34:29.634 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 855.1412ms
+2024-05-22 18:34:29.689 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:34:29.706 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 17.4146ms
+2024-05-22 18:34:30.072 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:34:30.121 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.9716ms
+2024-05-22 18:34:36.278 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/CreatePage - null null
+2024-05-22 18:34:36.290 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:34:36.299 +03:00 [INF] Route matched with {action = "Index", controller = "CreatePage"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CreatePageController (CourseWorkWeb).
+2024-05-22 18:34:36.306 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:34:36.327 +03:00 [INF] Executed ViewResult - view Index executed in 22.2813ms.
+2024-05-22 18:34:36.330 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb) in 26.3073ms
+2024-05-22 18:34:36.333 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:34:36.336 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:34:36.337 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/CreatePage - 200 null text/html; charset=utf-8 58.8877ms
+2024-05-22 18:34:36.345 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.4161ms
+2024-05-22 18:34:36.363 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:34:36.384 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.8211ms
+2024-05-22 18:34:49.200 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/CreatePage? - null null
+2024-05-22 18:34:49.211 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:34:49.214 +03:00 [INF] Route matched with {action = "Index", controller = "CreatePage"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CreatePageController (CourseWorkWeb).
+2024-05-22 18:34:49.222 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:34:49.226 +03:00 [INF] Executed ViewResult - view Index executed in 4.1851ms.
+2024-05-22 18:34:49.229 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb) in 7.3952ms
+2024-05-22 18:34:49.234 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:34:49.236 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:34:49.237 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:34:49.238 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/CreatePage? - 200 null text/html; charset=utf-8 38.1539ms
+2024-05-22 18:34:49.244 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.9238ms
+2024-05-22 18:34:49.266 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3267ms
+2024-05-22 18:34:55.062 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/CreatePage? - null null
+2024-05-22 18:34:55.069 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:34:55.073 +03:00 [INF] Route matched with {action = "Index", controller = "CreatePage"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CreatePageController (CourseWorkWeb).
+2024-05-22 18:34:55.083 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:34:55.087 +03:00 [INF] Executed ViewResult - view Index executed in 3.9467ms.
+2024-05-22 18:34:55.090 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb) in 7.0261ms
+2024-05-22 18:34:55.094 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:34:55.097 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/CreatePage? - 200 null text/html; charset=utf-8 35.2357ms
+2024-05-22 18:34:55.132 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/create.css - null null
+2024-05-22 18:34:55.134 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:34:55.135 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:34:55.151 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/ArrowUp.png - null null
+2024-05-22 18:34:55.152 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/closered.png - null null
+2024-05-22 18:34:55.158 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.2412ms
+2024-05-22 18:34:55.161 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 26.1468ms
+2024-05-22 18:34:55.159 +03:00 [INF] Sending file. Request path: '/css/create.css'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\css\create.css'
+2024-05-22 18:34:55.190 +03:00 [INF] Sending file. Request path: '/image/ArrowUp.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\ArrowUp.png'
+2024-05-22 18:34:55.185 +03:00 [INF] Sending file. Request path: '/image/closered.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\closered.png'
+2024-05-22 18:34:55.211 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/create.css - 200 3543 text/css 79.6207ms
+2024-05-22 18:34:55.218 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/ArrowUp.png - 200 7469 image/png 67.2631ms
+2024-05-22 18:34:55.222 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/closered.png - 200 6601 image/png 70.6151ms
+2024-05-22 18:35:47.459 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Medicine/AddMedicine - application/x-www-form-urlencoded 397
+2024-05-22 18:35:47.473 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.MedicineController.AddMedicine (CourseWorkWeb)'
+2024-05-22 18:35:47.495 +03:00 [INF] Route matched with {action = "AddMedicine", controller = "Medicine"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddMedicine(CourseWorkWeb.Models.Entity.Medicines.Medicine) on controller CourseWorkWeb.Controllers.MedicineController (CourseWorkWeb).
+2024-05-22 18:35:48.523 +03:00 [INF] Medicine { Id = 0, Name = Pivo, Description = , Articules = , MedicinePhoto_Id = 0, Photo = MedicinePhoto { Id = 0, bytes = System.Byte[], Medicine_Id = 0 }, Status = Available, Cost = 250, Country = Ukraine, Substance_Id = 0, Substances = System.Collections.Generic.List`1[CourseWorkWeb.Models.Entity.Medicines.Substance], Quantity = 9999, Type = Pivo, Discount = 25 } added successful!
+2024-05-22 18:35:48.540 +03:00 [INF] Executing ViewResult, running view AddMedicine.
+2024-05-22 18:35:48.545 +03:00 [ERR] The view 'AddMedicine' was not found. Searched locations: ["/Views/Medicine/AddMedicine.cshtml","/Views/Shared/AddMedicine.cshtml"]
+2024-05-22 18:35:48.557 +03:00 [INF] Executed action CourseWorkWeb.Controllers.MedicineController.AddMedicine (CourseWorkWeb) in 1055.2443ms
+2024-05-22 18:35:48.567 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.MedicineController.AddMedicine (CourseWorkWeb)'
+2024-05-22 18:35:48.574 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'AddMedicine' was not found. The following locations were searched:
+/Views/Medicine/AddMedicine.cshtml
+/Views/Shared/AddMedicine.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:35:48.653 +03:00 [ERR] An error occurred using the connection to database 'keros_medicine1' on server 'sql.bsite.net\MSSQL2016'.
+2024-05-22 18:36:42.548 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:36:42.800 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:36:42.831 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:36:42.833 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:36:42.835 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:36:43.368 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:36:43.501 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:36:43.623 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:36:43.657 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:36:43.673 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:36:43.752 +03:00 [INF] Executed ViewResult - view Index executed in 82.8193ms.
+2024-05-22 18:36:43.757 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 94.2357ms
+2024-05-22 18:36:43.760 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:36:43.766 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 404.5239ms
+2024-05-22 18:36:43.786 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:36:43.796 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.2612ms
+2024-05-22 18:36:44.031 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:36:44.065 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.2417ms
+2024-05-22 18:36:52.994 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/CreatePage? - null null
+2024-05-22 18:36:53.011 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:36:53.021 +03:00 [INF] Route matched with {action = "Index", controller = "CreatePage"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CreatePageController (CourseWorkWeb).
+2024-05-22 18:36:53.026 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:36:53.046 +03:00 [INF] Executed ViewResult - view Index executed in 21.4744ms.
+2024-05-22 18:36:53.051 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb) in 27.3294ms
+2024-05-22 18:36:53.054 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:36:53.059 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/CreatePage? - 200 null text/html; charset=utf-8 64.8407ms
+2024-05-22 18:36:53.119 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/close.png - null null
+2024-05-22 18:36:53.123 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:36:53.134 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 11.4836ms
+2024-05-22 18:36:53.138 +03:00 [INF] Sending file. Request path: '/image/close.png'. Physical path: 'D:\Merge\SecondTry\Medicine2\CourseWorkWeb\wwwroot\image\close.png'
+2024-05-22 18:36:53.153 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/close.png - 200 10571 image/png 34.7257ms
+2024-05-22 18:37:45.029 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Medicine/AddMedicine - application/x-www-form-urlencoded 404
+2024-05-22 18:37:45.049 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.MedicineController.AddMedicine (CourseWorkWeb)'
+2024-05-22 18:37:45.066 +03:00 [INF] Route matched with {action = "AddMedicine", controller = "Medicine"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddMedicine(CourseWorkWeb.Models.Entity.Medicines.Medicine) on controller CourseWorkWeb.Controllers.MedicineController (CourseWorkWeb).
+2024-05-22 18:39:34.878 +03:00 [INF] Medicine { Id = 0, Name = das, Description = , Articules = , MedicinePhoto_Id = 0, Photo = MedicinePhoto { Id = 0, bytes = System.Byte[], Medicine_Id = 0 }, Status = Available, Cost = 500, Country = Ukraine, Substance_Id = 0, Substances = System.Collections.Generic.List`1[CourseWorkWeb.Models.Entity.Medicines.Substance], Quantity = 9999, Type = asd, Discount = 50 } added successful!
+2024-05-22 18:39:34.888 +03:00 [INF] Executing ViewResult, running view AddMedicine.
+2024-05-22 18:39:34.895 +03:00 [ERR] The view 'AddMedicine' was not found. Searched locations: ["/Views/Medicine/AddMedicine.cshtml","/Views/Shared/AddMedicine.cshtml"]
+2024-05-22 18:39:34.906 +03:00 [INF] Executed action CourseWorkWeb.Controllers.MedicineController.AddMedicine (CourseWorkWeb) in 109832.4403ms
+2024-05-22 18:39:34.910 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.MedicineController.AddMedicine (CourseWorkWeb)'
+2024-05-22 18:39:34.913 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'AddMedicine' was not found. The following locations were searched:
+/Views/Medicine/AddMedicine.cshtml
+/Views/Shared/AddMedicine.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:39:34.986 +03:00 [ERR] An error occurred using the connection to database 'keros_medicine1' on server 'sql.bsite.net\MSSQL2016'.
+2024-05-22 18:39:34.988 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Medicine/AddMedicine - 500 null text/html; charset=utf-8 109958.7376ms
+2024-05-22 18:41:25.689 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:41:25.909 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:41:25.936 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:41:25.938 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:41:25.940 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:41:26.212 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:41:26.342 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:41:26.428 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:41:26.461 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:41:26.475 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:41:26.549 +03:00 [INF] Executed ViewResult - view Index executed in 78.0814ms.
+2024-05-22 18:41:26.555 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 89.421ms
+2024-05-22 18:41:26.558 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:41:26.564 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 355.8869ms
+2024-05-22 18:41:26.580 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:41:26.590 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.327ms
+2024-05-22 18:41:26.794 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:41:26.825 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.6996ms
+2024-05-22 18:41:33.238 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:41:33.250 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:41:33.253 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:41:33.258 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:41:33.263 +03:00 [INF] Executed ViewResult - view Index executed in 5.0951ms.
+2024-05-22 18:41:33.267 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 9.1858ms
+2024-05-22 18:41:33.272 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:41:33.275 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 36.8878ms
+2024-05-22 18:41:33.331 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:41:33.331 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:41:33.357 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 24.9946ms
+2024-05-22 18:41:33.367 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.2053ms
+2024-05-22 18:41:43.968 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/CreatePage - null null
+2024-05-22 18:41:43.986 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:41:43.998 +03:00 [INF] Route matched with {action = "Index", controller = "CreatePage"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CreatePageController (CourseWorkWeb).
+2024-05-22 18:41:44.008 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:41:44.033 +03:00 [INF] Executed ViewResult - view Index executed in 26.035ms.
+2024-05-22 18:41:44.038 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb) in 32.38ms
+2024-05-22 18:41:44.045 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:41:44.049 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/CreatePage - 200 null text/html; charset=utf-8 80.6973ms
+2024-05-22 18:41:44.085 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:41:44.085 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:41:44.098 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.1476ms
+2024-05-22 18:41:44.102 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 16.6976ms
+2024-05-22 18:42:11.813 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Medicine/AddMedicine - application/x-www-form-urlencoded 385
+2024-05-22 18:42:11.826 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.MedicineController.AddMedicine (CourseWorkWeb)'
+2024-05-22 18:42:11.844 +03:00 [INF] Route matched with {action = "AddMedicine", controller = "Medicine"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddMedicine(CourseWorkWeb.Models.Entity.Medicines.Medicine) on controller CourseWorkWeb.Controllers.MedicineController (CourseWorkWeb).
+2024-05-22 18:42:48.648 +03:00 [INF] Medicine { Id = 0, Name = fsd, Description = , Articules = , MedicinePhoto_Id = 0, Photo = MedicinePhoto { Id = 0, bytes = System.Byte[], Medicine_Id = 0 }, Status = Available, Cost = 500, Country = sdf, Substance_Id = 0, Substances = System.Collections.Generic.List`1[CourseWorkWeb.Models.Entity.Medicines.Substance], Quantity = 9999, Type = dfs, Discount = 50 } added successful!
+2024-05-22 18:42:48.661 +03:00 [INF] Executing ViewResult, running view AddMedicine.
+2024-05-22 18:42:48.666 +03:00 [ERR] The view 'AddMedicine' was not found. Searched locations: ["/Views/Medicine/AddMedicine.cshtml","/Views/Shared/AddMedicine.cshtml"]
+2024-05-22 18:42:48.685 +03:00 [INF] Executed action CourseWorkWeb.Controllers.MedicineController.AddMedicine (CourseWorkWeb) in 36834.0727ms
+2024-05-22 18:42:48.689 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.MedicineController.AddMedicine (CourseWorkWeb)'
+2024-05-22 18:42:48.693 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'AddMedicine' was not found. The following locations were searched:
+/Views/Medicine/AddMedicine.cshtml
+/Views/Shared/AddMedicine.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 18:42:48.766 +03:00 [ERR] An error occurred using the connection to database '' on server ''.
+2024-05-22 18:42:48.767 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Medicine/AddMedicine - 500 null text/html; charset=utf-8 36953.9903ms
+2024-05-22 18:44:09.466 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:44:09.592 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:44:09.621 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:44:09.623 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:44:09.625 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:44:09.667 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:44:09.747 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:44:09.795 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:44:09.816 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:44:09.829 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:44:09.893 +03:00 [INF] Executed ViewResult - view Index executed in 66.2327ms.
+2024-05-22 18:44:09.900 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 79.0063ms
+2024-05-22 18:44:09.906 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:44:09.908 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:44:09.912 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 245.8691ms
+2024-05-22 18:44:09.917 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.1856ms
+2024-05-22 18:44:09.943 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:44:09.971 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.8907ms
+2024-05-22 18:44:15.443 +03:00 [INF] Application is shutting down...
+2024-05-22 18:44:20.031 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 18:44:20.247 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 18:44:20.309 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 18:44:20.313 +03:00 [INF] Hosting environment: Development
+2024-05-22 18:44:20.316 +03:00 [INF] Content root path: D:\Merge\SecondTry\Medicine2\CourseWorkWeb
+2024-05-22 18:44:20.611 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 18:44:20.778 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 18:44:20.948 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:44:21.005 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 18:44:21.032 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:44:21.152 +03:00 [INF] Executed ViewResult - view Index executed in 128.0961ms.
+2024-05-22 18:44:21.161 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 147.4456ms
+2024-05-22 18:44:21.167 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 18:44:21.171 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:44:21.179 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 572.4963ms
+2024-05-22 18:44:21.184 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 13.1559ms
+2024-05-22 18:44:21.224 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:44:21.285 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.7778ms
+2024-05-22 18:44:28.644 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/AddPage - null null
+2024-05-22 18:44:28.659 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/AddPage - 404 0 null 15.8589ms
+2024-05-22 18:44:28.669 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/AddPage, Response status code: 404
+2024-05-22 18:44:35.523 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/CreatePage - null null
+2024-05-22 18:44:35.534 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:44:35.545 +03:00 [INF] Route matched with {action = "Index", controller = "CreatePage"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CreatePageController (CourseWorkWeb).
+2024-05-22 18:44:35.552 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 18:44:35.576 +03:00 [INF] Executed ViewResult - view Index executed in 24.6909ms.
+2024-05-22 18:44:35.580 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb) in 29.2054ms
+2024-05-22 18:44:35.583 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CreatePageController.Index (CourseWorkWeb)'
+2024-05-22 18:44:35.587 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/CreatePage - 200 null text/html; charset=utf-8 63.3666ms
+2024-05-22 18:44:35.627 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 18:44:35.630 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 18:44:35.648 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 18.6225ms
+2024-05-22 18:44:35.650 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.5499ms
+2024-05-22 18:45:09.370 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Medicine/AddMedicine - application/x-www-form-urlencoded 386
+2024-05-22 18:45:09.384 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.MedicineController.AddMedicine (CourseWorkWeb)'
+2024-05-22 18:45:09.398 +03:00 [INF] Route matched with {action = "AddMedicine", controller = "Medicine"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddMedicine(CourseWorkWeb.Models.Entity.Medicines.Medicine) on controller CourseWorkWeb.Controllers.MedicineController (CourseWorkWeb).
+2024-05-22 18:45:45.118 +03:00 [INF] Executed DbCommand (230ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p2='?' (Size = 50), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int64), @p6='?' (Size = 4000), @p7='?' (DbType = Int64), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Medicines] ([Articules], [Cost], [Country], [Description], [Discount], [MedicinePhoto_Id], [Name], [PharmacyId], [Quantity], [Substance_Id], [Type])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2024-05-22 18:45:45.181 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'CourseWorkWeb.DAL.Context.MedicineDataContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Description', table 'keros_medicine1.dbo.Medicines'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:578b565c-32dd-446c-a08f-243bb5210ac2
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Description', table 'keros_medicine1.dbo.Medicines'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:578b565c-32dd-446c-a08f-243bb5210ac2
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)

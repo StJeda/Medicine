@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7IkVx6oiNeeYfC1mJ1CyzYqT+qHxf1J8T85qOzSotn8TQ4JFhoGjkyB0CsZs2HQYWTOs8y5hay/P7UUYTrmmvw==",
+  "dgSpecHash": "5vHfQq/YoO1j9vzPRdl66WR/ZtzmdhXT/LrtVqpLFZIVDoTIfGvVf5CftvkmFz7jnX+jUJS3zlHij9Q/iXfbCg==",
   "success": true,
-  "projectFilePath": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+  "projectFilePath": "D:\\Merge\\SecondTry\\Medicine2\\CourseWorkWeb\\CourseWorkWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yyarm\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\yyarm\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

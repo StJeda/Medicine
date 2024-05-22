@@ -12980,11 +12980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+      "projectUniqueName": "D:\\Merge\\SecondTry\\Medicine2\\CourseWorkWeb\\CourseWorkWeb.csproj",
       "projectName": "CourseWorkWeb",
-      "projectPath": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+      "projectPath": "D:\\Merge\\SecondTry\\Medicine2\\CourseWorkWeb\\CourseWorkWeb.csproj",
       "packagesPath": "C:\\Users\\yyarm\\.nuget\\packages\\",
-      "outputPath": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\obj\\",
+      "outputPath": "D:\\Merge\\SecondTry\\Medicine2\\CourseWorkWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yyarm\\AppData\\Roaming\\NuGet\\NuGet.Config",
