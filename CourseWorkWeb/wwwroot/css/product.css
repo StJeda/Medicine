@@ -54,6 +54,7 @@
     width: 25%;
     margin-right: 1vw;
     border-radius: 10px;
+    min-width: 4vw;
     padding: 2px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -99,7 +100,7 @@ width: 100%;
     margin: 0;
     margin-left: 1vw;
     margin-top: 3vh;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 .TovarBorder{
     flex-basis: 5%;
@@ -123,8 +124,11 @@ width: 100%;
     
 }
 .TMain{
-    border-bottom:0.1px solid rgb(103, 103, 103); 
     margin-bottom: 4vh;
+    display: flex;
+    align-items: center;
+
+
 }
 .TovarMainPropery{
     margin-top: 6vh;
@@ -132,6 +136,10 @@ width: 100%;
     margin-right: 1vw;
     padding: 0;
 }
+.Dinamic{  border-bottom:0.5px solid rgb(103, 103, 103); margin: 0; width: 80%; height: 4vh; font-size: 3vh;}
+.Static{  margin: 0;  font-size: 3vh; }
+
+
 .TovarSecondPropery{
     margin-top: 6vh;
     margin-left: 1.5vw;

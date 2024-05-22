@@ -227,9 +227,11 @@
    <div class="TovarSection">
     <div class="BorderName">
         <p class="mw">Basket</p>
-        <span class="close">&times;</span>
+        <div><button>Buy All</button><span class="close">&times;</span></div>
+       
     </div>
     <div class="BorderContent">
+        <!--Форейч-->
         <div class="CardModal">
             <div class="FotoModal">
                 <img src="https://www.add.ua/media/catalog/product/cache/0cb86aa621afec2b43f6f8736c54c157/1/-/1-vimaks4grinvud_jpg.webp">
@@ -244,6 +246,7 @@
                 </div>        
             </div>
         </div>
+        <!--Форейч-->
     </div>
    </div>
   </div>
@@ -267,31 +270,31 @@
 <script>
 var modal1 = document.getElementById("my_Exit");
 
-// Отримуємо кнопку відкриття модального вікна
+
 var openBtn = document.querySelector('.ExButtonSector button[type="submit"]');
 var closeBtn = document.querySelector('.close');
 
-// Відкриваємо модальне вікно та блокуємо прокручування сторінки
+
 function openModal1() {
   modal1.style.display = "block";
-  document.body.style.overflow = "hidden"; // Блокуємо прокручування сторінки
+  document.body.style.overflow = "hidden"; 
 }
 
-// Закриваємо модальне вікно та відновлюємо прокручування сторінки
+
 function closeModal1() {
   modal1.style.display = "none";
-  document.body.style.overflow = "auto"; // Відновлюємо прокручування сторінки
+  document.body.style.overflow = "auto"; 
 }
 
-// Закриваємо модальне вікно при натисканні поза його областю
+
 window.addEventListener("click", function(event) {
-  // Перевіряємо, чи клік відбувся поза модальним вікном кабінету
+  
   if (event.target == modal1) {
-    closeModal1(); // Закриваємо модальне вікно кабінету
+    closeModal1(); 
   }
 });
 
-// Додаємо обробники подій до кнопок, якщо вони існують
+
 if (openBtn) {
   openBtn.addEventListener("click", openModal1);
 }
@@ -303,32 +306,32 @@ if (closeBtn) {
 <script>
  var modal = document.getElementById("myModal");
 
-// Отримуємо кнопку відкриття модального вікна
+
 var openBtn = document.getElementById("openBtn");
 
-// Отримуємо кнопку закриття модального вікна
+
 var closeBtn = document.getElementsByClassName("close")[0];
 
-// Відкриваємо модальне вікно та блокуємо прокручування сторінки
+
 function openModal() {
   modal.style.display = "block";
-  document.body.style.overflow = "hidden"; // Блокуємо прокручування сторінки
+  document.body.style.overflow = "hidden";
 }
 
-// Закриваємо модальне вікно та відновлюємо прокручування сторінки
+
 function closeModal() {
   modal.style.display = "none";
-  document.body.style.overflow = "auto"; // Відновлюємо прокручування сторінки
+  document.body.style.overflow = "auto"; 
 }
 
-// Закриваємо модальне вікно при натисканні поза його областю
+
 window.onclick = function(event) {
   if (event.target == modal) {
     closeModal();
   }
 }
 
-// Додаємо обробники подій до кнопок, якщо вони існують
+
 if (openBtn) {
   openBtn.addEventListener("click", openModal);
 }
@@ -358,10 +361,10 @@ if (closeBtn) {
     $.ajax({
         type: "POST",
         url: "/Category/Index",
-        data: { word: word }, // Pass the 'word' parameter to the controller
+        data: { word: word }, 
         success: function (response) {
             console.log("Метод контроллера успешно вызван");
-            window.location.href = "/Category/Index?word=" + word; // Redirect to the category page with the word parameter
+            window.location.href = "/Category/Index?word=" + word; 
         },
         error: function (xhr, status, error) {
             console.error("Произошла ошибка при вызове метода контроллера:", error);
@@ -375,7 +378,7 @@ function toProduct(id) {
         data: { id: id}, 
         success: function (response) {
             console.log("Метод контроллера успішно викликано");
-            window.location.href = "/Product/Index?id=" + id; // Redirect to the category page with the word parameter
+            window.location.href = "/Product/Index?id=" + id; 
         },
         error: function (xhr, status, error) {
             console.error("Сталася помилка при виклику методу контролера:", error);
