@@ -67,7 +67,7 @@
     </div>
     </div>
     
-<form asp-controller="Medicine" asp-action="AddMedicine" class="CrConteiner" method="POST" enctype="multipart/form-data">
+<form asp-controller="Medicine" asp-action="AddMedicine" class="CrConteiner" method="POST">
         <div class="Hheder">   
             <p class="Word">Page Constructor</p>
             <div class=divhButton> 
@@ -230,16 +230,79 @@ async function previewImage3() {
 
             if (!fileInput || !fileInput.files || fileInput.files.length === 0) {
                 reject(new Error("No file selected"));
+                
                 return;
             }
 
             const file = fileInput.files[0];
-            const path = URL.createObjectURL(file);
+            const path = URL.createObjectURL(file);  
             resolve(path);
         });
     }
 </script>
+<script>
+$(document).ready(function() {
+    $('.Hbutton').click(function(e) {
+        e.preventDefault(); // Предотвращаем стандартное поведение кнопки
 
+        // Находим форму, к которой относится кнопка
+        var form = $(this).closest('form');
+
+        // Создаем объект FormData для сбора данных формы
+        var formData = new FormData();
+
+        // Получаем все файловые поля формы
+        var fileInputs = form.find('input[type=file]');
+
+        // Для каждого файлового поля
+        fileInputs.each(function(index) {
+            var fileInput = $(this)[0];
+            var files = fileInput.files;
+
+            // Добавляем каждый файл к данным формы
+            for (var i = 0; i < files.length; i++) {
+                var file = files[i];
+                // Создаем новый FileReader объект
+                var reader = new FileReader();
+                // Определяем функцию обратного вызова для считывания файла
+                reader.onload = function(event) {
+                    // Конвертируем содержимое файла в base64 и добавляем к данным формы
+                    formData.append(fileInput.name, event.target.result);
+                };
+                // Считываем содержимое файла в формате base64
+                reader.readAsDataURL(file);
+                alert(file)
+            }
+        });
+
+        // Получаем остальные поля формы
+        var otherInputs = form.find('input[type!=file], select');
+
+        // Для каждого поля добавляем его значение к данным формы
+        otherInputs.each(function() {
+            formData.append($(this).attr('name'), $(this).val());
+        });
+
+        // Отправляем AJAX запрос
+        $.ajax({
+            url: form.attr('action'), // URL из атрибута action формы
+            type: form.attr('method'), // Метод из атрибута method формы (POST)
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function(response) {
+                // Обработка успешного ответа сервера
+                console.log('Form submitted successfully');
+                console.log(response); // Ответ сервера
+            },
+            error: function(xhr, status, error) {
+                // Обработка ошибки
+                console.error('Error submitting form:', error);
+            }
+        });
+    });
+});
+</script>
 
     <script>
     function toHome() {
