@@ -1,17 +1,20 @@
 ﻿using CourseWorkWeb.Core.CQRS.Medicines.Queries;
-using CourseWorkWeb.Core.CQRSadd.IEntity;
 using CourseWorkWeb.Models.Entity.Medicines;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Permissions;
 
 namespace CourseWorkWeb.Controllers
 {
+   
     public class CatalogController(ISender sender):Controller
     {
         private readonly ISender _sender = sender;
-        public async Task<IActionResult> Index() //передача здесь
+        [Authorize(Policy = "CabinetPermission")]
+        public async Task<IActionResult> Index()
         {
-            var medicines = await _sender.Send(new GetEntitiesQuery<Medicine>());
+            var medicines = await _sender.Send(new GetMedicinesQuery());
             return View(medicines);
         }
     }

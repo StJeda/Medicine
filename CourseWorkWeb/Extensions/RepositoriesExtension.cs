@@ -1,5 +1,7 @@
 ﻿using CourseWorkWeb.DAL.Interfaces;
 using CourseWorkWeb.DAL.Repositories;
+using CourseWorkWeb.Models.Entity.Auth;
+using CourseWorkWeb.Models.Entity.Medicines;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CourseWorkWeb.Extensions
@@ -14,6 +16,8 @@ namespace CourseWorkWeb.Extensions
             services.AddScoped<IOrderRepository,OrderRepository>();
             services.AddScoped<IDiseaseRepository,DiseaseRepository>();
             services.AddScoped<IRoleRepository,RoleRepository>();
+            services.AddScoped<IAggregateRepository<Medicine>, AggregateRepository<Medicine>>();
+            services.AddScoped<IAggregateRepository<Account>, AggregateRepository<Account>>();
             return services;
         }
     }

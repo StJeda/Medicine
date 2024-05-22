@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using CourseWorkWeb.Core.CQRS.Medicines.Queries;
+
 using CourseWorkWeb.Models.Entity.Medicines;
 using MediatR;
-using CourseWorkWeb.Core.SmartFilter;
-using CourseWorkWeb.Core.CQRSadd.IEntity;
+using CourseWorkWeb.Core.CQRS.Medicines.Queries;
+
 
 namespace CourseWorkWeb.Controllers
 {
@@ -12,7 +12,7 @@ namespace CourseWorkWeb.Controllers
        private readonly ISender _sender = sender;
        public async Task<IActionResult> Index()
         {
-          var medicines = await _sender.Send(new GetEntitiesQuery<Medicine>());
+          var medicines = await _sender.Send(new GetMedicinesQuery());
             return View(medicines);
         }
     }

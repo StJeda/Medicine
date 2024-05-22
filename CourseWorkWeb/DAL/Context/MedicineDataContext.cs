@@ -1,4 +1,5 @@
-﻿using CourseWorkWeb.Models.Entity;
+﻿using CourseWorkWeb.DAL.Context.Config;
+using CourseWorkWeb.Models.Entity;
 using CourseWorkWeb.Models.Entity.Auth;
 using CourseWorkWeb.Models.Entity.Diseases;
 using CourseWorkWeb.Models.Entity.Medicines;
@@ -6,6 +7,7 @@ using CourseWorkWeb.Models.Entity.Orders;
 using CourseWorkWeb.Models.Entity.Photos;
 using CourseWorkWeb.Models.Entity.Relations;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace CourseWorkWeb.DAL.Context
 {
@@ -24,11 +26,22 @@ namespace CourseWorkWeb.DAL.Context
             modelBuilder.Entity<Medicine>()
             .Property(m => m.Cost)
             .HasColumnType("decimal(10, 2)");
+            modelBuilder.ApplyConfiguration(new AccountConfiguration());
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
+            modelBuilder.ApplyConfiguration(new PermissionConfiguration());
+            modelBuilder.ApplyConfiguration(new RolesPermissionsConfiguration());
+
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
+
         }
+        
+        
+        
+
+
         //UserElement:
         public DbSet<Account> Accounts { get; set; }
         public DbSet<Password> Passwords { get; set; }
@@ -47,6 +60,7 @@ namespace CourseWorkWeb.DAL.Context
         public DbSet<MedicinePhoto> MedicinePhotos { get; set; }
         public DbSet<UserPhoto> UserPhotos { get; set; } 
         //Relations:
+        public DbSet<UserRole> userRoles { get; set; }
         public DbSet<MedicinesOrders> MedicinesOrders { get; set; }
         public DbSet<MedicinesSubstances> MedicinesSubstances { get; set; }
         public DbSet<PharmaciesMedicines> PharmaciesMedicines { get; set; }

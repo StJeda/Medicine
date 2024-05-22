@@ -1,20 +1,42 @@
 ﻿using CourseWorkWeb.DAL.Context;
 using CourseWorkWeb.DAL.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace CourseWorkWeb.DAL.Repositories
 {
-    public class AggregateRepository<TEntity>(MedicineDataContext context)
-        : IAggregateRepository<TEntity> where TEntity : class
+    public class AggregateRepository<TEntity>(MedicineDataContext context) : IDisposable, IAggregateRepository<TEntity> where TEntity : class
     {
         private readonly MedicineDataContext _context = context;
         private readonly DbSet<TEntity> _aggregateSet = context.Set<TEntity>();
-        public async Task DeleteAsync(long Id)
+        public async Task<bool> DeleteAsync(long Id)
         {
-            var undoEntity = await _aggregateSet.FindAsync(Id);
-            _aggregateSet.Remove(undoEntity);
-            Save();
+            try
+            {
+                var undoEntity = await _aggregateSet.FindAsync(Id);
+                _aggregateSet.Remove(undoEntity);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch(DbUpdateException)
+            {
+                return false;
+            }
         }
+
+        public void Dispose()
+            {
+                Dispose(true);
+                GC.SuppressFinalize(this);
+            }
+
+protected virtual void Dispose(bool disposing)
+{
+    if (disposing)
+    {
+        _context.Dispose();
+    }
+}
 
         public async Task<IQueryable<TEntity>> GetAll()
         {
@@ -22,27 +44,41 @@ namespace CourseWorkWeb.DAL.Repositories
             return entities.AsQueryable();
         }
 
-        public async Task<TEntity> GetByIdAsync(long Id)
+        public async Task<TEntity> GetByConditionAsync(Expression<Func<TEntity, bool>> condition)
         {
-            var single = await _aggregateSet.FindAsync(Id);
-            return single;
+            var entity = await _aggregateSet.FirstOrDefaultAsync(condition);
+            return entity;
         }
 
-        public async Task InsertAsync(TEntity entity)
+        public async Task<bool> InsertAsync(TEntity entity)
         {
-            await _aggregateSet.AddAsync(entity);
-            Save();
+            try
+            {
+                await _aggregateSet.AddAsync(entity);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch(DbUpdateException)
+            {
+                return false;
+            }
         }
 
-        public async void Save()
-        {
-            await _context.SaveChangesAsync();
-        }
+  
 
-        public async Task UpdateAsync(TEntity entity)
+        public async Task<bool> UpdateAsync(TEntity entity)
         {
-           _context.Entry(entity).State = EntityState.Modified;
-            Save();
+            try
+            {
+                _context.Entry(entity).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+
+                return true;
+            }
+            catch (DbUpdateException)
+            { 
+                return false;
+            }
         }
        
     }

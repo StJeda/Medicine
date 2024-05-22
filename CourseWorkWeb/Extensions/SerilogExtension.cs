@@ -1,4 +1,9 @@
-﻿using Serilog;
+﻿using CourseWorkWeb.DAL.Context;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using Serilog;
+using System.Text;
 
 namespace CourseWorkWeb.Extensions
 {
@@ -16,8 +21,8 @@ namespace CourseWorkWeb.Extensions
 
                 services.AddLogging(loggingBuilder =>
                 {
-                    loggingBuilder.ClearProviders(); 
-                    loggingBuilder.AddSerilog(dispose: true); 
+                    loggingBuilder.ClearProviders();
+                    loggingBuilder.AddSerilog(dispose: true);
                 });
             });
         }

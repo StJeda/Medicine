@@ -1,17 +1,9 @@
-using CourseWorkWeb.Core.CQRS_.Queries;
-using CourseWorkWeb.Core.CQRSadd.IEntity;
-using CourseWorkWeb.DAL.Context;
-using CourseWorkWeb.DAL.Interfaces;
-using CourseWorkWeb.DAL.Repositories;
+using CourseWorkWeb.DAL.Jwt;
 using CourseWorkWeb.Extensions;
-using CourseWorkWeb.Models.Entity.Medicines;
-using MediatR;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
-using Microsoft.Extensions.Hosting;
-using Serilog;
-using System.Reflection;
+using Microsoft.AspNetCore.CookiePolicy;
+using Microsoft.Extensions.Options;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,10 +12,11 @@ builder.Services.AddControllersWithViews();
 builder.Host.UseCustomSerilog();
 builder.Host.UseDatabase();
 builder.Host.UseMediatR();
+builder.Host.UseJwt();
+builder.Host.UseAuth();
+builder.Host.UseAuthorize();
+
 builder.Services.AddRepositories();
-builder.Services.AddScoped<IAggregateRepository<Medicine>, AggregateRepository<Medicine>>();
-builder.Services.AddTransient(typeof(IRequestHandler<GetEntitiesQuery<Medicine>, IEnumerable<Medicine>>), typeof(EntitiesQueryHandler<Medicine>));
-builder.Services.AddTransient(typeof(IRequestHandler<GetEntityQuery<Medicine>, Medicine>), typeof(EntityQueryHandler<Medicine>));
 
 var app = builder.Build();
 
@@ -34,10 +27,16 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseCookiePolicy(new CookiePolicyOptions
+{
+    MinimumSameSitePolicy = SameSiteMode.Strict,
+    Secure = CookieSecurePolicy.Always,
+    HttpOnly = HttpOnlyPolicy.Always
+}); 
 
 app.MapControllerRoute(
     name: "default",
