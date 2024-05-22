@@ -1,185 +1,170 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\",
+  "WorkspaceRootPath": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\dal\\repositories\\aggregaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\repositories\\aggregaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\dal\\interfaces\\iaggregaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\interfaces\\iaggregaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\dal\\interfaces\\idiseaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\interfaces\\idiseaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\cqrsadd\\commands\\updateentitycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrsadd\\commands\\updateentitycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\cqrsadd\\commands\\undoentitycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrsadd\\commands\\undoentitycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\cqrsadd\\commands\\addentitycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrsadd\\commands\\addentitycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\cqrsadd\\ientity\\records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrsadd\\ientity\\records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\cqrsadd\\ientity\\ientityquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrsadd\\ientity\\ientityquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\cqrsadd\\ientity\\ientitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrsadd\\ientity\\ientitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\cqrsadd\\queries\\entityqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrsadd\\queries\\entityqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\cqrsadd\\queries\\entitiesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrsadd\\queries\\entitiesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\models\\entity\\medicines\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\medicines\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\models\\entity\\photos\\medicinephoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\photos\\medicinephoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\views\\catalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\catalog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\logs\\sitelog-20240516.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:logs\\sitelog-20240516.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\models\\entity\\medicines\\substance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\medicines\\substance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\models\\entity\\pharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\pharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\smartfilter\\describefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\smartfilter\\describefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\smartfilter\\medicinefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\smartfilter\\medicinefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\extensions\\authorizationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:extensions\\authorizationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\core\\cqrs\\medicines\\queries\\getmedicinesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrs\\medicines\\queries\\getmedicinesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\models\\entity\\auth\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\auth\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\views\\home\\_master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\home\\_master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\courseworkweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:courseworkweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\models\\entity\\auth\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\auth\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\controllers\\medicinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\medicinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\extensions\\jwtextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:extensions\\jwtextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\controllers\\pharmacistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\pharmacistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\extensions\\databaseextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:extensions\\databaseextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\migrations\\medicinedatacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:migrations\\medicinedatacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\migrations\\20240522114405_initialcreate001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:migrations\\20240522114405_initialcreate001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\dal\\migrations\\20240510193435_initialcreate4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\migrations\\20240510193435_initialcreate4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\dal\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\dal\\migrations\\20240510040726_initialcreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\migrations\\20240510040726_initialcreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\dal\\context\\medicinedatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\context\\medicinedatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\dal\\migrations\\20240510013216_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\migrations\\20240510013216_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\dal\\context\\config\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\context\\config\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\dal\\migrations\\20240510013049_initialcreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\migrations\\20240510013049_initialcreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\dal\\context\\config\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\context\\config\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\dal\\context\\config\\permissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\context\\config\\permissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\works\\coursoviy\\medicine\\courseworkweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\dal\\context\\config\\rolespermissionsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\context\\config\\rolespermissionsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\models\\entity\\auth\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\auth\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\models\\entity\\auth\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\auth\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\models\\entity\\relations\\substancessymptoms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\relations\\substancessymptoms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\models\\entity\\relations\\symptomsdiseases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\relations\\symptomsdiseases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\models\\entity\\relations\\rolespermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\relations\\rolespermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\models\\entity\\relations\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\entity\\relations\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\extensions\\authextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:extensions\\authextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\controllers\\youcabinetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\youcabinetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\dal\\jwt\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\jwt\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\core\\cqrs\\auth\\commands\\commands\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrs\\auth\\commands\\commands\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\core\\cqrs\\auth\\commands\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\cqrs\\auth\\commands\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\core\\auth\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\auth\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\core\\auth\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:core\\auth\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\dal\\jwt\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\jwt\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\dal\\jwt\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:dal\\jwt\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\extensions\\serilogextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:extensions\\serilogextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\extensions\\repositoriesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:extensions\\repositoriesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\extensions\\mediatrextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:extensions\\mediatrextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|d:\\cursoviy\\medicine\\courseworkweb\\bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A705F28B-C409-4903-8D6A-716DDF01A6F3}|CourseWorkWeb.csproj|solutionrelative:bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -189,563 +174,517 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 41,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AggregateRepository.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Repositories\\AggregateRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repositories\\AggregateRepository.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Repositories\\AggregateRepository.cs",
-              "RelativeToolTip": "DAL\\Repositories\\AggregateRepository.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAswAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:30:17.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAggregateRepository.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Interfaces\\IAggregateRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IAggregateRepository.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Interfaces\\IAggregateRepository.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IAggregateRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:30:10.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IDiseaseRepository.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Interfaces\\IDiseaseRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IDiseaseRepository.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Interfaces\\IDiseaseRepository.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IDiseaseRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:30:00.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateEntityCommandHandler.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\Commands\\UpdateEntityCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\CQRSadd\\Commands\\UpdateEntityCommandHandler.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\Commands\\UpdateEntityCommandHandler.cs",
-              "RelativeToolTip": "Core\\CQRSadd\\Commands\\UpdateEntityCommandHandler.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:29:34.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UndoEntityCommandHandler.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\Commands\\UndoEntityCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\CQRSadd\\Commands\\UndoEntityCommandHandler.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\Commands\\UndoEntityCommandHandler.cs",
-              "RelativeToolTip": "Core\\CQRSadd\\Commands\\UndoEntityCommandHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:29:30.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddEntityCommandHandler.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\Commands\\AddEntityCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\CQRSadd\\Commands\\AddEntityCommandHandler.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\Commands\\AddEntityCommandHandler.cs",
-              "RelativeToolTip": "Core\\CQRSadd\\Commands\\AddEntityCommandHandler.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:29:24.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IEntityQuery.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\IEntity\\IEntityQuery.cs",
-              "RelativeDocumentMoniker": "Core\\CQRSadd\\IEntity\\IEntityQuery.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\IEntity\\IEntityQuery.cs",
-              "RelativeToolTip": "Core\\CQRSadd\\IEntity\\IEntityQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:29:19.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IEntityCommand.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\IEntity\\IEntityCommand.cs",
-              "RelativeDocumentMoniker": "Core\\CQRSadd\\IEntity\\IEntityCommand.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\IEntity\\IEntityCommand.cs",
-              "RelativeToolTip": "Core\\CQRSadd\\IEntity\\IEntityCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:29:18.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EntityQueryHandler.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\Queries\\EntityQueryHandler.cs",
-              "RelativeDocumentMoniker": "Core\\CQRSadd\\Queries\\EntityQueryHandler.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\Queries\\EntityQueryHandler.cs",
-              "RelativeToolTip": "Core\\CQRSadd\\Queries\\EntityQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:29:10.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EntitiesQueryHandler.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\Queries\\EntitiesQueryHandler.cs",
-              "RelativeDocumentMoniker": "Core\\CQRSadd\\Queries\\EntitiesQueryHandler.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\Queries\\EntitiesQueryHandler.cs",
-              "RelativeToolTip": "Core\\CQRSadd\\Queries\\EntitiesQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:29:06.649Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MedicinePhoto.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Photos\\MedicinePhoto.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\Photos\\MedicinePhoto.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Photos\\MedicinePhoto.cs",
-              "RelativeToolTip": "Models\\Entity\\Photos\\MedicinePhoto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:51:43.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "bundleconfig.json",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\bundleconfig.json",
-              "RelativeDocumentMoniker": "bundleconfig.json",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\bundleconfig.json",
-              "RelativeToolTip": "bundleconfig.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-16T17:12:29.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "sitelog-20240516.txt",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\logs\\sitelog-20240516.txt",
-              "RelativeDocumentMoniker": "logs\\sitelog-20240516.txt",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\logs\\sitelog-20240516.txt",
-              "RelativeToolTip": "logs\\sitelog-20240516.txt",
-              "ViewState": "AQIAAIYBAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-16T17:10:48.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Pharmacy.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Pharmacy.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\Pharmacy.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Pharmacy.cs",
-              "RelativeToolTip": "Models\\Entity\\Pharmacy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:10:01.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:10:01.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Substance.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Medicines\\Substance.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\Medicines\\Substance.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Medicines\\Substance.cs",
-              "RelativeToolTip": "Models\\Entity\\Medicines\\Substance.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:03:35.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Medicine.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Medicines\\Medicine.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\Medicines\\Medicine.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Medicines\\Medicine.cs",
-              "RelativeToolTip": "Models\\Entity\\Medicines\\Medicine.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAywBEAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:01:57.841Z",
+              "WhenOpened": "2024-05-22T12:44:04.462Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "MedicineFilter.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\SmartFilter\\MedicineFilter.cs",
-              "RelativeDocumentMoniker": "Core\\SmartFilter\\MedicineFilter.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\SmartFilter\\MedicineFilter.cs",
-              "RelativeToolTip": "Core\\SmartFilter\\MedicineFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T14:46:50.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "DescribeFilter.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\SmartFilter\\DescribeFilter.cs",
-              "RelativeDocumentMoniker": "Core\\SmartFilter\\DescribeFilter.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\SmartFilter\\DescribeFilter.cs",
-              "RelativeToolTip": "Core\\SmartFilter\\DescribeFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T14:46:41.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "MedicineController.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\MedicineController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MedicineController.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\MedicineController.cs",
-              "RelativeToolTip": "Controllers\\MedicineController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T14:43:41.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "PharmacistController.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\PharmacistController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PharmacistController.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\PharmacistController.cs",
-              "RelativeToolTip": "Controllers\\PharmacistController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T14:43:39.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "Controllers\\RoleController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T14:43:35.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "GetMedicinesQuery.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRS\\Medicines\\Queries\\GetMedicinesQuery.cs",
-              "RelativeDocumentMoniker": "Core\\CQRS\\Medicines\\Queries\\GetMedicinesQuery.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRS\\Medicines\\Queries\\GetMedicinesQuery.cs",
-              "RelativeToolTip": "Core\\CQRS\\Medicines\\Queries\\GetMedicinesQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T14:43:34.227Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Records.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\IEntity\\Records.cs",
-              "RelativeDocumentMoniker": "Core\\CQRSadd\\IEntity\\Records.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRSadd\\IEntity\\Records.cs",
-              "RelativeToolTip": "Core\\CQRSadd\\IEntity\\Records.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T14:41:40.94Z",
+              "WhenOpened": "2024-05-22T12:30:36.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAgwBEAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T14:24:33.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAAEkAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T14:16:00.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T09:18:45.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA/wBQAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:18:07.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
+              "DocumentIndex": 10,
+              "Title": "MedicineDataContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Migrations\\MedicineDataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\MedicineDataContextModelSnapshot.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Migrations\\MedicineDataContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\MedicineDataContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T15:55:11.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "20240510193435_InitialCreate4.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510193435_InitialCreate4.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\20240510193435_InitialCreate4.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510193435_InitialCreate4.cs",
-              "RelativeToolTip": "DAL\\Migrations\\20240510193435_InitialCreate4.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAUwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:08:44.943Z"
+              "WhenOpened": "2024-05-22T11:45:48.941Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Catalog\\Index.cshtml",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Index.cshtml",
-              "RelativeToolTip": "Views\\Catalog\\Index.cshtml",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAA4AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T14:32:56.168Z"
+              "DocumentIndex": 11,
+              "Title": "20240522114405_InitialCreate001.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Migrations\\20240522114405_InitialCreate001.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240522114405_InitialCreate001.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Migrations\\20240522114405_InitialCreate001.cs",
+              "RelativeToolTip": "Migrations\\20240522114405_InitialCreate001.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T11:45:31.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseWorkWeb",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+              "RelativeDocumentMoniker": "CourseWorkWeb.csproj",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\CourseWorkWeb.csproj",
+              "RelativeToolTip": "CourseWorkWeb.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-22T11:26:49.642Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\RoleRepository.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\RoleRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAvwDcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T11:21:30.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PermissionConfiguration.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Context\\Config\\PermissionConfiguration.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\Config\\PermissionConfiguration.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Context\\Config\\PermissionConfiguration.cs",
+              "RelativeToolTip": "DAL\\Context\\Config\\PermissionConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T11:18:08.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Context\\Config\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\Config\\RoleConfiguration.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Context\\Config\\RoleConfiguration.cs",
+              "RelativeToolTip": "DAL\\Context\\Config\\RoleConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T11:15:21.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountConfiguration.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Context\\Config\\AccountConfiguration.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\Config\\AccountConfiguration.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Context\\Config\\AccountConfiguration.cs",
+              "RelativeToolTip": "DAL\\Context\\Config\\AccountConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T11:13:42.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RolesPermissionsConfiguration.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Context\\Config\\RolesPermissionsConfiguration.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\Config\\RolesPermissionsConfiguration.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Context\\Config\\RolesPermissionsConfiguration.cs",
+              "RelativeToolTip": "DAL\\Context\\Config\\RolesPermissionsConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T11:11:53.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Password.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Auth\\Password.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Auth\\Password.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Auth\\Password.cs",
+              "RelativeToolTip": "Models\\Entity\\Auth\\Password.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T11:03:10.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SubstancesSymptoms.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Relations\\SubstancesSymptoms.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Relations\\SubstancesSymptoms.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Relations\\SubstancesSymptoms.cs",
+              "RelativeToolTip": "Models\\Entity\\Relations\\SubstancesSymptoms.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T11:02:19.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RolesPermissions.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Relations\\RolesPermissions.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Relations\\RolesPermissions.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Relations\\RolesPermissions.cs",
+              "RelativeToolTip": "Models\\Entity\\Relations\\RolesPermissions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T10:58:01.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "YouCabinetController.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Controllers\\YouCabinetController.cs",
+              "RelativeDocumentMoniker": "Controllers\\YouCabinetController.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Controllers\\YouCabinetController.cs",
+              "RelativeToolTip": "Controllers\\YouCabinetController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T10:55:27.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Auth\\Permission.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Auth\\Permission.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Auth\\Permission.cs",
+              "RelativeToolTip": "Models\\Entity\\Auth\\Permission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T10:48:17.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:34:48.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Jwt\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "DAL\\Jwt\\JwtProvider.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Jwt\\JwtProvider.cs",
+              "RelativeToolTip": "DAL\\Jwt\\JwtProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:34:36.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SymptomsDiseases.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Relations\\SymptomsDiseases.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Relations\\SymptomsDiseases.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Relations\\SymptomsDiseases.cs",
+              "RelativeToolTip": "Models\\Entity\\Relations\\SymptomsDiseases.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:31:53.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Relations\\UserRole.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Relations\\UserRole.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Relations\\UserRole.cs",
+              "RelativeToolTip": "Models\\Entity\\Relations\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:31:47.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Auth\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Auth\\Role.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Auth\\Role.cs",
+              "RelativeToolTip": "Models\\Entity\\Auth\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:27:19.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedicineDataContext.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Context\\MedicineDataContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\MedicineDataContext.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Context\\MedicineDataContext.cs",
+              "RelativeToolTip": "DAL\\Context\\MedicineDataContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAswCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:23:21.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorizationExtension.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\AuthorizationExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\AuthorizationExtension.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\AuthorizationExtension.cs",
+              "RelativeToolTip": "Extensions\\AuthorizationExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:15:20.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CatalogController.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
               "RelativeDocumentMoniker": "Controllers\\CatalogController.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Controllers\\CatalogController.cs",
               "RelativeToolTip": "Controllers\\CatalogController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T06:07:22.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Pages\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\_Layout.cshtml",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Pages\\_Layout.cshtml",
-              "RelativeToolTip": "Pages\\_Layout.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T06:43:05.969Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAUwCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T08:17:16.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "20240510040726_InitialCreate3.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510040726_InitialCreate3.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\20240510040726_InitialCreate3.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510040726_InitialCreate3.cs",
-              "RelativeToolTip": "DAL\\Migrations\\20240510040726_InitialCreate3.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAiwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:08:49.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-12T14:42:32.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "20240510013216_InitialCreate2.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510013216_InitialCreate2.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\20240510013216_InitialCreate2.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510013216_InitialCreate2.cs",
-              "RelativeToolTip": "DAL\\Migrations\\20240510013216_InitialCreate2.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAiwCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:08:51.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "20240510013049_InitialCreate1.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510013049_InitialCreate1.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\20240510013049_InitialCreate1.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\DAL\\Migrations\\20240510013049_InitialCreate1.cs",
-              "RelativeToolTip": "DAL\\Migrations\\20240510013049_InitialCreate1.cs",
-              "ViewState": "AQIAAK0BAAAAAAAAAAAmwMUBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T15:08:54.976Z"
+              "WhenOpened": "2024-05-22T08:06:58.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "_Master.cshtml",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Home\\_Master.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\_Master.cshtml",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Home\\_Master.cshtml",
-              "RelativeToolTip": "Views\\Home\\_Master.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T14:37:47.285Z"
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRS\\Auth\\Commands\\Commands\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "Core\\CQRS\\Auth\\Commands\\Commands\\LoginCommand.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRS\\Auth\\Commands\\Commands\\LoginCommand.cs",
+              "RelativeToolTip": "Core\\CQRS\\Auth\\Commands\\Commands\\LoginCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:54:41.063Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADYAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T08:17:06.912Z"
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRS\\Auth\\Commands\\Commands\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "Core\\CQRS\\Auth\\Commands\\Commands\\RegisterCommand.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Core\\CQRS\\Auth\\Commands\\Commands\\RegisterCommand.cs",
+              "RelativeToolTip": "Core\\CQRS\\Auth\\Commands\\Commands\\RegisterCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:54:39.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "DocumentIndex": 32,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Core\\Auth\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Core\\Auth\\PasswordHasher.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Core\\Auth\\PasswordHasher.cs",
+              "RelativeToolTip": "Core\\Auth\\PasswordHasher.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T08:17:06.193Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:54:34.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "DocumentIndex": 33,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Core\\Auth\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Core\\Auth\\IPasswordHasher.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Core\\Auth\\IPasswordHasher.cs",
+              "RelativeToolTip": "Core\\Auth\\IPasswordHasher.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T08:21:53.836Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:54:33.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Jwt\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "DAL\\Jwt\\IJwtProvider.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Jwt\\IJwtProvider.cs",
+              "RelativeToolTip": "DAL\\Jwt\\IJwtProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:47:16.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T06:38:26.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-21T20:01:54.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MediatrExtension.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\MediatrExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\MediatrExtension.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\MediatrExtension.cs",
+              "RelativeToolTip": "Extensions\\MediatrExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:01:09.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SerilogExtension.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\SerilogExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\SerilogExtension.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\SerilogExtension.cs",
+              "RelativeToolTip": "Extensions\\SerilogExtension.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T19:57:12.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RepositoriesExtension.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\RepositoriesExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\RepositoriesExtension.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\RepositoriesExtension.cs",
+              "RelativeToolTip": "Extensions\\RepositoriesExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T19:57:10.527Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Title": "AuthExtension.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\AuthExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\AuthExtension.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\AuthExtension.cs",
+              "RelativeToolTip": "Extensions\\AuthExtension.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA/wB4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T08:14:51.747Z"
+              "WhenOpened": "2024-05-21T19:56:57.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Catolog.cshtml",
-              "DocumentMoniker": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml",
-              "RelativeDocumentMoniker": "..\\..\\..\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml",
-              "ToolTip": "D:\\Works\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml",
-              "RelativeToolTip": "..\\..\\..\\CourseworkOr1\\Medicine\\CourseWorkWeb\\Views\\Catalog\\Catolog.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T06:09:23.955Z"
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T19:56:53.954Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Works\\Coursoviy\\Medicine\\CourseWorkWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T11:21:19.06Z"
+              "DocumentIndex": 40,
+              "Title": "bundleconfig.json",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\bundleconfig.json",
+              "RelativeDocumentMoniker": "bundleconfig.json",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\bundleconfig.json",
+              "RelativeToolTip": "bundleconfig.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T19:56:53.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Auth\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Auth\\Account.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Models\\Entity\\Auth\\Account.cs",
+              "RelativeToolTip": "Models\\Entity\\Auth\\Account.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAuwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T19:56:51.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseExtension.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\DatabaseExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\DatabaseExtension.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\DatabaseExtension.cs",
+              "RelativeToolTip": "Extensions\\DatabaseExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T19:56:36.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JwtExtension.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\JwtExtension.cs",
+              "RelativeDocumentMoniker": "Extensions\\JwtExtension.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Extensions\\JwtExtension.cs",
+              "RelativeToolTip": "Extensions\\JwtExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T19:56:35.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Jwt\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "DAL\\Jwt\\JwtOptions.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\DAL\\Jwt\\JwtOptions.cs",
+              "RelativeToolTip": "DAL\\Jwt\\JwtOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T19:53:37.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Cursoviy\\Medicine\\CourseWorkWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T08:14:51.747Z",
+              "EditorCaption": ""
             }
           ]
         }

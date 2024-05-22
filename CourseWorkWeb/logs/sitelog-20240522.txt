@@ -1,0 +1,1021 @@
+2024-05-22 09:43:04.553 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 09:43:04.660 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 09:43:04.682 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 09:43:04.684 +03:00 [INF] Hosting environment: Development
+2024-05-22 09:43:04.687 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 09:43:04.935 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 09:43:04.997 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 09:43:05.026 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 09:43:05.051 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 09:43:05.066 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 09:43:05.130 +03:00 [INF] Executed ViewResult - view Index executed in 65.6207ms.
+2024-05-22 09:43:05.138 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 79.847ms
+2024-05-22 09:43:05.143 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 09:43:05.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-22 09:43:05.151 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 216.6212ms
+2024-05-22 09:43:05.171 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 09:43:05.172 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-22 09:43:05.179 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.8567ms
+2024-05-22 09:43:05.183 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 200 28175 text/css 37.1338ms
+2024-05-22 09:43:05.465 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 09:43:05.496 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.1643ms
+2024-05-22 09:50:38.657 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 09:50:38.752 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 09:50:38.775 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 09:50:38.778 +03:00 [INF] Hosting environment: Development
+2024-05-22 09:50:38.779 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 09:50:38.844 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 09:50:38.900 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 09:50:38.981 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 09:50:39.000 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 09:50:39.010 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 09:50:39.063 +03:00 [INF] Executed ViewResult - view Index executed in 53.7477ms.
+2024-05-22 09:50:39.069 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 63.896ms
+2024-05-22 09:50:39.072 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 09:50:39.072 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 09:50:39.079 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.5544ms
+2024-05-22 09:50:39.082 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 239.0588ms
+2024-05-22 09:50:39.283 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 09:50:39.304 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.3813ms
+2024-05-22 09:50:58.497 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 09:50:58.506 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 09:50:58.509 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 09:50:58.512 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 09:50:58.516 +03:00 [INF] Executed ViewResult - view Index executed in 4.4717ms.
+2024-05-22 09:50:58.520 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 8.0763ms
+2024-05-22 09:50:58.524 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 09:50:58.527 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 09:50:58.527 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 30.2968ms
+2024-05-22 09:50:58.534 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.5618ms
+2024-05-22 09:50:58.553 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 09:50:58.579 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.6389ms
+2024-05-22 09:50:59.508 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 09:50:59.517 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 09:50:59.527 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-22 09:51:02.103 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 09:51:02.174 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 09:51:02.189 +03:00 [INF] Executed ViewResult - view Index executed in 15.2699ms.
+2024-05-22 09:51:02.193 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 2660.1849ms
+2024-05-22 09:51:02.197 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 09:51:02.198 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 09:51:02.205 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.1536ms
+2024-05-22 09:51:02.205 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 2696.9551ms
+2024-05-22 09:51:02.207 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 09:51:02.212 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-22 09:51:02.222 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-22 09:51:02.234 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.9356ms
+2024-05-22 09:51:02.240 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 27.8699ms
+2024-05-22 09:51:02.243 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 21.5369ms
+2024-05-22 09:51:02.264 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-22 09:51:02.270 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-22 10:42:00.564 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog/Index - null 0
+2024-05-22 10:42:00.579 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 10:42:00.584 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-22 10:42:01.776 +03:00 [INF] Executed DbCommand (163ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 10:42:01.793 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 10:42:01.803 +03:00 [INF] Executed ViewResult - view Index executed in 11.0709ms.
+2024-05-22 10:42:01.811 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 1217.541ms
+2024-05-22 10:42:01.818 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 10:42:01.830 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog/Index - 200 null text/html; charset=utf-8 1265.8255ms
+2024-05-22 10:42:01.853 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 10:42:01.874 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 10:42:01.883 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 10:42:01.896 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 10:42:01.903 +03:00 [INF] Executed ViewResult - view Index executed in 7.9425ms.
+2024-05-22 10:42:01.910 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 15.0105ms
+2024-05-22 10:42:01.918 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 10:42:01.924 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 70.8207ms
+2024-05-22 10:42:01.942 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 10:42:01.953 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.8703ms
+2024-05-22 10:42:01.974 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 10:42:01.988 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.0129ms
+2024-05-22 10:44:09.379 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Product/Index? - null null
+2024-05-22 10:44:09.398 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.ProductController.Index (CourseWorkWeb)'
+2024-05-22 10:44:09.420 +03:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(Int64) on controller CourseWorkWeb.Controllers.ProductController (CourseWorkWeb).
+2024-05-22 10:44:13.038 +03:00 [INF] Executed DbCommand (3,412ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+WHERE [m].[Id] = @__id_0
+2024-05-22 10:44:13.075 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 10:44:13.111 +03:00 [INF] Executed action CourseWorkWeb.Controllers.ProductController.Index (CourseWorkWeb) in 3682.1941ms
+2024-05-22 10:44:13.119 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.ProductController.Index (CourseWorkWeb)'
+2024-05-22 10:44:13.125 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCoreGeneratedDocument.Views_Product_Index.<ExecuteAsync>b__39_1() in D:\Cursoviy\Medicine\CourseWorkWeb\Views\Product\Index.cshtml:line 81
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views_Product_Index.ExecuteAsync() in D:\Cursoviy\Medicine\CourseWorkWeb\Views\Product\Index.cshtml:line 9
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 10:44:13.219 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Product/Index? - 500 null text/html; charset=utf-8 3839.9174ms
+2024-05-22 11:04:32.681 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 11:04:32.791 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 11:04:32.817 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 11:04:32.819 +03:00 [INF] Hosting environment: Development
+2024-05-22 11:04:32.821 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 11:04:32.853 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 11:04:32.936 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 11:04:32.970 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 11:04:32.986 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 11:04:32.996 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 11:04:33.055 +03:00 [INF] Executed ViewResult - view Index executed in 57.9168ms.
+2024-05-22 11:04:33.061 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 70.0871ms
+2024-05-22 11:04:33.065 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 11:04:33.072 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 220.4619ms
+2024-05-22 11:04:33.085 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 11:04:33.096 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.7345ms
+2024-05-22 11:04:33.125 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 11:04:33.151 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.7597ms
+2024-05-22 11:06:42.938 +03:00 [INF] Application is shutting down...
+2024-05-22 11:12:00.236 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 11:12:00.400 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 11:12:00.435 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 11:12:00.437 +03:00 [INF] Hosting environment: Development
+2024-05-22 11:12:00.440 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 11:12:00.754 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 11:12:00.855 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 11:12:00.918 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 11:12:00.952 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 11:12:00.970 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 11:12:01.059 +03:00 [INF] Executed ViewResult - view Index executed in 89.4604ms.
+2024-05-22 11:12:01.076 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 115.8289ms
+2024-05-22 11:12:01.088 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 11:12:01.090 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 11:12:01.104 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 352.8921ms
+2024-05-22 11:12:01.117 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 26.9908ms
+2024-05-22 11:12:02.155 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 11:12:02.222 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.4898ms
+2024-05-22 11:12:08.819 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 11:12:08.838 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 11:12:08.845 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 11:12:08.854 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 11:12:08.862 +03:00 [INF] Executed ViewResult - view Index executed in 8.8701ms.
+2024-05-22 11:12:08.867 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 14.417ms
+2024-05-22 11:12:08.873 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 11:12:08.878 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 58.3204ms
+2024-05-22 11:12:08.895 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 11:12:08.906 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 11:12:08.914 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 19.3171ms
+2024-05-22 11:12:08.948 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.082ms
+2024-05-22 11:12:10.166 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 11:12:10.194 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 11:12:10.322 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 500 null text/html; charset=utf-8 155.2614ms
+2024-05-22 11:12:10.340 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 11:12:10.345 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 11:12:10.372 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.5396ms
+2024-05-22 11:12:10.387 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 41.6242ms
+2024-05-22 11:13:42.422 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 11:13:42.566 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 11:13:42.588 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 11:13:42.590 +03:00 [INF] Hosting environment: Development
+2024-05-22 11:13:42.592 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 11:13:43.143 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 11:13:43.268 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 11:13:43.324 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 11:13:43.386 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 500 null text/html; charset=utf-8 246.2273ms
+2024-05-22 11:13:43.398 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 11:13:43.402 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 11:13:43.419 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 17.0155ms
+2024-05-22 11:13:43.440 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.8184ms
+2024-05-22 11:13:52.878 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 11:13:52.910 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 11:13:52.938 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 500 null text/html; charset=utf-8 60.7677ms
+2024-05-22 11:13:52.957 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 11:13:52.965 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 11:13:52.995 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 29.721ms
+2024-05-22 11:13:53.008 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.3118ms
+2024-05-22 11:13:54.150 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 11:13:54.184 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 11:13:54.229 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 11:13:54.252 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 11:13:54.364 +03:00 [INF] Executed ViewResult - view Index executed in 112.9199ms.
+2024-05-22 11:13:54.373 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 133.6363ms
+2024-05-22 11:13:54.378 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 11:13:54.382 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 11:13:54.387 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 236.3614ms
+2024-05-22 11:13:54.395 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 12.5703ms
+2024-05-22 11:13:56.245 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 11:13:56.256 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 11:13:56.296 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 500 null text/html; charset=utf-8 50.9844ms
+2024-05-22 11:13:56.312 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 11:13:56.316 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 11:13:56.347 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 30.848ms
+2024-05-22 11:13:56.335 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.8837ms
+2024-05-22 14:03:57.314 +03:00 [INF] Application is shutting down...
+2024-05-22 14:23:52.543 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 14:23:52.661 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 14:23:52.689 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 14:23:52.691 +03:00 [INF] Hosting environment: Development
+2024-05-22 14:23:52.693 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 14:23:53.033 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 14:23:53.145 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 14:23:53.911 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 14:23:53.939 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 14:23:53.951 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 14:23:54.018 +03:00 [INF] Executed ViewResult - view Index executed in 69.0283ms.
+2024-05-22 14:23:54.027 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite.css - null null
+2024-05-22 14:23:54.027 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 83.3554ms
+2024-05-22 14:23:54.027 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/logo.png - null null
+2024-05-22 14:23:54.027 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/map.svg - null null
+2024-05-22 14:23:54.041 +03:00 [INF] The file /css/cite.css was not modified
+2024-05-22 14:23:54.043 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 14:23:54.061 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/moon.svg - null null
+2024-05-22 14:23:54.060 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/langwich.png - null null
+2024-05-22 14:23:54.068 +03:00 [INF] Sending file. Request path: '/image/logo.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\logo.png'
+2024-05-22 14:23:54.070 +03:00 [INF] Sending file. Request path: '/image/map.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\map.svg'
+2024-05-22 14:23:54.074 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite.css - 304 null text/css 47.2977ms
+2024-05-22 14:23:54.084 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 1052.2045ms
+2024-05-22 14:23:54.095 +03:00 [INF] Sending file. Request path: '/image/moon.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\moon.svg'
+2024-05-22 14:23:54.107 +03:00 [INF] Sending file. Request path: '/image/langwich.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\langwich.png'
+2024-05-22 14:23:54.113 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/logo.png - 200 991 image/png 85.7634ms
+2024-05-22 14:23:54.119 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/map.svg - 200 417 image/svg+xml 91.7014ms
+2024-05-22 14:23:54.132 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/search.png - null null
+2024-05-22 14:23:54.144 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mag.png - null null
+2024-05-22 14:23:54.149 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/moon.svg - 200 293 image/svg+xml 88.4682ms
+2024-05-22 14:23:54.162 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/langwich.png - 200 2452 image/png 101.3868ms
+2024-05-22 14:23:54.186 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/lines.png - null null
+2024-05-22 14:23:54.205 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 14:23:54.217 +03:00 [INF] Sending file. Request path: '/image/search.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\search.png'
+2024-05-22 14:23:54.227 +03:00 [INF] Sending file. Request path: '/image/mag.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\mag.png'
+2024-05-22 14:23:54.243 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/person.png - null null
+2024-05-22 14:23:54.258 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/phone.png - null null
+2024-05-22 14:23:54.269 +03:00 [INF] Sending file. Request path: '/image/lines.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\lines.png'
+2024-05-22 14:23:54.279 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 74.5161ms
+2024-05-22 14:23:54.289 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/search.png - 200 728 image/png 156.8563ms
+2024-05-22 14:23:54.299 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mag.png - 200 14643 image/png 154.7988ms
+2024-05-22 14:23:54.315 +03:00 [INF] Sending file. Request path: '/image/person.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\person.png'
+2024-05-22 14:23:54.326 +03:00 [INF] Sending file. Request path: '/image/phone.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\phone.png'
+2024-05-22 14:23:54.349 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/lines.png - 200 6685 image/png 163.3792ms
+2024-05-22 14:23:54.371 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mpills.svg - null null
+2024-05-22 14:23:54.384 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/toy.svg - null null
+2024-05-22 14:23:54.401 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6392575.png - null null
+2024-05-22 14:23:54.412 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/person.png - 200 1697 image/png 168.361ms
+2024-05-22 14:23:54.420 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/phone.png - 200 12680 image/png 162.3533ms
+2024-05-22 14:23:54.435 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/33467.png - null null
+2024-05-22 14:23:54.445 +03:00 [INF] Sending file. Request path: '/image/mpills.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\mpills.svg'
+2024-05-22 14:23:54.456 +03:00 [INF] Sending file. Request path: '/image/toy.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\toy.svg'
+2024-05-22 14:23:54.476 +03:00 [INF] Sending file. Request path: '/image/6392575.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\6392575.png'
+2024-05-22 14:23:54.483 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/blok.png - null null
+2024-05-22 14:23:54.497 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/pill.svg - null null
+2024-05-22 14:23:54.509 +03:00 [INF] Sending file. Request path: '/image/33467.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\33467.png'
+2024-05-22 14:23:54.517 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mpills.svg - 200 1019 image/svg+xml 145.581ms
+2024-05-22 14:23:54.528 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/toy.svg - 200 1080 image/svg+xml 143.7405ms
+2024-05-22 14:23:54.539 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6392575.png - 200 2236388 image/png 138.2128ms
+2024-05-22 14:23:54.552 +03:00 [INF] Sending file. Request path: '/image/blok.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\blok.png'
+2024-05-22 14:23:54.571 +03:00 [INF] Sending file. Request path: '/image/pill.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\pill.svg'
+2024-05-22 14:23:54.583 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/33467.png - 200 271198 image/png 148.6318ms
+2024-05-22 14:23:54.598 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - null null
+2024-05-22 14:23:54.615 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/makeup.svg - null null
+2024-05-22 14:23:54.633 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-22 14:23:54.648 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/blok.png - 200 9447 image/png 165.0324ms
+2024-05-22 14:23:54.657 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/pill.svg - 200 510 image/svg+xml 160.4422ms
+2024-05-22 14:23:54.677 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-22 14:23:54.688 +03:00 [INF] Sending file. Request path: '/image/hygiene.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\hygiene.svg'
+2024-05-22 14:23:54.700 +03:00 [INF] Sending file. Request path: '/image/makeup.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\makeup.svg'
+2024-05-22 14:23:54.715 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-22 14:23:54.730 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-22 14:23:54.743 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-22 14:23:54.755 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-22 14:23:54.762 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - 200 323 image/svg+xml 163.628ms
+2024-05-22 14:23:54.769 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/makeup.svg - 200 304 image/svg+xml 153.8467ms
+2024-05-22 14:23:54.777 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 200 1107 image/png 144.467ms
+2024-05-22 14:23:54.788 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-22 14:23:54.797 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-22 14:23:54.808 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 200 1988 image/png 130.7948ms
+2024-05-22 14:23:54.818 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6350788.png - null null
+2024-05-22 14:23:54.827 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6119868.png - null null
+2024-05-22 14:23:54.838 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/10264982.png - null null
+2024-05-22 14:23:54.843 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 200 2198 image/png 112.2783ms
+2024-05-22 14:23:54.850 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 200 995 image/png 107.1215ms
+2024-05-22 14:23:54.859 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 14:23:54.873 +03:00 [INF] Sending file. Request path: '/image/6350788.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\6350788.png'
+2024-05-22 14:23:54.880 +03:00 [INF] Sending file. Request path: '/image/6119868.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\6119868.png'
+2024-05-22 14:23:54.890 +03:00 [INF] Sending file. Request path: '/image/10264982.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\10264982.png'
+2024-05-22 14:23:54.919 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6350788.png - 200 1333205 image/png 101.6377ms
+2024-05-22 14:23:54.927 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6119868.png - 200 387853 image/png 100.0267ms
+2024-05-22 14:23:54.937 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/10264982.png - 200 725431 image/png 98.5096ms
+2024-05-22 14:23:54.954 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 94.9663ms
+2024-05-22 14:23:58.586 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 14:23:58.596 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 14:23:58.608 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-22 14:24:01.518 +03:00 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 14:24:01.590 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 14:24:01.611 +03:00 [INF] Executed ViewResult - view Index executed in 21.375ms.
+2024-05-22 14:24:01.623 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 3010.033ms
+2024-05-22 14:24:01.628 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/css/cite1.css - null null
+2024-05-22 14:24:01.628 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/close.png - null null
+2024-05-22 14:24:01.628 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 14:24:01.631 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 14:24:01.637 +03:00 [INF] Sending file. Request path: '/css/cite1.css'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\css\cite1.css'
+2024-05-22 14:24:01.644 +03:00 [INF] Sending file. Request path: '/image/close.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\close.png'
+2024-05-22 14:24:01.646 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-22 14:24:01.646 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 14:24:01.650 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 21.4906ms
+2024-05-22 14:24:01.662 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/css/cite1.css - 200 23888 text/css 33.2218ms
+2024-05-22 14:24:01.663 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3076.3155ms
+2024-05-22 14:24:01.667 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/close.png - 200 10571 image/png 39.2519ms
+2024-05-22 14:24:01.682 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 36.7025ms
+2024-05-22 14:24:01.689 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.414ms
+2024-05-22 14:24:01.709 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/MedicinePhoto - null null
+2024-05-22 14:24:01.742 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-22 14:24:01.758 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/MedicinePhoto - 404 0 null 48.2543ms
+2024-05-22 14:24:01.773 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/MedicinePhoto, Response status code: 404
+2024-05-22 14:24:05.332 +03:00 [INF] Application is shutting down...
+2024-05-22 14:34:56.760 +03:00 [INF] Executed DbCommand (203ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:34:57.031 +03:00 [INF] Executed DbCommand (222ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-22 14:34:57.223 +03:00 [INF] Executed DbCommand (188ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:34:57.423 +03:00 [INF] Executed DbCommand (199ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-22 14:34:57.621 +03:00 [INF] Executed DbCommand (185ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-22 14:34:57.634 +03:00 [INF] Applying migration '20240522113430_InitialCreate6'.
+2024-05-22 14:34:58.091 +03:00 [INF] Executed DbCommand (204ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Permissions] DROP CONSTRAINT [FK_Permissions_Roles_RoleId];
+2024-05-22 14:34:58.287 +03:00 [INF] Executed DbCommand (192ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [RolesPermissions] DROP CONSTRAINT [PK_RolesPermissions];
+2024-05-22 14:34:58.493 +03:00 [INF] Executed DbCommand (204ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP INDEX [IX_Permissions_RoleId] ON [Permissions];
+2024-05-22 14:34:58.699 +03:00 [INF] Executed DbCommand (204ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var0 sysname;
+SELECT @var0 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[RolesPermissions]') AND [c].[name] = N'Permission_Id');
+IF @var0 IS NOT NULL EXEC(N'ALTER TABLE [RolesPermissions] DROP CONSTRAINT [' + @var0 + '];');
+ALTER TABLE [RolesPermissions] DROP COLUMN [Permission_Id];
+2024-05-22 14:34:58.909 +03:00 [INF] Executed DbCommand (207ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var1 sysname;
+SELECT @var1 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[RolesPermissions]') AND [c].[name] = N'Role_Id');
+IF @var1 IS NOT NULL EXEC(N'ALTER TABLE [RolesPermissions] DROP CONSTRAINT [' + @var1 + '];');
+ALTER TABLE [RolesPermissions] DROP COLUMN [Role_Id];
+2024-05-22 14:34:59.145 +03:00 [INF] Executed DbCommand (233ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var2 sysname;
+SELECT @var2 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Permissions]') AND [c].[name] = N'RoleId');
+IF @var2 IS NOT NULL EXEC(N'ALTER TABLE [Permissions] DROP CONSTRAINT [' + @var2 + '];');
+ALTER TABLE [Permissions] DROP COLUMN [RoleId];
+2024-05-22 14:34:59.362 +03:00 [INF] Executed DbCommand (210ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [RolesPermissions] ADD [RoleId] bigint NOT NULL DEFAULT CAST(0 AS bigint);
+2024-05-22 14:34:59.553 +03:00 [INF] Executed DbCommand (186ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [RolesPermissions] ADD [PermissionId] bigint NOT NULL DEFAULT CAST(0 AS bigint);
+2024-05-22 14:34:59.797 +03:00 [ERR] Failed executing DbCommand (241ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @var3 sysname;
+SELECT @var3 = [d].[name]
+FROM [sys].[default_constraints] [d]
+INNER JOIN [sys].[columns] [c] ON [d].[parent_column_id] = [c].[column_id] AND [d].[parent_object_id] = [c].[object_id]
+WHERE ([d].[parent_object_id] = OBJECT_ID(N'[Roles]') AND [c].[name] = N'Id');
+IF @var3 IS NOT NULL EXEC(N'ALTER TABLE [Roles] DROP CONSTRAINT [' + @var3 + '];');
+ALTER TABLE [Roles] ALTER COLUMN [Id] bigint NOT NULL;
+2024-05-22 14:41:11.664 +03:00 [INF] Executed DbCommand (216ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:41:12.889 +03:00 [INF] Executed DbCommand (231ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [keros_medicine1] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+END;
+2024-05-22 14:41:13.416 +03:00 [INF] Executed DbCommand (524ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+DROP DATABASE [keros_medicine1];
+2024-05-22 14:42:46.003 +03:00 [INF] Executed DbCommand (235ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:42:46.250 +03:00 [INF] Executed DbCommand (207ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-22 14:42:56.015 +03:00 [INF] Executed DbCommand (188ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:42:56.384 +03:00 [INF] Executed DbCommand (327ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-22 14:43:07.882 +03:00 [INF] Executed DbCommand (198ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:43:08.146 +03:00 [INF] Executed DbCommand (223ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-22 14:43:20.743 +03:00 [INF] Executed DbCommand (216ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:43:20.988 +03:00 [INF] Executed DbCommand (202ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-22 14:43:30.782 +03:00 [INF] Executed DbCommand (210ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:43:31.101 +03:00 [INF] Executed DbCommand (277ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-22 14:43:51.871 +03:00 [INF] Executed DbCommand (204ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:43:52.222 +03:00 [INF] Executed DbCommand (306ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-22 14:44:20.085 +03:00 [INF] Executed DbCommand (317ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:44:20.360 +03:00 [INF] Executed DbCommand (230ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-22 14:44:20.565 +03:00 [INF] Executed DbCommand (201ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:44:20.885 +03:00 [INF] Executed DbCommand (268ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-05-22 14:44:21.097 +03:00 [INF] Executed DbCommand (208ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-22 14:44:21.317 +03:00 [INF] Executed DbCommand (217ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-22 14:44:21.516 +03:00 [INF] Executed DbCommand (193ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-22 14:44:21.529 +03:00 [INF] Applying migration '20240522114405_InitialCreate001'.
+2024-05-22 14:44:22.044 +03:00 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [DeadLines] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Start] datetime2 NOT NULL,
+    [End] datetime2 NOT NULL,
+    CONSTRAINT [PK_DeadLines] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:22.274 +03:00 [INF] Executed DbCommand (226ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Diseases] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(150) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Diseases] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:22.478 +03:00 [INF] Executed DbCommand (201ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MedicinePhotos] (
+    [Id] bigint NOT NULL IDENTITY,
+    [bytes] varbinary(max) NOT NULL,
+    [Medicine_Id] bigint NOT NULL,
+    CONSTRAINT [PK_MedicinePhotos] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:22.684 +03:00 [INF] Executed DbCommand (203ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MedicinesOrders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Medicine_Id] bigint NOT NULL,
+    [Order_Id] bigint NOT NULL,
+    CONSTRAINT [PK_MedicinesOrders] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:23.205 +03:00 [INF] Executed DbCommand (518ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [MedicinesSubstances] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Substance_Id] bigint NOT NULL,
+    [Medicine_Id] bigint NOT NULL,
+    CONSTRAINT [PK_MedicinesSubstances] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:23.416 +03:00 [INF] Executed DbCommand (209ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Passwords] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Account_Id] bigint NOT NULL,
+    [PasswordValue] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Passwords] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:23.744 +03:00 [INF] Executed DbCommand (325ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Permissions] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Action] nvarchar(100) NOT NULL,
+    CONSTRAINT [PK_Permissions] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:24.071 +03:00 [INF] Executed DbCommand (323ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Pharmacies] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(255) NOT NULL,
+    [Location] nvarchar(255) NOT NULL,
+    [PhoneHotline] nvarchar(15) NOT NULL,
+    CONSTRAINT [PK_Pharmacies] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:24.393 +03:00 [INF] Executed DbCommand (318ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [PharmaciesMedicines] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Pharmacy_Id] bigint NOT NULL,
+    [Medicine_Id] bigint NOT NULL,
+    [Quantity] int NOT NULL,
+    CONSTRAINT [PK_PharmaciesMedicines] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:24.592 +03:00 [INF] Executed DbCommand (196ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Pharmacists] (
+    [Id] bigint NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Grade_Id] bigint NOT NULL,
+    [Account_Id] bigint NOT NULL,
+    [Pharmacy_Id] bigint NOT NULL,
+    [Salary_Id] bigint NOT NULL,
+    CONSTRAINT [PK_Pharmacists] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:24.864 +03:00 [INF] Executed DbCommand (267ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Roles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Roles] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:25.117 +03:00 [INF] Executed DbCommand (250ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Substances] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Active] nvarchar(100) NOT NULL,
+    [Mass] float NOT NULL,
+    [Medicine_Id] bigint NOT NULL,
+    CONSTRAINT [PK_Substances] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:25.345 +03:00 [INF] Executed DbCommand (224ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SubstancesSymptoms] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Substance_Id] bigint NOT NULL,
+    [Symptom_Id] bigint NOT NULL,
+    CONSTRAINT [PK_SubstancesSymptoms] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:25.569 +03:00 [INF] Executed DbCommand (222ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Symptoms] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Disease_Id] bigint NOT NULL,
+    CONSTRAINT [PK_Symptoms] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:25.778 +03:00 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SymptomsDiseases] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Disease_Id] int NOT NULL,
+    [Symptom_Id] int NOT NULL,
+    CONSTRAINT [PK_SymptomsDiseases] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:26.012 +03:00 [INF] Executed DbCommand (231ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [UserPhotos] (
+    [Id] bigint NOT NULL IDENTITY,
+    [bytes] varbinary(max) NOT NULL,
+    [Medicine_Id] bigint NOT NULL,
+    CONSTRAINT [PK_UserPhotos] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:26.225 +03:00 [INF] Executed DbCommand (209ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [userRoles] (
+    [Id] bigint NOT NULL IDENTITY,
+    [AccountId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_userRoles] PRIMARY KEY ([Id])
+);
+2024-05-22 14:44:26.441 +03:00 [INF] Executed DbCommand (216ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Medicines] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [Articules] nvarchar(max) NULL,
+    [MedicinePhoto_Id] bigint NOT NULL,
+    [Cost] decimal(10,2) NOT NULL,
+    [Country] nvarchar(50) NOT NULL,
+    [Substance_Id] bigint NOT NULL,
+    [Quantity] int NOT NULL,
+    [Type] nvarchar(max) NOT NULL,
+    [Discount] float NOT NULL,
+    [PharmacyId] bigint NULL,
+    CONSTRAINT [PK_Medicines] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Medicines_Pharmacies_PharmacyId] FOREIGN KEY ([PharmacyId]) REFERENCES [Pharmacies] ([Id])
+);
+2024-05-22 14:44:26.793 +03:00 [INF] Executed DbCommand (348ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [RolesPermissions] (
+    [RoleId] bigint NOT NULL,
+    [PermissionId] bigint NOT NULL,
+    [Id] bigint NOT NULL IDENTITY,
+    CONSTRAINT [PK_RolesPermissions] PRIMARY KEY ([RoleId], [PermissionId]),
+    CONSTRAINT [FK_RolesPermissions_Permissions_PermissionId] FOREIGN KEY ([PermissionId]) REFERENCES [Permissions] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_RolesPermissions_Roles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [Roles] ([Id]) ON DELETE CASCADE
+);
+2024-05-22 14:44:27.008 +03:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Accounts] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Username] nvarchar(max) NOT NULL,
+    [Password_Id] bigint NOT NULL,
+    [Photo_Id] bigint NOT NULL,
+    [UserPhotoId] bigint NOT NULL,
+    [Phone] nvarchar(15) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [Verify] bit NOT NULL,
+    [PasswordId] bigint NOT NULL,
+    [RoleId] bigint NOT NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Accounts_Passwords_PasswordId] FOREIGN KEY ([PasswordId]) REFERENCES [Passwords] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Accounts_Roles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [Roles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Accounts_UserPhotos_UserPhotoId] FOREIGN KEY ([UserPhotoId]) REFERENCES [UserPhotos] ([Id]) ON DELETE CASCADE
+);
+2024-05-22 14:44:27.236 +03:00 [INF] Executed DbCommand (221ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] bigint NOT NULL IDENTITY,
+    [Description] nvarchar(max) NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [DeadLineId] bigint NOT NULL,
+    [Status] int NOT NULL,
+    [AccountId] bigint NULL,
+    [PharmacyId] bigint NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]),
+    CONSTRAINT [FK_Orders_DeadLines_DeadLineId] FOREIGN KEY ([DeadLineId]) REFERENCES [DeadLines] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Orders_Pharmacies_PharmacyId] FOREIGN KEY ([PharmacyId]) REFERENCES [Pharmacies] ([Id])
+);
+2024-05-22 14:44:27.584 +03:00 [INF] Executed DbCommand (337ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Accounts_PasswordId] ON [Accounts] ([PasswordId]);
+2024-05-22 14:44:27.798 +03:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Accounts_RoleId] ON [Accounts] ([RoleId]);
+2024-05-22 14:44:28.064 +03:00 [INF] Executed DbCommand (265ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Accounts_UserPhotoId] ON [Accounts] ([UserPhotoId]);
+2024-05-22 14:44:28.394 +03:00 [INF] Executed DbCommand (328ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Medicines_PharmacyId] ON [Medicines] ([PharmacyId]);
+2024-05-22 14:44:28.603 +03:00 [INF] Executed DbCommand (207ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_AccountId] ON [Orders] ([AccountId]);
+2024-05-22 14:44:28.816 +03:00 [INF] Executed DbCommand (211ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_DeadLineId] ON [Orders] ([DeadLineId]);
+2024-05-22 14:44:29.024 +03:00 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Orders_PharmacyId] ON [Orders] ([PharmacyId]);
+2024-05-22 14:44:29.344 +03:00 [INF] Executed DbCommand (318ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_RolesPermissions_PermissionId] ON [RolesPermissions] ([PermissionId]);
+2024-05-22 14:44:29.576 +03:00 [INF] Executed DbCommand (230ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240522114405_InitialCreate001', N'8.0.4');
+2024-05-22 15:40:43.338 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 15:40:43.446 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 15:40:43.470 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 15:40:43.472 +03:00 [INF] Hosting environment: Development
+2024-05-22 15:40:43.474 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 15:40:43.494 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 15:40:43.546 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 15:40:44.231 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 15:40:44.260 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-22 15:40:46.644 +03:00 [INF] Executed DbCommand (315ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 15:40:46.678 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:40:46.742 +03:00 [INF] Executed ViewResult - view Index executed in 65.1038ms.
+2024-05-22 15:40:46.749 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 2481.9529ms
+2024-05-22 15:40:46.757 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 15:40:46.758 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-22 15:40:46.764 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:40:46.777 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 3283.8727ms
+2024-05-22 15:40:46.783 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 24.7214ms
+2024-05-22 15:40:46.788 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 24.6458ms
+2024-05-22 15:40:46.811 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-22 15:40:46.823 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 15:40:46.858 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.1112ms
+2024-05-22 15:40:58.524 +03:00 [INF] Application is shutting down...
+2024-05-22 15:41:28.967 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 15:41:29.079 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 15:41:29.101 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 15:41:29.102 +03:00 [INF] Hosting environment: Development
+2024-05-22 15:41:29.103 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 15:41:29.137 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 15:41:29.190 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 15:41:29.225 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 15:41:29.244 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-22 15:41:31.819 +03:00 [INF] Executed DbCommand (215ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 15:41:31.852 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:41:31.917 +03:00 [INF] Executed ViewResult - view Index executed in 65.9409ms.
+2024-05-22 15:41:31.926 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 2678.6009ms
+2024-05-22 15:41:31.932 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:41:31.935 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 15:41:31.948 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 15.0588ms
+2024-05-22 15:41:31.960 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 2824.7595ms
+2024-05-22 15:41:31.967 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 15:41:31.980 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-22 15:41:32.003 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 22.8212ms
+2024-05-22 15:41:32.010 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.0495ms
+2024-05-22 15:41:32.015 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-22 15:41:49.267 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 15:41:49.279 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 15:41:49.284 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-22 15:41:49.497 +03:00 [INF] Executed DbCommand (195ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 15:41:49.502 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:41:49.507 +03:00 [INF] Executed ViewResult - view Index executed in 4.9938ms.
+2024-05-22 15:41:49.510 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 222.8845ms
+2024-05-22 15:41:49.516 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 15:41:49.519 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:41:49.519 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-22 15:41:49.520 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 15:41:49.522 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 200 null text/html; charset=utf-8 255.11ms
+2024-05-22 15:41:49.528 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 9.3279ms
+2024-05-22 15:41:49.540 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 21.3188ms
+2024-05-22 15:41:49.559 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.2393ms
+2024-05-22 15:41:49.591 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-22 15:41:49.611 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/icon.ico - null null
+2024-05-22 15:41:49.625 +03:00 [INF] Sending file. Request path: '/image/icon.ico'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\icon.ico'
+2024-05-22 15:41:49.632 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/icon.ico - 200 1617 image/x-icon 21.6501ms
+2024-05-22 15:41:50.931 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/Catalog? - null null
+2024-05-22 15:41:50.939 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 15:41:50.941 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-22 15:41:51.175 +03:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 15:41:51.181 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:41:51.188 +03:00 [INF] Executed ViewResult - view Index executed in 6.1721ms.
+2024-05-22 15:41:51.190 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 241.5349ms
+2024-05-22 15:41:51.194 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 15:41:51.198 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/toy.svg - null null
+2024-05-22 15:41:51.198 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 15:41:51.198 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:41:51.198 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/Catalog? - 200 null text/html; charset=utf-8 267.1473ms
+2024-05-22 15:41:51.206 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/toy.svg - 404 0 null 8.3995ms
+2024-05-22 15:41:51.217 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.1831ms
+2024-05-22 15:41:51.219 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 21.2885ms
+2024-05-22 15:41:51.243 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5186/toy.svg, Response status code: 404
+2024-05-22 15:41:52.159 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog/Index - null 0
+2024-05-22 15:41:52.165 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 15:41:52.166 +03:00 [INF] Route matched with {action = "Index", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller CourseWorkWeb.Controllers.CatalogController (CourseWorkWeb).
+2024-05-22 15:41:52.362 +03:00 [INF] Executed DbCommand (188ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Articules], [m].[Cost], [m].[Country], [m].[Description], [m].[Discount], [m].[MedicinePhoto_Id], [m].[Name], [m].[PharmacyId], [m].[Quantity], [m].[Substance_Id], [m].[Type]
+FROM [Medicines] AS [m]
+2024-05-22 15:41:52.368 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:41:52.372 +03:00 [INF] Executed ViewResult - view Index executed in 3.7957ms.
+2024-05-22 15:41:52.375 +03:00 [INF] Executed action CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) in 203.8622ms
+2024-05-22 15:41:52.378 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb)'
+2024-05-22 15:41:52.381 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog/Index - 200 null text/html; charset=utf-8 221.5717ms
+2024-05-22 15:41:52.391 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 15:41:52.398 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:41:52.404 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 15:41:52.412 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:41:52.424 +03:00 [INF] Executed ViewResult - view Index executed in 12.6127ms.
+2024-05-22 15:41:52.427 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 16.2164ms
+2024-05-22 15:41:52.431 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:41:52.434 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 43.6947ms
+2024-05-22 15:41:52.444 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:41:52.451 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.3014ms
+2024-05-22 15:41:52.466 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 15:41:52.481 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.5527ms
+2024-05-22 15:46:33.655 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 15:46:33.755 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 15:46:33.777 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 15:46:33.779 +03:00 [INF] Hosting environment: Development
+2024-05-22 15:46:33.780 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 15:46:33.810 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 15:46:33.867 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 15:46:33.905 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:46:33.923 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 15:46:33.933 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:46:33.996 +03:00 [INF] Executed ViewResult - view Index executed in 63.6016ms.
+2024-05-22 15:46:34.004 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 76.4071ms
+2024-05-22 15:46:34.008 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:46:34.011 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:46:34.014 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 204.2988ms
+2024-05-22 15:46:34.019 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.7482ms
+2024-05-22 15:46:34.250 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 15:46:34.272 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.9002ms
+2024-05-22 15:46:52.510 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 15:46:52.521 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint CourseWorkWeb.Controllers.CatalogController.Index (CourseWorkWeb) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-22 15:46:52.548 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 500 null text/html; charset=utf-8 37.8868ms
+2024-05-22 15:46:52.558 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 15:46:52.558 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:46:52.571 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 12.9205ms
+2024-05-22 15:46:52.572 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.3808ms
+2024-05-22 15:48:45.626 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 15:48:45.728 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 15:48:45.753 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 15:48:45.755 +03:00 [INF] Hosting environment: Development
+2024-05-22 15:48:45.758 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 15:48:45.802 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 15:48:45.863 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 15:48:45.901 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 15:48:45.906 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 15:48:45.913 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 112.1408ms
+2024-05-22 15:49:24.942 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 15:49:24.963 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:24.981 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 15:49:24.992 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:49:25.045 +03:00 [INF] Executed ViewResult - view Index executed in 54.0199ms.
+2024-05-22 15:49:25.049 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 63.2057ms
+2024-05-22 15:49:25.052 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:25.057 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/logo.png - null null
+2024-05-22 15:49:25.057 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/map.svg - null null
+2024-05-22 15:49:25.058 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 115.325ms
+2024-05-22 15:49:25.077 +03:00 [INF] Sending file. Request path: '/image/map.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\map.svg'
+2024-05-22 15:49:25.077 +03:00 [INF] Sending file. Request path: '/image/logo.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\logo.png'
+2024-05-22 15:49:25.081 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/lines.png - null null
+2024-05-22 15:49:25.082 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/search.png - null null
+2024-05-22 15:49:25.082 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mag.png - null null
+2024-05-22 15:49:25.086 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/moon.svg - null null
+2024-05-22 15:49:25.089 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/map.svg - 200 417 image/svg+xml 32.2911ms
+2024-05-22 15:49:25.092 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/logo.png - 200 991 image/png 35.482ms
+2024-05-22 15:49:25.098 +03:00 [INF] Sending file. Request path: '/image/lines.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\lines.png'
+2024-05-22 15:49:25.112 +03:00 [INF] Sending file. Request path: '/image/search.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\search.png'
+2024-05-22 15:49:25.115 +03:00 [INF] Sending file. Request path: '/image/mag.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\mag.png'
+2024-05-22 15:49:25.122 +03:00 [INF] Sending file. Request path: '/image/moon.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\moon.svg'
+2024-05-22 15:49:25.128 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:49:25.137 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/langwich.png - null null
+2024-05-22 15:49:25.142 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/lines.png - 200 6685 image/png 60.7426ms
+2024-05-22 15:49:25.146 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/search.png - 200 728 image/png 64.8074ms
+2024-05-22 15:49:25.152 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mag.png - 200 14643 image/png 70.3664ms
+2024-05-22 15:49:25.158 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/moon.svg - 200 293 image/svg+xml 71.866ms
+2024-05-22 15:49:25.167 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 38.9172ms
+2024-05-22 15:49:25.174 +03:00 [INF] Sending file. Request path: '/image/langwich.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\langwich.png'
+2024-05-22 15:49:25.183 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Apt.png - null null
+2024-05-22 15:49:25.191 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/person.png - null null
+2024-05-22 15:49:25.199 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/blok.png - null null
+2024-05-22 15:49:25.206 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/pill.svg - null null
+2024-05-22 15:49:25.214 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6392575.png - null null
+2024-05-22 15:49:25.218 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/langwich.png - 200 2452 image/png 80.9671ms
+2024-05-22 15:49:25.225 +03:00 [INF] Sending file. Request path: '/image/Apt.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\Apt.png'
+2024-05-22 15:49:25.232 +03:00 [INF] Sending file. Request path: '/image/person.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\person.png'
+2024-05-22 15:49:25.238 +03:00 [INF] Sending file. Request path: '/image/blok.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\blok.png'
+2024-05-22 15:49:25.245 +03:00 [INF] Sending file. Request path: '/image/pill.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\pill.svg'
+2024-05-22 15:49:25.258 +03:00 [INF] Sending file. Request path: '/image/6392575.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\6392575.png'
+2024-05-22 15:49:25.259 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/33467.png - null null
+2024-05-22 15:49:25.264 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Apt.png - 200 995 image/png 81.3364ms
+2024-05-22 15:49:25.270 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/person.png - 200 1697 image/png 78.4662ms
+2024-05-22 15:49:25.276 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/blok.png - 200 9447 image/png 77.391ms
+2024-05-22 15:49:25.280 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/pill.svg - 200 510 image/svg+xml 74.6064ms
+2024-05-22 15:49:25.285 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6392575.png - 200 2236388 image/png 71.6894ms
+2024-05-22 15:49:25.293 +03:00 [INF] Sending file. Request path: '/image/33467.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\33467.png'
+2024-05-22 15:49:25.298 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/toy.svg - null null
+2024-05-22 15:49:25.305 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/makeup.svg - null null
+2024-05-22 15:49:25.312 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/phone.png - null null
+2024-05-22 15:49:25.318 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - null null
+2024-05-22 15:49:25.327 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/mpills.svg - null null
+2024-05-22 15:49:25.331 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/33467.png - 200 271198 image/png 71.7712ms
+2024-05-22 15:49:25.339 +03:00 [INF] Sending file. Request path: '/image/toy.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\toy.svg'
+2024-05-22 15:49:25.345 +03:00 [INF] Sending file. Request path: '/image/makeup.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\makeup.svg'
+2024-05-22 15:49:25.350 +03:00 [INF] Sending file. Request path: '/image/phone.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\phone.png'
+2024-05-22 15:49:25.357 +03:00 [INF] Sending file. Request path: '/image/hygiene.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\hygiene.svg'
+2024-05-22 15:49:25.362 +03:00 [INF] Sending file. Request path: '/image/mpills.svg'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\mpills.svg'
+2024-05-22 15:49:25.369 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Delivery.png - null null
+2024-05-22 15:49:25.372 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/toy.svg - 200 1080 image/svg+xml 74.1238ms
+2024-05-22 15:49:25.376 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/makeup.svg - 200 304 image/svg+xml 70.666ms
+2024-05-22 15:49:25.379 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/phone.png - 200 12680 image/png 67.7427ms
+2024-05-22 15:49:25.386 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/hygiene.svg - 200 323 image/svg+xml 66.1755ms
+2024-05-22 15:49:25.389 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/mpills.svg - 200 1019 image/svg+xml 61.8101ms
+2024-05-22 15:49:25.394 +03:00 [INF] Sending file. Request path: '/image/Delivery.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\Delivery.png'
+2024-05-22 15:49:25.402 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/tb2.png - null null
+2024-05-22 15:49:25.409 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/Tovar.png - null null
+2024-05-22 15:49:25.429 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6119868.png - null null
+2024-05-22 15:49:25.434 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Delivery.png - 200 1988 image/png 65.2882ms
+2024-05-22 15:49:25.440 +03:00 [INF] Sending file. Request path: '/image/tb2.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\tb2.png'
+2024-05-22 15:49:25.441 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 15:49:25.445 +03:00 [INF] Sending file. Request path: '/image/Tovar.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\Tovar.png'
+2024-05-22 15:49:25.458 +03:00 [INF] Sending file. Request path: '/image/6119868.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\6119868.png'
+2024-05-22 15:49:25.460 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/6350788.png - null null
+2024-05-22 15:49:25.466 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/tb2.png - 200 1107 image/png 63.8914ms
+2024-05-22 15:49:25.477 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/Tovar.png - 200 2198 image/png 67.809ms
+2024-05-22 15:49:25.482 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6119868.png - 200 387853 image/png 53.2521ms
+2024-05-22 15:49:25.491 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.3115ms
+2024-05-22 15:49:25.496 +03:00 [INF] Sending file. Request path: '/image/6350788.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\6350788.png'
+2024-05-22 15:49:25.498 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/10264982.png - null null
+2024-05-22 15:49:25.524 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/6350788.png - 200 1333205 image/png 62.9652ms
+2024-05-22 15:49:25.533 +03:00 [INF] Sending file. Request path: '/image/10264982.png'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\image\10264982.png'
+2024-05-22 15:49:25.543 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/10264982.png - 200 725431 image/png 44.4046ms
+2024-05-22 15:49:26.867 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 15:49:26.880 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 15:49:26.885 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 15:49:26.888 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 21.2125ms
+2024-05-22 15:49:29.996 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 15:49:30.005 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:30.008 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 15:49:30.014 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:49:30.019 +03:00 [INF] Executed ViewResult - view Index executed in 5.661ms.
+2024-05-22 15:49:30.022 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 9.1528ms
+2024-05-22 15:49:30.029 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:30.035 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 39.4721ms
+2024-05-22 15:49:30.045 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:49:30.054 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 8.3928ms
+2024-05-22 15:49:35.824 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 15:49:35.831 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:35.833 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 15:49:35.839 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:49:35.843 +03:00 [INF] Executed ViewResult - view Index executed in 4.1461ms.
+2024-05-22 15:49:35.846 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 6.8901ms
+2024-05-22 15:49:35.851 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:35.856 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 32.8846ms
+2024-05-22 15:49:35.866 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:49:35.872 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.3024ms
+2024-05-22 15:49:38.146 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 15:49:38.155 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 15:49:38.158 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 15:49:38.162 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 15.4039ms
+2024-05-22 15:49:39.879 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 15:49:39.887 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:39.889 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 15:49:39.895 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:49:39.899 +03:00 [INF] Executed ViewResult - view Index executed in 4.6119ms.
+2024-05-22 15:49:39.904 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 8.8504ms
+2024-05-22 15:49:39.909 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:39.914 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 34.8096ms
+2024-05-22 15:49:39.923 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:49:39.929 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 6.2597ms
+2024-05-22 15:49:46.324 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 15:49:46.532 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 15:49:46.565 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 15:49:46.567 +03:00 [INF] Hosting environment: Development
+2024-05-22 15:49:46.569 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 15:49:47.545 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 15:49:47.764 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 15:49:47.976 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:48.110 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 15:49:48.131 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:49:48.278 +03:00 [INF] Executed ViewResult - view Index executed in 146.752ms.
+2024-05-22 15:49:48.286 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 171.0214ms
+2024-05-22 15:49:48.297 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:48.305 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 770.3348ms
+2024-05-22 15:49:48.385 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:49:48.408 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 20.8313ms
+2024-05-22 15:49:48.861 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 15:49:48.895 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.4083ms
+2024-05-22 15:49:56.029 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 15:49:56.047 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 15:49:56.052 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 15:49:56.055 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 25.2929ms
+2024-05-22 15:49:57.593 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 15:49:57.605 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:57.607 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 15:49:57.611 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:49:57.616 +03:00 [INF] Executed ViewResult - view Index executed in 5.1459ms.
+2024-05-22 15:49:57.619 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 8.473ms
+2024-05-22 15:49:57.625 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:49:57.629 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 36.6964ms
+2024-05-22 15:49:57.637 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:49:57.643 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.6926ms
+2024-05-22 15:51:36.153 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-22 15:51:36.418 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-22 15:51:36.461 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-22 15:51:36.465 +03:00 [INF] Hosting environment: Development
+2024-05-22 15:51:36.467 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-22 15:51:37.014 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/ - null null
+2024-05-22 15:51:37.147 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-05-22 15:51:37.248 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:51:37.280 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-22 15:51:37.294 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-22 15:51:37.386 +03:00 [INF] Executed ViewResult - view Index executed in 89.1668ms.
+2024-05-22 15:51:37.400 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 115.6248ms
+2024-05-22 15:51:37.409 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-22 15:51:37.417 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/ - 200 null text/html; charset=utf-8 410.6368ms
+2024-05-22 15:51:37.437 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 15:51:37.449 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 12.3052ms
+2024-05-22 15:51:37.786 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/_vs/browserLink - null null
+2024-05-22 15:51:37.816 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.6355ms
+2024-05-22 15:51:39.129 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5186/Catalog - application/x-www-form-urlencoded 182
+2024-05-22 15:51:39.158 +03:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-05-22 15:51:39.165 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-22 15:51:39.167 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5186/Catalog - 401 0 null 38.3746ms
+2024-05-22 16:00:58.049 +03:00 [INF] Application is shutting down...

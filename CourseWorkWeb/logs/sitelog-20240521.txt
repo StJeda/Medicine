@@ -275,3 +275,25 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 2024-05-21 17:44:08.448 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5186/image/close.png - null null
 2024-05-21 17:44:08.453 +03:00 [INF] Sending file. Request path: '/image/close.png'. Physical path: 'C:\Users\Администратор\Documents\GitHub\Medicine\CourseWorkWeb\wwwroot\image\close.png'
 2024-05-21 17:44:08.453 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5186/image/close.png - 200 10571 image/png 5.4081ms
+2024-05-21 22:49:15.827 +03:00 [INF] User profile is available. Using 'C:\Users\yyarm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 22:49:16.165 +03:00 [INF] Now listening on: https://localhost:7072
+2024-05-21 22:49:16.167 +03:00 [INF] Now listening on: http://localhost:5186
+2024-05-21 22:49:16.188 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 22:49:16.191 +03:00 [INF] Hosting environment: Development
+2024-05-21 22:49:16.193 +03:00 [INF] Content root path: D:\Cursoviy\Medicine\CourseWorkWeb
+2024-05-21 22:49:17.002 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/ - null null
+2024-05-21 22:49:17.171 +03:00 [INF] Executing endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-21 22:49:17.191 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CourseWorkWeb.Controllers.HomeController (CourseWorkWeb).
+2024-05-21 22:49:17.204 +03:00 [INF] Executing ViewResult, running view Index.
+2024-05-21 22:49:17.294 +03:00 [INF] Executed ViewResult - view Index executed in 91.8176ms.
+2024-05-21 22:49:17.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/css/cite.css - null null
+2024-05-21 22:49:17.302 +03:00 [INF] Executed action CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb) in 105.7669ms
+2024-05-21 22:49:17.307 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-21 22:49:17.314 +03:00 [INF] Executed endpoint 'CourseWorkWeb.Controllers.HomeController.Index (CourseWorkWeb)'
+2024-05-21 22:49:17.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 23.1239ms
+2024-05-21 22:49:17.332 +03:00 [INF] Sending file. Request path: '/css/cite.css'. Physical path: 'D:\Cursoviy\Medicine\CourseWorkWeb\wwwroot\css\cite.css'
+2024-05-21 22:49:17.336 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/ - 200 null text/html; charset=utf-8 334.9913ms
+2024-05-21 22:49:17.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/css/cite.css - 200 28175 text/css 55.1192ms
+2024-05-21 22:49:17.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7072/_vs/browserLink - null null
+2024-05-21 22:49:17.458 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7072/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.1845ms
+2024-05-21 23:04:53.880 +03:00 [INF] Application is shutting down...

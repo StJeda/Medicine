@@ -58,7 +58,8 @@ namespace CourseWorkWeb.DAL.Repositories
            try
             {
                 var existedRole = await _context.Roles.FirstOrDefaultAsync(role => role.Id == r.Id);
-                existedRole.Permissions = r.Permissions;
+                existedRole.RolesPermissions = r.RolesPermissions;
+                existedRole.Accounts = r.Accounts;
                 existedRole.Name = r.Name;
                 Save();
                 return true;

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CourseWorkWeb.Models.Entity.Relations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseWorkWeb.Models.Entity.Auth
@@ -7,10 +8,12 @@ namespace CourseWorkWeb.Models.Entity.Auth
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public long Id { get; set; }
         [Required]
         [StringLength(50)]
         public string Name { get; set; } = null!;
-        public ICollection<Permission> Permissions { get; set; } = new List<Permission>();
+
+        public ICollection<Account> Accounts { get; set; } = new List<Account>();
+        public ICollection<RolesPermissions> RolesPermissions { get; set; } = new List<RolesPermissions>();
     }
 }
