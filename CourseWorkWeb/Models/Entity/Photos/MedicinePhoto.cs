@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CourseWorkWeb.Models.Entity.Medicines;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseWorkWeb.Models.Entity.Photos
@@ -9,6 +10,7 @@ namespace CourseWorkWeb.Models.Entity.Photos
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
         public byte[] bytes { get; set; } = [];
+        [ForeignKey(nameof(Medicine))]
         public long Medicine_Id { get; set; }
     }
 }

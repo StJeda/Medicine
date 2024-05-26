@@ -1,4 +1,5 @@
-﻿@using CourseWorkWeb.DAL.Context
+﻿@using CourseWorkWeb.Core.SmartFilter
+@using CourseWorkWeb.DAL.Context
 @using CourseWorkWeb.DAL.Repositories
 @using CourseWorkWeb.Models.Entity.Medicines
 @using Microsoft.AspNetCore.Mvc.Routing
@@ -27,15 +28,15 @@
                 <p>APT.UA</p>
             </div>
             </div>
-            <form class="CSearchField">
+            <form class="CSearchField" asp-controller="Category" asp-action="Index">
                 <button class="CCatalog">
                     <img src="~/image/lines.png">
                     <p>Catologe</p>
-                    
+
                 </button>
                 <div class="CInputBorder">
-                    <input type="text" placeholder="Searching...">
-                    <button class="CSerch" ><img src="~/image/search.png"></button>
+                    <input type="text" placeholder="Searching..." name="words">
+                    <button class="CSerch"><img src="~/image/search.png"></button>
                 </div>
             </form>
             <div class="CHelpField">
@@ -86,17 +87,23 @@
 
                 @if (Model != null)
                 {
-                    @foreach (var item in Model.ToList())
+                    var random = new Random();
+                    var medicines = Model.MedicineFilter("medicine").ToList();
+                    var selectedMedicines = new List<Medicine>();
+                    var indexes = Enumerable.Range(0, medicines.Count).OrderBy(x => random.Next()).Take(9);
+                    foreach (var index in indexes)
+                        selectedMedicines.Add(medicines[index]);
+                   
+                    @foreach (var medicine in selectedMedicines)
                     {
 
-                        <button class="CatalogCard" onclick="toProduct(@item.Id)">
-                            <img src=@item.Photo alt="foto">
-                            <div class="CatalogMedicineWords">
-                                <p class="wp">@item.Name</p>
-                                <p>@item.Description</p>
-                                <p>@item.Cost грн</p>
-                            </div>
-                        </button>
+                        <form class="CatalogCard" onclick="toProduct(@medicine.Id)" style="margin-top: 1.5vh;margin-right: 1vw; width: calc(100% / 8);">
+                            <button type="button" style="width: 80vw; height: 29vh; background: transparent; border: none;">
+                                <img style="width: 150px; height: 150px;" src="@medicine.Photo" alt="фото">
+                                <p class="name">@medicine.Name</p>
+                                <p class="cena">@medicine.Cost₴</p>
+                            </button>
+                        </form>
                     }
                 }
                 else
@@ -117,17 +124,23 @@
 
                 @if (Model != null)
                 {
-                    @foreach (var item in Model.ToList())
+                    var random = new Random();
+                    var medicines = Model.MedicineFilter("vitamins").ToList();
+                    var selectedMedicines = new List<Medicine>();
+                    var indexes = Enumerable.Range(0, medicines.Count).OrderBy(x => random.Next()).Take(9);
+                    foreach (var index in indexes)
+                        selectedMedicines.Add(medicines[index]);
+
+                    @foreach (var medicine in selectedMedicines)
                     {
 
-                        <button class="CatalogCard" onclick="toProduct(@item.Id)">
-                            <img src=@item.Photo alt="foto">
-                            <div class="CatalogMedicineWords">
-                                <p class="wp">@item.Name</p>
-                                <p>@item.Description</p>
-                                <p>@item.Cost грн</p>
-                            </div>
-                        </button>
+                        <form class="CatalogCard" onclick="toProduct(@medicine.Id)" style="margin-top: 1.5vh;margin-right: 1vw; width: calc(100% / 8);">
+                            <button type="button" style="width: 80vw; height: 29vh; background: transparent; border: none;">
+                                <img style="width: 150px; height: 150px;" src="@medicine.Photo" alt="фото">
+                                <p class="name">@medicine.Name</p>
+                                <p class="cena">@medicine.Cost₴</p>
+                            </button>
+                        </form>
                     }
                 }
                 else
@@ -148,17 +161,23 @@
 
                 @if (Model != null)
                 {
-                    @foreach (var item in Model.ToList())
+                    var random = new Random();
+                    var medicines = Model.MedicineFilter("hygiene").ToList();
+                    var selectedMedicines = new List<Medicine>();
+                    var indexes = Enumerable.Range(0, medicines.Count).OrderBy(x => random.Next()).Take(9);
+                    foreach (var index in indexes)
+                        selectedMedicines.Add(medicines[index]);
+
+                    @foreach (var medicine in selectedMedicines)
                     {
 
-                        <button class="CatalogCard"  onclick="toProduct(@item.Id)">
-                            <img src=@item.Photo alt="foto">
-                            <div class="CatalogMedicineWords">
-                                <p class="wp">@item.Name</p>
-                                <p>@item.Description</p>
-                                <p>@item.Cost грн</p>
-                            </div>
-                        </button>
+                        <form class="CatalogCard" onclick="toProduct(@medicine.Id)" style="margin-top: 1.5vh;margin-right: 1vw; width: calc(100% / 8);">
+                            <button type="button" style="width: 80vw; height: 29vh; background: transparent; border: none;">
+                                <img style="width: 150px; height: 150px;" src="@medicine.Photo" alt="фото">
+                                <p class="name">@medicine.Name</p>
+                                <p class="cena">@medicine.Cost₴</p>
+                            </button>
+                        </form>
                     }
                 }
                 else
@@ -179,17 +198,23 @@
 
                 @if (Model != null)
                 {
-                    @foreach (var item in Model.ToList())
+                    var random = new Random();
+                    var medicines = Model.MedicineFilter("Makeup").ToList();
+                    var selectedMedicines = new List<Medicine>();
+                    var indexes = Enumerable.Range(0, medicines.Count).OrderBy(x => random.Next()).Take(9);
+                    foreach (var index in indexes)
+                        selectedMedicines.Add(medicines[index]);
+
+                    @foreach (var medicine in selectedMedicines)
                     {
 
-                        <button class="CatalogCard"  onclick="toProduct(@item.Id)">
-                            <img src=@item.Photo alt="foto">
-                            <div class="CatalogMedicineWords">
-                                <p class="wp">@item.Name</p>
-                                <p>@item.Description</p>
-                                <p>@item.Cost грн</p>
-                            </div>
-                        </button>
+                        <form class="CatalogCard" onclick="toProduct(@medicine.Id)" style="margin-top: 1.5vh;margin-right: 1vw; width: calc(100% / 8);">
+                            <button type="button" style="width: 80vw; height: 29vh; background: transparent; border: none;">
+                                <img style="width: 150px; height: 150px;" src="@medicine.Photo" alt="фото">
+                                <p class="name">@medicine.Name</p>
+                                <p class="cena">@medicine.Cost₴</p>
+                            </button>
+                        </form>
                     }
                 }
                 else
@@ -203,24 +228,30 @@
               <input type="hidden" name="word" value="For Children's">
               <button class="ButtonTitles" type="submit">
               <p>For Children's</p>
-              <img src="toy.svg">
+              <img src="image/toy.svg">
             </button>
    </form>
        <div class="CatalogMedicineList">
 
                 @if (Model != null)
                 {
-                    @foreach (var item in Model.ToList())
+                    var random = new Random();
+                    var medicines = Model.MedicineFilter("children").ToList();
+                    var selectedMedicines = new List<Medicine>();
+                    var indexes = Enumerable.Range(0, medicines.Count).OrderBy(x => random.Next()).Take(9);
+                    foreach (var index in indexes)
+                        selectedMedicines.Add(medicines[index]);
+
+                    @foreach (var medicine in selectedMedicines)
                     {
 
-                        <button class="CatalogCard"  onclick="toProduct(@item.Id)">
-                            <img src=@item.Photo alt="foto">
-                            <div class="CatalogMedicineWords">
-                                <p class="wp">@item.Name</p>
-                                <p>@item.Description</p>
-                                <p>@item.Cost грн</p>
-                            </div>
-                        </button>
+                        <form class="CatalogCard" onclick="toProduct(@medicine.Id)" style="margin-top: 1.5vh;margin-right: 1vw; width: calc(100% / 8);">
+                            <button type="button" style="width: 80vw; height: 29vh; background: transparent; border: none;">
+                                <img style="width: 150px; height: 150px;" src="@medicine.Photo" alt="фото">
+                                <p class="name">@medicine.Name</p>
+                                <p class="cena">@medicine.Cost₴</p>
+                            </button>
+                        </form>
                     }
                 }
                 else

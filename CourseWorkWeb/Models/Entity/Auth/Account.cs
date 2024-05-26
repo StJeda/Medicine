@@ -13,19 +13,19 @@ namespace CourseWorkWeb.Models.Entity.Auth
         public long Id { get; set; }
         [Required]
         public string Username { get; set; } = null!;
-        public long Password_Id { get; set; }
-        public long Photo_Id { get; set; }
-        public UserPhoto UserPhoto { get; set; } = new UserPhoto();
+        public virtual UserPhoto UserPhoto { get; set; } = new UserPhoto();
         [StringLength(15)]
+        [NotMapped]
+        public string userPh { get; set; }
         public string Phone { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public bool Verify { get; set; } = false;
         [Required]
-        public Password Password { get; set; } = new Password();
+        public virtual Password Password { get; set; } = new Password();
         [ForeignKey(nameof(Role))]
         public long RoleId { get; set; }
-        public Role Role { get; set; } = null!;
-        public ICollection<Order> Orders { get; set; } = new List<Order>();
+        public virtual Role Role { get; set; } = null!;
+        public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 
         public static Account Create(string username, string email, string password)
             => new Account

@@ -1,8 +1,9 @@
-﻿using CourseWorkWeb.Core.CQRS.Medicines.Queries;
+﻿using CourseWorkWeb.Core.Auth;
+using CourseWorkWeb.Core.CQRS.Medicines.Queries;
 using CourseWorkWeb.Models.Entity.Medicines;
 using MediatR;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 using System.Security.Permissions;
 
 namespace CourseWorkWeb.Controllers
@@ -11,11 +12,13 @@ namespace CourseWorkWeb.Controllers
     public class CatalogController(ISender sender):Controller
     {
         private readonly ISender _sender = sender;
-        [Authorize(Policy = "CabinetPermission")]
+        
         public async Task<IActionResult> Index()
         {
-            var medicines = await _sender.Send(new GetMedicinesQuery());
-            return View(medicines);
+            
+                var medicines = await _sender.Send(new GetMedicinesQuery());
+                return View(medicines);
+
         }
     }
 }

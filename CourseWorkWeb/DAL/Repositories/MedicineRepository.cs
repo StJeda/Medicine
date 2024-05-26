@@ -16,7 +16,7 @@ namespace CourseWorkWeb.DAL.Repositories
             if (deleteMedicine != null)
             {
                 _context.Remove(deleteMedicine);
-                Save();
+                await _context.SaveChangesAsync();
                 return true;
             }
             else return false;
@@ -58,33 +58,22 @@ namespace CourseWorkWeb.DAL.Repositories
                 updatedMedicine.Cost = m.Cost;
                 updatedMedicine.Status = m.Status;
                 updatedMedicine.Substances = m.Substances;
-                updatedMedicine.Substance_Id = m.Substance_Id;
                 updatedMedicine.Country = m.Country;
                 updatedMedicine.Description = m.Description;
                 updatedMedicine.Name = m.Name;
-                updatedMedicine.MedicinePhoto_Id = m.MedicinePhoto_Id;
                 updatedMedicine.Photo = m.Photo;
-                Save();
+                await _context.SaveChangesAsync();
                 return true;
             }
             else return false;
         }
-        private bool disposed = false;
+      
 
-        protected async virtual void Dispose(bool disposing)
-        {
-            if (!disposed)
-            {
-                if (disposing)
-                {
-                    await _context.DisposeAsync();
-                }
-            }
-        }
+   
         public void Dispose()
         {
-            Dispose(true);
-            GC.SuppressFinalize(this);
+
+   
         }
     }
 }

@@ -15,6 +15,7 @@ namespace CourseWorkWeb.Core.SmartFilter
             {
                 double similarity = CalculateSimilarity(medicine.Name, searchInput) +
                                     CalculateSimilarity(medicine.Description, searchInput) +
+                                    CalculateSimilarity(medicine.Type, searchInput) +
                                     CalculateSubstance(medicine.Substances, searchInput);
                 if (similarity >= 80.0)
                     result.Add(medicine);

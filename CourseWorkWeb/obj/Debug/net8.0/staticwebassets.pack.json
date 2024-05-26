@@ -1,491 +1,491 @@
 {
   "Files": [
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CourseWorkWeb.bundle.scp.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CourseWorkWeb.bundle.scp.css",
       "PackagePath": "staticwebassets\\CourseWorkWeb.bundle.scp.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\Registration.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\css\\Registration.css",
       "PackagePath": "staticwebassets\\css\\Registration.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cabinet.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cabinet.css",
       "PackagePath": "staticwebassets\\css\\cabinet.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cite.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cite.css",
       "PackagePath": "staticwebassets\\css\\cite.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cite1.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\css\\cite1.css",
       "PackagePath": "staticwebassets\\css\\cite1.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\co.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\css\\co.css",
       "PackagePath": "staticwebassets\\css\\co.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\create.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\css\\create.css",
       "PackagePath": "staticwebassets\\css\\create.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\crud.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\css\\crud.css",
       "PackagePath": "staticwebassets\\css\\crud.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\css\\product.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\css\\product.css",
       "PackagePath": "staticwebassets\\css\\product.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\favicon.ico",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\10264982.jpg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\10264982.jpg",
       "PackagePath": "staticwebassets\\image\\10264982.jpg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\10264982.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\10264982.png",
       "PackagePath": "staticwebassets\\image\\10264982.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\33467.jpg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\33467.jpg",
       "PackagePath": "staticwebassets\\image\\33467.jpg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\33467.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\33467.png",
       "PackagePath": "staticwebassets\\image\\33467.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5960057.jpg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5960057.jpg",
       "PackagePath": "staticwebassets\\image\\5960057.jpg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5960057.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5960057.png",
       "PackagePath": "staticwebassets\\image\\5960057.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926 копия.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926 копия.png",
       "PackagePath": "staticwebassets\\image\\5966926 копия.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926.jpg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926.jpg",
       "PackagePath": "staticwebassets\\image\\5966926.jpg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\5966926.png",
       "PackagePath": "staticwebassets\\image\\5966926.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6051372.jpg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6051372.jpg",
       "PackagePath": "staticwebassets\\image\\6051372.jpg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6119868.jpg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6119868.jpg",
       "PackagePath": "staticwebassets\\image\\6119868.jpg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6119868.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6119868.png",
       "PackagePath": "staticwebassets\\image\\6119868.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6350788.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6350788.png",
       "PackagePath": "staticwebassets\\image\\6350788.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6392575.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\6392575.png",
       "PackagePath": "staticwebassets\\image\\6392575.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Apt.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Apt.png",
       "PackagePath": "staticwebassets\\image\\Apt.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\ArrowUp.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\ArrowUp.png",
       "PackagePath": "staticwebassets\\image\\ArrowUp.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Delivery.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Delivery.png",
       "PackagePath": "staticwebassets\\image\\Delivery.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Taygeron.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Taygeron.png",
       "PackagePath": "staticwebassets\\image\\Taygeron.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Tovar.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Tovar.png",
       "PackagePath": "staticwebassets\\image\\Tovar.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\add.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\add.png",
       "PackagePath": "staticwebassets\\image\\add.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\blok.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\blok.png",
       "PackagePath": "staticwebassets\\image\\blok.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\close.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\close.png",
       "PackagePath": "staticwebassets\\image\\close.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\closered.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\closered.png",
       "PackagePath": "staticwebassets\\image\\closered.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\derictory.svg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\derictory.svg",
       "PackagePath": "staticwebassets\\image\\derictory.svg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\health_metrics_FILL0_wght400_GRAD0_opsz24.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\health_metrics_FILL0_wght400_GRAD0_opsz24.png",
       "PackagePath": "staticwebassets\\image\\health_metrics_FILL0_wght400_GRAD0_opsz24.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\hygiene.svg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\hygiene.svg",
       "PackagePath": "staticwebassets\\image\\hygiene.svg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\icon.ico",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\icon.ico",
       "PackagePath": "staticwebassets\\image\\icon.ico"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\langwich.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\langwich.png",
       "PackagePath": "staticwebassets\\image\\langwich.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\lines.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\lines.png",
       "PackagePath": "staticwebassets\\image\\lines.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\logo.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\logo.png",
       "PackagePath": "staticwebassets\\image\\logo.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mag.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mag.png",
       "PackagePath": "staticwebassets\\image\\mag.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mag.svg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mag.svg",
       "PackagePath": "staticwebassets\\image\\mag.svg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\makeup.svg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\makeup.svg",
       "PackagePath": "staticwebassets\\image\\makeup.svg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map.png",
       "PackagePath": "staticwebassets\\image\\map.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map.svg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map.svg",
       "PackagePath": "staticwebassets\\image\\map.svg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map2.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\map2.png",
       "PackagePath": "staticwebassets\\image\\map2.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\moon.svg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\moon.svg",
       "PackagePath": "staticwebassets\\image\\moon.svg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mpills.svg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\mpills.svg",
       "PackagePath": "staticwebassets\\image\\mpills.svg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\oddol.jpg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\oddol.jpg",
       "PackagePath": "staticwebassets\\image\\oddol.jpg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\person.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\person.png",
       "PackagePath": "staticwebassets\\image\\person.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\phone.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\phone.png",
       "PackagePath": "staticwebassets\\image\\phone.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\pill.svg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\pill.svg",
       "PackagePath": "staticwebassets\\image\\pill.svg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\search.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\search.png",
       "PackagePath": "staticwebassets\\image\\search.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\searchwhite.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\searchwhite.png",
       "PackagePath": "staticwebassets\\image\\searchwhite.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\tb.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\tb.png",
       "PackagePath": "staticwebassets\\image\\tb.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\tb2.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\tb2.png",
       "PackagePath": "staticwebassets\\image\\tb2.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\toy.svg",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\toy.svg",
       "PackagePath": "staticwebassets\\image\\toy.svg"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\update.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\update.png",
       "PackagePath": "staticwebassets\\image\\update.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Без имени-2.png",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\image\\Без имени-2.png",
       "PackagePath": "staticwebassets\\image\\Без имени-2.png"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\js\\site.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\js\\test.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\js\\test.js",
       "PackagePath": "staticwebassets\\js\\test.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "c:\\Users\\Администратор\\Documents\\GitHub\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Нова папка (2)\\Medicine\\CourseWorkWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

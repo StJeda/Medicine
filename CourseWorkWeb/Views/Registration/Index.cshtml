@@ -73,16 +73,14 @@
         </button>
     </div>
     </div>
-<form class="RegistrationContainer">
-<div class="BorderRegistrWords"><p>Registration</p></div>
-<div class="DivField"><p>Firts Name :</p><input class="InputRegist" name="FirtsName"></div>
-<div class="DivField"><p>Last  Name :</p><input class="InputRegist" name="LastName"></div>
-<div class="DivField"><p>Password :</p><input class="InputRegist"   name="Password"></div>
-<div class="DivField"><p>Config Password :</p><input class="InputRegist"></div>
-<div class="DivField"><p>Phone :</p><input class="InputRegist"       name="Phone"></div>
-<div class="DivField"><p>Email :</p><input class="InputRegist"       name="Email"></div>
-<button type="submit" class="ULTANICH"><p>Sign Up</p></button>
-</form>
+    <form class="RegistrationContainer" asp-controller="User" asp-action="Register">
+        <div class="BorderRegistrWords"><p>Registration</p></div>
+        <div class="DivField"><p>Username :</p><input class="InputRegist" name="Username"></div>
+        <div class="DivField"><p>Email :</p><input class="InputRegist" name="Email"></div>
+        <div class="DivField"><p>Password :</p><input class="InputRegist" name="Password"></div>
+        <div class="DivField"><p>Config Password :</p><input class="InputRegist" name="confirmPassword"></div>
+        <button type="submit" class="ULTANICH"><p>Sign Up</p></button>
+    </form>
     
 <script>
     function toHome() {

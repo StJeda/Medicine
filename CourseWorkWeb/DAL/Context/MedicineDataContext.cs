@@ -31,6 +31,11 @@ namespace CourseWorkWeb.DAL.Context
             modelBuilder.ApplyConfiguration(new PermissionConfiguration());
             modelBuilder.ApplyConfiguration(new RolesPermissionsConfiguration());
 
+            modelBuilder.Entity<Account>()
+            .HasOne(a => a.Password)
+            .WithOne(p => p.User)
+            .HasForeignKey<Password>(p => p.Account_Id);
+
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -34,19 +34,10 @@ namespace CourseWorkWeb.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("PasswordId")
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("Password_Id")
-                        .HasColumnType("bigint");
-
                     b.Property<string>("Phone")
                         .IsRequired()
                         .HasMaxLength(15)
                         .HasColumnType("nvarchar(15)");
-
-                    b.Property<long>("Photo_Id")
-                        .HasColumnType("bigint");
 
                     b.Property<long>("RoleId")
                         .HasColumnType("bigint");
@@ -62,8 +53,6 @@ namespace CourseWorkWeb.Migrations
                         .HasColumnType("bit");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PasswordId");
 
                     b.HasIndex("RoleId");
 
@@ -88,6 +77,9 @@ namespace CourseWorkWeb.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Account_Id")
+                        .IsUnique();
 
                     b.ToTable("Passwords");
                 });
@@ -158,6 +150,9 @@ namespace CourseWorkWeb.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
+                    b.Property<long?>("DiseaseId")
+                        .HasColumnType("bigint");
+
                     b.Property<long>("Disease_Id")
                         .HasColumnType("bigint");
 
@@ -166,6 +161,8 @@ namespace CourseWorkWeb.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("DiseaseId");
 
                     b.ToTable("Symptoms");
                 });
@@ -177,9 +174,6 @@ namespace CourseWorkWeb.Migrations
                         .HasColumnType("bigint");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<string>("Articules")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Cost")
                         .HasColumnType("decimal(10, 2)");
@@ -196,27 +190,30 @@ namespace CourseWorkWeb.Migrations
                     b.Property<double>("Discount")
                         .HasColumnType("float");
 
-                    b.Property<long>("MedicinePhoto_Id")
-                        .HasColumnType("bigint");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<long?>("OrderId")
+                        .HasColumnType("bigint");
+
                     b.Property<long?>("PharmacyId")
                         .HasColumnType("bigint");
 
+                    b.Property<string>("Photo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
-
-                    b.Property<long>("Substance_Id")
-                        .HasColumnType("bigint");
 
                     b.Property<string>("Type")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
 
                     b.HasIndex("PharmacyId");
 
@@ -239,10 +236,15 @@ namespace CourseWorkWeb.Migrations
                     b.Property<double>("Mass")
                         .HasColumnType("float");
 
+                    b.Property<long?>("MedicineId")
+                        .HasColumnType("bigint");
+
                     b.Property<long>("Medicine_Id")
                         .HasColumnType("bigint");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MedicineId");
 
                     b.ToTable("Substances");
                 });
@@ -257,6 +259,9 @@ namespace CourseWorkWeb.Migrations
 
                     b.Property<DateTime>("End")
                         .HasColumnType("datetime2");
+
+                    b.Property<long>("Order_Id")
+                        .HasColumnType("bigint");
 
                     b.Property<DateTime>("Start")
                         .HasColumnType("datetime2");
@@ -275,6 +280,9 @@ namespace CourseWorkWeb.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
                     b.Property<long?>("AccountId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("Account_Id")
                         .HasColumnType("bigint");
 
                     b.Property<long>("DeadLineId")
@@ -394,10 +402,10 @@ namespace CourseWorkWeb.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<long>("Medicine_Id")
+                    b.Property<long>("Account_Id")
                         .HasColumnType("bigint");
 
-                    b.Property<byte[]>("bytes")
+                    b.Property<byte[]>("Photo")
                         .IsRequired()
                         .HasColumnType("varbinary(max)");
 
@@ -533,10 +541,10 @@ namespace CourseWorkWeb.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<long>("AccountId")
+                    b.Property<long>("Account_Id")
                         .HasColumnType("bigint");
 
-                    b.Property<long>("RoleId")
+                    b.Property<long>("Role_Id")
                         .HasColumnType("bigint");
 
                     b.HasKey("Id");
@@ -546,12 +554,6 @@ namespace CourseWorkWeb.Migrations
 
             modelBuilder.Entity("CourseWorkWeb.Models.Entity.Auth.Account", b =>
                 {
-                    b.HasOne("CourseWorkWeb.Models.Entity.Auth.Password", "Password")
-                        .WithMany()
-                        .HasForeignKey("PasswordId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("CourseWorkWeb.Models.Entity.Auth.Role", "Role")
                         .WithMany("Accounts")
                         .HasForeignKey("RoleId")
@@ -564,18 +566,45 @@ namespace CourseWorkWeb.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Password");
-
                     b.Navigation("Role");
 
                     b.Navigation("UserPhoto");
                 });
 
+            modelBuilder.Entity("CourseWorkWeb.Models.Entity.Auth.Password", b =>
+                {
+                    b.HasOne("CourseWorkWeb.Models.Entity.Auth.Account", "User")
+                        .WithOne("Password")
+                        .HasForeignKey("CourseWorkWeb.Models.Entity.Auth.Password", "Account_Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("CourseWorkWeb.Models.Entity.Diseases.Symptom", b =>
+                {
+                    b.HasOne("CourseWorkWeb.Models.Entity.Diseases.Disease", null)
+                        .WithMany("Symptoms")
+                        .HasForeignKey("DiseaseId");
+                });
+
             modelBuilder.Entity("CourseWorkWeb.Models.Entity.Medicines.Medicine", b =>
                 {
+                    b.HasOne("CourseWorkWeb.Models.Entity.Orders.Order", null)
+                        .WithMany("Medicines")
+                        .HasForeignKey("OrderId");
+
                     b.HasOne("CourseWorkWeb.Models.Entity.Pharmacy", null)
                         .WithMany("Medicines")
                         .HasForeignKey("PharmacyId");
+                });
+
+            modelBuilder.Entity("CourseWorkWeb.Models.Entity.Medicines.Substance", b =>
+                {
+                    b.HasOne("CourseWorkWeb.Models.Entity.Medicines.Medicine", null)
+                        .WithMany("Substances")
+                        .HasForeignKey("MedicineId");
                 });
 
             modelBuilder.Entity("CourseWorkWeb.Models.Entity.Orders.Order", b =>
@@ -619,6 +648,9 @@ namespace CourseWorkWeb.Migrations
             modelBuilder.Entity("CourseWorkWeb.Models.Entity.Auth.Account", b =>
                 {
                     b.Navigation("Orders");
+
+                    b.Navigation("Password")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("CourseWorkWeb.Models.Entity.Auth.Permission", b =>
@@ -631,6 +663,21 @@ namespace CourseWorkWeb.Migrations
                     b.Navigation("Accounts");
 
                     b.Navigation("RolesPermissions");
+                });
+
+            modelBuilder.Entity("CourseWorkWeb.Models.Entity.Diseases.Disease", b =>
+                {
+                    b.Navigation("Symptoms");
+                });
+
+            modelBuilder.Entity("CourseWorkWeb.Models.Entity.Medicines.Medicine", b =>
+                {
+                    b.Navigation("Substances");
+                });
+
+            modelBuilder.Entity("CourseWorkWeb.Models.Entity.Orders.Order", b =>
+                {
+                    b.Navigation("Medicines");
                 });
 
             modelBuilder.Entity("CourseWorkWeb.Models.Entity.Pharmacy", b =>

@@ -1,5 +1,7 @@
+@using CourseWorkWeb.Models.Entity.Medicines
+@model Medicine;
 @{
-    ViewData["Title"] = "UpdatePage";
+    ViewData["Title"] = "Update";
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -16,273 +18,277 @@
     <div class="CHeader">
         <div class="CNT">
             <div class="Clogo">
-                <img class="CimgLogo"  src="~/image/logo.png">
+                <img class="CimgLogo" src="~/image/logo.png">
                 <div class="CAptecaName">
-                <p>Tabletki</p>
-                <p>APT.UA</p>
-            </div>
+                    <p>Tabletki</p>
+                    <p>APT.UA</p>
+                </div>
             </div>
             <form class="CSearchField">
                 <button class="CCatalog">
                     <img src="~/image/lines.png">
                     <p>Catologe</p>
-                    
+
                 </button>
                 <div class="CInputBorder">
                     <input type="text" placeholder="Searching...">
-                    <button class="CSerch" ><img src="~/image/search.png"></button>
+                    <button class="CSerch"><img src="~/image/search.png"></button>
                 </div>
             </form>
             <div class="CHelpField">
-            <button class="CHelpFieldButton"> <img src="~/image/mag.png"></button>
-            <button class="CHelpFieldButton"> <img src="~/image/person.png"></button>
-            <button class="CHelpFieldButton"> <img src="~/image/phone.png"></button>
-        </div>
+                <button class="CHelpFieldButton"> <img src="~/image/mag.png"></button>
+                <button class="CHelpFieldButton"> <img src="~/image/person.png"></button>
+                <button class="CHelpFieldButton"> <img src="~/image/phone.png"></button>
+            </div>
         </div>
         <div class="CND">
-        <button onclick="toCategory('Medicine')">
-            <p>Medicine</p>
-            <img src="~/image/pill.svg" alt="Medicine">
-        </button>
-        <button  onclick="toCategory('Vitamins')">
-            <p>Vitamins</p>
-            <img src="~/image/mpills.svg" alt="Vitamins">
-        </button>
-        <button onclick="toCategory('Hygiene')">
-            <p>Hygiene</p>
-            <img src="~/image/hygiene.svg" alt="Hygiene">
-        </button>
-        <button onclick="toCategory('Makeup')">
-            <p>Makeup</p>
-            <img src="~/image/makeup.svg" alt="Makeup">
-        </button>
-        <button onclick="toCategory('Children')">
-            <p>For Children's</p>
-            <img src="~/image/toy.svg" alt="For Children's">
-        </button>
-         <button onclick="toHome()">
-            <p>Back</p>
-            <img src="~/image/close.png" alt="Back">
-        </button>
+            <button onclick="toCategory('Medicine')">
+                <p>Medicine</p>
+                <img src="~/image/pill.svg" alt="Medicine">
+            </button>
+            <button onclick="toCategory('Vitamins')">
+                <p>Vitamins</p>
+                <img src="~/image/mpills.svg" alt="Vitamins">
+            </button>
+            <button onclick="toCategory('Hygiene')">
+                <p>Hygiene</p>
+                <img src="~/image/hygiene.svg" alt="Hygiene">
+            </button>
+            <button onclick="toCategory('Makeup')">
+                <p>Makeup</p>
+                <img src="~/image/makeup.svg" alt="Makeup">
+            </button>
+            <button onclick="toCategory('Children')">
+                <p>For Children's</p>
+                <img src="~/image/toy.svg" alt="For Children's">
+            </button>
+            <button onclick="toHome()">
+                <p>Back</p>
+                <img src="~/image/close.png" alt="Back">
+            </button>
+        </div>
     </div>
-    </div>
-    
-<form class="CrConteiner" method="POST">
-        <div class="Hheder">   
-            <p class="Word">Page Updator</p>
-            <div class=divhButton> 
-            <button class="Hbutton" id="PostButton" type="submit"><img src="~/image/ArrowUp.png"></button>
-            <button class="Hbutton" id="reloadBtn" ><img src="~/image/closered.png"></button>
+
+    <form asp-controller="Medicine" asp-action="UpdateMedicine" class="CrConteiner" method="PUT">
+        <div class="Hheder">
+            <p class="Word">Page Constructor</p>
+            <div class=divhButton>
+                <button class="Hbutton" type="submit"><img src="~/image/ArrowUp.png"></button>
+                <button class="Hbutton" id="reloadBtn"><img src="~/image/closered.png"></button>
             </div>
         </div>
         <div class="fotoPart">
             <div class="Foto">
                 <div class="fotocard" id="fotocard">
-                    
                 </div>
-                <div class="OperationField">
-                <input  class="FileInput" type="file" id="fileInput1" name="FotoPath1" accept="image/*" onchange="previewImage()">
-                <button class="Upload"    type="button"  onclick="document.getElementById('fileInput1').click();">Upload  photo</button> 
+                <div class="OperationField" id="form" enctype="multipart/form-data">
+                    <input style="display: none;" type="text" id="myInput" name="Photo" value="Старое значение">
+                    @if (!string.IsNullOrEmpty(Model.Photo))
+                    {
+                        <img src="@Url.Content(Model.Photo)" alt="Uploaded photo" id="uploadedImage" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <img src="#" alt="Uploaded photo" id="uploadedImage" style="max-width: 100px; max-height: 100px; display: none;" />
+                    }
+                    <input class="FileInput" type="file" id="fileInput1" name="FotoPath1" accept="image/*" onchange="previewImage()">
+                    <button class="Upload" type="button" onclick="document.getElementById('fileInput1').click();">Upload  photo</button>
                 </div>
-                
+
             </div>
-           <div class="Foto">
-                <div class="fotocard" id="fotocard2">
-                    
-                </div>
-                <div class="OperationField">
-                <input  class="FileInput" type="file" id="fileInput2" name="FotoPath2" accept="image/*" onchange="previewImage2()">
-                <button class="Upload" type="button" onclick="document.getElementById('fileInput2').click();">Upload  photo</button> 
-                </div>
-            </div>
-            <div class="Foto">
-                <div class="fotocard" id="fotocard3">
-                    
-                </div>
-                <div class="OperationField">
-                <input  class="FileInput" type="file" id="fileInput3" name="FotoPath3" accept="image/*" onchange="previewImage3()">
-                <button class="Upload"  type="button" onclick="document.getElementById('fileInput3').click();">Upload  photo</button> 
-                </div>
-            </div>
+
         </div>
         <div class="TexnicalPart">
             <div class="BorderCategory"><p>Main Property</p></div>
             <div class="Cwords">
-                <div class="Catg"><p>ID :</p><input type="text" id="Id_Product" name='Id'></div>
-                <div class="Catg"><p>Name :</p><input type="text"id="Name_Product" name='Name'></div> 
-                <div class="Catg"><p>Type :</p><input type="text" id="Type_Product" name='Type'></div>
-                <div class="Catg"><p>Status :</p><select class="iput" id="Status_Product" name='Status'><option value="True">Available</option><option value="False">Not available</option></select></div>
-                <div class="Catg"><p>Cost :</p><input type="number" id="Cost_Product" name='Cost'></div>  
-                <div class="Catg"><p>Discount :</p><input type="number" id="Discount_Product" name='Discount'></div> 
-                <div class="Catg"><p>Quantity :</p><input type="number" id="Quantity_Product" name='Quantity'></div>   
+                <div class="Catg"><p>ID :</p><input type="text" name='Id' value="@Model.Id"></div>
+                <div class="Catg"><p>Name :</p><input type="text" name='Name' value="@Model.Name"></div>
+                <div class="Catg"><p>Description :</p><input type="text" name='Description' value="@Model.Description"></div>
+                <div class="Catg"><p>Type :</p><input type="text" name='Type' value="@Model.Type"></div>
+                <div class="Catg"><p>Status :</p><select class="iput" name='Status' value="@Model.Status"><option value="1">Available</option><option value="0">None</option></select></div>
+                <div class="Catg"><p>Cost :</p><input type="number" name='Cost' value="@Model.Cost"></div>
+                <div class="Catg"><p>Discount :</p><input type="number" name='Discount' value="@Model.Discount"></div>
+                <div class="Catg"><p>Country :</p><input type="text" name='Country' value="@Model.Country"></div>
+                <div class="Catg"><p>Quantity :</p><input type="number" name='Quantity' value="@Model.Quantity"></div>
             </div>
             <div class="BorderCategory"><p>Description</p></div>
-            <div class="Cwords">
-                <div class="Catg"><p>Age :</p><input type="number" id="Age_Product" name='Age'></div>
-                <div class="Catg"><p>Input method :</p><input type="text" id="InputMethod_Product" name='InputMethod'></div> 
-                <div class="Catg"><p>Pregnant :</p><select class="iput" id="Pregnant_Product" name='Pregnant'><option value="True">Yes</option><option value="False">No</option></select></div>
-                <div class="Catg"><p>Manufacturer :</p><input type="text" id="Manufacturer_Product" name='Manufacturer'></div>  
-                <div class="Catg"><p>Country :</p><input type="text" id="Country_Product" name='Country'></div> 
-                <div class="Catg"><p>Prescription required :</p><select  class="iput" id="PrescriptionRequired_Product" name='PrescriptionRequired'></select>><option value="True">Yes</option><option value="False">No</option></select></div>
-                <div class="Catg"><p>Compound :</p><input type="text"id="Compound_Product"  name='Compound'></div> 
-                <div class="Catg"><p>Instructions :</p><input type="text" id="Instructions_Product" name='Instructions'></div> 
-                <div class="Catg"><p>Contraindications :</p><input type="text" id="Contraindications_Product" name='Contraindications'></div> 
-                <div class="Catg"><p>Side effects :</p><input type="text" id="SideEffects_Product" name='SideEffects'></div> 
-            </div>
+                
         </div>
         </div>
-</form>
-<script>
-     const reloadBtn = document.getElementById('reloadBtn');
-     reloadBtn.addEventListener('click', function() {
-        window.location.reload();
-    });
-</script>
-<script>
-    async function previewImage() {
-        try {
-            const imagePath = await getFileInputPath('fileInput1');
-            await createImage(imagePath);
-        } catch (error) {
-            console.error("Ошибка:", error.message);
-        }
-    }
+    </form>
+    <script>
 
-
-    async function previewImage2() {
-    try {
-        const imagePath = await getFileInputPath('fileInput2');
-        await createImage2(imagePath);
-    } catch (error) {
-        console.error("Error:", error.message);
-    }
-}
-
-
-
-async function previewImage3() {
-    try {
-        const imagePath = await getFileInputPath('fileInput3');
-        await createImage3(imagePath);
-    } catch (error) {
-        console.error("Error:", error.message);
-    }
-}
-
-    async function createImage(imagePath) {
-        try {
-            const div = document.getElementById('fotocard');
-            if (!div) throw new Error('Element with id "fotocard" not found');
-
-            
-            while (div.firstChild) {
-                div.removeChild(div.firstChild);
-            }
-
-            const img = document.createElement('img');
-            img.src = imagePath; 
-
-            div.appendChild(img);
-        } catch (error) {
-            console.error('Error:', error.message);
-        }
-    }
-    async function createImage2(imagePath) {
-        try {
-            const div = document.getElementById('fotocard2');
-            if (!div) throw new Error('Element with id "fotocard" not found');
-
-            
-            while (div.firstChild) {
-                div.removeChild(div.firstChild);
-            }
-
-            const img = document.createElement('img');
-            img.src = imagePath; 
-
-            div.appendChild(img);
-        } catch (error) {
-            console.error('Error:', error.message);
-        }
-    }
-     async function createImage3(imagePath) {
-        try {
-            const div = document.getElementById('fotocard3');
-            if (!div) throw new Error('Element with id "fotocard" not found');
-
-            
-            while (div.firstChild) {
-                div.removeChild(div.firstChild);
-            }
-
-            const img = document.createElement('img');
-            img.src = imagePath; 
-
-            div.appendChild(img);
-        } catch (error) {
-            console.error('Error:', error.message);
-        }
-    }
-
-    async function getFileInputPath(fileInputId) {
-        return new Promise((resolve, reject) => {
-            const fileInput = document.getElementById(fileInputId);
-
-            if (!fileInput || !fileInput.files || fileInput.files.length === 0) {
-                reject(new Error("No file selected"));
-                return;
-            }
-
-            const file = fileInput.files[0];
-            const path = URL.createObjectURL(file);
-            resolve(path);
+        const reloadBtn = document.getElementById('reloadBtn');
+        reloadBtn.addEventListener('click', function () {
+            window.location.reload();
         });
-    }
-</script>
+    </script>
+    <script>
+        async function previewImage() {
+            try {
 
+                const imagePath = await getFileInputPath('fileInput1');
+                await createImage(imagePath);
+            } catch (error) {
+                console.error("Ошибка:", error.message);
+            }
+        }
+
+
+
+
+        async function createImage(imagePath) {
+            try {
+                const div = document.getElementById('fotocard');
+                if (!div) throw new Error('Element with id "fotocard" not found');
+
+
+                while (div.firstChild) {
+                    div.removeChild(div.firstChild);
+                }
+
+                const img = document.createElement('img');
+                img.src = imagePath;
+
+                div.appendChild(img);
+            } catch (error) {
+                console.error('Error:', error.message);
+            }
+        }
+
+
+        async function getFileInputPath(fileInputId) {
+            return new Promise((resolve, reject) => {
+                const fileInput = document.getElementById(fileInputId);
+
+                if (!fileInput || !fileInput.files || fileInput.files.length === 0) {
+                    reject(new Error("No file selected"));
+                    return;
+                }
+
+                const reader = new FileReader();
+
+                reader.onload = function (event) {
+                    const base64 = event.target.result;
+                    var inputElement = document.getElementById('myInput');
+                    inputElement.value = base64;
+                    resolve(base64);
+                };
+
+                reader.onerror = function (error) {
+                    reject(error);
+                };
+
+                reader.readAsDataURL(fileInput.files[0]);
+            });
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.Hbutton').click(function (e) {
+                e.preventDefault(); // Предотвращаем стандартное поведение кнопки
+
+                // Находим форму, к которой относится кнопка
+                var form = $(this).closest('form');
+
+                // Создаем объект FormData для сбора данных формы
+                var formData = new FormData();
+
+                // Получаем все файловые поля формы
+                var fileInputs = form.find('input[type=file]');
+
+                // Для каждого файлового поля
+                fileInputs.each(function (index) {
+                    var fileInput = $(this)[0];
+                    var files = fileInput.files;
+
+                    // Добавляем каждый файл к данным формы
+                    for (var i = 0; i < files.length; i++) {
+                        var file = files[i];
+                        // Создаем новый FileReader объект
+                        var reader = new FileReader();
+                        // Определяем функцию обратного вызова для считывания файла
+                        reader.onload = function (event) {
+                            // Конвертируем содержимое файла в base64 и добавляем к данным формы
+                            formData.append(fileInput.name, event.target.result);
+                        };
+                        // Считываем содержимое файла в формате base64
+                        reader.readAsDataURL(file);
+                        alert(file)
+                    }
+                });
+
+                // Получаем остальные поля формы
+                var otherInputs = form.find('input[type!=file], select');
+
+                // Для каждого поля добавляем его значение к данным формы
+                otherInputs.each(function () {
+                    formData.append($(this).attr('name'), $(this).val());
+                });
+
+                // Отправляем AJAX запрос
+                $.ajax({
+                    url: form.attr('action'), // URL из атрибута action формы
+                    type: form.attr('method'), // Метод из атрибута method формы (POST)
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: function (response) {
+                        // Обработка успешного ответа сервера
+                        console.log('Form submitted successfully');
+                        console.log(response); // Ответ сервера
+                    },
+                    error: function (xhr, status, error) {
+                        // Обработка ошибки
+                        console.error('Error submitting form:', error);
+                    }
+                });
+            });
+        });
+    </script>
 
     <script>
-    function toHome() {
-       $.ajax({
-        type: "POST",
-        url: "/Catalog/Index",
-        success: function (response) {
-            console.log("Метод контроллера успешно вызван");
-            window.location.href = "/"; 
-        },
-        error: function (xhr, status, error) {
-            console.error("Произошла ошибка при вызове метода контроллера:", error);
+        function toHome() {
+            $.ajax({
+                type: "POST",
+                url: "/Catalog/Index",
+                success: function (response) {
+                    console.log("Метод контроллера успешно вызван");
+                    window.location.href = "/";
+                },
+                error: function (xhr, status, error) {
+                    console.error("Произошла ошибка при вызове метода контроллера:", error);
+                }
+            });
         }
-    });
-}
-function toCategory(word) {
-    $.ajax({
-        type: "POST",
-        url: "/Category/Index",
-        data: { word: word }, // Pass the 'word' parameter to the controller
-        success: function (response) {
-            console.log("Метод контроллера успешно вызван");
-            window.location.href = "/Category/Index?word=" + word; // Redirect to the category page with the word parameter
-        },
-        error: function (xhr, status, error) {
-            console.error("Произошла ошибка при вызове метода контроллера:", error);
+        function toCategory(word) {
+            $.ajax({
+                type: "POST",
+                url: "/Category/Index",
+                data: { word: word }, // Pass the 'word' parameter to the controller
+                success: function (response) {
+                    console.log("Метод контроллера успешно вызван");
+                    window.location.href = "/Category/Index?word=" + word; // Redirect to the category page with the word parameter
+                },
+                error: function (xhr, status, error) {
+                    console.error("Произошла ошибка при вызове метода контроллера:", error);
+                }
+            });
         }
-    });
-}
- var header = document.querySelector('.HHeder');
+        var header = document.querySelector('.HHeder');
 
-    // Добавляем обработчик события прокрутки
-    window.addEventListener('scroll', function() {
-        // Если страница прокручена больше, чем на 100px, добавляем класс для изменения обводки
-        if (window.scrollY > 50) {
-            header.classList.add('scrolled-border');
-            header.classList.remove('standard-border');
-        } else {
-            // В противном случае удаляем класс
-            header.classList.remove('scrolled-border');
-            header.classList.add('standard-border');
-        }
-    });
-</script>
+        // Добавляем обработчик события прокрутки
+        window.addEventListener('scroll', function () {
+            // Если страница прокручена больше, чем на 100px, добавляем класс для изменения обводки
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled-border');
+                header.classList.remove('standard-border');
+            } else {
+                // В противном случае удаляем класс
+                header.classList.remove('scrolled-border');
+                header.classList.add('standard-border');
+            }
+        });
+    </script>
 </body>
 </html>

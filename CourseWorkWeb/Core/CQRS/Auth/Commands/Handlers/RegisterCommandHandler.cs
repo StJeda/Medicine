@@ -2,6 +2,7 @@
 using CourseWorkWeb.Core.CQRS.Auth.Commands.Commands;
 using CourseWorkWeb.Core.Validations;
 using CourseWorkWeb.DAL.Interfaces;
+using CourseWorkWeb.DAL.Repositories;
 using CourseWorkWeb.Models.Entity.Auth;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -29,10 +30,19 @@ namespace CourseWorkWeb.Core.CQRS.Auth.Commands.Handlers
                 if(!correctPassword)
                     throw new ValidationException("Occured problem with password");
                 var hashedPassword = _hasher.Generate(request.password);
-                var user = Account.Create(request.username, request.email, hashedPassword);
-                var result = await _repository.InsertAsync(user);
-                if (!result)
-                    throw new DbUpdateException();
+                Account userId = new Account
+                {
+                    Email = request.email,
+                    Username = request.username,
+                    RoleId = 1,
+                    Password = new Password
+                    {
+                        PasswordValue = hashedPassword,
+                    },
+                    Verify = false
+                };
+                var result = await _repository.InsertAsync(userId);
+ 
 
                 return true;
             }
@@ -41,15 +51,7 @@ namespace CourseWorkWeb.Core.CQRS.Auth.Commands.Handlers
                 Log.Error(ex.ToString());
                 return false;
             }
-            catch(DbUpdateException ex)
-            {
-                Log.Error(ex.ToString());
-                return false;
-            }
-            finally
-            {
-                _repository.Dispose();
-            }
+            
         }
     }
 }

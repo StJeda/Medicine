@@ -6,6 +6,7 @@
 
 @{
     ViewData["Title"] = "Crud";
+    
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -77,13 +78,13 @@
         <div class="HHeder" method="post">
             <form class="HelperHeder">
                <div class="BorderSearching">
-                <button class="SearchButton" type="submit">
+                <button class="SearchButton" type="button" onclick="Search()">
                     <img src="~/image/searchwhite.png">
                 </button>
             </div> 
-            <input  class="SerchingInput" type="text" placeholder="Searching..."> 
+            <input  class="SerchingInput" type="text" name="Search" placeholder="Searching..."> 
             </form>
-            <button class="ADDButton"><img src="~/image/add.png"></button>
+            <button action="@Url.Action("Index", "CreatePage")" x" class="ADDButton"><img src="~/image/add.png"></button>
         </div>
         <!--Начало таблици-->
         <table class="Table">
@@ -97,24 +98,30 @@
         </tr>
     </thead>
       <!--Елементи таблици-->
-    <tbody class="TableTd">
-       @if (Model != null)
+            <tbody class="TableTd">
+                @if (Model != null)
                 {
-                    @foreach (var item in Model.ToList())
+                    foreach (var item in Model.ToList())
                     {
-                     <tr class="TableTrB">
-                         <td class="TableTh"><p>@item.Id</p></td>
-                         <td class="TableTh"><p>@item.Name</p></td>
-                         <td class="TableTh"><p>@item.Quantity</p></td>
-                         <td class="TableTh"><p>@item.Cost</p></td>
-                         <td class="TableThG">
-                            <button class="TableThBut"><img src="~/image/update.png"   value="@item.Id"></button>
-                            <button class="TableThBut"><img src="~/image/closered.png" value="@item.Id"></button>
-                         </td>
-                    </tr>
+                        <tr class="TableTrB">
+                            <td class="TableTh"><p>@item.Id</p></td>
+                            <td class="TableTh"><p>@item.Name</p></td>
+                            <td class="TableTh"><p>@item.Quantity</p></td>
+                            <td class="TableTh"><p>@item.Cost</p></td>
+                            <td class="TableThG">
+                                <form method="post" action="@Url.Action("Index", "Update")">
+                                    <input type="hidden" name="Id" value="@item.Id" />
+                                    <button type="submit" class="TableThBut"><img src="~/image/update.png" /></button>
+                                </form>
+								<form asp-action="DeleteMedicine" asp-controller="Medicine" method="POST">
+                                    <input type="hidden" name="Id" value="@item.Id" />
+                                    <button type="submit" class="TableThBut"><img src="~/image/closered.png" /></button>
+                                </form>
+                            </td>
+                        </tr>
                     }
-            }
-    </tbody>
+                }
+            </tbody>
 </table>
        </div> 
    

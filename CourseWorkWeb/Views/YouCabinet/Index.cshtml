@@ -1,6 +1,10 @@
-
+@using CourseWorkWeb.Core.Converts
+@using CourseWorkWeb.Models.Entity.Auth
+@model Account
 @{
     ViewData["Title"] = "Cabinet";
+    ViewBag.Title = "MyPage";
+
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -67,31 +71,56 @@
         </button>
     </div>
     </div>
-<form class="CabinetContainer" method="POST">
+<form class="CabinetContainer" method="POST" asp-action="UpdateUser" asp-controller="YouCabinet">
     <div class="LeftSection">
         <div class="CFConteiner">
-            <div class="FConteiner">
-                <img src="https://root.tblcdn.com/img/goods/af45c99d-56c8-41d0-a9de-165885bad426/1/img_0.jpg?v=AAAAAAnhZ4I">
-            </div>
-        <div class="BContainer">
-             <button class="ButtonEdit" onclick="toggleInputs(event)" id="ButtonEdit_Acount">Edit</button>
-             <button class="ButtonApply"          id="ButtonApply_Acount" type="submit">Apply</button>
-             <button class="ButtonProductEditor"  id="ButtonProductEditor_HAcount">Product editor</button>
-             <button class="ButtonOrderList"      id="OrderList_HAcount"  >Order List</button>
-          </div>
+                <div class="fotoPart">
+                    <div class="Foto">
+                        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                        <div class="fotocard" id="fotocard">
+                        </div>
+                            @{
+                                if(Model.userPh is not null)
+                                {
+                                    <img style="width: 20vw; height: 30vh" src="@Model.userPh" name="rect"/>
+                                }
+
+                        }
+                       
+                        <div class="OperationField" id="form" enctype="multipart/form-data">
+
+                                <input style="display: none;" value="@ViewBag.MyValue" type="text" id="myInput" name="Photo">
+                                <input style="display: none;width: 15vw; height: 35vh" class="FileInput" type="file" id="fileInput1" name="FotoPath1" accept="image/*" onchange="previewImage()">
+                                <div style="display: flex; flex-direction: column; align-items: center; margin-top: 10px;">
+                                    <button style="width: 10vw; height: 5vh; margin-bottom: 10px; background: green; color: white; border-radius: 5px;" class="Upload" type="button" onclick="document.getElementById('fileInput1').click();">Upload</button>
+                                    <button style="width: 10vw; height: 5vh; background: green; color: white; border-radius: 5px;">Update user</button>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                  
+
+                </div>
+   
 
 
         </div>
     </div>
     <div class="RightSection">
+        @{
+                var verify = Model.Verify is true ? "Verified" : "Unverified";
+
+        }
         <div class="BorderName"><p>You Profile</p></div>
         <div class="CabinetsWords">
-           <div><p>FirstName :</p><input type="text" class="no-input" name="FirstName" id="FirstName_Account"></div>
-            <div><p>LastName :</p><input type="text" class="no-input" name="LastName" id="LastName_Account"></div>
-           <div><p>Phone :</p><input type="text" class="no-input"     name="Phone" id="Phone_Account"></div>
-           <div><p>Email :</p><input type="text" class="no-input"     name="Email" id="Email_Account"></div>
-           <div><p>Password :</p><input type="text" class="no-input"  name="Password" id="Password_Account"></div>
-        </div>
+                <div><input type="text" style="display: none;" class="no-input" value="@Model.Id" name="Id" id="Phone_Account"></div>
+           <div><p>Login :</p><input type="text" class="no-input" value="@Model.Username" name="Username" id="Phone_Account"></div>
+           <div><p>Phone :</p><input type="text" class="no-input" value="@Model.Phone" name="Phone" id="Phone_Account"></div>
+           <div><p>Email :</p><input type="text" class="no-input"  value="@Model.Email"   name="Email" id="Email_Account"></div>
+           <div><p>Verify :</p><input type="text" class="no-input" value="@verify" name="Email" id="Email_Account"></div>
+
+           </div>
+      
          <div class="BorderName"><p>History Order</p></div>
     <div class="TableOrder">
 <table>
@@ -119,6 +148,68 @@
 
 
 </div>
+    <script>
+        async function previewImage() {
+            try {
+
+                const imagePath = await getFileInputPath('fileInput1');
+                await createImage(imagePath);
+                var img = document.getElementsByName('rect')[0];
+                img.style.display = 'none';
+            } catch (error) {
+                console.error("Ошибка:", error.message);
+            }
+        }
+
+
+
+
+        async function createImage(imagePath) {
+            try {
+                const div = document.getElementById('fotocard');
+                if (!div) throw new Error('Element with id "fotocard" not found');
+
+
+                while (div.firstChild) {
+                    div.removeChild(div.firstChild);
+                }
+
+                const img = document.createElement('img');
+                img.src = imagePath;
+                
+                div.appendChild(img);
+            } catch (error) {
+                console.error('Error:', error.message);
+            }
+        }
+
+
+        async function getFileInputPath(fileInputId) {
+            return new Promise((resolve, reject) => {
+                const fileInput = document.getElementById(fileInputId);
+
+                if (!fileInput || !fileInput.files || fileInput.files.length === 0) {
+                    reject(new Error("No file selected"));
+                    return;
+                }
+
+                const reader = new FileReader();
+
+                reader.onload = function (event) {
+                    const base64 = event.target.result;
+                    var inputElement = document.getElementById('myInput');
+                    inputElement.value = base64;
+                    resolve(base64);
+                };
+
+                reader.onerror = function (error) {
+                    reject(error);
+                };
+
+                reader.readAsDataURL(fileInput.files[0]);
+            });
+        }
+    </script>
 <script>
 function toggleInputs(event) {
         event.preventDefault(); // Предотвращаем переход по ссылке

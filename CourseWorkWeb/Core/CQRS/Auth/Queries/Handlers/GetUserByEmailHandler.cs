@@ -14,7 +14,7 @@ namespace CourseWorkWeb.Core.CQRS.Auth.Queries.Handlers
         {
             try
             {
-                var user = _repository.GetByConditionAsync(u => u.Email.Equals(request.email));
+                var user = _repository.GetSingleUser(request.email);
                 if (user is null)
                     throw new NullReferenceException();
                 return user;
@@ -25,7 +25,7 @@ namespace CourseWorkWeb.Core.CQRS.Auth.Queries.Handlers
             }
             finally
             {
-                _repository.Dispose();
+                //_repository.Dispose();
             }
         }
     }

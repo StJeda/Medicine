@@ -8,6 +8,9 @@ namespace CourseWorkWeb.Models.Entity.Orders
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
+
+        [ForeignKey(nameof(Order))]
+        public long Order_Id { get; set; }
         [Required]
         public DateTime Start { get; set; } = DateTime.Now;
         [Required]

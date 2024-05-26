@@ -18,14 +18,14 @@
                 <p>APT.UA</p>
             </div>
             </div>
-            <form class="CSearchField">
+            <form class="CSearchField" asp-controller="Category" asp-action="Index">
                 <button class="CCatalog">
                     <img src="~/image/lines.png">
                     <p>Catologe</p>
                     
                 </button>
                 <div class="CInputBorder">
-                    <input type="text" placeholder="Searching...">
+                    <input type="text" placeholder="Searching..." name="words">
                     <button class="CSerch" ><img src="~/image/search.png"></button>
                 </div>
             </form>
@@ -33,10 +33,10 @@
             <button class="CHelpFieldButton"> <img src="~/image/mag.png"></button>
             <button class="CHelpFieldButton"> <img src="~/image/person.png"></button>
             <button class="CHelpFieldButton"> <img src="~/image/phone.png"></button>
-        </div>
+       
         </div>
 <div class="CND">
-        <button onclick="toCategory('Medicine')">
+            <button onclick="toCategory('Medicine')">
             <p>Medicine</p>
             <img src="~/image/pill.svg" alt="Medicine">
         </button>
@@ -56,31 +56,35 @@
             <p>For Children's</p>
             <img src="~/image/toy.svg" alt="For Children's">
         </button>
-         <button onclick="toHome()">
+         <button onclick="toHome()" asp-action="Index" asp-controller="Home">
             <p>Back</p>
             <img src="~/image/close.png" alt="Back">
         </button>
     </div>
     </div>
 <div class=СContainer>
-    <div class="Category">
-        <div class="CatalogCategoryTitle"><p>@ViewBag.Category</p></div>
-        
-        <div class="CatalogMedicineList">
-              @foreach (var medicine in Model)
-        {
-           <form class="CatalogCard" onclick="toProduct(@medicine.Id)">
-            <button  >
-               <img src=@medicine.Photo alt="фото"> 
-               <p class=name>@medicine.Name</p>
-               <p class=cena>@medicine.Cost</p>
-            </button>
-           </form>
-        }
-        </div>
+        <div class="Category" >
+
+            <div class="CatalogCategoryTitle" ><p>@ViewBag.Category</p></div>
+
+            <div class="CatalogMedicineList" style="display: flex; flex-wrap: wrap; margin-left: 18vh">
+                @foreach (var medicine in Model)
+                {
+                    <form class="CatalogCard" onclick="toProduct(@medicine.Id)" style="margin-top: 1.5vh;margin-right: 1vw; width: calc(100% / 8);">
+                        <button type="button"  style="width: 80vw; height: 29vh; background: transparent; border: none;">
+                            <img style="width: 150px; height: 150px;" src="@medicine.Photo" alt="фото">
+                            <p class="name">@medicine.Name</p>
+                            <p class="cena">@medicine.Cost</p>
+                        </button>
+                    </form>
+                }
+            </div>
     </div> 
 
 </div>
+<script>
+        
+</script>
 <script>
     function toHome() {
        $.ajax({

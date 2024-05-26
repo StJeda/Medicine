@@ -1,5 +1,6 @@
 ﻿using CourseWorkWeb.DAL.Context;
 using CourseWorkWeb.DAL.Interfaces;
+using CourseWorkWeb.Models.Entity.Auth;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
@@ -43,7 +44,12 @@ protected virtual void Dispose(bool disposing)
             var entities = await _aggregateSet.ToListAsync();
             return entities.AsQueryable();
         }
-
+        public async Task<Account> GetSingleUser(string email)
+        {
+            var entity = await _context.Accounts.Include(x => x.Password)
+                .Include(r => r.Role).ThenInclude(r => r.RolesPermissions).ThenInclude(r => r.Permission).Include(u => u.UserPhoto).FirstOrDefaultAsync(x => x.Email == email);
+            return entity;
+        }
         public async Task<TEntity> GetByConditionAsync(Expression<Func<TEntity, bool>> condition)
         {
             var entity = await _aggregateSet.FirstOrDefaultAsync(condition);
@@ -80,6 +86,20 @@ protected virtual void Dispose(bool disposing)
                 return false;
             }
         }
-       
+        public async Task<bool> UpdateUser(Account entity)
+        {
+            try
+            {
+                _context.Accounts.Update(entity);
+                await _context.SaveChangesAsync();
+
+                return true;
+            }
+            catch (DbUpdateException)
+            {
+                return false;
+            }
+        }
+
     }
 }

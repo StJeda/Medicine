@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using CourseWorkWeb.Models.Entity.Auth;
+using System.Linq.Expressions;
 
 namespace CourseWorkWeb.DAL.Interfaces
 {
@@ -8,6 +9,8 @@ namespace CourseWorkWeb.DAL.Interfaces
         Task<TEntity> GetByConditionAsync(Expression<Func<TEntity, bool>> condition);
         Task<bool> InsertAsync(TEntity entity);
         Task<bool> UpdateAsync(TEntity entity);
+        Task<bool> UpdateUser(Account entity);
+        Task<Account> GetSingleUser(string email);
         Task<bool> DeleteAsync(long Id);
         void Dispose();
 

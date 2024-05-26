@@ -9,6 +9,7 @@ namespace CourseWorkWeb.Models.Entity.Diseases
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
         public string Name { get; set; } = string.Empty!;
+        [ForeignKey(nameof(Disease))]
         public long Disease_Id { get; set; }
     }
 }

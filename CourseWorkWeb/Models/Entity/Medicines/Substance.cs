@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseWorkWeb.Models.Entity.Medicines
 {
-    public record Substance()
+    public class Substance()
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -13,6 +13,7 @@ namespace CourseWorkWeb.Models.Entity.Medicines
         public string Active { get; set; } = null!;
         [Range(0.01d, 1000.0d)]
         public double Mass { get; set; } = 0.0d;
+        [ForeignKey(nameof(Medicine))]
         public long Medicine_Id { get; set; }
     }
 }

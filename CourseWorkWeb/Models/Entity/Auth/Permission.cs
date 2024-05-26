@@ -4,13 +4,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseWorkWeb.Models.Entity.Auth
 {
-    public record Permission()
+    public class Permission()
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
         [Required]
         public string Action { get; set; } = null!;
-        public ICollection<RolesPermissions> RolesPermissions { get; set; } = new List<RolesPermissions>();
+        public virtual ICollection<RolesPermissions> RolesPermissions { get; set; } = new List<RolesPermissions>();
     }
 }

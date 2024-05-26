@@ -16,5 +16,9 @@ namespace CourseWorkWeb.Controllers
           var medicine = await _sender.Send(new GetMedicineByIdQuery(id));
           return View(medicine);
         }
-    }
+        }
+        //public async Task<ActionResult> Add(long Id)
+        //{
+
+        //}
 }

@@ -10,9 +10,9 @@ namespace CourseWorkWeb.Models.Entity.Relations
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
         [ForeignKey(nameof(Account))]
-        public long AccountId { get; set; }
+        public long Account_Id { get; set; }
         
         [ForeignKey(nameof(Role))]
-        public long RoleId { get; set; }
+        public long Role_Id { get; set; }
     }
 }

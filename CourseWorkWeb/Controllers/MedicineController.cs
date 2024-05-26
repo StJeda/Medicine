@@ -36,11 +36,11 @@ namespace CourseWorkWeb.Controllers
             var result = await _sender.Send(new UpdateMedicineCommand(medicine));
             return View(result);
         }
-        [HttpDelete]
+        [HttpPost]
         public async Task<ActionResult> DeleteMedicine(long Id)
         {
             var result = await _sender.Send(new DeleteMedicineCommand(Id));
-            return View(result);
-        }
+			return RedirectToAction("Index", "Maneg");
+		}
     }
 }

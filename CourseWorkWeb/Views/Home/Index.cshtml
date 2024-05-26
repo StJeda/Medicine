@@ -48,77 +48,85 @@
 <div class="Header2" >
     <div class="MidlHeader">
 
-            <form class="SearchField" asp-action="Index" asp-controller="Catalog">
-                <button class="catalog-btn"><img src="image/lines.png"><p>Cataloge</p></button>
-         <div class="InputBorder">
-             <input type="text" placeholder="Searching...">
-             <button><img src="image/search.png"></button>
-         </div>
+            <form class="SearchField" asp-action="Index" asp-controller="Category">
+                <button asp-action="Index" asp-controller="Catalog" class="catalog-btn"><img src="image/lines.png"><p>Cataloge</p></button>
+             <div class="InputBorder" >
+                 <input type="text" placeholder="Searching..." name="words">
+                 <button><img src="image/search.png"></button>
+             </div>
         </form>
         <div class="HelpField">
             <button onclick="openModal()"> <img src="~/image/mag.png"></button>
             <button onclick="openModal1()"> <img src="~/image/person.png"></button>
             <button> <img src="~/image/phone.png"></button>
+                <a type="button" asp-controller="Registration" asp-action="Index">Register</a>
         </div>
     </div>
+        <!-- onclick="toCategory('medicine')"-->
     <div class="DownHeader">
             <ul class="DMenu">
-               <li class="DMenuButtons" onclick="toCategory('Medicine')"><p>Medicine<img src="~/image/pill.svg"></p>
-                  <ul class="DMenu_SubMenu">
-                    <li><a href="#">Pain Relief</a></li>
-                    <li><a href="#">Allergy & Sinus</a></li>
-                    <li><a href="#">Digestive Health</a></li>
-                    <li><a href="#">First Aid</a></li>
-                    <li><a href="#">Prescription Medications</a></li>
-                    <li><a href="#">Over-the-Counter (OTC) Medications</a></li>
-                  </ul>
-               </li>
-               <li class="DMenuButtons" onclick="toCategory('Vitamins')"><p>Vitamins<img src="~/image/mpills.svg"></p>
-                   <ul class="DMenu_SubMenu">
-                    <li><a href="#">Multivitamins</a></li>
-                    <li><a href="#">Vitamin C</a></li>
-                    <li><a href="#">Vitamin D</a></li>
-                    <li><a href="#">Vitamin B Complex</a></li>
-                    <li><a href="#">Calcium & Minerals</a></li>
-                    <li><a href="#">Herbal Supplements</a></li>
-                   </ul>
-               </li>
-               <li class="DMenuButtons" onclick="toCategory('Hygiene')"><p>Hygiene<img src="~/image/hygiene.svg"></p>
-                  <ul class="DMenu_SubMenu">
-                    <li><a href="#">Oral care</a></li>
-                    <li><a href="#">Body care</a></li>
-                    <li><a href="#">Facial care</a></li>
-                    <li><a href="#">Hair care</a></li>
-                    <li><a href="#">Intimate hygiene</a></li>
-                  </ul>
-               </li>
-               <li class="DMenuButtons" onclick="toCategory('Makeup')"><p>Makeup<img src="~/image/makeup.svg"></p>
-                  <ul class="DMenu_SubMenu">
-                    <li><a href="#">Face</a></li>
-                    <li><a href="#">Eyes</a></li>
-                    <li><a href="#">Lips</a></li>
-                    <li><a href="#">Cheeks</a></li>
-                  </ul>
-               </li>
-               <li class="DMenuButtons" onclick="toCategory('Children')"><p>For Children's<img src="~/image/toy.svg"></p>
-                 <ul class="DMenu_SubMenu">
-                    <li><a href="#">Pain & Fever Relief</a></li>
-                    <li><a href="#">Cough & Cold</a></li>
-                    <li><a href="#">Allergy Relief</a></li>
-                    <li><a href="#">Digestive Health</a></li>
-                    <li><a href="#">Children's Vitamins</a></li>
-                    <li><a href="#">Infant Care</a></li>
-                    <li><a href="#">Teething Relief</a></li>
-                 </ul>
-               </li>
-               <li class="DMenuButtons" onclick="toCategory('Medicine')"><p>Directory<img src="~/image/blok.png"></p>
-                <ul class="DMenu_SubMenu">
-                    <li><a href="#">Burns, frostbite</a></li>
-                    <li><a href="#">Poisoning</a></li>
-                    <li><a href="#">Bleeding and injuries</a></li>
-                    <li><a href="#">Basics of first aid</a></li>
-                 </ul>
-               </li>
+                <li class="DMenuButtons">
+                    <p>Medicine<img src="~/image/pill.svg"></p>
+                    <ul class="DMenu_SubMenu">
+                        <li><a href="/Category/Index?words=Pain%20Relief">Pain Relief</a></li>
+                        <li><a href="/Category/Index?words=Allergy">Allergy & Sinus</a></li>
+                        <li><a href="/Category/Index?words=Digestive">Digestive Health</a></li>
+                        <li><a href="/Category/Index?words=First%20Aid">First Aid</a></li>
+                        <li><a href="/Category/Index?words=Prescription">Prescription Medications</a></li>
+                        <li><a href="/Category/Index?words=OTC">Over-the-Counter (OTC) Medications</a></li>
+                    </ul>
+                </li>
+                <li class="DMenuButtons" onclick="toCategory('Vitamins')">
+                    <p>Vitamins<img src="~/image/mpills.svg"></p>
+                    <ul class="DMenu_SubMenu">
+                        <li><a href="/Category/Index?words=Multivitamins">Multivitamins</a></li>
+                        <li><a href="/Category/Index?words=Vitamin%20C">Vitamin C</a></li>
+                        <li><a href="/Category/Index?words=Vitamin%20D">Vitamin D</a></li>
+                        <li><a href="/Category/Index?words=Vitamin%20B%20Complex">Vitamin B Complex</a></li>
+                        <li><a href="/Category/Index?words=Calcium%20%26%20Minerals">Calcium & Minerals</a></li>
+                        <li><a href="/Category/Index?words=Herbal%20Supplements">Herbal Supplements</a></li>
+                    </ul>
+                </li>
+                <li class="DMenuButtons" onclick="toCategory('Hygiene')">
+                    <p>Hygiene<img src="~/image/hygiene.svg"></p>
+                    <ul class="DMenu_SubMenu">
+                        <li><a href="/Category/Index?words=Oral%20care">Oral care</a></li>
+                        <li><a href="/Category/Index?words=Body%20care">Body care</a></li>
+                        <li><a href="/Category/Index?words=Facial%20care">Facial care</a></li>
+                        <li><a href="/Category/Index?words=Hair%20care">Hair care</a></li>
+                        <li><a href="/Category/Index?words=Intimate%20hygiene">Intimate hygiene</a></li>
+                    </ul>
+                </li>
+                <li class="DMenuButtons" onclick="toCategory('Makeup')">
+                    <p>Makeup<img src="~/image/makeup.svg"></p>
+                    <ul class="DMenu_SubMenu">
+                        <li><a href="/Category/Index?words=Face">Face</a></li>
+                        <li><a href="/Category/Index?words=Eyes">Eyes</a></li>
+                        <li><a href="/Category/Index?words=Lips">Lips</a></li>
+                        <li><a href="/Category/Index?words=Cheeks">Cheeks</a></li>
+                    </ul>
+                </li>
+                <li class="DMenuButtons" onclick="toCategory('Children')">
+                    <p>For Children's<img src="~/image/toy.svg"></p>
+                    <ul class="DMenu_SubMenu">
+                        <li><a href="/Category/Index?words=Pain%20%26%20Fever%20Relief">Pain & Fever Relief</a></li>
+                        <li><a href="/Category/Index?words=Cough%20%26%20Cold">Cough & Cold</a></li>
+                        <li><a href="/Category/Index?words=Allergy%20Relief">Allergy Relief</a></li>
+                        <li><a href="/Category/Index?words=Digestive%20Health">Digestive Health</a></li>
+                        <li><a href="/Category/Index?words=Children%27s%20Vitamins">Children's Vitamins</a></li>
+                        <li><a href="/Category/Index?words=Infant%20Care">Infant Care</a></li>
+                        <li><a href="/Category/Index?words=Teething%20Relief">Teething Relief</a></li>
+                    </ul>
+                </li>
+               <li class="DMenuButtons" onclick="toCategory('Medicine')">
+    <p>Directory<img src="~/image/blok.png"></p>
+    <ul class="DMenu_SubMenu">
+        <li><a href="/Category/Index?words=Burns%2C%20frostbite">Burns, frostbite</a></li>
+        <li><a href="/Category/Index?words=Poisoning">Poisoning</a></li>
+        <li><a href="/Category/Index?words=Bleeding%20and%20injuries">Bleeding and injuries</a></li>
+        <li><a href="/Category/Index?words=Basics%20of%20first%20aid">Basics of first aid</a></li>
+    </ul>
+</li>
             </ul>
     </div>
 </div>
@@ -254,19 +262,23 @@
 </div>
 
 <div id="my_Exit" class="modal1">
-<form class="Content_Exit">
+<form class="Content_Exit" asp-controller="User" asp-action="Login">
     <div class="ExWordsSector">
         <p>Welcome</p><button class="close">X</button> 
     </div>
+   
     <div class="ExInputSector">
-       <input type="text" placeholder="Login">
-       <input type="password" placeholder="password">
+       <input type="text" name="login" placeholder="login">
+       <input type="password" name="password" placeholder="password">
     </div>
     <div class="ExButtonSector">
         <button type="submit">Sign in</button>
-        <button type="submit">Register</button>
+         <a type="button" asp-controller="Registration" asp-action="Index">Register</a>
+         <a type="button" asp-controller="YouCabinet" asp-action="Index">Cabinet</a>
     </div>
+            
 </form>
+
 </div>
 <script>
 var modal1 = document.getElementById("my_Exit");

@@ -14,15 +14,12 @@ namespace CourseWorkWeb.Models.Entity.Medicines
         public string Name { get; set; } = null!;
         [Required]
         public string Description { get; set; } = null!;
-        public string? Articules { get; set; }
-        public long MedicinePhoto_Id { get; set; }
-        public MedicinePhoto Photo = new MedicinePhoto();
+        public string Photo { get; set; }
         public MedicineStatus Status = MedicineStatus.Available;
         public decimal Cost { get; set; } = decimal.Zero;
         [StringLength(50)]
         public string Country { get; set; } = string.Empty;
-        public long Substance_Id { get; set; }
-        public ICollection<Substance> Substances = new List<Substance>();
+        public virtual ICollection<Substance> Substances { get; set; } = new List<Substance>();
         public int Quantity { get; set; }
         public string Type { get; set; } = string.Empty;
         public double Discount { get; set; } = 0.00d;

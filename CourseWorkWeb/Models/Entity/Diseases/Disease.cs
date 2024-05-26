@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CourseWorkWeb.Models.Entity.Diseases
 {
-    public record Disease()
+    public class Disease()
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -12,6 +12,6 @@ namespace CourseWorkWeb.Models.Entity.Diseases
         [StringLength(150)]
         public string Name { get; set; } = null!;
         public string Description { get; set; } = string.Empty!;
-        public ICollection<Symptom> Symptoms = new List<Symptom>();
+        public virtual ICollection<Symptom> Symptoms { get; set; } = new List<Symptom>();
     }
 }

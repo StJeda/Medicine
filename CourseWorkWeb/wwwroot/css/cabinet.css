@@ -94,7 +94,7 @@
 .no-input{
     width: 90%;
     border: none;
-    pointer-events: none;
+/*    pointer-events: none;*/
     font-size: 3vh;
     outline: none;
 }
